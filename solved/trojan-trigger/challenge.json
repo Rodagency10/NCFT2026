@@ -1,0 +1,46 @@
+{
+  "id": 141,
+  "type": "dynamic",
+  "name": "trojan-trigger",
+  "value": 226,
+  "initial": 450,
+  "minimum": 100,
+  "decay": 20,
+  "solves": 17,
+  "solved_by_me": true,
+  "category": "ml",
+  "tags": [
+    "ml",
+    "backdoor",
+    "trojan",
+    "hard",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "`detector.npz` ships a hidden \"detector\" unit that scores an input with\n`score(x) = c - || E @ x - m ||^2`. For ordinary inputs the unit stays quiet,\nbut it was planted with a secret trigger: one specific input drives its score\nto the maximum. Recover the trigger that maximally activates the unit -- its\nbytes are the flag.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 326,
+      "cost": 25,
+      "title": ""
+    },
+    {
+      "id": 327,
+      "cost": 45,
+      "title": ""
+    },
+    {
+      "id": 328,
+      "cost": 70,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/trojan-trigger",
+  "local_files": [
+    "detector.npz",
+    "README.md"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

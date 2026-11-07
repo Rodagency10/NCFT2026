@@ -1,0 +1,48 @@
+{
+  "id": 161,
+  "type": "dynamic",
+  "name": "device-backup-geo",
+  "value": 254,
+  "initial": 450,
+  "minimum": 100,
+  "decay": 20,
+  "solves": 16,
+  "solved_by_me": true,
+  "category": "osint",
+  "tags": [
+    "osint",
+    "geolocation",
+    "sqlite",
+    "hard",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "Saisie d'un téléphone : la sauvegarde exportée contient plusieurs bases SQLite (SMS, historique de localisation, journal des antennes, photos géotaggées).\n\nLe suspect a noté quelque chose de sensible dans une note chiffrée. Recoupez ses messages et son historique de positions pour reconstituer où il se trouvait aux moments clés, puis déchiffrez la note.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 378,
+      "cost": 22,
+      "title": ""
+    },
+    {
+      "id": 379,
+      "cost": 40,
+      "title": ""
+    },
+    {
+      "id": 380,
+      "cost": 60,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/device-backup-geo",
+  "local_files": [
+    "messages.sqlite",
+    "location.sqlite",
+    "celltower.sqlite",
+    "photos.sqlite"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

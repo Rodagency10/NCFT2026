@@ -1,0 +1,46 @@
+{
+  "id": 256,
+  "type": "dynamic",
+  "name": "php-unserialize",
+  "value": 262,
+  "initial": 300,
+  "minimum": 100,
+  "decay": 25,
+  "solves": 12,
+  "solved_by_me": true,
+  "category": "web",
+  "tags": [
+    "web",
+    "php",
+    "deserialization",
+    "medium",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "A legacy PHP portal ships as source, along with a session cookie captured\nfrom a guest. The cookie is deserialized on every request. The flag is never\nwritten out in the clear.\n\nThere is no live service. Reproduce the reveal from the shipped files.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 579,
+      "cost": 15,
+      "title": ""
+    },
+    {
+      "id": 580,
+      "cost": 30,
+      "title": ""
+    },
+    {
+      "id": 581,
+      "cost": 45,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/php-unserialize",
+  "local_files": [
+    "index.php",
+    "session_cookie.b64"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

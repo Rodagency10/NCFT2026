@@ -1,0 +1,47 @@
+{
+  "id": 455,
+  "type": "team_instance",
+  "name": "boazak--aneho",
+  "value": 477,
+  "initial": 500,
+  "minimum": 100,
+  "decay": 25,
+  "solves": 7,
+  "solved_by_me": true,
+  "category": "web",
+  "tags": [
+    "web",
+    "hard",
+    "creator:KodjoDoDjango"
+  ],
+  "description": "> **Origine du nom :** Aného (ex-Petit Popo) fut la première capitale du Togo et un port de la traite négrière : l'évasion, en plus dur.\n\nLe centre Aneho a renforce sa plateforme apres le premier incident.\n\nL'authentification, l'import de notes cliniques et le panneau admin paraissent mieux proteges... mais une chaine d'exploitation complete permet encore de recuperer le flag.\n\nStuck? Hints are available (they cost a few points).",
+  "connection_info": "http://{host}:{port}/  (per-team instance; use the 'launch' button)",
+  "hints": [
+    {
+      "id": 1017,
+      "cost": 0,
+      "title": ""
+    },
+    {
+      "id": 1018,
+      "cost": 50,
+      "title": ""
+    },
+    {
+      "id": 1019,
+      "cost": 70,
+      "title": ""
+    },
+    {
+      "id": 1020,
+      "cost": 80,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/boazak--aneho",
+  "local_files": [
+    "README.md"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

@@ -1,0 +1,45 @@
+{
+  "id": 204,
+  "type": "dynamic",
+  "name": "git-repo-backdoor",
+  "value": 167,
+  "initial": 450,
+  "minimum": 100,
+  "decay": 20,
+  "solves": 19,
+  "solved_by_me": true,
+  "category": "supplychain",
+  "tags": [
+    "supplychain",
+    "git",
+    "backdoor",
+    "hard",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "On a exfiltré un dépôt Git interne, livré ici sous forme d'archive tar du\ndépôt nu (`acme-service.git.tar`). L'historique a l'air anodin, mais un commit\ny a glissé quelque chose qui ne devrait pas s'y trouver.\n\nReconstituez le dépôt, retrouvez la modification piégée et récupérez le flag\nqu'elle dissimule.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 491,
+      "cost": 22,
+      "title": ""
+    },
+    {
+      "id": 492,
+      "cost": 45,
+      "title": ""
+    },
+    {
+      "id": 493,
+      "cost": 67,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/git-repo-backdoor",
+  "local_files": [
+    "acme-service.git.tar"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

@@ -2,11 +2,11 @@
   "id": 50,
   "type": "dynamic",
   "name": "sub-wildcard",
-  "value": 99,
+  "value": 62,
   "initial": 150,
   "minimum": 50,
   "decay": 35,
-  "solves": 26,
+  "solves": 34,
   "solved_by_me": true,
   "category": "cloud",
   "tags": [

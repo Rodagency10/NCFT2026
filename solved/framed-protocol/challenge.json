@@ -1,0 +1,45 @@
+{
+  "id": 154,
+  "type": "dynamic",
+  "name": "framed-protocol",
+  "value": 246,
+  "initial": 300,
+  "minimum": 100,
+  "decay": 25,
+  "solves": 14,
+  "solved_by_me": true,
+  "category": "networking",
+  "tags": [
+    "networking",
+    "protocol",
+    "binary-parsing",
+    "medium",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "We captured the raw byte stream of an in-house application protocol\n(`stream.hex`, a hex dump). Frames of several kinds are back to back on the\nwire, some carrying data, some just noise, and a few are corrupted.\n\nReverse the frame format, walk the stream, and reconstruct the message the\ndata frames carry. The reconstructed payload is the flag.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 357,
+      "cost": 15,
+      "title": ""
+    },
+    {
+      "id": 358,
+      "cost": 25,
+      "title": ""
+    },
+    {
+      "id": 359,
+      "cost": 45,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/framed-protocol",
+  "local_files": [
+    "stream.hex"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

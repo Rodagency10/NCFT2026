@@ -1,0 +1,23 @@
+{
+  "id": 495,
+  "type": "team_instance",
+  "name": "isid0r3--nexero",
+  "value": 100,
+  "initial": 100,
+  "minimum": 50,
+  "decay": 25,
+  "solves": 4,
+  "solved_by_me": false,
+  "category": "web",
+  "tags": [
+    "web",
+    "creator:isid0r3"
+  ],
+  "description": "Nexora est une petite messagerie en ligne. Dans son profil, chaque utilisateur peut personnaliser sa photo : au lieu d'envoyer un fichier, on fournit simplement un lien vers l'image, et c'est le serveur qui part la chercher pour l'afficher. Une vérification « humaine » garde l'accès à ce réglage. Lance l'instance (bouton Démarrer) et rends-toi à l'adresse affichée, puis intéresse-toi d'un peu plus près à la manière dont le serveur récupère l'image que tu lui désignes.\n",
+  "connection_info": "http://{host}:{port}/  (per-team instance; use the 'launch' button)",
+  "hints": [],
+  "local_folder": "Unsolved/isid0r3--nexero",
+  "local_files": [],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

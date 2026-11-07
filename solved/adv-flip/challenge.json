@@ -1,0 +1,46 @@
+{
+  "id": 134,
+  "type": "dynamic",
+  "name": "adv-flip",
+  "value": 198,
+  "initial": 450,
+  "minimum": 100,
+  "decay": 20,
+  "solves": 18,
+  "solved_by_me": true,
+  "category": "ml",
+  "tags": [
+    "ml",
+    "adversarial-examples",
+    "evasion",
+    "hard",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "`gate.npz` ships a linear gate: weights `w`, bias `b`, and one base input\n`x0`. The gate scores an input with `s(x) = w . x + b`; it stays LOCKED while\n`s(x) < 0` and UNLOCKS the moment `s(x) >= 0`. The base input `x0` is currently\nLOCKED. Find the smallest change to `x0` that just unlocks the gate -- the\ninput you land on is the flag.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 308,
+      "cost": 25,
+      "title": ""
+    },
+    {
+      "id": 309,
+      "cost": 45,
+      "title": ""
+    },
+    {
+      "id": 310,
+      "cost": 70,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/adv-flip",
+  "local_files": [
+    "gate.npz",
+    "README.md"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

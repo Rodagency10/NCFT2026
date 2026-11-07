@@ -1,0 +1,44 @@
+{
+  "id": 531,
+  "type": "team_instance",
+  "name": "format-string-101",
+  "value": 114,
+  "initial": 150,
+  "minimum": 50,
+  "decay": 40,
+  "solves": 25,
+  "solved_by_me": true,
+  "category": "pwn",
+  "tags": [
+    "pwn",
+    "beginner",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "**format-string-101** -- a small networked service, served as\npwn-as-a-service.\n\nConnect over TCP and you get a fresh process with two live, per-connection\nvalues printed in the banner:\n\n  - the address of a global `auth` cell (stable across connections), and\n  - a random 32-bit `nonce` for THIS connection.\n\nYour goal is to make `auth == nonce`. When the service observes that effect it\nreturns the flag. You get up to 16 input lines per connection.\n\nBecause the nonce is regenerated every connection, a replayed payload is\nworthless -- you must read the printed values and build your write live.\n\nThe downloadable `chall` binary is for offline analysis only. It contains **no\nflag**: the per-team flag lives solely in the running service's environment\nand is emitted only after the auth check passes. Reading the binary alone will\nnot give you a flag.\n\nProvided files: `chall` (x86-64 ELF), `chall.c` (source).\n\nBloqué ? Des indices sont disponibles (ils coûtent quelques points).\n\nConnect:  `nc <host> <port>`\n\nFlag format: `NCTF{...}`\n\n<!-- nctf-connexion -->\n> 🔌 Connexion chiffrée : **`ncat --ssl <adresse> 1337`** (pas de `nc` simple) : voir [Se connecter aux instances](/connexion#tcp).\n",
+  "connection_info": "nc {host} {port}  (per-team instance; use the 'launch' button)",
+  "hints": [
+    {
+      "id": 1160,
+      "cost": 10,
+      "title": ""
+    },
+    {
+      "id": 1161,
+      "cost": 15,
+      "title": ""
+    },
+    {
+      "id": 1162,
+      "cost": 20,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/format-string-101",
+  "local_files": [
+    "chall",
+    "chall.c"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

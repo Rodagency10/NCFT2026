@@ -1,0 +1,45 @@
+{
+  "id": 205,
+  "type": "dynamic",
+  "name": "layered-image-leak",
+  "value": 167,
+  "initial": 450,
+  "minimum": 100,
+  "decay": 20,
+  "solves": 19,
+  "solved_by_me": true,
+  "category": "supplychain",
+  "tags": [
+    "supplychain",
+    "container",
+    "docker",
+    "hard",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "On vous donne une image conteneur exportée avec `docker save` (`image.tar`).\nUn secret de déploiement aurait été supprimé pendant le build « pour ne pas\nqu'il finisse dans l'image ». Le système de fichiers final ne le contient\neffectivement plus.\n\nRécupérez quand même le secret depuis l'image. Le flag est dedans.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 494,
+      "cost": 22,
+      "title": ""
+    },
+    {
+      "id": 495,
+      "cost": 45,
+      "title": ""
+    },
+    {
+      "id": 496,
+      "cost": 67,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/layered-image-leak",
+  "local_files": [
+    "image.tar"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

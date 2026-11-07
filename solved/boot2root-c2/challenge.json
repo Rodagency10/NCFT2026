@@ -1,0 +1,43 @@
+{
+  "id": 381,
+  "type": "team_instance",
+  "name": "boot2root-c2",
+  "value": 331,
+  "initial": 500,
+  "minimum": 100,
+  "decay": 20,
+  "solves": 14,
+  "solved_by_me": true,
+  "category": "boot2root",
+  "tags": [
+    "pwn",
+    "boot2root",
+    "linux",
+    "hard",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "**boot2root-c2** -- *Phantom Wire staging server*. A host from the PHANTOM WIRE crew's C2 network is still up: an operator \"task queue\" panel. Break in, escalate all the way to **root**, and read `/root/flag`.\n\nYou get only a running host: l'hôte indiqué dans le panneau de connexion -- no downloads, no source. Everything you need is on the box once you land your first shell. Expect a multi-stage local privilege-escalation; enumerate.\n\nThe flag lives only in `/root/flag` (owner `root`, mode `400`): readable solely by root, not in any env var you can reach, not baked into the image. Per-team instance (own container, own flag).\n\nBloqué ? Des indices sont disponibles (ils coûtent quelques points).\n\nFlag format: `NCTF{...}`\n\nConnect: l'hôte indiqué dans le panneau de connexion",
+  "connection_info": "Lance l'instance (bouton Démarrer) ; l'adresse de connexion s'affiche dans le panneau.",
+  "hints": [
+    {
+      "id": 863,
+      "cost": 25,
+      "title": ""
+    },
+    {
+      "id": 864,
+      "cost": 50,
+      "title": ""
+    },
+    {
+      "id": 865,
+      "cost": 75,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/boot2root-c2",
+  "local_files": [],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

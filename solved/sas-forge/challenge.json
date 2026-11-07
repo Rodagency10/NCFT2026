@@ -1,0 +1,50 @@
+{
+  "id": 49,
+  "type": "dynamic",
+  "name": "sas-forge",
+  "value": 394,
+  "initial": 450,
+  "minimum": 100,
+  "decay": 20,
+  "solves": 9,
+  "solved_by_me": true,
+  "category": "cloud",
+  "tags": [
+    "cloud",
+    "azure",
+    "sas",
+    "hmac",
+    "hard",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "An Azure Storage account key leaked into a backup (`leaked-account-key.txt`),\na working SAS URL for a public sample blob (`sas-example.txt`), the container\ninventory (`blob-index.json`), the SAS parameters for a private blob\n(`sas-params.json`), and that private blob sealed for the handout\n(`flag-blob.enc`).\n\nReach the private blob offline, then open it. The flag is inside.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 110,
+      "cost": 20,
+      "title": ""
+    },
+    {
+      "id": 111,
+      "cost": 40,
+      "title": ""
+    },
+    {
+      "id": 112,
+      "cost": 65,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/sas-forge",
+  "local_files": [
+    "leaked-account-key.txt",
+    "sas-example.txt",
+    "blob-index.json",
+    "sas-params.json",
+    "flag-blob.enc"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

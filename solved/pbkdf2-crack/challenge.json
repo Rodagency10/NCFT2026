@@ -1,0 +1,41 @@
+{
+  "id": 126,
+  "type": "dynamic",
+  "name": "pbkdf2-crack",
+  "value": 50,
+  "initial": 150,
+  "minimum": 50,
+  "decay": 35,
+  "solves": 38,
+  "solved_by_me": true,
+  "category": "crypto",
+  "tags": [
+    "misc",
+    "crypto",
+    "password-cracking",
+    "easy",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "We pulled one account's password record out of a leaked database\n(`hash.txt`) and a candidate password list found on the same box\n(`wordlist.txt`). Recover the account's passphrase; the flag is built from it.\n\nThe flag is `NCTF{pbkdf2_<passphrase>}` -- once you know the passphrase you\nhave the flag.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 289,
+      "cost": 10,
+      "title": ""
+    },
+    {
+      "id": 290,
+      "cost": 15,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/pbkdf2-crack",
+  "local_files": [
+    "hash.txt",
+    "wordlist.txt"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

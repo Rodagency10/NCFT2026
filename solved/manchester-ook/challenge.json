@@ -1,0 +1,40 @@
+{
+  "id": 113,
+  "type": "dynamic",
+  "name": "manchester-ook",
+  "value": 238,
+  "initial": 300,
+  "minimum": 100,
+  "decay": 25,
+  "solves": 15,
+  "solved_by_me": true,
+  "category": "hardware",
+  "tags": [
+    "hardware",
+    "rf",
+    "manchester",
+    "medium",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "We recorded the demodulated envelope of a short 433 MHz on-off-keyed burst.\n`samples.txt` is that envelope: one value (0 = carrier off, 1 = carrier on)\nper sample, evenly spaced. A remote sent one small packet.\n\nRecover the packet's payload. The flag is the transmitted ASCII.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 260,
+      "cost": 15,
+      "title": ""
+    },
+    {
+      "id": 261,
+      "cost": 30,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/manchester-ook",
+  "local_files": [
+    "samples.txt"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

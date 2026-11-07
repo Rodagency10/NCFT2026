@@ -1,0 +1,46 @@
+{
+  "id": 138,
+  "type": "dynamic",
+  "name": "poison-shift",
+  "value": 197,
+  "initial": 300,
+  "minimum": 100,
+  "decay": 25,
+  "solves": 19,
+  "solved_by_me": true,
+  "category": "ml",
+  "tags": [
+    "ml",
+    "data-poisoning",
+    "outliers",
+    "medium",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "`poisoned_train.npz` is a regression training set: features `X`, targets `y`,\na `record_id` per row, and a one-character `tag` per row. Most rows follow a\nclean linear rule, but an attacker slipped in a batch of poisoned rows to drag\nthe fitted model off course. Find the poisoned rows; their tags, read in the\nright order, spell the flag.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 318,
+      "cost": 15,
+      "title": ""
+    },
+    {
+      "id": 319,
+      "cost": 30,
+      "title": ""
+    },
+    {
+      "id": 320,
+      "cost": 45,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/poison-shift",
+  "local_files": [
+    "poisoned_train.npz",
+    "README.md"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

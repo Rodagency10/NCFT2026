@@ -1,0 +1,24 @@
+{
+  "id": 492,
+  "type": "team_instance",
+  "name": "isid0r3--curfew",
+  "value": 98,
+  "initial": 100,
+  "minimum": 50,
+  "decay": 25,
+  "solves": 7,
+  "solved_by_me": false,
+  "category": "web",
+  "tags": [
+    "web",
+    "medium",
+    "creator:isid0r3"
+  ],
+  "description": "Le service informatique de ton ancien établissement affirme avoir mis fin à la session d’un élève de Terminale pendant un examen. Pourtant, à chaque tentative, celui-ci parvenait à se reconnecter à la plateforme avec des privilèges toujours plus élevés, accédant ainsi à des espaces auxquels il n’aurait normalement jamais dû avoir accès. On te confie un test d’intrusion sur la plateforme afin de comprendre comment cet élève parvient à reprendre le contrôle de sa session et à élever ses privilèges.",
+  "connection_info": "http://{host}:{port}/  (per-team instance; use the 'launch' button)",
+  "hints": [],
+  "local_folder": "Unsolved/isid0r3--curfew",
+  "local_files": [],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

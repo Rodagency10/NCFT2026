@@ -1,0 +1,45 @@
+{
+  "id": 174,
+  "type": "dynamic",
+  "name": "sudoku-vault",
+  "value": 167,
+  "initial": 450,
+  "minimum": 100,
+  "decay": 20,
+  "solves": 19,
+  "solved_by_me": true,
+  "category": "ppc",
+  "tags": [
+    "ppc",
+    "constraint-solving",
+    "backtracking",
+    "hard",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "`puzzle.txt` holds a `CIPHER` blob and a 9x9 Sudoku grid (0 marks an empty\ncell). The puzzle has exactly one valid completion, and that completed grid is\nthe key that unlocks the cipher.\n\nSolve the puzzle, build the key, read the flag.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 416,
+      "cost": 22,
+      "title": ""
+    },
+    {
+      "id": 417,
+      "cost": 45,
+      "title": ""
+    },
+    {
+      "id": 418,
+      "cost": 68,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/sudoku-vault",
+  "local_files": [
+    "puzzle.txt"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

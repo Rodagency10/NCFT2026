@@ -1,0 +1,23 @@
+{
+  "id": 496,
+  "type": "team_instance",
+  "name": "isid0r3--proformat",
+  "value": 100,
+  "initial": 100,
+  "minimum": 50,
+  "decay": 25,
+  "solves": 1,
+  "solved_by_me": false,
+  "category": "web",
+  "tags": [
+    "web",
+    "creator:isid0r3"
+  ],
+  "description": "**Proformat** est un générateur de factures proforma en ligne. Explore l'application et récupère le flag.",
+  "connection_info": "http://{host}:{port}/  (per-team instance; use the 'launch' button)",
+  "hints": [],
+  "local_folder": "Unsolved/isid0r3--proformat",
+  "local_files": [],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

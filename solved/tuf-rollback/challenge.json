@@ -1,0 +1,50 @@
+{
+  "id": 210,
+  "type": "dynamic",
+  "name": "tuf-rollback",
+  "value": 254,
+  "initial": 300,
+  "minimum": 100,
+  "decay": 25,
+  "solves": 13,
+  "solved_by_me": true,
+  "category": "supplychain",
+  "tags": [
+    "supplychain",
+    "tuf",
+    "rollback",
+    "medium",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "On vous donne les métadonnées d'un dépôt de mises à jour façon TUF\n(`timestamp.json`, `snapshot.json`, `targets-v*.json`) et les artefacts\ncorrespondants (`targets/`). Le client a peut-être été poussé à installer une\nversion qu'il n'aurait pas dû.\n\nRaisonnez sur les métadonnées, identifiez la release piégée qui a été épinglée\net récupérez le flag qu'elle contient.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 508,
+      "cost": 15,
+      "title": ""
+    },
+    {
+      "id": 509,
+      "cost": 30,
+      "title": ""
+    },
+    {
+      "id": 510,
+      "cost": 45,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/tuf-rollback",
+  "local_files": [
+    "timestamp.json",
+    "snapshot.json",
+    "targets-v5.json",
+    "targets-v8.json",
+    "updater-agent-2.0.1.tgz",
+    "updater-agent-2.1.0.tgz"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

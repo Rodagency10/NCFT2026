@@ -1,0 +1,45 @@
+{
+  "id": 170,
+  "type": "dynamic",
+  "name": "knapsack-locker",
+  "value": 246,
+  "initial": 300,
+  "minimum": 100,
+  "decay": 25,
+  "solves": 14,
+  "solved_by_me": true,
+  "category": "ppc",
+  "tags": [
+    "ppc",
+    "dynamic-programming",
+    "knapsack",
+    "medium",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "`items.txt` gives a capacity, a list of items (each with a weight and a\nvalue), and a `CIPHER` blob. Only the single correct number derived from the\nitems unlocks the cipher; get it wrong and you get garbage.\n\nCompute that number, unlock the blob, read the flag.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 404,
+      "cost": 15,
+      "title": ""
+    },
+    {
+      "id": 405,
+      "cost": 30,
+      "title": ""
+    },
+    {
+      "id": 406,
+      "cost": 45,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/knapsack-locker",
+  "local_files": [
+    "items.txt"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

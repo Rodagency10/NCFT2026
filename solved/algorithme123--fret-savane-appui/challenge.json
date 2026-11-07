@@ -1,0 +1,28 @@
+{
+  "id": 481,
+  "type": "team_instance",
+  "name": "algorithme123--fret-savane-appui",
+  "value": 238,
+  "initial": 300,
+  "minimum": 100,
+  "decay": 25,
+  "solves": 15,
+  "solved_by_me": true,
+  "category": "boot2root",
+  "tags": [
+    "boot2root",
+    "medium",
+    "b2r",
+    "togo",
+    "samba",
+    "sql",
+    "creator:Algorithme123"
+  ],
+  "description": "Fret Savane exploite un petit serveur d'atelier IT entre Kara, Lomé et Cinkassé.\r\nDes partages et une base agents sont exposés sur le LAN. Retrouve le secret de badge\r\nlié au dernier export de manifeste entrepôt.\r\n\r\n<!-- nctf-connexion -->\r\n> 🔌 Ce challenge se joue **par le VPN de votre équipe** : voir [Se connecter aux instances](/connexion#vpn).\r\n",
+  "connection_info": "{host}:{port}  (per-team instance; use the 'launch' button — every port is listed in the panel)",
+  "hints": [],
+  "local_folder": "solved/algorithme123--fret-savane-appui",
+  "local_files": [],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

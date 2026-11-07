@@ -1,0 +1,45 @@
+{
+  "id": 58,
+  "type": "dynamic",
+  "name": "keystream-reuse",
+  "value": 172,
+  "initial": 300,
+  "minimum": 100,
+  "decay": 25,
+  "solves": 21,
+  "solved_by_me": true,
+  "category": "crypto",
+  "tags": [
+    "crypto",
+    "xor",
+    "many-time-pad",
+    "medium",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "`messages.txt` holds 25 intercepted ciphertexts, one hex string per line. They\nwere all produced by the same sloppy encryptor on the same day. Exactly one of\nthe underlying messages contains the flag.\n\nRecover it.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 134,
+      "cost": 15,
+      "title": ""
+    },
+    {
+      "id": 135,
+      "cost": 30,
+      "title": ""
+    },
+    {
+      "id": 136,
+      "cost": 45,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/keystream-reuse",
+  "local_files": [
+    "messages.txt"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

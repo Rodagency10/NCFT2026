@@ -1,0 +1,46 @@
+{
+  "id": 8,
+  "type": "dynamic",
+  "name": "airdrop-forge",
+  "value": 246,
+  "initial": 300,
+  "minimum": 100,
+  "decay": 25,
+  "solves": 14,
+  "solved_by_me": true,
+  "category": "blockchain",
+  "tags": [
+    "blockchain",
+    "evm",
+    "merkle",
+    "medium",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "You get a Merkle-root airdrop contract (`MerkleAirdrop.sol`) and\n`tree.json`: the full list of leaves, the `root`, a high-value target\nclaim, and a sealed bonus `cipher_hex`. Produce what the contract needs\nto accept the target claim, and open the bonus.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 22,
+      "cost": 15,
+      "title": ""
+    },
+    {
+      "id": 23,
+      "cost": 30,
+      "title": ""
+    },
+    {
+      "id": 24,
+      "cost": 45,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/airdrop-forge",
+  "local_files": [
+    "MerkleAirdrop.sol",
+    "tree.json"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

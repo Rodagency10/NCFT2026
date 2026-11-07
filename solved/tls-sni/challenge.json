@@ -1,0 +1,46 @@
+{
+  "id": 158,
+  "type": "dynamic",
+  "name": "tls-sni",
+  "value": 238,
+  "initial": 300,
+  "minimum": 100,
+  "decay": 25,
+  "solves": 15,
+  "solved_by_me": true,
+  "category": "networking",
+  "tags": [
+    "networking",
+    "tls",
+    "binary-parsing",
+    "medium",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "A single TLS ClientHello was captured as raw bytes (`clienthello.bin`, with\n`clienthello.hex` for convenience). No keys, no decryption — just the\nhandshake structure.\n\nParse the record, find where the client says which server it wants to reach,\nand decode what is hidden there. That is the flag. (Grepping the file for\n`NCTF{` will only find a decoy.)\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 369,
+      "cost": 15,
+      "title": ""
+    },
+    {
+      "id": 370,
+      "cost": 25,
+      "title": ""
+    },
+    {
+      "id": 371,
+      "cost": 45,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/tls-sni",
+  "local_files": [
+    "clienthello.bin",
+    "clienthello.hex"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

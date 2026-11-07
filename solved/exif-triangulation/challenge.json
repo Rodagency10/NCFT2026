@@ -1,0 +1,48 @@
+{
+  "id": 164,
+  "type": "dynamic",
+  "name": "exif-triangulation",
+  "value": 254,
+  "initial": 300,
+  "minimum": 100,
+  "decay": 25,
+  "solves": 13,
+  "solved_by_me": true,
+  "category": "osint",
+  "tags": [
+    "osint",
+    "exif",
+    "geolocation",
+    "medium",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "Quatre guetteurs ont photographié la même cible depuis des points différents.\nChaque cliché (`photo_*.jpg`) contient les métadonnées de prise de vue.\n\nRecoupez les données de localisation contenues dans les images pour déterminer la position exacte de la cible. Le flag est la coordonnée sur laquelle les observations concordent, au format donné ci-dessous.\n\nLe flag : NCTF{triangulated_<lat>n_<lon>e} où lat et lon sont en degrés décimaux à 5 décimales, le point remplacé par « p » (ex. NCTF{triangulated_6p12345n_1p23456e}).\n\nBloqué ? Des indices sont disponibles (ils coûtent quelques points).\n",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 387,
+      "cost": 15,
+      "title": ""
+    },
+    {
+      "id": 388,
+      "cost": 30,
+      "title": ""
+    },
+    {
+      "id": 389,
+      "cost": 45,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/exif-triangulation",
+  "local_files": [
+    "photo_north.jpg",
+    "photo_east.jpg",
+    "photo_west.jpg",
+    "photo_south.jpg"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

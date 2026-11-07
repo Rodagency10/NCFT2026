@@ -1,0 +1,40 @@
+{
+  "id": 403,
+  "type": "team_instance",
+  "name": "boazak--fufu",
+  "value": 80,
+  "initial": 150,
+  "minimum": 50,
+  "decay": 25,
+  "solves": 22,
+  "solved_by_me": true,
+  "category": "crypto",
+  "tags": [
+    "crypto",
+    "easy",
+    "creator:KodjoDoDjango"
+  ],
+  "description": "> **Origine du nom :** Fufu est la pâte de manioc qu'on pétrit, replie et malaxe — comme les blocs AES-CBC qu'on tord et réassemble.\n\nLe site « Fufu » sert un profil chiffré en **AES-CBC** : un cookie `IV || ciphertext` qui encode votre rôle. Le cookie n'est **pas authentifié** : en modifiant l'IV, on peut passer de `guest` à `admin` sans casser le reste du bloc.\n\n**Points d'entrée** (pas de page d'accueil) : `GET /profile`, `GET /admin`\n\nStuck? Hints are available (they cost a few points).",
+  "connection_info": "http://{host}:{port}/  (per-team instance; use the 'launch' button)",
+  "hints": [
+    {
+      "id": 926,
+      "cost": 60,
+      "title": ""
+    },
+    {
+      "id": 927,
+      "cost": 40,
+      "title": ""
+    },
+    {
+      "id": 928,
+      "cost": 20,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/boazak--fufu",
+  "local_files": [],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

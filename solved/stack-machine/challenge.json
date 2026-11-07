@@ -1,0 +1,45 @@
+{
+  "id": 173,
+  "type": "dynamic",
+  "name": "stack-machine",
+  "value": 219,
+  "initial": 300,
+  "minimum": 100,
+  "decay": 25,
+  "solves": 17,
+  "solved_by_me": true,
+  "category": "ppc",
+  "tags": [
+    "ppc",
+    "parsing",
+    "virtual-machine",
+    "medium",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "`program.txt` is source code for a tiny made-up machine: one instruction per\nline, a handful of opcodes, and a `.data` section. The header comment in the\nsolver is not provided -- you must infer the semantics from the opcode names\nand structure. Execute the program faithfully; what it prints is the flag.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 413,
+      "cost": 15,
+      "title": ""
+    },
+    {
+      "id": 414,
+      "cost": 30,
+      "title": ""
+    },
+    {
+      "id": 415,
+      "cost": 45,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/stack-machine",
+  "local_files": [
+    "program.txt"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

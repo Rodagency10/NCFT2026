@@ -1,0 +1,45 @@
+{
+  "id": 111,
+  "type": "dynamic",
+  "name": "i2c-sniff",
+  "value": 228,
+  "initial": 300,
+  "minimum": 100,
+  "decay": 25,
+  "solves": 16,
+  "solved_by_me": true,
+  "category": "hardware",
+  "tags": [
+    "hardware",
+    "i2c",
+    "logic-analyzer",
+    "medium",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "We clipped a two-wire probe onto an I2C bus and captured `SCL` and `SDA` while\na controller wrote a short string to a peripheral. `i2c_capture.csv` holds the\noversampled bus state, one row per time step.\n\nDecode the transaction and recover the string that was written. The flag is\nthat string.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 255,
+      "cost": 15,
+      "title": ""
+    },
+    {
+      "id": 256,
+      "cost": 30,
+      "title": ""
+    },
+    {
+      "id": 257,
+      "cost": 45,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/i2c-sniff",
+  "local_files": [
+    "i2c_capture.csv"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

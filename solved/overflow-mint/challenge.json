@@ -1,0 +1,46 @@
+{
+  "id": 13,
+  "type": "dynamic",
+  "name": "overflow-mint",
+  "value": 289,
+  "initial": 300,
+  "minimum": 100,
+  "decay": 25,
+  "solves": 7,
+  "solved_by_me": true,
+  "category": "blockchain",
+  "tags": [
+    "blockchain",
+    "evm",
+    "integer-overflow",
+    "medium",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "You get the Solidity source of a token pre-sale (`MintSale.sol`) and\n`sale.json` (the on-sale `price`, your wallet `budget_wei`, and a\nvault `cipher_hex`). Buying `n` tokens costs `n * price` wei; reaching\n`WIN_TOKENS` unlocks the vault. Your wallet holds only a few wei.\nUnlock the vault.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 34,
+      "cost": 15,
+      "title": ""
+    },
+    {
+      "id": 35,
+      "cost": 30,
+      "title": ""
+    },
+    {
+      "id": 36,
+      "cost": 45,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/overflow-mint",
+  "local_files": [
+    "MintSale.sol",
+    "sale.json"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

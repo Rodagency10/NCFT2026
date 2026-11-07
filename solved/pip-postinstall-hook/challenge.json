@@ -1,0 +1,45 @@
+{
+  "id": 207,
+  "type": "dynamic",
+  "name": "pip-postinstall-hook",
+  "value": 185,
+  "initial": 300,
+  "minimum": 100,
+  "decay": 25,
+  "solves": 20,
+  "solved_by_me": true,
+  "category": "supplychain",
+  "tags": [
+    "supplychain",
+    "pip",
+    "deobfuscation",
+    "medium",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "On vous remet une archive source Python (`acme-license-check-1.0.0.tar.gz`)\nrécupérée depuis un miroir PyPI douteux. `pip install` exécute du code à\nl'installation, et celui-ci semble avoir été volontairement rendu illisible.\n\nAnalysez l'archive SANS l'installer, comprenez ce que le hook d'installation\nferait, et récupérez le flag qu'il dépose.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 500,
+      "cost": 15,
+      "title": ""
+    },
+    {
+      "id": 501,
+      "cost": 30,
+      "title": ""
+    },
+    {
+      "id": 502,
+      "cost": 45,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/pip-postinstall-hook",
+  "local_files": [
+    "acme-license-check-1.0.0.tar.gz"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

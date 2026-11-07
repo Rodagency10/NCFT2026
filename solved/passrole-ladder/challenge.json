@@ -1,0 +1,50 @@
+{
+  "id": 42,
+  "type": "dynamic",
+  "name": "passrole-ladder",
+  "value": 345,
+  "initial": 450,
+  "minimum": 100,
+  "decay": 20,
+  "solves": 12,
+  "solved_by_me": true,
+  "category": "cloud",
+  "tags": [
+    "cloud",
+    "aws",
+    "iam",
+    "privilege-escalation",
+    "passrole",
+    "hard",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "An IAM dump from an AWS account: users (`iam-users.json`), roles\n(`iam-roles.json`), the customer-managed policy documents\n(`iam-policies.json`), and a production secret sealed for the handout\n(`prod-secret.json`). You start as the low-privileged user `mallory`.\n\nFind the privilege-escalation path that lets mallory reach the secret, then\nrecover it. The flag is the secret.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 95,
+      "cost": 20,
+      "title": ""
+    },
+    {
+      "id": 96,
+      "cost": 40,
+      "title": ""
+    },
+    {
+      "id": 97,
+      "cost": 65,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/passrole-ladder",
+  "local_files": [
+    "iam-users.json",
+    "iam-roles.json",
+    "iam-policies.json",
+    "prod-secret.json"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

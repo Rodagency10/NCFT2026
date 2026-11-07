@@ -2,11 +2,11 @@
   "id": 431,
   "type": "dynamic",
   "name": "thierry8petstar--exfiltrator",
-  "value": 58,
+  "value": 50,
   "initial": 100,
   "minimum": 50,
   "decay": 25,
-  "solves": 24,
+  "solves": 39,
   "solved_by_me": true,
   "category": "forensics",
   "tags": [

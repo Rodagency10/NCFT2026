@@ -1,0 +1,48 @@
+{
+  "id": 159,
+  "type": "dynamic",
+  "name": "cred-reuse",
+  "value": 238,
+  "initial": 300,
+  "minimum": 100,
+  "decay": 25,
+  "solves": 15,
+  "solved_by_me": true,
+  "category": "osint",
+  "tags": [
+    "osint",
+    "password-cracking",
+    "credential-reuse",
+    "medium",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "Un forum communautaire togolais a été piraté et sa base de comptes\n(`dump.txt`) circule. On vous fournit aussi une liste de mots de passe\ncourants (`wordlist.txt`), la liste des services utilisés par chaque compte\n(`services.csv`), et une note interne chiffrée du portail d'administration\n(`admin_portal.enc`).\n\nUn utilisateur a réutilisé son mot de passe partout. Retrouvez-le, déchiffrez\nla note et lisez le jeton de secours : c'est le flag.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 372,
+      "cost": 15,
+      "title": ""
+    },
+    {
+      "id": 373,
+      "cost": 30,
+      "title": ""
+    },
+    {
+      "id": 374,
+      "cost": 45,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/cred-reuse",
+  "local_files": [
+    "dump.txt",
+    "wordlist.txt",
+    "services.csv",
+    "admin_portal.enc"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

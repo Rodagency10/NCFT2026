@@ -1,0 +1,40 @@
+{
+  "id": 95,
+  "type": "dynamic",
+  "name": "vigenere-drift",
+  "value": 82,
+  "initial": 150,
+  "minimum": 50,
+  "decay": 35,
+  "solves": 30,
+  "solved_by_me": true,
+  "category": "crypto",
+  "tags": [
+    "crypto",
+    "classical",
+    "vigenere",
+    "easy",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "`cipher.txt` is an intercepted English memorandum enciphered with a repeating polyalphabetic key. It is longer than it looks and the recovery token is hidden somewhere inside it.\n\nRecover the plaintext and read the token.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 211,
+      "cost": 10,
+      "title": ""
+    },
+    {
+      "id": 212,
+      "cost": 20,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/vigenere-drift",
+  "local_files": [
+    "cipher.txt"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

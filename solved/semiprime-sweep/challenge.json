@@ -1,0 +1,45 @@
+{
+  "id": 172,
+  "type": "dynamic",
+  "name": "semiprime-sweep",
+  "value": 197,
+  "initial": 300,
+  "minimum": 100,
+  "decay": 25,
+  "solves": 19,
+  "solved_by_me": true,
+  "category": "ppc",
+  "tags": [
+    "ppc",
+    "number-theory",
+    "factorization",
+    "medium",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "`semiprimes.txt` starts with a `CIPHER` blob and then lists several dozen\nintegers, each the product of exactly two primes. Something about each number\ncontributes one byte of the key that unlocks the cipher.\n\nBreak the numbers down, build the key, read the flag.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 410,
+      "cost": 15,
+      "title": ""
+    },
+    {
+      "id": 411,
+      "cost": 30,
+      "title": ""
+    },
+    {
+      "id": 412,
+      "cost": 45,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/semiprime-sweep",
+  "local_files": [
+    "semiprimes.txt"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

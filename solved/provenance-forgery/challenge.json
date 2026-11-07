@@ -1,0 +1,53 @@
+{
+  "id": 208,
+  "type": "dynamic",
+  "name": "provenance-forgery",
+  "value": 262,
+  "initial": 300,
+  "minimum": 100,
+  "decay": 25,
+  "solves": 12,
+  "solved_by_me": true,
+  "category": "supplychain",
+  "tags": [
+    "supplychain",
+    "provenance",
+    "slsa",
+    "medium",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "Chaque release de `acme-app` est accompagnée d'une attestation de provenance\nsignée (dossier `provenance/`) et de son archive `.tgz`. La clé de signature\ndu CI a fuité (`ci-signing.key`). L'une des releases n'a pas été produite par\nle vrai pipeline.\n\nVérifiez les attestations, démasquez la release forgée et récupérez le flag\nque porte son artefact.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 503,
+      "cost": 15,
+      "title": ""
+    },
+    {
+      "id": 504,
+      "cost": 30,
+      "title": ""
+    },
+    {
+      "id": 505,
+      "cost": 45,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/provenance-forgery",
+  "local_files": [
+    "ci-signing.key",
+    "1.0.0.intoto.json",
+    "1.1.0.intoto.json",
+    "1.2.0.intoto.json",
+    "1.3.0.intoto.json",
+    "acme-app-1.0.0.tgz",
+    "acme-app-1.1.0.tgz",
+    "acme-app-1.2.0.tgz",
+    "acme-app-1.3.0.tgz"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

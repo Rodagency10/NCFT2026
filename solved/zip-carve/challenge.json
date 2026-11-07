@@ -1,0 +1,45 @@
+{
+  "id": 108,
+  "type": "dynamic",
+  "name": "zip-carve",
+  "value": 62,
+  "initial": 150,
+  "minimum": 50,
+  "decay": 35,
+  "solves": 34,
+  "solved_by_me": true,
+  "category": "forensics",
+  "tags": [
+    "forensics",
+    "file-carving",
+    "zip",
+    "easy",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "We recovered a ZIP archive (`archive.zip`) from a departing employee's USB\nstick. Listing it shows a single, boring file — but the archive on disk is\nlarger than that one file can explain.\n\nSomething else was packed in and then hidden from the listing. Recover it and\nread the token inside.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 247,
+      "cost": 10,
+      "title": ""
+    },
+    {
+      "id": 248,
+      "cost": 15,
+      "title": ""
+    },
+    {
+      "id": 249,
+      "cost": 15,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/zip-carve",
+  "local_files": [
+    "archive.zip"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

@@ -1,0 +1,47 @@
+{
+  "id": 213,
+  "type": "dynamic",
+  "name": "env-forge",
+  "value": 208,
+  "initial": 300,
+  "minimum": 100,
+  "decay": 25,
+  "solves": 18,
+  "solved_by_me": true,
+  "category": "sysadmin",
+  "tags": [
+    "sysadmin",
+    "secrets",
+    "jwt",
+    "medium",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "A developer pushed a deploy bundle for an internal API to a public repo:\n`docker-compose.yml`, the `.env` it reads, and one server source file\n(`app/session.py`). The API mints signed session tokens and guards an admin\nroute that returns a flag.\n\nYou have no running service — only these files. Work out how the admin flag is\nproduced and recover it.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 515,
+      "cost": 15,
+      "title": ""
+    },
+    {
+      "id": 516,
+      "cost": 30,
+      "title": ""
+    },
+    {
+      "id": 517,
+      "cost": 45,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/env-forge",
+  "local_files": [
+    "env",
+    "docker-compose.yml",
+    "session.py"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

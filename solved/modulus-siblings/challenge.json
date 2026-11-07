@@ -1,0 +1,40 @@
+{
+  "id": 59,
+  "type": "dynamic",
+  "name": "modulus-siblings",
+  "value": 208,
+  "initial": 300,
+  "minimum": 100,
+  "decay": 25,
+  "solves": 18,
+  "solved_by_me": true,
+  "category": "crypto",
+  "tags": [
+    "crypto",
+    "rsa",
+    "common-modulus",
+    "medium",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "Two departments encrypted the very same memo for the same recipient, and we\ncaptured both ciphertexts in `transcript.json` along with the public\nparameters they used. Neither ciphertext factors and the modulus is 1024 bits.\n\nRecover the memo, which is the flag.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 137,
+      "cost": 15,
+      "title": ""
+    },
+    {
+      "id": 138,
+      "cost": 30,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/modulus-siblings",
+  "local_files": [
+    "transcript.json"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

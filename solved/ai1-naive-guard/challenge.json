@@ -6,7 +6,7 @@
   "initial": 150,
   "minimum": 150,
   "decay": 30,
-  "solves": 28,
+  "solves": 30,
   "solved_by_me": true,
   "category": "ai",
   "tags": [

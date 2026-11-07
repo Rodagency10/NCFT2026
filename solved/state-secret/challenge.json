@@ -1,0 +1,43 @@
+{
+  "id": 217,
+  "type": "dynamic",
+  "name": "state-secret",
+  "value": 135,
+  "initial": 450,
+  "minimum": 100,
+  "decay": 20,
+  "solves": 20,
+  "solved_by_me": true,
+  "category": "sysadmin",
+  "tags": [
+    "sysadmin",
+    "terraform",
+    "secrets",
+    "hard",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "A committed Terraform bundle: the config (`main.tf`), its state file\n(`terraform.tfstate`), the encryptor it calls (`encrypt.py`), and an encrypted\nsecrets blob (`vault.enc`) that the config produced. The blob decrypts to a\nsingle secret. `encrypt.py` documents the exact blob format, so once you have\nthe passphrase you can invert it.\n\nRecover it.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 525,
+      "cost": 25,
+      "title": ""
+    },
+    {
+      "id": 526,
+      "cost": 45,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/state-secret",
+  "local_files": [
+    "main.tf",
+    "terraform.tfstate",
+    "encrypt.py",
+    "vault.enc"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

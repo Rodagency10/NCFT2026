@@ -1,0 +1,46 @@
+{
+  "id": 136,
+  "type": "dynamic",
+  "name": "grad-leak",
+  "value": 208,
+  "initial": 300,
+  "minimum": 100,
+  "decay": 25,
+  "solves": 18,
+  "solved_by_me": true,
+  "category": "ml",
+  "tags": [
+    "ml",
+    "gradient-leakage",
+    "privacy",
+    "medium",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "During distributed training a worker leaked the gradients from a single step.\n`leaked_grads.npz` contains the gradient of the loss with respect to a linear\nlayer's weight matrix, plus the upstream gradient that produced it. That step\nused exactly one private training example. Recover that example -- its bytes are\nthe flag.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 313,
+      "cost": 15,
+      "title": ""
+    },
+    {
+      "id": 314,
+      "cost": 30,
+      "title": ""
+    },
+    {
+      "id": 315,
+      "cost": 45,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/grad-leak",
+  "local_files": [
+    "leaked_grads.npz",
+    "README.md"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

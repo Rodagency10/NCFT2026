@@ -1,0 +1,46 @@
+{
+  "id": 12,
+  "type": "dynamic",
+  "name": "origin-story",
+  "value": 275,
+  "initial": 300,
+  "minimum": 100,
+  "decay": 25,
+  "solves": 10,
+  "solved_by_me": true,
+  "category": "blockchain",
+  "tags": [
+    "blockchain",
+    "evm",
+    "access-control",
+    "medium",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "You get `Vault.sol` and `vault.json` (a sealed note `cipher_hex` plus\nthe address you control). Nobody has taken ownership yet. Figure out\nthe single winning transaction, then unseal the note it protects.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 31,
+      "cost": 15,
+      "title": ""
+    },
+    {
+      "id": 32,
+      "cost": 30,
+      "title": ""
+    },
+    {
+      "id": 33,
+      "cost": 45,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/origin-story",
+  "local_files": [
+    "Vault.sol",
+    "vault.json"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

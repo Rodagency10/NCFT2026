@@ -1,0 +1,40 @@
+{
+  "id": 398,
+  "type": "team_instance",
+  "name": "boazak--atike",
+  "value": 254,
+  "initial": 300,
+  "minimum": 100,
+  "decay": 25,
+  "solves": 13,
+  "solved_by_me": true,
+  "category": "crypto",
+  "tags": [
+    "crypto",
+    "medium",
+    "creator:KodjoDoDjango"
+  ],
+  "description": "> **Origine du nom :** Atike signifie « médicament » en éwé — on sonde l'oracle octet par octet, comme on ausculte un patient.\n\nLe coffre « Atike » chiffre un message en **AES-CBC** et expose un oracle qui distingue un padding PKCS#7 valide d'un invalide. Cette seule information permet l'attaque de **Vaudenay** : reconstruire le plaintext octet par octet.\n\n**Points d'entrée** (pas de page d'accueil) : `GET /challenge`, `GET /oracle`, `GET /check`\n\nStuck? Hints are available (they cost a few points).",
+  "connection_info": "http://{host}:{port}/  (per-team instance; use the 'launch' button)",
+  "hints": [
+    {
+      "id": 909,
+      "cost": 100,
+      "title": ""
+    },
+    {
+      "id": 910,
+      "cost": 60,
+      "title": ""
+    },
+    {
+      "id": 911,
+      "cost": 40,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/boazak--atike",
+  "local_files": [],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

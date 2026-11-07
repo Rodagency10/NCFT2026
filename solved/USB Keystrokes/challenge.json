@@ -1,0 +1,43 @@
+{
+  "id": 107,
+  "type": "dynamic",
+  "name": "USB Keystrokes",
+  "value": 50,
+  "initial": 150,
+  "minimum": 50,
+  "decay": 30,
+  "solves": 35,
+  "solved_by_me": true,
+  "category": "forensics",
+  "tags": [
+    "forensics",
+    "easy",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "Nous avons mis sur écoute le bus USB pendant qu'un collègue se connectait au\nterminal du coffre, et capturé le trafic ci-joint (`capture.pcap`). Quelque\npart dans ce flux se trouve la passphrase qu'il a tapée au clavier.\n\nLa capture est un vidage usbmon Linux brut (ouvrez-la dans Wireshark, ou\nparsez-la vous-même). Plusieurs périphériques étaient branchés à ce moment-là,\ndonc tous les paquets ne proviennent pas du clavier.\n\nRécupérez la passphrase exacte qui a été tapée et soumettez-la au format du\nflag.\n\nBloqué ? Des indices sont disponibles (ils coûtent quelques points).\n\nFlag format : NCTF{<passphrase>}  (la passphrase est sensible à la casse et\ncontient lettres, chiffres et underscores).\n",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 244,
+      "cost": 10,
+      "title": ""
+    },
+    {
+      "id": 245,
+      "cost": 15,
+      "title": ""
+    },
+    {
+      "id": 246,
+      "cost": 25,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/USB Keystrokes",
+  "local_files": [
+    "capture.pcap"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

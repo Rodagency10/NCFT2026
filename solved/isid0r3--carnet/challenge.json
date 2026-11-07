@@ -1,0 +1,24 @@
+{
+  "id": 491,
+  "type": "team_instance",
+  "name": "isid0r3--carnet",
+  "value": 92,
+  "initial": 100,
+  "minimum": 50,
+  "decay": 25,
+  "solves": 11,
+  "solved_by_me": true,
+  "category": "web",
+  "tags": [
+    "web",
+    "medium",
+    "creator:isid0r3"
+  ],
+  "description": "trouve la note de l'admin\r\n",
+  "connection_info": "http://{host}:{port}/  (per-team instance; use the 'launch' button)",
+  "hints": [],
+  "local_folder": "solved/isid0r3--carnet",
+  "local_files": [],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

@@ -1,0 +1,46 @@
+{
+  "id": 257,
+  "type": "dynamic",
+  "name": "reset-token-lcg",
+  "value": 303,
+  "initial": 450,
+  "minimum": 100,
+  "decay": 20,
+  "solves": 14,
+  "solved_by_me": true,
+  "category": "web",
+  "tags": [
+    "web",
+    "prng",
+    "token-prediction",
+    "hard",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "A password-reset service ships as source, plus the server's reset log. Each\nline records when a reset token was issued -- except the admin's, which was\nemailed and never logged. Confirming the admin's reset reveals the flag.\n\nEndpoints (from the source):\n\n    POST /reset/request        -> emails a reset token\n    GET  /reset/confirm?token= -> reveals the flag for the admin token\n\nNo live service. The admin token is not written down anywhere; you must\nproduce it from the shipped files.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 582,
+      "cost": 23,
+      "title": ""
+    },
+    {
+      "id": 583,
+      "cost": 45,
+      "title": ""
+    },
+    {
+      "id": 584,
+      "cost": 68,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/reset-token-lcg",
+  "local_files": [
+    "app.py",
+    "reset_log.txt"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

@@ -1,0 +1,41 @@
+{
+  "id": 262,
+  "type": "dynamic",
+  "name": "ssti-jinja",
+  "value": 268,
+  "initial": 300,
+  "minimum": 100,
+  "decay": 25,
+  "solves": 11,
+  "solved_by_me": true,
+  "category": "web",
+  "tags": [
+    "web",
+    "ssti",
+    "jinja2",
+    "medium",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "A greeting-card service ships as source, with a captured normal request. It\nturns your name into a friendly card. The flag is never printed for ordinary\ninput.\n\nInput contract (from the source):\n\n    POST /card  {\"name\": \"<text>\"}\n    -> renders  \"Dear \" + name + \", welcome to Lome!\"\n\nNo live service. Determine what the renderer would emit for a name of your\nchoosing.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 594,
+      "cost": 15,
+      "title": ""
+    },
+    {
+      "id": 595,
+      "cost": 30,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/ssti-jinja",
+  "local_files": [
+    "app.py",
+    "capture.txt"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

@@ -1,0 +1,45 @@
+{
+  "id": 155,
+  "type": "dynamic",
+  "name": "netflow-talker",
+  "value": 254,
+  "initial": 300,
+  "minimum": 100,
+  "decay": 25,
+  "solves": 13,
+  "solved_by_me": true,
+  "category": "networking",
+  "tags": [
+    "networking",
+    "netflow",
+    "traffic-analysis",
+    "medium",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "A NetFlow collector exported a batch of flow records (`flows.csv`): one row per\nflow with the usual 5-tuple plus packet and byte counters and millisecond\ntimestamps. One host clearly dominates the traffic.\n\nFind the host that stands out, look at how it behaves across its flows, and\nread the message it leaves behind. That is the flag.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 360,
+      "cost": 15,
+      "title": ""
+    },
+    {
+      "id": 361,
+      "cost": 25,
+      "title": ""
+    },
+    {
+      "id": 362,
+      "cost": 45,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/netflow-talker",
+  "local_files": [
+    "flows.csv"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

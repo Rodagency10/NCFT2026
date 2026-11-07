@@ -1,0 +1,23 @@
+{
+  "id": 497,
+  "type": "team_instance",
+  "name": "isid0r3--linkcard",
+  "value": 95,
+  "initial": 100,
+  "minimum": 50,
+  "decay": 25,
+  "solves": 9,
+  "solved_by_me": true,
+  "category": "web",
+  "tags": [
+    "web",
+    "creator:isid0r3"
+  ],
+  "description": "LinkTu as trouver un truc ? Il est peut-etre temps de cr euver un peu plus\r\n",
+  "connection_info": "http://{host}:{port}/  (per-team instance; use the 'launch' button)",
+  "hints": [],
+  "local_folder": "solved/isid0r3--linkcard",
+  "local_files": [],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

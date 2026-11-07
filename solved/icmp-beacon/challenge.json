@@ -1,0 +1,45 @@
+{
+  "id": 102,
+  "type": "dynamic",
+  "name": "icmp-beacon",
+  "value": 62,
+  "initial": 150,
+  "minimum": 50,
+  "decay": 35,
+  "solves": 34,
+  "solved_by_me": true,
+  "category": "forensics",
+  "tags": [
+    "forensics",
+    "network",
+    "pcap",
+    "easy",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "During an incident, an analyst noticed a host on the network that \"just would\nnot stop pinging\". We grabbed the traffic (`icmp.pcap`). Regular monitoring\ntools saw nothing but harmless ICMP.\n\nThe pings are not as innocent as they look. Recover the message hidden in the\ntraffic.\n\nNotes:\n  * Ordinary pings to another host are mixed in.\n  * The hidden packets are captured out of order.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 229,
+      "cost": 15,
+      "title": ""
+    },
+    {
+      "id": 230,
+      "cost": 30,
+      "title": ""
+    },
+    {
+      "id": 231,
+      "cost": 45,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/icmp-beacon",
+  "local_files": [
+    "icmp.pcap"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

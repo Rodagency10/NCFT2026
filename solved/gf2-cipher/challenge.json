@@ -1,0 +1,45 @@
+{
+  "id": 121,
+  "type": "dynamic",
+  "name": "gf2-cipher",
+  "value": 100,
+  "initial": 450,
+  "minimum": 100,
+  "decay": 20,
+  "solves": 24,
+  "solved_by_me": true,
+  "category": "crypto",
+  "tags": [
+    "misc",
+    "crypto",
+    "linear-algebra",
+    "hard",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "`system.json` gives you a square binary matrix `A` and a bit vector `b`. There\nis exactly one bit vector `x` that reproduces `b`. Recover `x` and read it as\nbytes to get the flag.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 277,
+      "cost": 22,
+      "title": ""
+    },
+    {
+      "id": 278,
+      "cost": 45,
+      "title": ""
+    },
+    {
+      "id": 279,
+      "cost": 68,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/gf2-cipher",
+  "local_files": [
+    "system.json"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

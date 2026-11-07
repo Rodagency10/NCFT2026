@@ -1,0 +1,45 @@
+{
+  "id": 157,
+  "type": "dynamic",
+  "name": "tcp-reassembly",
+  "value": 279,
+  "initial": 450,
+  "minimum": 100,
+  "decay": 20,
+  "solves": 15,
+  "solved_by_me": true,
+  "category": "networking",
+  "tags": [
+    "networking",
+    "tcp",
+    "reassembly",
+    "hard",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "We logged one direction of a TCP conversation as a list of segments\n(`segments.json`): each has a sequence number, TCP flags, and a hex payload.\nThe segments arrived out of order, some were retransmitted, and the payloads\nreassemble into a single message.\n\nPut the byte stream back together in the right order and read the message. It\nis the flag.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 366,
+      "cost": 20,
+      "title": ""
+    },
+    {
+      "id": 367,
+      "cost": 35,
+      "title": ""
+    },
+    {
+      "id": 368,
+      "cost": 60,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/tcp-reassembly",
+  "local_files": [
+    "segments.json"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

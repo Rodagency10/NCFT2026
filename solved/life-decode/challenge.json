@@ -1,0 +1,45 @@
+{
+  "id": 171,
+  "type": "dynamic",
+  "name": "life-decode",
+  "value": 324,
+  "initial": 450,
+  "minimum": 100,
+  "decay": 20,
+  "solves": 13,
+  "solved_by_me": true,
+  "category": "ppc",
+  "tags": [
+    "ppc",
+    "simulation",
+    "cellular-automaton",
+    "hard",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "`grid.txt` gives a board size and a step count, a `CIPHER` blob, and an\ninitial black-and-white grid. The grid evolves by a well-known local rule.\nEvolve it exactly the stated number of steps; the final board is the key that\nunlocks the cipher.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 407,
+      "cost": 22,
+      "title": ""
+    },
+    {
+      "id": 408,
+      "cost": 45,
+      "title": ""
+    },
+    {
+      "id": 409,
+      "cost": 68,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/life-decode",
+  "local_files": [
+    "grid.txt"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

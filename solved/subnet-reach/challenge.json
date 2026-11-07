@@ -1,0 +1,45 @@
+{
+  "id": 156,
+  "type": "dynamic",
+  "name": "subnet-reach",
+  "value": 228,
+  "initial": 300,
+  "minimum": 100,
+  "decay": 25,
+  "solves": 16,
+  "solved_by_me": true,
+  "category": "networking",
+  "tags": [
+    "networking",
+    "routing",
+    "subnetting",
+    "medium",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "You have a router's forwarding table and a batch of probe packets\n(`routing.json`), plus the address of one target host. The router forwards\neach packet according to its table; some destinations leave the router toward\nother next hops, some are dropped, and some are delivered onto the target's\nown segment.\n\nDetermine which packets actually reach the target host. Each packet has a\none-character `tag`; the packets that reach the host, read in ascending `id`\norder, spell the flag.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 363,
+      "cost": 15,
+      "title": ""
+    },
+    {
+      "id": 364,
+      "cost": 25,
+      "title": ""
+    },
+    {
+      "id": 365,
+      "cost": 45,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/subnet-reach",
+  "local_files": [
+    "routing.json"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

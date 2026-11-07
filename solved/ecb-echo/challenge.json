@@ -1,0 +1,45 @@
+{
+  "id": 54,
+  "type": "dynamic",
+  "name": "ecb-echo",
+  "value": 146,
+  "initial": 300,
+  "minimum": 100,
+  "decay": 25,
+  "solves": 23,
+  "solved_by_me": true,
+  "category": "crypto",
+  "tags": [
+    "crypto",
+    "aes",
+    "ecb",
+    "medium",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "We tapped a device that encrypts data for us on request and logged everything\nit did into `oracle_log.json`. Whatever we sent, the device appended its own\nsecret before encrypting, and its secret is the flag.\n\nThe log records the ciphertexts it produced for a range of our inputs. Recover\nthe appended secret from the log alone.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 124,
+      "cost": 20,
+      "title": ""
+    },
+    {
+      "id": 125,
+      "cost": 40,
+      "title": ""
+    },
+    {
+      "id": 126,
+      "cost": 65,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/ecb-echo",
+  "local_files": [
+    "oracle_log.json"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

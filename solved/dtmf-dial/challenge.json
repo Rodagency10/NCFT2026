@@ -1,0 +1,45 @@
+{
+  "id": 194,
+  "type": "dynamic",
+  "name": "dtmf-dial",
+  "value": 226,
+  "initial": 450,
+  "minimum": 100,
+  "decay": 20,
+  "solves": 17,
+  "solved_by_me": true,
+  "category": "stego",
+  "tags": [
+    "stego",
+    "audio",
+    "dtmf",
+    "hard",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "We recorded someone dialling a phone and saved it as `dial.wav`. It is just a\nstring of touch-tones. Work out what was \"dialled\" and recover the flag.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 466,
+      "cost": 20,
+      "title": ""
+    },
+    {
+      "id": 467,
+      "cost": 35,
+      "title": ""
+    },
+    {
+      "id": 468,
+      "cost": 65,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/dtmf-dial",
+  "local_files": [
+    "dial.wav"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

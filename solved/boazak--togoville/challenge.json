@@ -1,0 +1,37 @@
+{
+  "id": 468,
+  "type": "team_instance",
+  "name": "boazak--togoville",
+  "value": 75,
+  "initial": 100,
+  "minimum": 50,
+  "decay": 25,
+  "solves": 19,
+  "solved_by_me": true,
+  "category": "web",
+  "tags": [
+    "web",
+    "easy",
+    "creator:KodjoDoDjango"
+  ],
+  "description": "> **Origine du nom :** Togoville, lieu de signature du traité de protectorat allemand en 1884 — ici on falsifie la « signature » (Host) pour détourner le lien de réinitialisation.\n\nTogoville est un portail interne. Son administrateur a oublié son mot de passe et utilise la fonctionnalité de réinitialisation par email.\n\nPour ce challenge, vous aurez besoin d'un serveur accessible depuis la machine du challenge (ex: `ngrok`, votre IP publique, ou la même machine en local).\n\nStuck? Hints are available (they cost a few points).",
+  "connection_info": "http://{host}:{port}/  (per-team instance; use the 'launch' button)",
+  "hints": [
+    {
+      "id": 1053,
+      "cost": 50,
+      "title": ""
+    },
+    {
+      "id": 1054,
+      "cost": 50,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/boazak--togoville",
+  "local_files": [
+    "README.md"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

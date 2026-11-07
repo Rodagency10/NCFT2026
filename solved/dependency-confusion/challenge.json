@@ -2,11 +2,11 @@
   "id": 203,
   "type": "dynamic",
   "name": "dependency-confusion",
-  "value": 131,
+  "value": 100,
   "initial": 300,
   "minimum": 100,
   "decay": 25,
-  "solves": 24,
+  "solves": 42,
   "solved_by_me": true,
   "category": "supplychain",
   "tags": [

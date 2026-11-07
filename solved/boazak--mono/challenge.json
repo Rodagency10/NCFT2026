@@ -1,0 +1,35 @@
+{
+  "id": 484,
+  "type": "team_instance",
+  "name": "boazak--mono",
+  "value": 342,
+  "initial": 400,
+  "minimum": 100,
+  "decay": 25,
+  "solves": 12,
+  "solved_by_me": true,
+  "category": "web",
+  "tags": [
+    "web",
+    "hard",
+    "creator:KodjoDoDjango"
+  ],
+  "description": "> **Origine du nom :** Le Mono, fleuve frontière entre le Togo et le Bénin — le proxy est la frontière à franchir.\n\nLe site web est accessible via un proxy maison qui relaie les requêtes vers un backend interne. Le flag est stocké sur le backend, sur une route `/admin-flag`, qui n'est pas exposée directement aux visiteurs.\n\nLe proxy fait des choix de parsing surprenants. Le backend aussi.\n\nStuck? Hints are available (they cost a few points).",
+  "connection_info": "http://{host}:{port}/  (per-team instance; use the 'launch' button)",
+  "hints": [
+    {
+      "id": 1078,
+      "cost": 200,
+      "title": ""
+    },
+    {
+      "id": 1079,
+      "cost": 200,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/boazak--mono",
+  "local_files": [],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

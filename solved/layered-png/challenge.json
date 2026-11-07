@@ -1,0 +1,45 @@
+{
+  "id": 195,
+  "type": "dynamic",
+  "name": "layered-png",
+  "value": 100,
+  "initial": 450,
+  "minimum": 100,
+  "decay": 20,
+  "solves": 21,
+  "solved_by_me": true,
+  "category": "stego",
+  "tags": [
+    "stego",
+    "lsb",
+    "multi-stage",
+    "hard",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "`layers.png` is a plain RGB gradient — or so it appears. The name is a hint\nthat there is more than one thing to peel back. Dig until you reach the flag.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 469,
+      "cost": 20,
+      "title": ""
+    },
+    {
+      "id": 470,
+      "cost": 35,
+      "title": ""
+    },
+    {
+      "id": 471,
+      "cost": 65,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/layered-png",
+  "local_files": [
+    "layers.png"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

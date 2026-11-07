@@ -1,0 +1,45 @@
+{
+  "id": 56,
+  "type": "dynamic",
+  "name": "glue-and-extend",
+  "value": 198,
+  "initial": 450,
+  "minimum": 100,
+  "decay": 20,
+  "solves": 18,
+  "solved_by_me": true,
+  "category": "crypto",
+  "tags": [
+    "crypto",
+    "hash",
+    "length-extension",
+    "hard",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "A gateway seals payloads under a key derived from a shared secret and the\ncommand being run. `token.txt` gives us one authorized command with its tag,\nthe admin suffix the gateway later tacked on to elevate that command, and the\nflag payload sealed under the elevated command's key.\n\nWe never learn the secret. Recover the flag.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 129,
+      "cost": 20,
+      "title": ""
+    },
+    {
+      "id": 130,
+      "cost": 40,
+      "title": ""
+    },
+    {
+      "id": 131,
+      "cost": 65,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/glue-and-extend",
+  "local_files": [
+    "token.txt"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

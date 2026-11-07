@@ -1,0 +1,45 @@
+{
+  "id": 167,
+  "type": "dynamic",
+  "name": "congruence-vault",
+  "value": 254,
+  "initial": 450,
+  "minimum": 100,
+  "decay": 20,
+  "solves": 16,
+  "solved_by_me": true,
+  "category": "ppc",
+  "tags": [
+    "ppc",
+    "number-theory",
+    "modular-arithmetic",
+    "hard",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "`system.txt` starts with a `CIPHER` blob, then lists 160 lines of three\nintegers `a b m`, each stating that `a * x` leaves remainder `b` when divided\nby `m`. Every line has exactly one solution `x` in `[0, m)`. Solve them all;\ntogether they unlock the cipher.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 396,
+      "cost": 22,
+      "title": ""
+    },
+    {
+      "id": 397,
+      "cost": 45,
+      "title": ""
+    },
+    {
+      "id": 398,
+      "cost": 68,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/congruence-vault",
+  "local_files": [
+    "system.txt"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

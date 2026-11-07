@@ -1,0 +1,23 @@
+{
+  "id": 494,
+  "type": "team_instance",
+  "name": "isid0r3--lockstep",
+  "value": 98,
+  "initial": 100,
+  "minimum": 50,
+  "decay": 25,
+  "solves": 6,
+  "solved_by_me": true,
+  "category": "web",
+  "tags": [
+    "web",
+    "creator:isid0r3"
+  ],
+  "description": "Lockstep est un espace de travail d'entreprise qui regroupe quelques outils internes, dont un service de prévisualisation d'URL utilisé par l'équipe contenu pour inspecter des médias externes. L'accès administrateur, lui, reste fermé aux simples membres. Connecte-toi avec le compte de démonstration `amina` / `welcome2026`, lance l'instance (bouton Démarrer) et rends-toi à l'adresse affichée, puis explore ce que l'outil de prévisualisation est prêt à aller récupérer pour toi.\n",
+  "connection_info": "http://{host}:{port}/  (per-team instance; use the 'launch' button)",
+  "hints": [],
+  "local_folder": "solved/isid0r3--lockstep",
+  "local_files": [],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

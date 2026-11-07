@@ -1,0 +1,42 @@
+{
+  "id": 61,
+  "type": "dynamic",
+  "name": "nonce-sense",
+  "value": 50,
+  "initial": 150,
+  "minimum": 50,
+  "decay": 30,
+  "solves": 39,
+  "solved_by_me": true,
+  "category": "crypto",
+  "tags": [
+    "crypto",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "A hardware signing device produced a batch of **ECDSA signatures over\nsecp256k1**, and we captured them in `capture.json` along with the device's\npublic key `Q`.\n\nThe device's random number generator is broken. That is all the hint you\nget about *how* it is broken -- the rest is in the numbers.\n\nEach entry is a signature `(r, s)` over a message `msg`, with the hash taken\nas `z = int(sha256(msg)) mod n` (secp256k1 group order `n`). Recover the\ndevice's **private key `d`**.\n\nStuck? Hints are available (they cost a few points).\n\n**Flag:** compute the private key `d`, format it as a 64-character lowercase\nhex string with `\"%064x\" % d`, and the flag is\n\n    NCTF{ sha256( that 64-char hex string ).hexdigest()[:32] }\n\nFlag format: `NCTF{<32 lowercase hex chars>}`\n",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 141,
+      "cost": 10,
+      "title": ""
+    },
+    {
+      "id": 142,
+      "cost": 15,
+      "title": ""
+    },
+    {
+      "id": 143,
+      "cost": 25,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/nonce-sense",
+  "local_files": [
+    "capture.json"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

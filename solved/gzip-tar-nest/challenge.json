@@ -1,0 +1,40 @@
+{
+  "id": 100,
+  "type": "dynamic",
+  "name": "gzip-tar-nest",
+  "value": 50,
+  "initial": 150,
+  "minimum": 50,
+  "decay": 35,
+  "solves": 37,
+  "solved_by_me": true,
+  "category": "forensics",
+  "tags": [
+    "forensics",
+    "archive",
+    "nested",
+    "easy",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "A \"parcel\" (`parcel.tar.gz`) was intercepted leaving the network. It looks\nlike an ordinary compressed archive, but whoever packed it really did not want\nthe contents read at a glance.\n\nUnpack it completely and follow the trail to the file at the very center.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 224,
+      "cost": 10,
+      "title": ""
+    },
+    {
+      "id": 225,
+      "cost": 15,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/gzip-tar-nest",
+  "local_files": [
+    "parcel.tar.gz"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

@@ -1,0 +1,46 @@
+{
+  "id": 139,
+  "type": "dynamic",
+  "name": "surrogate-fit",
+  "value": 208,
+  "initial": 300,
+  "minimum": 100,
+  "decay": 25,
+  "solves": 18,
+  "solved_by_me": true,
+  "category": "ml",
+  "tags": [
+    "ml",
+    "model-extraction",
+    "regression",
+    "medium",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "A hidden model is a black box: you feed it a vector, it returns a number.\n`query_log.npz` is a captured log of inputs `X` and the exact outputs `y` the\nmodel returned for them, collected within a fixed query budget. Reconstruct the\nmodel well enough to read out its internal parameters -- they are the flag.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 321,
+      "cost": 15,
+      "title": ""
+    },
+    {
+      "id": 322,
+      "cost": 30,
+      "title": ""
+    },
+    {
+      "id": 323,
+      "cost": 45,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/surrogate-fit",
+  "local_files": [
+    "query_log.npz",
+    "README.md"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

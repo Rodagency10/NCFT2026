@@ -1,0 +1,41 @@
+{
+  "id": 55,
+  "type": "dynamic",
+  "name": "fermat-twins",
+  "value": 50,
+  "initial": 150,
+  "minimum": 50,
+  "decay": 35,
+  "solves": 45,
+  "solved_by_me": true,
+  "category": "crypto",
+  "tags": [
+    "crypto",
+    "rsa",
+    "fermat",
+    "easy",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "A 1024-bit RSA public key `pubkey.pem` and a hex ciphertext `ciphertext.txt`. The message was encrypted with textbook RSA (no padding) and it is the flag.\n\nRecover the plaintext.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 127,
+      "cost": 10,
+      "title": ""
+    },
+    {
+      "id": 128,
+      "cost": 20,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/fermat-twins",
+  "local_files": [
+    "pubkey.pem",
+    "ciphertext.txt"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

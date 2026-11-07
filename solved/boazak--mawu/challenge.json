@@ -1,0 +1,42 @@
+{
+  "id": 409,
+  "type": "dynamic",
+  "name": "boazak--mawu",
+  "value": 170,
+  "initial": 200,
+  "minimum": 66,
+  "decay": 25,
+  "solves": 13,
+  "solved_by_me": true,
+  "category": "crypto",
+  "tags": [
+    "crypto",
+    "medium",
+    "creator:KodjoDoDjango"
+  ],
+  "description": "> **Origine du nom :** Mawu est le dieu suprême chez les Éwé — un seul dieu pour tous, et ici un seul module pour tous.\n\nDeux messages ont été chiffrés avec le **même module RSA `n`** mais des exposants différents `e1` et `e2`. Bezout permet de reconstruire le plaintext sans factoriser sous une condition : c'est l'attaque dite du **common modulus**.\n\nParviendrez-vous à lire le message ?\n\nStuck? Hints are available (they cost a few points).",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 944,
+      "cost": 100,
+      "title": ""
+    },
+    {
+      "id": 945,
+      "cost": 60,
+      "title": ""
+    },
+    {
+      "id": 946,
+      "cost": 20,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/boazak--mawu",
+  "local_files": [
+    "challenge.txt"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

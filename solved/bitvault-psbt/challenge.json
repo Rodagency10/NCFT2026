@@ -1,0 +1,50 @@
+{
+  "id": 537,
+  "type": "dynamic",
+  "name": "bitvault-psbt",
+  "value": 325,
+  "initial": 350,
+  "minimum": 100,
+  "decay": 25,
+  "solves": 9,
+  "solved_by_me": true,
+  "category": "blockchain",
+  "tags": [
+    "blockchain",
+    "psbt",
+    "parser-differential",
+    "medium",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "**BitVault**'s treasury moves funds through a 2-of-2 co-signer. Every payout\nis screened against the operation the desk approved and only then relayed to\nthe network. Last cycle a routine payroll payout was co-signed -- and what\nsettled on-chain instead swept the whole treasury to an address nobody\nrecognizes.\n\nYou have the full co-signer stack and the forensic trail:\n\n    ENVELOPE_FORMAT.md    the BVLT-COSIGN/2 co-sign envelope format\n    treasury_screen.py    the policy screen (authorizer)\n    settlement_relay.py   the settlement relay (broadcaster)\n    cosigner.py           the pipeline + the sealed post-mortem note\n    signed_draft.txt      the co-signed benign payroll draft\n    incident_brief.md     the drain output recovered from the node\n\nNo server is running. The desk's post-mortem note is sealed under the\nsettlement the co-signer *actually relayed*; reconstruct that settlement from\nthe shipped files alone and recover the note.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 1178,
+      "cost": 22,
+      "title": ""
+    },
+    {
+      "id": 1179,
+      "cost": 45,
+      "title": ""
+    },
+    {
+      "id": 1180,
+      "cost": 65,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/bitvault-psbt",
+  "local_files": [
+    "ENVELOPE_FORMAT.md",
+    "treasury_screen.py",
+    "settlement_relay.py",
+    "cosigner.py",
+    "signed_draft.txt",
+    "incident_brief.md"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

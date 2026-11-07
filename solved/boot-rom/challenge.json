@@ -1,0 +1,46 @@
+{
+  "id": 109,
+  "type": "dynamic",
+  "name": "boot-rom",
+  "value": 279,
+  "initial": 450,
+  "minimum": 100,
+  "decay": 20,
+  "solves": 15,
+  "solved_by_me": true,
+  "category": "hardware",
+  "tags": [
+    "hardware",
+    "vm",
+    "reverse",
+    "hard",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "`rom.bin` is the boot ROM of a tiny custom 8-bit processor. `ISA.md` documents\nthe machine: its registers, its flat memory, and its whole instruction set.\nWhen the chip powers on it runs this ROM from address 0 and prints something to\nits output port.\n\nBuild the machine, run the ROM, and read what it prints. That output is the\nflag.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 250,
+      "cost": 25,
+      "title": ""
+    },
+    {
+      "id": 251,
+      "cost": 45,
+      "title": ""
+    },
+    {
+      "id": 252,
+      "cost": 65,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/boot-rom",
+  "local_files": [
+    "rom.bin",
+    "ISA.md"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

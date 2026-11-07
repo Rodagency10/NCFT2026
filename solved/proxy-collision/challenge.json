@@ -1,0 +1,42 @@
+{
+  "id": 15,
+  "type": "dynamic",
+  "name": "proxy-collision",
+  "value": 246,
+  "initial": 300,
+  "minimum": 100,
+  "decay": 25,
+  "solves": 14,
+  "solved_by_me": true,
+  "category": "blockchain",
+  "tags": [
+    "blockchain",
+    "evm",
+    "delegatecall",
+    "medium",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "You get an upgradeable `Proxy.sol`, its `Logic.sol` implementation, and\na raw storage dump of the proxy (`proxy_storage.json`). One slot holds\nthe note you want. Work out the storage layout to read it.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 39,
+      "cost": 15,
+      "title": ""
+    },
+    {
+      "id": 40,
+      "cost": 30,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/proxy-collision",
+  "local_files": [
+    "Proxy.sol",
+    "Logic.sol",
+    "proxy_storage.json"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

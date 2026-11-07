@@ -1,0 +1,45 @@
+{
+  "id": 168,
+  "type": "dynamic",
+  "name": "dijkstra-relay",
+  "value": 228,
+  "initial": 300,
+  "minimum": 100,
+  "decay": 25,
+  "solves": 16,
+  "solved_by_me": true,
+  "category": "ppc",
+  "tags": [
+    "ppc",
+    "graph",
+    "shortest-path",
+    "medium",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "`graph.txt` describes a directed weighted graph: a header with node/edge\ncounts, a source and a target node, one label character per node, and the\nedge list. Travel from the source to the target as cheaply as possible; the\nlabels of the nodes you pass through, in order, spell the flag.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 399,
+      "cost": 15,
+      "title": ""
+    },
+    {
+      "id": 400,
+      "cost": 30,
+      "title": ""
+    },
+    {
+      "id": 401,
+      "cost": 45,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/dijkstra-relay",
+  "local_files": [
+    "graph.txt"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

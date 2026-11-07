@@ -2,11 +2,11 @@
   "id": 32,
   "type": "dynamic",
   "name": "gcp-token-scope",
-  "value": 159,
+  "value": 100,
   "initial": 300,
   "minimum": 100,
   "decay": 25,
-  "solves": 22,
+  "solves": 30,
   "solved_by_me": true,
   "category": "cloud",
   "tags": [

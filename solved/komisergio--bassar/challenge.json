@@ -2,11 +2,11 @@
   "id": 501,
   "type": "team_instance",
   "name": "komisergio--bassar",
-  "value": 337,
+  "value": 316,
   "initial": 500,
   "minimum": 100,
   "decay": 25,
-  "solves": 17,
+  "solves": 18,
   "solved_by_me": true,
   "category": "boot2root",
   "tags": [

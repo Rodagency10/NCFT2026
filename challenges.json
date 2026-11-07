@@ -7,7 +7,7 @@
     "initial": 300,
     "minimum": 100,
     "decay": 25,
-    "solves": 51,
+    "solves": 53,
     "solved_by_me": true,
     "category": "ai",
     "tags": [
@@ -52,7 +52,7 @@
     "initial": 300,
     "minimum": 100,
     "decay": 25,
-    "solves": 52,
+    "solves": 53,
     "solved_by_me": true,
     "category": "ai",
     "tags": [
@@ -97,7 +97,7 @@
     "initial": 100,
     "minimum": 50,
     "decay": 40,
-    "solves": 58,
+    "solves": 60,
     "solved_by_me": true,
     "category": "ai",
     "tags": [
@@ -154,7 +154,7 @@
     "initial": 150,
     "minimum": 50,
     "decay": 35,
-    "solves": 54,
+    "solves": 55,
     "solved_by_me": true,
     "category": "ai",
     "tags": [
@@ -199,7 +199,7 @@
     "initial": 450,
     "minimum": 100,
     "decay": 20,
-    "solves": 52,
+    "solves": 53,
     "solved_by_me": true,
     "category": "ai",
     "tags": [
@@ -244,7 +244,7 @@
     "initial": 150,
     "minimum": 50,
     "decay": 35,
-    "solves": 55,
+    "solves": 56,
     "solved_by_me": true,
     "category": "ai",
     "tags": [
@@ -289,7 +289,7 @@
     "initial": 300,
     "minimum": 100,
     "decay": 25,
-    "solves": 52,
+    "solves": 53,
     "solved_by_me": true,
     "category": "ai",
     "tags": [
@@ -330,11 +330,11 @@
     "id": 9,
     "type": "dynamic",
     "name": "allowance-drift",
-    "value": 82,
+    "value": 56,
     "initial": 150,
     "minimum": 50,
     "decay": 35,
-    "solves": 30,
+    "solves": 35,
     "solved_by_me": true,
     "category": "blockchain",
     "tags": [
@@ -371,11 +371,11 @@
     "id": 10,
     "type": "dynamic",
     "name": "block-oracle",
-    "value": 56,
+    "value": 50,
     "initial": 150,
     "minimum": 50,
     "decay": 35,
-    "solves": 35,
+    "solves": 42,
     "solved_by_me": true,
     "category": "blockchain",
     "tags": [
@@ -466,12 +466,12 @@
     "id": 19,
     "type": "team_instance",
     "name": "artifacts-prefix",
-    "value": 450,
+    "value": 248,
     "initial": 450,
     "minimum": 100,
     "decay": 25,
-    "solves": 0,
-    "solved_by_me": false,
+    "solves": 20,
+    "solved_by_me": true,
     "category": "cloud",
     "tags": [
       "cloud",
@@ -492,7 +492,7 @@
         "title": ""
       }
     ],
-    "local_folder": "Unsolved/artifacts-prefix",
+    "local_folder": "solved/artifacts-prefix",
     "local_files": [],
     "files_downloaded": true,
     "source": "https://arena.ctf.tg/api/v1/challenges"
@@ -501,11 +501,11 @@
     "id": 32,
     "type": "dynamic",
     "name": "gcp-token-scope",
-    "value": 159,
+    "value": 100,
     "initial": 300,
     "minimum": 100,
     "decay": 25,
-    "solves": 22,
+    "solves": 30,
     "solved_by_me": true,
     "category": "cloud",
     "tags": [
@@ -551,11 +551,11 @@
     "id": 36,
     "type": "dynamic",
     "name": "imds-ssrf",
-    "value": 82,
+    "value": 67,
     "initial": 150,
     "minimum": 50,
     "decay": 35,
-    "solves": 30,
+    "solves": 33,
     "solved_by_me": true,
     "category": "cloud",
     "tags": [
@@ -597,7 +597,7 @@
     "initial": 100,
     "minimum": 50,
     "decay": 40,
-    "solves": 50,
+    "solves": 55,
     "solved_by_me": true,
     "category": "cloud",
     "tags": [
@@ -655,11 +655,11 @@
     "id": 50,
     "type": "dynamic",
     "name": "sub-wildcard",
-    "value": 99,
+    "value": 62,
     "initial": 150,
     "minimum": 50,
     "decay": 35,
-    "solves": 26,
+    "solves": 34,
     "solved_by_me": true,
     "category": "cloud",
     "tags": [
@@ -705,11 +705,11 @@
     "id": 51,
     "type": "dynamic",
     "name": "trail-of-keys",
-    "value": 208,
+    "value": 100,
     "initial": 300,
     "minimum": 100,
     "decay": 25,
-    "solves": 18,
+    "solves": 29,
     "solved_by_me": true,
     "category": "cloud",
     "tags": [
@@ -756,7 +756,7 @@
     "initial": 100,
     "minimum": 50,
     "decay": 40,
-    "solves": 53,
+    "solves": 58,
     "solved_by_me": true,
     "category": "crypto",
     "tags": [
@@ -796,7 +796,7 @@
     "initial": 100,
     "minimum": 50,
     "decay": 40,
-    "solves": 41,
+    "solves": 46,
     "solved_by_me": true,
     "category": "forensics",
     "tags": [
@@ -893,7 +893,7 @@
     "initial": 100,
     "minimum": 50,
     "decay": 40,
-    "solves": 46,
+    "solves": 50,
     "solved_by_me": true,
     "category": "hardware",
     "tags": [
@@ -933,7 +933,7 @@
     "initial": 300,
     "minimum": 100,
     "decay": 25,
-    "solves": 38,
+    "solves": 46,
     "solved_by_me": true,
     "category": "ppc",
     "tags": [
@@ -973,7 +973,7 @@
     "initial": 100,
     "minimum": 50,
     "decay": 25,
-    "solves": 54,
+    "solves": 55,
     "solved_by_me": true,
     "category": "forensics",
     "tags": [
@@ -1024,7 +1024,7 @@
     "initial": 100,
     "minimum": 50,
     "decay": 40,
-    "solves": 46,
+    "solves": 47,
     "solved_by_me": true,
     "category": "forensics",
     "tags": [
@@ -1064,7 +1064,7 @@
     "initial": 150,
     "minimum": 50,
     "decay": 35,
-    "solves": 42,
+    "solves": 44,
     "solved_by_me": true,
     "category": "ml",
     "tags": [
@@ -1105,7 +1105,7 @@
     "initial": 150,
     "minimum": 50,
     "decay": 35,
-    "solves": 43,
+    "solves": 46,
     "solved_by_me": true,
     "category": "ml",
     "tags": [
@@ -1196,7 +1196,7 @@
     "initial": 150,
     "minimum": 50,
     "decay": 35,
-    "solves": 45,
+    "solves": 47,
     "solved_by_me": true,
     "category": "mobile",
     "tags": [
@@ -1236,7 +1236,7 @@
     "initial": 100,
     "minimum": 50,
     "decay": 40,
-    "solves": 53,
+    "solves": 54,
     "solved_by_me": true,
     "category": "mobile",
     "tags": [
@@ -1288,7 +1288,7 @@
     "initial": 150,
     "minimum": 50,
     "decay": 35,
-    "solves": 49,
+    "solves": 52,
     "solved_by_me": true,
     "category": "networking",
     "tags": [
@@ -1333,7 +1333,7 @@
     "initial": 150,
     "minimum": 50,
     "decay": 35,
-    "solves": 41,
+    "solves": 49,
     "solved_by_me": true,
     "category": "networking",
     "tags": [
@@ -1378,7 +1378,7 @@
     "initial": 100,
     "minimum": 50,
     "decay": 40,
-    "solves": 54,
+    "solves": 56,
     "solved_by_me": true,
     "category": "networking",
     "tags": [
@@ -1483,7 +1483,7 @@
     "initial": 150,
     "minimum": 50,
     "decay": 35,
-    "solves": 44,
+    "solves": 47,
     "solved_by_me": true,
     "category": "osint",
     "tags": [
@@ -1533,7 +1533,7 @@
     "initial": 150,
     "minimum": 50,
     "decay": 35,
-    "solves": 54,
+    "solves": 56,
     "solved_by_me": true,
     "category": "ppc",
     "tags": [
@@ -1573,7 +1573,7 @@
     "initial": 150,
     "minimum": 50,
     "decay": 35,
-    "solves": 45,
+    "solves": 49,
     "solved_by_me": true,
     "category": "ppc",
     "tags": [
@@ -1613,7 +1613,7 @@
     "initial": 150,
     "minimum": 50,
     "decay": 35,
-    "solves": 45,
+    "solves": 47,
     "solved_by_me": true,
     "category": "pwn",
     "tags": [
@@ -1649,11 +1649,11 @@
     "id": 178,
     "type": "dynamic",
     "name": "off-by-one-auth",
-    "value": 77,
+    "value": 50,
     "initial": 150,
     "minimum": 50,
     "decay": 35,
-    "solves": 31,
+    "solves": 42,
     "solved_by_me": true,
     "category": "pwn",
     "tags": [
@@ -1693,7 +1693,7 @@
     "initial": 100,
     "minimum": 50,
     "decay": 40,
-    "solves": 53,
+    "solves": 54,
     "solved_by_me": true,
     "category": "pwn",
     "tags": [
@@ -1772,7 +1772,7 @@
     "initial": 150,
     "minimum": 50,
     "decay": 35,
-    "solves": 46,
+    "solves": 48,
     "solved_by_me": true,
     "category": "reverse",
     "tags": [
@@ -1811,7 +1811,7 @@
     "initial": 150,
     "minimum": 50,
     "decay": 30,
-    "solves": 42,
+    "solves": 45,
     "solved_by_me": true,
     "category": "reverse",
     "tags": [
@@ -1845,11 +1845,11 @@
     "id": 193,
     "type": "dynamic",
     "name": "triple-wrap",
-    "value": 77,
+    "value": 50,
     "initial": 150,
     "minimum": 50,
     "decay": 35,
-    "solves": 31,
+    "solves": 44,
     "solved_by_me": true,
     "category": "reverse",
     "tags": [
@@ -1888,7 +1888,7 @@
     "initial": 100,
     "minimum": 50,
     "decay": 40,
-    "solves": 44,
+    "solves": 47,
     "solved_by_me": true,
     "category": "stego",
     "tags": [
@@ -1924,11 +1924,11 @@
     "id": 197,
     "type": "dynamic",
     "name": "png-text-chunk",
-    "value": 86,
+    "value": 50,
     "initial": 150,
     "minimum": 50,
     "decay": 35,
-    "solves": 29,
+    "solves": 40,
     "solved_by_me": true,
     "category": "stego",
     "tags": [
@@ -1968,7 +1968,7 @@
     "initial": 100,
     "minimum": 50,
     "decay": 40,
-    "solves": 44,
+    "solves": 48,
     "solved_by_me": true,
     "category": "stego",
     "tags": [
@@ -2008,7 +2008,7 @@
     "initial": 150,
     "minimum": 50,
     "decay": 35,
-    "solves": 47,
+    "solves": 48,
     "solved_by_me": true,
     "category": "supplychain",
     "tags": [
@@ -2049,11 +2049,11 @@
     "id": 203,
     "type": "dynamic",
     "name": "dependency-confusion",
-    "value": 131,
+    "value": 100,
     "initial": 300,
     "minimum": 100,
     "decay": 25,
-    "solves": 24,
+    "solves": 42,
     "solved_by_me": true,
     "category": "supplychain",
     "tags": [
@@ -2101,7 +2101,7 @@
     "initial": 150,
     "minimum": 50,
     "decay": 35,
-    "solves": 42,
+    "solves": 43,
     "solved_by_me": true,
     "category": "supplychain",
     "tags": [
@@ -2142,11 +2142,11 @@
     "id": 211,
     "type": "dynamic",
     "name": "typosquat-lockfile",
-    "value": 67,
+    "value": 50,
     "initial": 150,
     "minimum": 50,
     "decay": 35,
-    "solves": 33,
+    "solves": 39,
     "solved_by_me": true,
     "category": "supplychain",
     "tags": [
@@ -2191,7 +2191,7 @@
     "initial": 150,
     "minimum": 50,
     "decay": 35,
-    "solves": 40,
+    "solves": 45,
     "solved_by_me": true,
     "category": "sysadmin",
     "tags": [
@@ -2234,7 +2234,7 @@
     "initial": 100,
     "minimum": 50,
     "decay": 40,
-    "solves": 53,
+    "solves": 55,
     "solved_by_me": true,
     "category": "sysadmin",
     "tags": [
@@ -2275,7 +2275,7 @@
     "initial": 100,
     "minimum": 50,
     "decay": 40,
-    "solves": 47,
+    "solves": 51,
     "solved_by_me": true,
     "category": "sysadmin",
     "tags": [
@@ -2446,7 +2446,7 @@
     "initial": 50,
     "minimum": 25,
     "decay": 30,
-    "solves": 60,
+    "solves": 61,
     "solved_by_me": true,
     "category": "warmup",
     "tags": [
@@ -2493,7 +2493,7 @@
     "initial": 50,
     "minimum": 25,
     "decay": 30,
-    "solves": 60,
+    "solves": 61,
     "solved_by_me": true,
     "category": "warmup",
     "tags": [
@@ -2534,7 +2534,7 @@
     "initial": 50,
     "minimum": 25,
     "decay": 30,
-    "solves": 60,
+    "solves": 61,
     "solved_by_me": true,
     "category": "warmup",
     "tags": [
@@ -2616,7 +2616,7 @@
     "initial": 50,
     "minimum": 25,
     "decay": 30,
-    "solves": 60,
+    "solves": 61,
     "solved_by_me": true,
     "category": "warmup",
     "tags": [
@@ -2657,7 +2657,7 @@
     "initial": 50,
     "minimum": 25,
     "decay": 30,
-    "solves": 60,
+    "solves": 62,
     "solved_by_me": true,
     "category": "warmup",
     "tags": [
@@ -2698,7 +2698,7 @@
     "initial": 50,
     "minimum": 25,
     "decay": 30,
-    "solves": 60,
+    "solves": 61,
     "solved_by_me": true,
     "category": "warmup",
     "tags": [
@@ -2739,7 +2739,7 @@
     "initial": 50,
     "minimum": 25,
     "decay": 30,
-    "solves": 61,
+    "solves": 62,
     "solved_by_me": true,
     "category": "warmup",
     "tags": [
@@ -2780,7 +2780,7 @@
     "initial": 50,
     "minimum": 25,
     "decay": 30,
-    "solves": 60,
+    "solves": 61,
     "solved_by_me": true,
     "category": "warmup",
     "tags": [
@@ -2827,7 +2827,7 @@
     "initial": 50,
     "minimum": 25,
     "decay": 30,
-    "solves": 58,
+    "solves": 60,
     "solved_by_me": true,
     "category": "warmup",
     "tags": [
@@ -2868,7 +2868,7 @@
     "initial": 50,
     "minimum": 25,
     "decay": 30,
-    "solves": 61,
+    "solves": 62,
     "solved_by_me": true,
     "category": "warmup",
     "tags": [
@@ -2909,7 +2909,7 @@
     "initial": 50,
     "minimum": 25,
     "decay": 30,
-    "solves": 57,
+    "solves": 59,
     "solved_by_me": true,
     "category": "warmup",
     "tags": [
@@ -2950,7 +2950,7 @@
     "initial": 50,
     "minimum": 25,
     "decay": 30,
-    "solves": 56,
+    "solves": 58,
     "solved_by_me": true,
     "category": "warmup",
     "tags": [
@@ -2997,7 +2997,7 @@
     "initial": 100,
     "minimum": 50,
     "decay": 30,
-    "solves": 56,
+    "solves": 57,
     "solved_by_me": true,
     "category": "ai",
     "tags": [
@@ -3045,7 +3045,7 @@
     "initial": 450,
     "minimum": 100,
     "decay": 25,
-    "solves": 42,
+    "solves": 46,
     "solved_by_me": true,
     "category": "chains",
     "tags": [
@@ -3086,7 +3086,7 @@
     "initial": 500,
     "minimum": 100,
     "decay": 25,
-    "solves": 34,
+    "solves": 38,
     "solved_by_me": true,
     "category": "chains",
     "tags": [
@@ -3121,7 +3121,7 @@
     "initial": 150,
     "minimum": 150,
     "decay": 30,
-    "solves": 28,
+    "solves": 30,
     "solved_by_me": true,
     "category": "ai",
     "tags": [
@@ -3163,7 +3163,7 @@
     "initial": 150,
     "minimum": 150,
     "decay": 45,
-    "solves": 26,
+    "solves": 28,
     "solved_by_me": true,
     "category": "ai",
     "tags": [
@@ -3205,8 +3205,8 @@
     "initial": 150,
     "minimum": 150,
     "decay": 25,
-    "solves": 13,
-    "solved_by_me": false,
+    "solves": 15,
+    "solved_by_me": true,
     "category": "ai",
     "tags": [
       "ai",
@@ -3234,7 +3234,7 @@
         "title": ""
       }
     ],
-    "local_folder": "Unsolved/ai3-tool-abuse",
+    "local_folder": "solved/ai3-tool-abuse",
     "local_files": [],
     "files_downloaded": false,
     "source": "https://arena.ctf.tg/api/v1/challenges"
@@ -3285,12 +3285,12 @@
     "id": 377,
     "type": "team_instance",
     "name": "boot2root-linux",
-    "value": 400,
+    "value": 304,
     "initial": 500,
     "minimum": 100,
     "decay": 20,
-    "solves": 11,
-    "solved_by_me": false,
+    "solves": 15,
+    "solved_by_me": true,
     "category": "boot2root",
     "tags": [
       "pwn",
@@ -3319,7 +3319,7 @@
         "title": ""
       }
     ],
-    "local_folder": "Unsolved/boot2root-linux",
+    "local_folder": "solved/boot2root-linux",
     "local_files": [],
     "files_downloaded": true,
     "source": "https://arena.ctf.tg/api/v1/challenges"
@@ -3371,12 +3371,12 @@
     "id": 380,
     "type": "team_instance",
     "name": "boot2root-ssh",
-    "value": 362,
+    "value": 342,
     "initial": 400,
     "minimum": 100,
     "decay": 25,
-    "solves": 10,
-    "solved_by_me": false,
+    "solves": 12,
+    "solved_by_me": true,
     "category": "boot2root",
     "tags": [
       "pwn",
@@ -3406,7 +3406,7 @@
         "title": ""
       }
     ],
-    "local_folder": "Unsolved/boot2root-ssh",
+    "local_folder": "solved/boot2root-ssh",
     "local_files": [],
     "files_downloaded": true,
     "source": "https://arena.ctf.tg/api/v1/challenges"
@@ -3415,12 +3415,12 @@
     "id": 381,
     "type": "team_instance",
     "name": "boot2root-c2",
-    "value": 475,
+    "value": 331,
     "initial": 500,
     "minimum": 100,
     "decay": 20,
-    "solves": 6,
-    "solved_by_me": false,
+    "solves": 14,
+    "solved_by_me": true,
     "category": "boot2root",
     "tags": [
       "pwn",
@@ -3449,7 +3449,7 @@
         "title": ""
       }
     ],
-    "local_folder": "Unsolved/boot2root-c2",
+    "local_folder": "solved/boot2root-c2",
     "local_files": [],
     "files_downloaded": true,
     "source": "https://arena.ctf.tg/api/v1/challenges"
@@ -3462,7 +3462,7 @@
     "initial": 150,
     "minimum": 150,
     "decay": 25,
-    "solves": 27,
+    "solves": 29,
     "solved_by_me": true,
     "category": "ml",
     "tags": [
@@ -3562,7 +3562,7 @@
     "initial": 150,
     "minimum": 150,
     "decay": 25,
-    "solves": 26,
+    "solves": 27,
     "solved_by_me": true,
     "category": "ml",
     "tags": [
@@ -3607,7 +3607,7 @@
     "initial": 150,
     "minimum": 50,
     "decay": 25,
-    "solves": 29,
+    "solves": 49,
     "solved_by_me": true,
     "category": "crypto",
     "tags": [
@@ -3650,12 +3650,12 @@
     "id": 398,
     "type": "team_instance",
     "name": "boazak--atike",
-    "value": 300,
+    "value": 254,
     "initial": 300,
     "minimum": 100,
     "decay": 25,
-    "solves": 0,
-    "solved_by_me": false,
+    "solves": 13,
+    "solved_by_me": true,
     "category": "crypto",
     "tags": [
       "crypto",
@@ -3681,7 +3681,7 @@
         "title": ""
       }
     ],
-    "local_folder": "Unsolved/boazak--atike",
+    "local_folder": "solved/boazak--atike",
     "local_files": [],
     "files_downloaded": true,
     "source": "https://arena.ctf.tg/api/v1/challenges"
@@ -3694,7 +3694,7 @@
     "initial": 250,
     "minimum": 83,
     "decay": 25,
-    "solves": 43,
+    "solves": 50,
     "solved_by_me": true,
     "category": "crypto",
     "tags": [
@@ -3736,7 +3736,7 @@
     "initial": 250,
     "minimum": 83,
     "decay": 25,
-    "solves": 40,
+    "solves": 48,
     "solved_by_me": true,
     "category": "crypto",
     "tags": [
@@ -3819,12 +3819,12 @@
     "id": 402,
     "type": "team_instance",
     "name": "boazak--enye",
-    "value": 400,
+    "value": 342,
     "initial": 400,
     "minimum": 100,
     "decay": 25,
-    "solves": 0,
-    "solved_by_me": false,
+    "solves": 12,
+    "solved_by_me": true,
     "category": "crypto",
     "tags": [
       "crypto",
@@ -3855,7 +3855,7 @@
         "title": ""
       }
     ],
-    "local_folder": "Unsolved/boazak--enye",
+    "local_folder": "solved/boazak--enye",
     "local_files": [],
     "files_downloaded": true,
     "source": "https://arena.ctf.tg/api/v1/challenges"
@@ -3868,7 +3868,7 @@
     "initial": 300,
     "minimum": 100,
     "decay": 25,
-    "solves": 42,
+    "solves": 53,
     "solved_by_me": true,
     "category": "crypto",
     "tags": [
@@ -3910,7 +3910,7 @@
     "initial": 250,
     "minimum": 83,
     "decay": 25,
-    "solves": 40,
+    "solves": 47,
     "solved_by_me": true,
     "category": "crypto",
     "tags": [
@@ -3952,7 +3952,7 @@
     "initial": 400,
     "minimum": 100,
     "decay": 25,
-    "solves": 43,
+    "solves": 51,
     "solved_by_me": true,
     "category": "crypto",
     "tags": [
@@ -3990,12 +3990,12 @@
     "id": 407,
     "type": "team_instance",
     "name": "boazak--kpata",
-    "value": 500,
+    "value": 356,
     "initial": 500,
     "minimum": 100,
     "decay": 25,
-    "solves": 2,
-    "solved_by_me": false,
+    "solves": 16,
+    "solved_by_me": true,
     "category": "crypto",
     "tags": [
       "crypto",
@@ -4021,7 +4021,7 @@
         "title": ""
       }
     ],
-    "local_folder": "Unsolved/boazak--kpata",
+    "local_folder": "solved/boazak--kpata",
     "local_files": [],
     "files_downloaded": true,
     "source": "https://arena.ctf.tg/api/v1/challenges"
@@ -4074,7 +4074,7 @@
     "initial": 250,
     "minimum": 83,
     "decay": 25,
-    "solves": 40,
+    "solves": 51,
     "solved_by_me": true,
     "category": "crypto",
     "tags": [
@@ -4116,7 +4116,7 @@
     "initial": 400,
     "minimum": 100,
     "decay": 25,
-    "solves": 33,
+    "solves": 46,
     "solved_by_me": true,
     "category": "crypto",
     "tags": [
@@ -4158,7 +4158,7 @@
     "initial": 100,
     "minimum": 50,
     "decay": 25,
-    "solves": 54,
+    "solves": 57,
     "solved_by_me": true,
     "category": "crypto",
     "tags": [
@@ -4195,7 +4195,7 @@
     "initial": 300,
     "minimum": 100,
     "decay": 25,
-    "solves": 41,
+    "solves": 50,
     "solved_by_me": true,
     "category": "crypto",
     "tags": [
@@ -4233,12 +4233,12 @@
     "id": 416,
     "type": "team_instance",
     "name": "boazak--yeye",
-    "value": 250,
+    "value": 212,
     "initial": 250,
     "minimum": 83,
     "decay": 25,
-    "solves": 1,
-    "solved_by_me": false,
+    "solves": 13,
+    "solved_by_me": true,
     "category": "crypto",
     "tags": [
       "crypto",
@@ -4264,7 +4264,7 @@
         "title": ""
       }
     ],
-    "local_folder": "Unsolved/boazak--yeye",
+    "local_folder": "solved/boazak--yeye",
     "local_files": [],
     "files_downloaded": true,
     "source": "https://arena.ctf.tg/api/v1/challenges"
@@ -4277,7 +4277,7 @@
     "initial": 400,
     "minimum": 100,
     "decay": 25,
-    "solves": 40,
+    "solves": 50,
     "solved_by_me": true,
     "category": "crypto",
     "tags": [
@@ -4319,7 +4319,7 @@
     "initial": 100,
     "minimum": 50,
     "decay": 25,
-    "solves": 49,
+    "solves": 56,
     "solved_by_me": true,
     "category": "crypto",
     "tags": [
@@ -4345,7 +4345,7 @@
     "initial": 100,
     "minimum": 50,
     "decay": 25,
-    "solves": 26,
+    "solves": 48,
     "solved_by_me": true,
     "category": "crypto",
     "tags": [
@@ -4367,11 +4367,11 @@
     "id": 423,
     "type": "dynamic",
     "name": "boazak--bras-arme",
-    "value": 173,
+    "value": 83,
     "initial": 250,
     "minimum": 83,
     "decay": 25,
-    "solves": 18,
+    "solves": 27,
     "solved_by_me": true,
     "category": "forensics",
     "tags": [
@@ -4419,7 +4419,7 @@
     "initial": 150,
     "minimum": 50,
     "decay": 25,
-    "solves": 31,
+    "solves": 43,
     "solved_by_me": true,
     "category": "forensics",
     "tags": [
@@ -4461,7 +4461,7 @@
     "initial": 150,
     "minimum": 50,
     "decay": 25,
-    "solves": 32,
+    "solves": 35,
     "solved_by_me": true,
     "category": "forensics",
     "tags": [
@@ -4524,7 +4524,7 @@
     "initial": 100,
     "minimum": 50,
     "decay": 25,
-    "solves": 30,
+    "solves": 41,
     "solved_by_me": true,
     "category": "forensics",
     "tags": [
@@ -4557,11 +4557,11 @@
     "id": 431,
     "type": "dynamic",
     "name": "thierry8petstar--exfiltrator",
-    "value": 58,
+    "value": 50,
     "initial": 100,
     "minimum": 50,
     "decay": 25,
-    "solves": 24,
+    "solves": 39,
     "solved_by_me": true,
     "category": "forensics",
     "tags": [
@@ -4587,7 +4587,7 @@
     "initial": 175,
     "minimum": 58,
     "decay": 25,
-    "solves": 29,
+    "solves": 30,
     "solved_by_me": true,
     "category": "forensics",
     "tags": [
@@ -4623,7 +4623,7 @@
     "initial": 100,
     "minimum": 50,
     "decay": 25,
-    "solves": 53,
+    "solves": 55,
     "solved_by_me": true,
     "category": "stego",
     "tags": [
@@ -4665,7 +4665,7 @@
     "initial": 100,
     "minimum": 50,
     "decay": 25,
-    "solves": 59,
+    "solves": 60,
     "solved_by_me": true,
     "category": "misc",
     "tags": [
@@ -4708,7 +4708,7 @@
     "initial": 150,
     "minimum": 150,
     "decay": 25,
-    "solves": 24,
+    "solves": 26,
     "solved_by_me": true,
     "category": "misc",
     "tags": [
@@ -4734,7 +4734,7 @@
     "initial": 100,
     "minimum": 50,
     "decay": 25,
-    "solves": 0,
+    "solves": 1,
     "solved_by_me": false,
     "category": "misc",
     "tags": [
@@ -4756,12 +4756,12 @@
     "id": 440,
     "type": "team_instance",
     "name": "boazak--agou",
-    "value": 246,
+    "value": 228,
     "initial": 300,
     "minimum": 100,
     "decay": 25,
-    "solves": 14,
-    "solved_by_me": false,
+    "solves": 16,
+    "solved_by_me": true,
     "category": "boot2root",
     "tags": [
       "os",
@@ -4797,7 +4797,7 @@
         "title": ""
       }
     ],
-    "local_folder": "Unsolved/boazak--agou",
+    "local_folder": "solved/boazak--agou",
     "local_files": [],
     "files_downloaded": true,
     "source": "https://arena.ctf.tg/api/v1/challenges"
@@ -4810,7 +4810,7 @@
     "initial": 175,
     "minimum": 58,
     "decay": 25,
-    "solves": 53,
+    "solves": 55,
     "solved_by_me": true,
     "category": "stego",
     "tags": [
@@ -4849,8 +4849,8 @@
     "initial": 250,
     "minimum": 83,
     "decay": 25,
-    "solves": 22,
-    "solved_by_me": false,
+    "solves": 25,
+    "solved_by_me": true,
     "category": "stego",
     "tags": [
       {
@@ -4872,7 +4872,7 @@
     "description": "Festival fictif Dapaong Terre & Fibres : affiche officielle + guide des motifs.\nRetrouve le message tissé destiné aux partenaires.",
     "connection_info": null,
     "hints": [],
-    "local_folder": "Unsolved/algorithme123--tisserands-dapaong",
+    "local_folder": "solved/algorithme123--tisserands-dapaong",
     "local_files": [
       "README_vitrine.txt",
       "affiche.png",
@@ -4885,12 +4885,12 @@
     "id": 450,
     "type": "team_instance",
     "name": "boazak--adeta",
-    "value": 150,
+    "value": 119,
     "initial": 150,
     "minimum": 50,
     "decay": 25,
-    "solves": 3,
-    "solved_by_me": false,
+    "solves": 15,
+    "solved_by_me": true,
     "category": "web",
     "tags": [
       "web",
@@ -4911,7 +4911,7 @@
         "title": ""
       }
     ],
-    "local_folder": "Unsolved/boazak--adeta",
+    "local_folder": "solved/boazak--adeta",
     "local_files": [
       "README.md"
     ],
@@ -4922,12 +4922,12 @@
     "id": 451,
     "type": "team_instance",
     "name": "boazak--agbodrafo",
-    "value": 300,
+    "value": 268,
     "initial": 300,
     "minimum": 100,
     "decay": 25,
-    "solves": 0,
-    "solved_by_me": false,
+    "solves": 11,
+    "solved_by_me": true,
     "category": "web",
     "tags": [
       "web",
@@ -4958,7 +4958,7 @@
         "title": ""
       }
     ],
-    "local_folder": "Unsolved/boazak--agbodrafo",
+    "local_folder": "solved/boazak--agbodrafo",
     "local_files": [],
     "files_downloaded": true,
     "source": "https://arena.ctf.tg/api/v1/challenges"
@@ -4967,12 +4967,12 @@
     "id": 452,
     "type": "team_instance",
     "name": "boazak--agoe",
-    "value": 148,
+    "value": 104,
     "initial": 150,
     "minimum": 50,
     "decay": 25,
-    "solves": 5,
-    "solved_by_me": false,
+    "solves": 18,
+    "solved_by_me": true,
     "category": "web",
     "tags": [
       "web",
@@ -4998,7 +4998,7 @@
         "title": ""
       }
     ],
-    "local_folder": "Unsolved/boazak--agoe",
+    "local_folder": "solved/boazak--agoe",
     "local_files": [
       "README.md"
     ],
@@ -5013,7 +5013,7 @@
     "initial": 100,
     "minimum": 50,
     "decay": 25,
-    "solves": 33,
+    "solves": 39,
     "solved_by_me": true,
     "category": "web",
     "tags": [
@@ -5051,12 +5051,12 @@
     "id": 454,
     "type": "team_instance",
     "name": "boazak--akodessewa",
-    "value": 400,
+    "value": 342,
     "initial": 400,
     "minimum": 100,
     "decay": 25,
-    "solves": 0,
-    "solved_by_me": false,
+    "solves": 12,
+    "solved_by_me": true,
     "category": "web",
     "tags": [
       "web",
@@ -5077,7 +5077,7 @@
         "title": ""
       }
     ],
-    "local_folder": "Unsolved/boazak--akodessewa",
+    "local_folder": "solved/boazak--akodessewa",
     "local_files": [
       "README.md"
     ],
@@ -5088,12 +5088,12 @@
     "id": 455,
     "type": "team_instance",
     "name": "boazak--aneho",
-    "value": 500,
+    "value": 477,
     "initial": 500,
     "minimum": 100,
     "decay": 25,
-    "solves": 0,
-    "solved_by_me": false,
+    "solves": 7,
+    "solved_by_me": true,
     "category": "web",
     "tags": [
       "web",
@@ -5124,7 +5124,7 @@
         "title": ""
       }
     ],
-    "local_folder": "Unsolved/boazak--aneho",
+    "local_folder": "solved/boazak--aneho",
     "local_files": [
       "README.md"
     ],
@@ -5135,12 +5135,12 @@
     "id": 456,
     "type": "team_instance",
     "name": "boazak--atakpame",
-    "value": 300,
+    "value": 228,
     "initial": 300,
     "minimum": 100,
     "decay": 25,
-    "solves": 2,
-    "solved_by_me": false,
+    "solves": 16,
+    "solved_by_me": true,
     "category": "web",
     "tags": [
       "web",
@@ -5161,7 +5161,7 @@
         "title": ""
       }
     ],
-    "local_folder": "Unsolved/boazak--atakpame",
+    "local_folder": "solved/boazak--atakpame",
     "local_files": [
       "README.md"
     ],
@@ -5172,12 +5172,12 @@
     "id": 457,
     "type": "team_instance",
     "name": "boazak--be",
-    "value": 300,
+    "value": 208,
     "initial": 300,
     "minimum": 100,
     "decay": 25,
-    "solves": 1,
-    "solved_by_me": false,
+    "solves": 18,
+    "solved_by_me": true,
     "category": "web",
     "tags": [
       "web",
@@ -5208,7 +5208,7 @@
         "title": ""
       }
     ],
-    "local_folder": "Unsolved/boazak--be",
+    "local_folder": "solved/boazak--be",
     "local_files": [],
     "files_downloaded": true,
     "source": "https://arena.ctf.tg/api/v1/challenges"
@@ -5221,7 +5221,7 @@
     "initial": 100,
     "minimum": 50,
     "decay": 25,
-    "solves": 27,
+    "solves": 33,
     "solved_by_me": true,
     "category": "web",
     "tags": [
@@ -5296,12 +5296,12 @@
     "id": 460,
     "type": "team_instance",
     "name": "boazak--kande",
-    "value": 200,
+    "value": 158,
     "initial": 200,
     "minimum": 66,
     "decay": 25,
-    "solves": 3,
-    "solved_by_me": false,
+    "solves": 15,
+    "solved_by_me": true,
     "category": "web",
     "tags": [
       "web",
@@ -5327,7 +5327,7 @@
         "title": ""
       }
     ],
-    "local_folder": "Unsolved/boazak--kande",
+    "local_folder": "solved/boazak--kande",
     "local_files": [
       "README.md"
     ],
@@ -5338,11 +5338,11 @@
     "id": 461,
     "type": "team_instance",
     "name": "boazak--klouto",
-    "value": 100,
+    "value": 98,
     "initial": 100,
     "minimum": 50,
     "decay": 25,
-    "solves": 4,
+    "solves": 7,
     "solved_by_me": true,
     "category": "web",
     "tags": [
@@ -5375,12 +5375,12 @@
     "id": 462,
     "type": "team_instance",
     "name": "boazak--koutammakou",
-    "value": 400,
+    "value": 377,
     "initial": 400,
     "minimum": 100,
     "decay": 25,
-    "solves": 0,
-    "solved_by_me": false,
+    "solves": 8,
+    "solved_by_me": true,
     "category": "web",
     "tags": [
       "web",
@@ -5401,7 +5401,7 @@
         "title": ""
       }
     ],
-    "local_folder": "Unsolved/boazak--koutammakou",
+    "local_folder": "solved/boazak--koutammakou",
     "local_files": [
       "README.md"
     ],
@@ -5412,12 +5412,12 @@
     "id": 466,
     "type": "team_instance",
     "name": "boazak--notse",
-    "value": 400,
+    "value": 383,
     "initial": 400,
     "minimum": 100,
     "decay": 25,
-    "solves": 0,
-    "solved_by_me": false,
+    "solves": 7,
+    "solved_by_me": true,
     "category": "web",
     "tags": [
       "web",
@@ -5438,7 +5438,7 @@
         "title": ""
       }
     ],
-    "local_folder": "Unsolved/boazak--notse",
+    "local_folder": "solved/boazak--notse",
     "local_files": [
       "README.md"
     ],
@@ -5449,12 +5449,12 @@
     "id": 467,
     "type": "team_instance",
     "name": "boazak--togbi",
-    "value": 400,
+    "value": 331,
     "initial": 400,
     "minimum": 100,
     "decay": 25,
-    "solves": 0,
-    "solved_by_me": false,
+    "solves": 13,
+    "solved_by_me": true,
     "category": "web",
     "tags": [
       "web",
@@ -5485,7 +5485,7 @@
         "title": ""
       }
     ],
-    "local_folder": "Unsolved/boazak--togbi",
+    "local_folder": "solved/boazak--togbi",
     "local_files": [
       "README.md"
     ],
@@ -5496,12 +5496,12 @@
     "id": 468,
     "type": "team_instance",
     "name": "boazak--togoville",
-    "value": 100,
+    "value": 75,
     "initial": 100,
     "minimum": 50,
     "decay": 25,
-    "solves": 0,
-    "solved_by_me": false,
+    "solves": 19,
+    "solved_by_me": true,
     "category": "web",
     "tags": [
       "web",
@@ -5522,7 +5522,7 @@
         "title": ""
       }
     ],
-    "local_folder": "Unsolved/boazak--togoville",
+    "local_folder": "solved/boazak--togoville",
     "local_files": [
       "README.md"
     ],
@@ -5533,12 +5533,12 @@
     "id": 470,
     "type": "team_instance",
     "name": "boazak--vogan",
-    "value": 400,
+    "value": 319,
     "initial": 400,
     "minimum": 100,
     "decay": 25,
-    "solves": 0,
-    "solved_by_me": false,
+    "solves": 14,
+    "solved_by_me": true,
     "category": "web",
     "tags": [
       "web",
@@ -5559,7 +5559,7 @@
         "title": ""
       }
     ],
-    "local_folder": "Unsolved/boazak--vogan",
+    "local_folder": "solved/boazak--vogan",
     "local_files": [
       "README.md"
     ],
@@ -5622,12 +5622,12 @@
     "id": 480,
     "type": "team_instance",
     "name": "boazak--sokode",
-    "value": 300,
+    "value": 219,
     "initial": 300,
     "minimum": 100,
     "decay": 25,
-    "solves": 0,
-    "solved_by_me": false,
+    "solves": 17,
+    "solved_by_me": true,
     "category": "web",
     "tags": [
       "web",
@@ -5648,7 +5648,7 @@
         "title": ""
       }
     ],
-    "local_folder": "Unsolved/boazak--sokode",
+    "local_folder": "solved/boazak--sokode",
     "local_files": [
       "README.md"
     ],
@@ -5659,12 +5659,12 @@
     "id": 481,
     "type": "team_instance",
     "name": "algorithme123--fret-savane-appui",
-    "value": 246,
+    "value": 238,
     "initial": 300,
     "minimum": 100,
     "decay": 25,
-    "solves": 14,
-    "solved_by_me": false,
+    "solves": 15,
+    "solved_by_me": true,
     "category": "boot2root",
     "tags": [
       "boot2root",
@@ -5678,7 +5678,7 @@
     "description": "Fret Savane exploite un petit serveur d'atelier IT entre Kara, Lomé et Cinkassé.\r\nDes partages et une base agents sont exposés sur le LAN. Retrouve le secret de badge\r\nlié au dernier export de manifeste entrepôt.\r\n\r\n<!-- nctf-connexion -->\r\n> 🔌 Ce challenge se joue **par le VPN de votre équipe** : voir [Se connecter aux instances](/connexion#vpn).\r\n",
     "connection_info": "{host}:{port}  (per-team instance; use the 'launch' button — every port is listed in the panel)",
     "hints": [],
-    "local_folder": "Unsolved/algorithme123--fret-savane-appui",
+    "local_folder": "solved/algorithme123--fret-savane-appui",
     "local_files": [],
     "files_downloaded": true,
     "source": "https://arena.ctf.tg/api/v1/challenges"
@@ -5687,12 +5687,12 @@
     "id": 483,
     "type": "team_instance",
     "name": "boazak--lome",
-    "value": 100,
+    "value": 82,
     "initial": null,
     "minimum": null,
     "decay": null,
-    "solves": 2,
-    "solved_by_me": false,
+    "solves": 16,
+    "solved_by_me": true,
     "category": "web",
     "tags": [
       "web",
@@ -5702,7 +5702,7 @@
     "description": "",
     "connection_info": null,
     "hints": [],
-    "local_folder": "Unsolved/boazak--lome",
+    "local_folder": "solved/boazak--lome",
     "local_files": [],
     "files_downloaded": false,
     "source": "https://arena.ctf.tg/api/v1/challenges"
@@ -5711,12 +5711,12 @@
     "id": 484,
     "type": "team_instance",
     "name": "boazak--mono",
-    "value": 400,
+    "value": 342,
     "initial": 400,
     "minimum": 100,
     "decay": 25,
-    "solves": 0,
-    "solved_by_me": false,
+    "solves": 12,
+    "solved_by_me": true,
     "category": "web",
     "tags": [
       "web",
@@ -5737,7 +5737,7 @@
         "title": ""
       }
     ],
-    "local_folder": "Unsolved/boazak--mono",
+    "local_folder": "solved/boazak--mono",
     "local_files": [],
     "files_downloaded": true,
     "source": "https://arena.ctf.tg/api/v1/challenges"
@@ -5746,11 +5746,11 @@
     "id": 485,
     "type": "team_instance",
     "name": "boazak--nangbeto",
-    "value": 400,
+    "value": 377,
     "initial": 400,
     "minimum": 100,
     "decay": 25,
-    "solves": 1,
+    "solves": 8,
     "solved_by_me": true,
     "category": "web",
     "tags": [
@@ -5790,7 +5790,7 @@
     "initial": 100,
     "minimum": 50,
     "decay": 25,
-    "solves": 43,
+    "solves": 44,
     "solved_by_me": true,
     "category": "misc",
     "tags": [
@@ -5857,11 +5857,11 @@
     "id": 500,
     "type": "team_instance",
     "name": "komisergio--agbadza",
-    "value": 337,
+    "value": 293,
     "initial": 500,
     "minimum": 100,
     "decay": 25,
-    "solves": 17,
+    "solves": 19,
     "solved_by_me": true,
     "category": "boot2root",
     "tags": [
@@ -5902,11 +5902,11 @@
     "id": 501,
     "type": "team_instance",
     "name": "komisergio--bassar",
-    "value": 337,
+    "value": 316,
     "initial": 500,
     "minimum": 100,
     "decay": 25,
-    "solves": 17,
+    "solves": 18,
     "solved_by_me": true,
     "category": "boot2root",
     "tags": [
@@ -5995,7 +5995,7 @@
     "initial": 500,
     "minimum": 100,
     "decay": 25,
-    "solves": 46,
+    "solves": 48,
     "solved_by_me": true,
     "category": "crypto",
     "tags": [
@@ -6078,7 +6078,7 @@
     "initial": 500,
     "minimum": 100,
     "decay": 25,
-    "solves": 0,
+    "solves": 1,
     "solved_by_me": false,
     "category": "crypto",
     "tags": [
@@ -6234,12 +6234,12 @@
     "id": 531,
     "type": "team_instance",
     "name": "format-string-101",
-    "value": 132,
+    "value": 114,
     "initial": 150,
     "minimum": 50,
     "decay": 40,
-    "solves": 18,
-    "solved_by_me": false,
+    "solves": 25,
+    "solved_by_me": true,
     "category": "pwn",
     "tags": [
       "pwn",
@@ -6266,7 +6266,7 @@
         "title": ""
       }
     ],
-    "local_folder": "Unsolved/format-string-101",
+    "local_folder": "solved/format-string-101",
     "local_files": [
       "chall",
       "chall.c"
@@ -6341,7 +6341,7 @@
     "initial": 250,
     "minimum": 100,
     "decay": 25,
-    "solves": 41,
+    "solves": 43,
     "solved_by_me": true,
     "category": "forensics",
     "tags": [
@@ -6383,7 +6383,7 @@
     "initial": 350,
     "minimum": 116,
     "decay": 25,
-    "solves": 40,
+    "solves": 43,
     "solved_by_me": true,
     "category": "forensics",
     "tags": [
@@ -6421,11 +6421,11 @@
     "id": 97,
     "type": "dynamic",
     "name": "auth-timeline",
-    "value": 91,
+    "value": 50,
     "initial": 150,
     "minimum": 50,
     "decay": 35,
-    "solves": 28,
+    "solves": 42,
     "solved_by_me": true,
     "category": "forensics",
     "tags": [
@@ -6461,12 +6461,12 @@
     "id": 469,
     "type": "team_instance",
     "name": "boazak--tsevie",
-    "value": 100,
+    "value": 50,
     "initial": 100,
     "minimum": 50,
     "decay": 25,
-    "solves": 0,
-    "solved_by_me": false,
+    "solves": 28,
+    "solved_by_me": true,
     "category": "web",
     "tags": [
       "web",
@@ -6487,9 +6487,3175 @@
         "title": ""
       }
     ],
-    "local_folder": "Unsolved/boazak--tsevie",
+    "local_folder": "solved/boazak--tsevie",
     "local_files": [
       "README.md"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 55,
+    "type": "dynamic",
+    "name": "fermat-twins",
+    "value": 50,
+    "initial": 150,
+    "minimum": 50,
+    "decay": 35,
+    "solves": 45,
+    "solved_by_me": true,
+    "category": "crypto",
+    "tags": [
+      "crypto",
+      "rsa",
+      "fermat",
+      "easy",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "A 1024-bit RSA public key `pubkey.pem` and a hex ciphertext `ciphertext.txt`. The message was encrypted with textbook RSA (no padding) and it is the flag.\n\nRecover the plaintext.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 127,
+        "cost": 10,
+        "title": ""
+      },
+      {
+        "id": 128,
+        "cost": 20,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/fermat-twins",
+    "local_files": [
+      "pubkey.pem",
+      "ciphertext.txt"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 61,
+    "type": "dynamic",
+    "name": "nonce-sense",
+    "value": 50,
+    "initial": 150,
+    "minimum": 50,
+    "decay": 30,
+    "solves": 39,
+    "solved_by_me": true,
+    "category": "crypto",
+    "tags": [
+      "crypto",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "A hardware signing device produced a batch of **ECDSA signatures over\nsecp256k1**, and we captured them in `capture.json` along with the device's\npublic key `Q`.\n\nThe device's random number generator is broken. That is all the hint you\nget about *how* it is broken -- the rest is in the numbers.\n\nEach entry is a signature `(r, s)` over a message `msg`, with the hash taken\nas `z = int(sha256(msg)) mod n` (secp256k1 group order `n`). Recover the\ndevice's **private key `d`**.\n\nStuck? Hints are available (they cost a few points).\n\n**Flag:** compute the private key `d`, format it as a 64-character lowercase\nhex string with `\"%064x\" % d`, and the flag is\n\n    NCTF{ sha256( that 64-char hex string ).hexdigest()[:32] }\n\nFlag format: `NCTF{<32 lowercase hex chars>}`\n",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 141,
+        "cost": 10,
+        "title": ""
+      },
+      {
+        "id": 142,
+        "cost": 15,
+        "title": ""
+      },
+      {
+        "id": 143,
+        "cost": 25,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/nonce-sense",
+    "local_files": [
+      "capture.json"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 100,
+    "type": "dynamic",
+    "name": "gzip-tar-nest",
+    "value": 50,
+    "initial": 150,
+    "minimum": 50,
+    "decay": 35,
+    "solves": 37,
+    "solved_by_me": true,
+    "category": "forensics",
+    "tags": [
+      "forensics",
+      "archive",
+      "nested",
+      "easy",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "A \"parcel\" (`parcel.tar.gz`) was intercepted leaving the network. It looks\nlike an ordinary compressed archive, but whoever packed it really did not want\nthe contents read at a glance.\n\nUnpack it completely and follow the trail to the file at the very center.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 224,
+        "cost": 10,
+        "title": ""
+      },
+      {
+        "id": 225,
+        "cost": 15,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/gzip-tar-nest",
+    "local_files": [
+      "parcel.tar.gz"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 107,
+    "type": "dynamic",
+    "name": "USB Keystrokes",
+    "value": 50,
+    "initial": 150,
+    "minimum": 50,
+    "decay": 30,
+    "solves": 35,
+    "solved_by_me": true,
+    "category": "forensics",
+    "tags": [
+      "forensics",
+      "easy",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "Nous avons mis sur écoute le bus USB pendant qu'un collègue se connectait au\nterminal du coffre, et capturé le trafic ci-joint (`capture.pcap`). Quelque\npart dans ce flux se trouve la passphrase qu'il a tapée au clavier.\n\nLa capture est un vidage usbmon Linux brut (ouvrez-la dans Wireshark, ou\nparsez-la vous-même). Plusieurs périphériques étaient branchés à ce moment-là,\ndonc tous les paquets ne proviennent pas du clavier.\n\nRécupérez la passphrase exacte qui a été tapée et soumettez-la au format du\nflag.\n\nBloqué ? Des indices sont disponibles (ils coûtent quelques points).\n\nFlag format : NCTF{<passphrase>}  (la passphrase est sensible à la casse et\ncontient lettres, chiffres et underscores).\n",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 244,
+        "cost": 10,
+        "title": ""
+      },
+      {
+        "id": 245,
+        "cost": 15,
+        "title": ""
+      },
+      {
+        "id": 246,
+        "cost": 25,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/USB Keystrokes",
+    "local_files": [
+      "capture.pcap"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 126,
+    "type": "dynamic",
+    "name": "pbkdf2-crack",
+    "value": 50,
+    "initial": 150,
+    "minimum": 50,
+    "decay": 35,
+    "solves": 38,
+    "solved_by_me": true,
+    "category": "crypto",
+    "tags": [
+      "misc",
+      "crypto",
+      "password-cracking",
+      "easy",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "We pulled one account's password record out of a leaked database\n(`hash.txt`) and a candidate password list found on the same box\n(`wordlist.txt`). Recover the account's passphrase; the flag is built from it.\n\nThe flag is `NCTF{pbkdf2_<passphrase>}` -- once you know the passphrase you\nhave the flag.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 289,
+        "cost": 10,
+        "title": ""
+      },
+      {
+        "id": 290,
+        "cost": 15,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/pbkdf2-crack",
+    "local_files": [
+      "hash.txt",
+      "wordlist.txt"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 102,
+    "type": "dynamic",
+    "name": "icmp-beacon",
+    "value": 62,
+    "initial": 150,
+    "minimum": 50,
+    "decay": 35,
+    "solves": 34,
+    "solved_by_me": true,
+    "category": "forensics",
+    "tags": [
+      "forensics",
+      "network",
+      "pcap",
+      "easy",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "During an incident, an analyst noticed a host on the network that \"just would\nnot stop pinging\". We grabbed the traffic (`icmp.pcap`). Regular monitoring\ntools saw nothing but harmless ICMP.\n\nThe pings are not as innocent as they look. Recover the message hidden in the\ntraffic.\n\nNotes:\n  * Ordinary pings to another host are mixed in.\n  * The hidden packets are captured out of order.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 229,
+        "cost": 15,
+        "title": ""
+      },
+      {
+        "id": 230,
+        "cost": 30,
+        "title": ""
+      },
+      {
+        "id": 231,
+        "cost": 45,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/icmp-beacon",
+    "local_files": [
+      "icmp.pcap"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 490,
+    "type": "team_instance",
+    "name": "isid0r3--bibliotech",
+    "value": 65,
+    "initial": 100,
+    "minimum": 50,
+    "decay": 25,
+    "solves": 22,
+    "solved_by_me": true,
+    "category": "web",
+    "tags": [
+      "web",
+      "medium",
+      "creator:isid0r3"
+    ],
+    "description": "Bonne lecture.\r\n",
+    "connection_info": "http://{host}:{port}/  (per-team instance; use the 'launch' button)",
+    "hints": [],
+    "local_folder": "solved/isid0r3--bibliotech",
+    "local_files": [],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 108,
+    "type": "dynamic",
+    "name": "zip-carve",
+    "value": 62,
+    "initial": 150,
+    "minimum": 50,
+    "decay": 35,
+    "solves": 34,
+    "solved_by_me": true,
+    "category": "forensics",
+    "tags": [
+      "forensics",
+      "file-carving",
+      "zip",
+      "easy",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "We recovered a ZIP archive (`archive.zip`) from a departing employee's USB\nstick. Listing it shows a single, boring file — but the archive on disk is\nlarger than that one file can explain.\n\nSomething else was packed in and then hidden from the listing. Recover it and\nread the token inside.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 247,
+        "cost": 10,
+        "title": ""
+      },
+      {
+        "id": 248,
+        "cost": 15,
+        "title": ""
+      },
+      {
+        "id": 249,
+        "cost": 15,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/zip-carve",
+    "local_files": [
+      "archive.zip"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 403,
+    "type": "team_instance",
+    "name": "boazak--fufu",
+    "value": 80,
+    "initial": 150,
+    "minimum": 50,
+    "decay": 25,
+    "solves": 22,
+    "solved_by_me": true,
+    "category": "crypto",
+    "tags": [
+      "crypto",
+      "easy",
+      "creator:KodjoDoDjango"
+    ],
+    "description": "> **Origine du nom :** Fufu est la pâte de manioc qu'on pétrit, replie et malaxe — comme les blocs AES-CBC qu'on tord et réassemble.\n\nLe site « Fufu » sert un profil chiffré en **AES-CBC** : un cookie `IV || ciphertext` qui encode votre rôle. Le cookie n'est **pas authentifié** : en modifiant l'IV, on peut passer de `guest` à `admin` sans casser le reste du bloc.\n\n**Points d'entrée** (pas de page d'accueil) : `GET /profile`, `GET /admin`\n\nStuck? Hints are available (they cost a few points).",
+    "connection_info": "http://{host}:{port}/  (per-team instance; use the 'launch' button)",
+    "hints": [
+      {
+        "id": 926,
+        "cost": 60,
+        "title": ""
+      },
+      {
+        "id": 927,
+        "cost": 40,
+        "title": ""
+      },
+      {
+        "id": 928,
+        "cost": 20,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/boazak--fufu",
+    "local_files": [],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 491,
+    "type": "team_instance",
+    "name": "isid0r3--carnet",
+    "value": 92,
+    "initial": 100,
+    "minimum": 50,
+    "decay": 25,
+    "solves": 11,
+    "solved_by_me": true,
+    "category": "web",
+    "tags": [
+      "web",
+      "medium",
+      "creator:isid0r3"
+    ],
+    "description": "trouve la note de l'admin\r\n",
+    "connection_info": "http://{host}:{port}/  (per-team instance; use the 'launch' button)",
+    "hints": [],
+    "local_folder": "solved/isid0r3--carnet",
+    "local_files": [],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 497,
+    "type": "team_instance",
+    "name": "isid0r3--linkcard",
+    "value": 95,
+    "initial": 100,
+    "minimum": 50,
+    "decay": 25,
+    "solves": 9,
+    "solved_by_me": true,
+    "category": "web",
+    "tags": [
+      "web",
+      "creator:isid0r3"
+    ],
+    "description": "LinkTu as trouver un truc ? Il est peut-etre temps de cr euver un peu plus\r\n",
+    "connection_info": "http://{host}:{port}/  (per-team instance; use the 'launch' button)",
+    "hints": [],
+    "local_folder": "solved/isid0r3--linkcard",
+    "local_files": [],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 95,
+    "type": "dynamic",
+    "name": "vigenere-drift",
+    "value": 82,
+    "initial": 150,
+    "minimum": 50,
+    "decay": 35,
+    "solves": 30,
+    "solved_by_me": true,
+    "category": "crypto",
+    "tags": [
+      "crypto",
+      "classical",
+      "vigenere",
+      "easy",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "`cipher.txt` is an intercepted English memorandum enciphered with a repeating polyalphabetic key. It is longer than it looks and the recovery token is hidden somewhere inside it.\n\nRecover the plaintext and read the token.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 211,
+        "cost": 10,
+        "title": ""
+      },
+      {
+        "id": 212,
+        "cost": 20,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/vigenere-drift",
+    "local_files": [
+      "cipher.txt"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 492,
+    "type": "team_instance",
+    "name": "isid0r3--curfew",
+    "value": 98,
+    "initial": 100,
+    "minimum": 50,
+    "decay": 25,
+    "solves": 7,
+    "solved_by_me": false,
+    "category": "web",
+    "tags": [
+      "web",
+      "medium",
+      "creator:isid0r3"
+    ],
+    "description": "Le service informatique de ton ancien établissement affirme avoir mis fin à la session d’un élève de Terminale pendant un examen. Pourtant, à chaque tentative, celui-ci parvenait à se reconnecter à la plateforme avec des privilèges toujours plus élevés, accédant ainsi à des espaces auxquels il n’aurait normalement jamais dû avoir accès. On te confie un test d’intrusion sur la plateforme afin de comprendre comment cet élève parvient à reprendre le contrôle de sa session et à élever ses privilèges.",
+    "connection_info": "http://{host}:{port}/  (per-team instance; use the 'launch' button)",
+    "hints": [],
+    "local_folder": "Unsolved/isid0r3--curfew",
+    "local_files": [],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 494,
+    "type": "team_instance",
+    "name": "isid0r3--lockstep",
+    "value": 98,
+    "initial": 100,
+    "minimum": 50,
+    "decay": 25,
+    "solves": 6,
+    "solved_by_me": true,
+    "category": "web",
+    "tags": [
+      "web",
+      "creator:isid0r3"
+    ],
+    "description": "Lockstep est un espace de travail d'entreprise qui regroupe quelques outils internes, dont un service de prévisualisation d'URL utilisé par l'équipe contenu pour inspecter des médias externes. L'accès administrateur, lui, reste fermé aux simples membres. Connecte-toi avec le compte de démonstration `amina` / `welcome2026`, lance l'instance (bouton Démarrer) et rends-toi à l'adresse affichée, puis explore ce que l'outil de prévisualisation est prêt à aller récupérer pour toi.\n",
+    "connection_info": "http://{host}:{port}/  (per-team instance; use the 'launch' button)",
+    "hints": [],
+    "local_folder": "solved/isid0r3--lockstep",
+    "local_files": [],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 495,
+    "type": "team_instance",
+    "name": "isid0r3--nexero",
+    "value": 100,
+    "initial": 100,
+    "minimum": 50,
+    "decay": 25,
+    "solves": 4,
+    "solved_by_me": false,
+    "category": "web",
+    "tags": [
+      "web",
+      "creator:isid0r3"
+    ],
+    "description": "Nexora est une petite messagerie en ligne. Dans son profil, chaque utilisateur peut personnaliser sa photo : au lieu d'envoyer un fichier, on fournit simplement un lien vers l'image, et c'est le serveur qui part la chercher pour l'afficher. Une vérification « humaine » garde l'accès à ce réglage. Lance l'instance (bouton Démarrer) et rends-toi à l'adresse affichée, puis intéresse-toi d'un peu plus près à la manière dont le serveur récupère l'image que tu lui désignes.\n",
+    "connection_info": "http://{host}:{port}/  (per-team instance; use the 'launch' button)",
+    "hints": [],
+    "local_folder": "Unsolved/isid0r3--nexero",
+    "local_files": [],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 397,
+    "type": "team_instance",
+    "name": "boazak--agbale",
+    "value": 197,
+    "initial": 200,
+    "minimum": 66,
+    "decay": 25,
+    "solves": 5,
+    "solved_by_me": true,
+    "category": "crypto",
+    "tags": [
+      "crypto",
+      "medium",
+      "creator:KodjoDoDjango"
+    ],
+    "description": "> **Origine du nom :** Agbale signifie « livre » en éwé — on prolonge un message dont on ne connaît pas le début, comme on ajoute des pages à un livre déjà écrit.\n\nLe forum « Agbale » signe ses jetons avec `MD5(SECRET || message)`. Le secret est inconnu, mais l'état interne de MD5 est exactement la sortie du hash : on peut **étendre** le hachage pour forger une signature valide pour un message que le serveur n'a jamais signé.\n\n**Points d'entrée** (pas de page d'accueil) : `GET /sign`, `GET /admin`\n\nStuck? Hints are available (they cost a few points).",
+    "connection_info": "http://{host}:{port}/  (per-team instance; use the 'launch' button)",
+    "hints": [
+      {
+        "id": 906,
+        "cost": 60,
+        "title": ""
+      },
+      {
+        "id": 907,
+        "cost": 40,
+        "title": ""
+      },
+      {
+        "id": 908,
+        "cost": 20,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/boazak--agbale",
+    "local_files": [],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 25,
+    "type": "team_instance",
+    "name": "billing-prefix",
+    "value": 204,
+    "initial": 450,
+    "minimum": 100,
+    "decay": 25,
+    "solves": 22,
+    "solved_by_me": true,
+    "category": "cloud",
+    "tags": [
+      "cloud",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "Préfixe public -> credential fuité -> escalade de rôle.\n\nThis instance's flag is on the service's filesystem, served by no route.\nExploit the service to read it.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: `NCTF{...}`\n",
+    "connection_info": "http://{host}:{port}/  (per-team instance; use the 'launch' button)",
+    "hints": [
+      {
+        "id": 60,
+        "cost": 20,
+        "title": ""
+      },
+      {
+        "id": 61,
+        "cost": 40,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/billing-prefix",
+    "local_files": [],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 22,
+    "type": "team_instance",
+    "name": "backup-prefix",
+    "value": 248,
+    "initial": 450,
+    "minimum": 100,
+    "decay": 25,
+    "solves": 20,
+    "solved_by_me": true,
+    "category": "cloud",
+    "tags": [
+      "cloud",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "Préfixe public -> credential fuité -> escalade de rôle.\n\nThis instance's flag is on the service's filesystem, served by no route.\nExploit the service to read it.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: `NCTF{...}`\n",
+    "connection_info": "http://{host}:{port}/  (per-team instance; use the 'launch' button)",
+    "hints": [
+      {
+        "id": 54,
+        "cost": 20,
+        "title": ""
+      },
+      {
+        "id": 55,
+        "cost": 40,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/backup-prefix",
+    "local_files": [],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 28,
+    "type": "team_instance",
+    "name": "cdn-prefix",
+    "value": 248,
+    "initial": 450,
+    "minimum": 100,
+    "decay": 25,
+    "solves": 20,
+    "solved_by_me": true,
+    "category": "cloud",
+    "tags": [
+      "cloud",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "Préfixe public -> credential fuité -> escalade de rôle.\n\nThis instance's flag is on the service's filesystem, served by no route.\nExploit the service to read it.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: `NCTF{...}`\n",
+    "connection_info": "http://{host}:{port}/  (per-team instance; use the 'launch' button)",
+    "hints": [
+      {
+        "id": 66,
+        "cost": 20,
+        "title": ""
+      },
+      {
+        "id": 67,
+        "cost": 40,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/cdn-prefix",
+    "local_files": [],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 31,
+    "type": "team_instance",
+    "name": "gateway-prefix",
+    "value": 248,
+    "initial": 450,
+    "minimum": 100,
+    "decay": 25,
+    "solves": 20,
+    "solved_by_me": true,
+    "category": "cloud",
+    "tags": [
+      "cloud",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "Préfixe public -> credential fuité -> escalade de rôle.\n\nThis instance's flag is on the service's filesystem, served by no route.\nExploit the service to read it.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: `NCTF{...}`\n",
+    "connection_info": "http://{host}:{port}/  (per-team instance; use the 'launch' button)",
+    "hints": [
+      {
+        "id": 72,
+        "cost": 20,
+        "title": ""
+      },
+      {
+        "id": 73,
+        "cost": 40,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/gateway-prefix",
+    "local_files": [],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 35,
+    "type": "team_instance",
+    "name": "identity-prefix",
+    "value": 269,
+    "initial": 450,
+    "minimum": 100,
+    "decay": 25,
+    "solves": 19,
+    "solved_by_me": true,
+    "category": "cloud",
+    "tags": [
+      "cloud",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "Préfixe public -> credential fuité -> escalade de rôle.\n\nThis instance's flag is on the service's filesystem, served by no route.\nExploit the service to read it.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: `NCTF{...}`\n",
+    "connection_info": "http://{host}:{port}/  (per-team instance; use the 'launch' button)",
+    "hints": [
+      {
+        "id": 81,
+        "cost": 20,
+        "title": ""
+      },
+      {
+        "id": 82,
+        "cost": 40,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/identity-prefix",
+    "local_files": [],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 58,
+    "type": "dynamic",
+    "name": "keystream-reuse",
+    "value": 172,
+    "initial": 300,
+    "minimum": 100,
+    "decay": 25,
+    "solves": 21,
+    "solved_by_me": true,
+    "category": "crypto",
+    "tags": [
+      "crypto",
+      "xor",
+      "many-time-pad",
+      "medium",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "`messages.txt` holds 25 intercepted ciphertexts, one hex string per line. They\nwere all produced by the same sloppy encryptor on the same day. Exactly one of\nthe underlying messages contains the flag.\n\nRecover it.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 134,
+        "cost": 15,
+        "title": ""
+      },
+      {
+        "id": 135,
+        "cost": 30,
+        "title": ""
+      },
+      {
+        "id": 136,
+        "cost": 45,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/keystream-reuse",
+    "local_files": [
+      "messages.txt"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 54,
+    "type": "dynamic",
+    "name": "ecb-echo",
+    "value": 146,
+    "initial": 300,
+    "minimum": 100,
+    "decay": 25,
+    "solves": 23,
+    "solved_by_me": true,
+    "category": "crypto",
+    "tags": [
+      "crypto",
+      "aes",
+      "ecb",
+      "medium",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "We tapped a device that encrypts data for us on request and logged everything\nit did into `oracle_log.json`. Whatever we sent, the device appended its own\nsecret before encrypting, and its secret is the flag.\n\nThe log records the ciphertexts it produced for a range of our inputs. Recover\nthe appended secret from the log alone.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 124,
+        "cost": 20,
+        "title": ""
+      },
+      {
+        "id": 125,
+        "cost": 40,
+        "title": ""
+      },
+      {
+        "id": 126,
+        "cost": 65,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/ecb-echo",
+    "local_files": [
+      "oracle_log.json"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 59,
+    "type": "dynamic",
+    "name": "modulus-siblings",
+    "value": 208,
+    "initial": 300,
+    "minimum": 100,
+    "decay": 25,
+    "solves": 18,
+    "solved_by_me": true,
+    "category": "crypto",
+    "tags": [
+      "crypto",
+      "rsa",
+      "common-modulus",
+      "medium",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "Two departments encrypted the very same memo for the same recipient, and we\ncaptured both ciphertexts in `transcript.json` along with the public\nparameters they used. Neither ciphertext factors and the modulus is 1024 bits.\n\nRecover the memo, which is the flag.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 137,
+        "cost": 15,
+        "title": ""
+      },
+      {
+        "id": 138,
+        "cost": 30,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/modulus-siblings",
+    "local_files": [
+      "transcript.json"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 213,
+    "type": "dynamic",
+    "name": "env-forge",
+    "value": 208,
+    "initial": 300,
+    "minimum": 100,
+    "decay": 25,
+    "solves": 18,
+    "solved_by_me": true,
+    "category": "sysadmin",
+    "tags": [
+      "sysadmin",
+      "secrets",
+      "jwt",
+      "medium",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "A developer pushed a deploy bundle for an internal API to a public repo:\n`docker-compose.yml`, the `.env` it reads, and one server source file\n(`app/session.py`). The API mints signed session tokens and guards an admin\nroute that returns a flag.\n\nYou have no running service — only these files. Work out how the admin flag is\nproduced and recover it.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 515,
+        "cost": 15,
+        "title": ""
+      },
+      {
+        "id": 516,
+        "cost": 30,
+        "title": ""
+      },
+      {
+        "id": 517,
+        "cost": 45,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/env-forge",
+    "local_files": [
+      "env",
+      "docker-compose.yml",
+      "session.py"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 207,
+    "type": "dynamic",
+    "name": "pip-postinstall-hook",
+    "value": 185,
+    "initial": 300,
+    "minimum": 100,
+    "decay": 25,
+    "solves": 20,
+    "solved_by_me": true,
+    "category": "supplychain",
+    "tags": [
+      "supplychain",
+      "pip",
+      "deobfuscation",
+      "medium",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "On vous remet une archive source Python (`acme-license-check-1.0.0.tar.gz`)\nrécupérée depuis un miroir PyPI douteux. `pip install` exécute du code à\nl'installation, et celui-ci semble avoir été volontairement rendu illisible.\n\nAnalysez l'archive SANS l'installer, comprenez ce que le hook d'installation\nferait, et récupérez le flag qu'il dépose.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 500,
+        "cost": 15,
+        "title": ""
+      },
+      {
+        "id": 501,
+        "cost": 30,
+        "title": ""
+      },
+      {
+        "id": 502,
+        "cost": 45,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/pip-postinstall-hook",
+    "local_files": [
+      "acme-license-check-1.0.0.tar.gz"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 8,
+    "type": "dynamic",
+    "name": "airdrop-forge",
+    "value": 246,
+    "initial": 300,
+    "minimum": 100,
+    "decay": 25,
+    "solves": 14,
+    "solved_by_me": true,
+    "category": "blockchain",
+    "tags": [
+      "blockchain",
+      "evm",
+      "merkle",
+      "medium",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "You get a Merkle-root airdrop contract (`MerkleAirdrop.sol`) and\n`tree.json`: the full list of leaves, the `root`, a high-value target\nclaim, and a sealed bonus `cipher_hex`. Produce what the contract needs\nto accept the target claim, and open the bonus.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 22,
+        "cost": 15,
+        "title": ""
+      },
+      {
+        "id": 23,
+        "cost": 30,
+        "title": ""
+      },
+      {
+        "id": 24,
+        "cost": 45,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/airdrop-forge",
+    "local_files": [
+      "MerkleAirdrop.sol",
+      "tree.json"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 12,
+    "type": "dynamic",
+    "name": "origin-story",
+    "value": 275,
+    "initial": 300,
+    "minimum": 100,
+    "decay": 25,
+    "solves": 10,
+    "solved_by_me": true,
+    "category": "blockchain",
+    "tags": [
+      "blockchain",
+      "evm",
+      "access-control",
+      "medium",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "You get `Vault.sol` and `vault.json` (a sealed note `cipher_hex` plus\nthe address you control). Nobody has taken ownership yet. Figure out\nthe single winning transaction, then unseal the note it protects.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 31,
+        "cost": 15,
+        "title": ""
+      },
+      {
+        "id": 32,
+        "cost": 30,
+        "title": ""
+      },
+      {
+        "id": 33,
+        "cost": 45,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/origin-story",
+    "local_files": [
+      "Vault.sol",
+      "vault.json"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 13,
+    "type": "dynamic",
+    "name": "overflow-mint",
+    "value": 289,
+    "initial": 300,
+    "minimum": 100,
+    "decay": 25,
+    "solves": 7,
+    "solved_by_me": true,
+    "category": "blockchain",
+    "tags": [
+      "blockchain",
+      "evm",
+      "integer-overflow",
+      "medium",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "You get the Solidity source of a token pre-sale (`MintSale.sol`) and\n`sale.json` (the on-sale `price`, your wallet `budget_wei`, and a\nvault `cipher_hex`). Buying `n` tokens costs `n * price` wei; reaching\n`WIN_TOKENS` unlocks the vault. Your wallet holds only a few wei.\nUnlock the vault.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 34,
+        "cost": 15,
+        "title": ""
+      },
+      {
+        "id": 35,
+        "cost": 30,
+        "title": ""
+      },
+      {
+        "id": 36,
+        "cost": 45,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/overflow-mint",
+    "local_files": [
+      "MintSale.sol",
+      "sale.json"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 15,
+    "type": "dynamic",
+    "name": "proxy-collision",
+    "value": 246,
+    "initial": 300,
+    "minimum": 100,
+    "decay": 25,
+    "solves": 14,
+    "solved_by_me": true,
+    "category": "blockchain",
+    "tags": [
+      "blockchain",
+      "evm",
+      "delegatecall",
+      "medium",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "You get an upgradeable `Proxy.sol`, its `Logic.sol` implementation, and\na raw storage dump of the proxy (`proxy_storage.json`). One slot holds\nthe note you want. Work out the storage layout to read it.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 39,
+        "cost": 15,
+        "title": ""
+      },
+      {
+        "id": 40,
+        "cost": 30,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/proxy-collision",
+    "local_files": [
+      "Proxy.sol",
+      "Logic.sol",
+      "proxy_storage.json"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 111,
+    "type": "dynamic",
+    "name": "i2c-sniff",
+    "value": 228,
+    "initial": 300,
+    "minimum": 100,
+    "decay": 25,
+    "solves": 16,
+    "solved_by_me": true,
+    "category": "hardware",
+    "tags": [
+      "hardware",
+      "i2c",
+      "logic-analyzer",
+      "medium",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "We clipped a two-wire probe onto an I2C bus and captured `SCL` and `SDA` while\na controller wrote a short string to a peripheral. `i2c_capture.csv` holds the\noversampled bus state, one row per time step.\n\nDecode the transaction and recover the string that was written. The flag is\nthat string.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 255,
+        "cost": 15,
+        "title": ""
+      },
+      {
+        "id": 256,
+        "cost": 30,
+        "title": ""
+      },
+      {
+        "id": 257,
+        "cost": 45,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/i2c-sniff",
+    "local_files": [
+      "i2c_capture.csv"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 113,
+    "type": "dynamic",
+    "name": "manchester-ook",
+    "value": 238,
+    "initial": 300,
+    "minimum": 100,
+    "decay": 25,
+    "solves": 15,
+    "solved_by_me": true,
+    "category": "hardware",
+    "tags": [
+      "hardware",
+      "rf",
+      "manchester",
+      "medium",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "We recorded the demodulated envelope of a short 433 MHz on-off-keyed burst.\n`samples.txt` is that envelope: one value (0 = carrier off, 1 = carrier on)\nper sample, evenly spaced. A remote sent one small packet.\n\nRecover the packet's payload. The flag is the transmitted ASCII.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 260,
+        "cost": 15,
+        "title": ""
+      },
+      {
+        "id": 261,
+        "cost": 30,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/manchester-ook",
+    "local_files": [
+      "samples.txt"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 117,
+    "type": "dynamic",
+    "name": "brainfuck-cascade",
+    "value": 197,
+    "initial": 300,
+    "minimum": 100,
+    "decay": 25,
+    "solves": 19,
+    "solved_by_me": true,
+    "category": "reverse",
+    "tags": [
+      "misc",
+      "encoding",
+      "esolang",
+      "medium",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "All we recovered is one line of dense ASCII (`cipher.txt`). Work out what it really is and recover the flag it leads to.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 268,
+        "cost": 15,
+        "title": ""
+      },
+      {
+        "id": 269,
+        "cost": 30,
+        "title": ""
+      },
+      {
+        "id": 270,
+        "cost": 45,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/brainfuck-cascade",
+    "local_files": [
+      "cipher.txt"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 136,
+    "type": "dynamic",
+    "name": "grad-leak",
+    "value": 208,
+    "initial": 300,
+    "minimum": 100,
+    "decay": 25,
+    "solves": 18,
+    "solved_by_me": true,
+    "category": "ml",
+    "tags": [
+      "ml",
+      "gradient-leakage",
+      "privacy",
+      "medium",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "During distributed training a worker leaked the gradients from a single step.\n`leaked_grads.npz` contains the gradient of the loss with respect to a linear\nlayer's weight matrix, plus the upstream gradient that produced it. That step\nused exactly one private training example. Recover that example -- its bytes are\nthe flag.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 313,
+        "cost": 15,
+        "title": ""
+      },
+      {
+        "id": 314,
+        "cost": 30,
+        "title": ""
+      },
+      {
+        "id": 315,
+        "cost": 45,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/grad-leak",
+    "local_files": [
+      "leaked_grads.npz",
+      "README.md"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 138,
+    "type": "dynamic",
+    "name": "poison-shift",
+    "value": 197,
+    "initial": 300,
+    "minimum": 100,
+    "decay": 25,
+    "solves": 19,
+    "solved_by_me": true,
+    "category": "ml",
+    "tags": [
+      "ml",
+      "data-poisoning",
+      "outliers",
+      "medium",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "`poisoned_train.npz` is a regression training set: features `X`, targets `y`,\na `record_id` per row, and a one-character `tag` per row. Most rows follow a\nclean linear rule, but an attacker slipped in a batch of poisoned rows to drag\nthe fitted model off course. Find the poisoned rows; their tags, read in the\nright order, spell the flag.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 318,
+        "cost": 15,
+        "title": ""
+      },
+      {
+        "id": 319,
+        "cost": 30,
+        "title": ""
+      },
+      {
+        "id": 320,
+        "cost": 45,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/poison-shift",
+    "local_files": [
+      "poisoned_train.npz",
+      "README.md"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 139,
+    "type": "dynamic",
+    "name": "surrogate-fit",
+    "value": 208,
+    "initial": 300,
+    "minimum": 100,
+    "decay": 25,
+    "solves": 18,
+    "solved_by_me": true,
+    "category": "ml",
+    "tags": [
+      "ml",
+      "model-extraction",
+      "regression",
+      "medium",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "A hidden model is a black box: you feed it a vector, it returns a number.\n`query_log.npz` is a captured log of inputs `X` and the exact outputs `y` the\nmodel returned for them, collected within a fixed query budget. Reconstruct the\nmodel well enough to read out its internal parameters -- they are the flag.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 321,
+        "cost": 15,
+        "title": ""
+      },
+      {
+        "id": 322,
+        "cost": 30,
+        "title": ""
+      },
+      {
+        "id": 323,
+        "cost": 45,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/surrogate-fit",
+    "local_files": [
+      "query_log.npz",
+      "README.md"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 152,
+    "type": "dynamic",
+    "name": "dns-chain",
+    "value": 246,
+    "initial": 300,
+    "minimum": 100,
+    "decay": 25,
+    "solves": 14,
+    "solved_by_me": true,
+    "category": "networking",
+    "tags": [
+      "networking",
+      "dns",
+      "binary-parsing",
+      "medium",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "A single DNS response was captured as raw bytes (`message.bin`, with\n`message.hex` for convenience). It answers one query and packs a pile of\nrecords into the answer section.\n\nParse the message off the wire yourself, resolve what the queried name\nultimately points to, and collect the text records along the way. Put together\ncorrectly they spell the flag.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 351,
+        "cost": 15,
+        "title": ""
+      },
+      {
+        "id": 352,
+        "cost": 25,
+        "title": ""
+      },
+      {
+        "id": 353,
+        "cost": 45,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/dns-chain",
+    "local_files": [
+      "message.bin",
+      "message.hex"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 154,
+    "type": "dynamic",
+    "name": "framed-protocol",
+    "value": 246,
+    "initial": 300,
+    "minimum": 100,
+    "decay": 25,
+    "solves": 14,
+    "solved_by_me": true,
+    "category": "networking",
+    "tags": [
+      "networking",
+      "protocol",
+      "binary-parsing",
+      "medium",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "We captured the raw byte stream of an in-house application protocol\n(`stream.hex`, a hex dump). Frames of several kinds are back to back on the\nwire, some carrying data, some just noise, and a few are corrupted.\n\nReverse the frame format, walk the stream, and reconstruct the message the\ndata frames carry. The reconstructed payload is the flag.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 357,
+        "cost": 15,
+        "title": ""
+      },
+      {
+        "id": 358,
+        "cost": 25,
+        "title": ""
+      },
+      {
+        "id": 359,
+        "cost": 45,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/framed-protocol",
+    "local_files": [
+      "stream.hex"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 155,
+    "type": "dynamic",
+    "name": "netflow-talker",
+    "value": 254,
+    "initial": 300,
+    "minimum": 100,
+    "decay": 25,
+    "solves": 13,
+    "solved_by_me": true,
+    "category": "networking",
+    "tags": [
+      "networking",
+      "netflow",
+      "traffic-analysis",
+      "medium",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "A NetFlow collector exported a batch of flow records (`flows.csv`): one row per\nflow with the usual 5-tuple plus packet and byte counters and millisecond\ntimestamps. One host clearly dominates the traffic.\n\nFind the host that stands out, look at how it behaves across its flows, and\nread the message it leaves behind. That is the flag.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 360,
+        "cost": 15,
+        "title": ""
+      },
+      {
+        "id": 361,
+        "cost": 25,
+        "title": ""
+      },
+      {
+        "id": 362,
+        "cost": 45,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/netflow-talker",
+    "local_files": [
+      "flows.csv"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 156,
+    "type": "dynamic",
+    "name": "subnet-reach",
+    "value": 228,
+    "initial": 300,
+    "minimum": 100,
+    "decay": 25,
+    "solves": 16,
+    "solved_by_me": true,
+    "category": "networking",
+    "tags": [
+      "networking",
+      "routing",
+      "subnetting",
+      "medium",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "You have a router's forwarding table and a batch of probe packets\n(`routing.json`), plus the address of one target host. The router forwards\neach packet according to its table; some destinations leave the router toward\nother next hops, some are dropped, and some are delivered onto the target's\nown segment.\n\nDetermine which packets actually reach the target host. Each packet has a\none-character `tag`; the packets that reach the host, read in ascending `id`\norder, spell the flag.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 363,
+        "cost": 15,
+        "title": ""
+      },
+      {
+        "id": 364,
+        "cost": 25,
+        "title": ""
+      },
+      {
+        "id": 365,
+        "cost": 45,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/subnet-reach",
+    "local_files": [
+      "routing.json"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 158,
+    "type": "dynamic",
+    "name": "tls-sni",
+    "value": 238,
+    "initial": 300,
+    "minimum": 100,
+    "decay": 25,
+    "solves": 15,
+    "solved_by_me": true,
+    "category": "networking",
+    "tags": [
+      "networking",
+      "tls",
+      "binary-parsing",
+      "medium",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "A single TLS ClientHello was captured as raw bytes (`clienthello.bin`, with\n`clienthello.hex` for convenience). No keys, no decryption — just the\nhandshake structure.\n\nParse the record, find where the client says which server it wants to reach,\nand decode what is hidden there. That is the flag. (Grepping the file for\n`NCTF{` will only find a decoy.)\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 369,
+        "cost": 15,
+        "title": ""
+      },
+      {
+        "id": 370,
+        "cost": 25,
+        "title": ""
+      },
+      {
+        "id": 371,
+        "cost": 45,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/tls-sni",
+    "local_files": [
+      "clienthello.bin",
+      "clienthello.hex"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 159,
+    "type": "dynamic",
+    "name": "cred-reuse",
+    "value": 238,
+    "initial": 300,
+    "minimum": 100,
+    "decay": 25,
+    "solves": 15,
+    "solved_by_me": true,
+    "category": "osint",
+    "tags": [
+      "osint",
+      "password-cracking",
+      "credential-reuse",
+      "medium",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "Un forum communautaire togolais a été piraté et sa base de comptes\n(`dump.txt`) circule. On vous fournit aussi une liste de mots de passe\ncourants (`wordlist.txt`), la liste des services utilisés par chaque compte\n(`services.csv`), et une note interne chiffrée du portail d'administration\n(`admin_portal.enc`).\n\nUn utilisateur a réutilisé son mot de passe partout. Retrouvez-le, déchiffrez\nla note et lisez le jeton de secours : c'est le flag.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 372,
+        "cost": 15,
+        "title": ""
+      },
+      {
+        "id": 373,
+        "cost": 30,
+        "title": ""
+      },
+      {
+        "id": 374,
+        "cost": 45,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/cred-reuse",
+    "local_files": [
+      "dump.txt",
+      "wordlist.txt",
+      "services.csv",
+      "admin_portal.enc"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 164,
+    "type": "dynamic",
+    "name": "exif-triangulation",
+    "value": 254,
+    "initial": 300,
+    "minimum": 100,
+    "decay": 25,
+    "solves": 13,
+    "solved_by_me": true,
+    "category": "osint",
+    "tags": [
+      "osint",
+      "exif",
+      "geolocation",
+      "medium",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "Quatre guetteurs ont photographié la même cible depuis des points différents.\nChaque cliché (`photo_*.jpg`) contient les métadonnées de prise de vue.\n\nRecoupez les données de localisation contenues dans les images pour déterminer la position exacte de la cible. Le flag est la coordonnée sur laquelle les observations concordent, au format donné ci-dessous.\n\nLe flag : NCTF{triangulated_<lat>n_<lon>e} où lat et lon sont en degrés décimaux à 5 décimales, le point remplacé par « p » (ex. NCTF{triangulated_6p12345n_1p23456e}).\n\nBloqué ? Des indices sont disponibles (ils coûtent quelques points).\n",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 387,
+        "cost": 15,
+        "title": ""
+      },
+      {
+        "id": 388,
+        "cost": 30,
+        "title": ""
+      },
+      {
+        "id": 389,
+        "cost": 45,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/exif-triangulation",
+    "local_files": [
+      "photo_north.jpg",
+      "photo_east.jpg",
+      "photo_west.jpg",
+      "photo_south.jpg"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 168,
+    "type": "dynamic",
+    "name": "dijkstra-relay",
+    "value": 228,
+    "initial": 300,
+    "minimum": 100,
+    "decay": 25,
+    "solves": 16,
+    "solved_by_me": true,
+    "category": "ppc",
+    "tags": [
+      "ppc",
+      "graph",
+      "shortest-path",
+      "medium",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "`graph.txt` describes a directed weighted graph: a header with node/edge\ncounts, a source and a target node, one label character per node, and the\nedge list. Travel from the source to the target as cheaply as possible; the\nlabels of the nodes you pass through, in order, spell the flag.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 399,
+        "cost": 15,
+        "title": ""
+      },
+      {
+        "id": 400,
+        "cost": 30,
+        "title": ""
+      },
+      {
+        "id": 401,
+        "cost": 45,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/dijkstra-relay",
+    "local_files": [
+      "graph.txt"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 170,
+    "type": "dynamic",
+    "name": "knapsack-locker",
+    "value": 246,
+    "initial": 300,
+    "minimum": 100,
+    "decay": 25,
+    "solves": 14,
+    "solved_by_me": true,
+    "category": "ppc",
+    "tags": [
+      "ppc",
+      "dynamic-programming",
+      "knapsack",
+      "medium",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "`items.txt` gives a capacity, a list of items (each with a weight and a\nvalue), and a `CIPHER` blob. Only the single correct number derived from the\nitems unlocks the cipher; get it wrong and you get garbage.\n\nCompute that number, unlock the blob, read the flag.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 404,
+        "cost": 15,
+        "title": ""
+      },
+      {
+        "id": 405,
+        "cost": 30,
+        "title": ""
+      },
+      {
+        "id": 406,
+        "cost": 45,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/knapsack-locker",
+    "local_files": [
+      "items.txt"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 172,
+    "type": "dynamic",
+    "name": "semiprime-sweep",
+    "value": 197,
+    "initial": 300,
+    "minimum": 100,
+    "decay": 25,
+    "solves": 19,
+    "solved_by_me": true,
+    "category": "ppc",
+    "tags": [
+      "ppc",
+      "number-theory",
+      "factorization",
+      "medium",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "`semiprimes.txt` starts with a `CIPHER` blob and then lists several dozen\nintegers, each the product of exactly two primes. Something about each number\ncontributes one byte of the key that unlocks the cipher.\n\nBreak the numbers down, build the key, read the flag.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 410,
+        "cost": 15,
+        "title": ""
+      },
+      {
+        "id": 411,
+        "cost": 30,
+        "title": ""
+      },
+      {
+        "id": 412,
+        "cost": 45,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/semiprime-sweep",
+    "local_files": [
+      "semiprimes.txt"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 173,
+    "type": "dynamic",
+    "name": "stack-machine",
+    "value": 219,
+    "initial": 300,
+    "minimum": 100,
+    "decay": 25,
+    "solves": 17,
+    "solved_by_me": true,
+    "category": "ppc",
+    "tags": [
+      "ppc",
+      "parsing",
+      "virtual-machine",
+      "medium",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "`program.txt` is source code for a tiny made-up machine: one instruction per\nline, a handful of opcodes, and a `.data` section. The header comment in the\nsolver is not provided -- you must infer the semantics from the opcode names\nand structure. Execute the program faithfully; what it prints is the flag.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 413,
+        "cost": 15,
+        "title": ""
+      },
+      {
+        "id": 414,
+        "cost": 30,
+        "title": ""
+      },
+      {
+        "id": 415,
+        "cost": 45,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/stack-machine",
+    "local_files": [
+      "program.txt"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 206,
+    "type": "dynamic",
+    "name": "lockfile-integrity-drift",
+    "value": 280,
+    "initial": 300,
+    "minimum": 100,
+    "decay": 25,
+    "solves": 9,
+    "solved_by_me": true,
+    "category": "supplychain",
+    "tags": [
+      "supplychain",
+      "lockfile",
+      "integrity",
+      "medium",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "On vous fournit un package-lock.json et les archives .tgz qu'il verrouille. Le lockfile epingle une empreinte d'integrite pour chaque dependance, mais une des archives livrees a ete alteree. Trouvez-la : ce qui y a ete ajoute -- la cause exacte de l'ecart -- porte le flag, mais il n'est ni en clair ni en base64, il faut le reconstruire.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 497,
+        "cost": 15,
+        "title": ""
+      },
+      {
+        "id": 498,
+        "cost": 30,
+        "title": ""
+      },
+      {
+        "id": 499,
+        "cost": 40,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/lockfile-integrity-drift",
+    "local_files": [
+      "package-lock.json",
+      "left-pad-1.3.0.tgz",
+      "ansi-styles-6.2.1.tgz",
+      "semver-7.5.4.tgz",
+      "minimist-1.2.8.tgz"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 208,
+    "type": "dynamic",
+    "name": "provenance-forgery",
+    "value": 262,
+    "initial": 300,
+    "minimum": 100,
+    "decay": 25,
+    "solves": 12,
+    "solved_by_me": true,
+    "category": "supplychain",
+    "tags": [
+      "supplychain",
+      "provenance",
+      "slsa",
+      "medium",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "Chaque release de `acme-app` est accompagnée d'une attestation de provenance\nsignée (dossier `provenance/`) et de son archive `.tgz`. La clé de signature\ndu CI a fuité (`ci-signing.key`). L'une des releases n'a pas été produite par\nle vrai pipeline.\n\nVérifiez les attestations, démasquez la release forgée et récupérez le flag\nque porte son artefact.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 503,
+        "cost": 15,
+        "title": ""
+      },
+      {
+        "id": 504,
+        "cost": 30,
+        "title": ""
+      },
+      {
+        "id": 505,
+        "cost": 45,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/provenance-forgery",
+    "local_files": [
+      "ci-signing.key",
+      "1.0.0.intoto.json",
+      "1.1.0.intoto.json",
+      "1.2.0.intoto.json",
+      "1.3.0.intoto.json",
+      "acme-app-1.0.0.tgz",
+      "acme-app-1.1.0.tgz",
+      "acme-app-1.2.0.tgz",
+      "acme-app-1.3.0.tgz"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 210,
+    "type": "dynamic",
+    "name": "tuf-rollback",
+    "value": 254,
+    "initial": 300,
+    "minimum": 100,
+    "decay": 25,
+    "solves": 13,
+    "solved_by_me": true,
+    "category": "supplychain",
+    "tags": [
+      "supplychain",
+      "tuf",
+      "rollback",
+      "medium",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "On vous donne les métadonnées d'un dépôt de mises à jour façon TUF\n(`timestamp.json`, `snapshot.json`, `targets-v*.json`) et les artefacts\ncorrespondants (`targets/`). Le client a peut-être été poussé à installer une\nversion qu'il n'aurait pas dû.\n\nRaisonnez sur les métadonnées, identifiez la release piégée qui a été épinglée\net récupérez le flag qu'elle contient.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 508,
+        "cost": 15,
+        "title": ""
+      },
+      {
+        "id": 509,
+        "cost": 30,
+        "title": ""
+      },
+      {
+        "id": 510,
+        "cost": 45,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/tuf-rollback",
+    "local_files": [
+      "timestamp.json",
+      "snapshot.json",
+      "targets-v5.json",
+      "targets-v8.json",
+      "updater-agent-2.0.1.tgz",
+      "updater-agent-2.1.0.tgz"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 256,
+    "type": "dynamic",
+    "name": "php-unserialize",
+    "value": 262,
+    "initial": 300,
+    "minimum": 100,
+    "decay": 25,
+    "solves": 12,
+    "solved_by_me": true,
+    "category": "web",
+    "tags": [
+      "web",
+      "php",
+      "deserialization",
+      "medium",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "A legacy PHP portal ships as source, along with a session cookie captured\nfrom a guest. The cookie is deserialized on every request. The flag is never\nwritten out in the clear.\n\nThere is no live service. Reproduce the reveal from the shipped files.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 579,
+        "cost": 15,
+        "title": ""
+      },
+      {
+        "id": 580,
+        "cost": 30,
+        "title": ""
+      },
+      {
+        "id": 581,
+        "cost": 45,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/php-unserialize",
+    "local_files": [
+      "index.php",
+      "session_cookie.b64"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 262,
+    "type": "dynamic",
+    "name": "ssti-jinja",
+    "value": 268,
+    "initial": 300,
+    "minimum": 100,
+    "decay": 25,
+    "solves": 11,
+    "solved_by_me": true,
+    "category": "web",
+    "tags": [
+      "web",
+      "ssti",
+      "jinja2",
+      "medium",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "A greeting-card service ships as source, with a captured normal request. It\nturns your name into a friendly card. The flag is never printed for ordinary\ninput.\n\nInput contract (from the source):\n\n    POST /card  {\"name\": \"<text>\"}\n    -> renders  \"Dear \" + name + \", welcome to Lome!\"\n\nNo live service. Determine what the renderer would emit for a name of your\nchoosing.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 594,
+        "cost": 15,
+        "title": ""
+      },
+      {
+        "id": 595,
+        "cost": 30,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/ssti-jinja",
+    "local_files": [
+      "app.py",
+      "capture.txt"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 40,
+    "type": "team_instance",
+    "name": "metrics-prefix",
+    "value": 269,
+    "initial": 450,
+    "minimum": 100,
+    "decay": 25,
+    "solves": 19,
+    "solved_by_me": true,
+    "category": "cloud",
+    "tags": [
+      "cloud",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "Préfixe public -> credential fuité -> escalade de rôle.\n\nThis instance's flag is on the service's filesystem, served by no route.\nExploit the service to read it.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: `NCTF{...}`\n",
+    "connection_info": "http://{host}:{port}/  (per-team instance; use the 'launch' button)",
+    "hints": [
+      {
+        "id": 91,
+        "cost": 20,
+        "title": ""
+      },
+      {
+        "id": 92,
+        "cost": 40,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/metrics-prefix",
+    "local_files": [],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 537,
+    "type": "dynamic",
+    "name": "bitvault-psbt",
+    "value": 325,
+    "initial": 350,
+    "minimum": 100,
+    "decay": 25,
+    "solves": 9,
+    "solved_by_me": true,
+    "category": "blockchain",
+    "tags": [
+      "blockchain",
+      "psbt",
+      "parser-differential",
+      "medium",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "**BitVault**'s treasury moves funds through a 2-of-2 co-signer. Every payout\nis screened against the operation the desk approved and only then relayed to\nthe network. Last cycle a routine payroll payout was co-signed -- and what\nsettled on-chain instead swept the whole treasury to an address nobody\nrecognizes.\n\nYou have the full co-signer stack and the forensic trail:\n\n    ENVELOPE_FORMAT.md    the BVLT-COSIGN/2 co-sign envelope format\n    treasury_screen.py    the policy screen (authorizer)\n    settlement_relay.py   the settlement relay (broadcaster)\n    cosigner.py           the pipeline + the sealed post-mortem note\n    signed_draft.txt      the co-signed benign payroll draft\n    incident_brief.md     the drain output recovered from the node\n\nNo server is running. The desk's post-mortem note is sealed under the\nsettlement the co-signer *actually relayed*; reconstruct that settlement from\nthe shipped files alone and recover the note.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 1178,
+        "cost": 22,
+        "title": ""
+      },
+      {
+        "id": 1179,
+        "cost": 45,
+        "title": ""
+      },
+      {
+        "id": 1180,
+        "cost": 65,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/bitvault-psbt",
+    "local_files": [
+      "ENVELOPE_FORMAT.md",
+      "treasury_screen.py",
+      "settlement_relay.py",
+      "cosigner.py",
+      "signed_draft.txt",
+      "incident_brief.md"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 121,
+    "type": "dynamic",
+    "name": "gf2-cipher",
+    "value": 100,
+    "initial": 450,
+    "minimum": 100,
+    "decay": 20,
+    "solves": 24,
+    "solved_by_me": true,
+    "category": "crypto",
+    "tags": [
+      "misc",
+      "crypto",
+      "linear-algebra",
+      "hard",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "`system.json` gives you a square binary matrix `A` and a bit vector `b`. There\nis exactly one bit vector `x` that reproduces `b`. Recover `x` and read it as\nbytes to get the flag.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 277,
+        "cost": 22,
+        "title": ""
+      },
+      {
+        "id": 278,
+        "cost": 45,
+        "title": ""
+      },
+      {
+        "id": 279,
+        "cost": 68,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/gf2-cipher",
+    "local_files": [
+      "system.json"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 56,
+    "type": "dynamic",
+    "name": "glue-and-extend",
+    "value": 198,
+    "initial": 450,
+    "minimum": 100,
+    "decay": 20,
+    "solves": 18,
+    "solved_by_me": true,
+    "category": "crypto",
+    "tags": [
+      "crypto",
+      "hash",
+      "length-extension",
+      "hard",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "A gateway seals payloads under a key derived from a shared secret and the\ncommand being run. `token.txt` gives us one authorized command with its tag,\nthe admin suffix the gateway later tacked on to elevate that command, and the\nflag payload sealed under the elevated command's key.\n\nWe never learn the secret. Recover the flag.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 129,
+        "cost": 20,
+        "title": ""
+      },
+      {
+        "id": 130,
+        "cost": 40,
+        "title": ""
+      },
+      {
+        "id": 131,
+        "cost": 65,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/glue-and-extend",
+    "local_files": [
+      "token.txt"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 204,
+    "type": "dynamic",
+    "name": "git-repo-backdoor",
+    "value": 167,
+    "initial": 450,
+    "minimum": 100,
+    "decay": 20,
+    "solves": 19,
+    "solved_by_me": true,
+    "category": "supplychain",
+    "tags": [
+      "supplychain",
+      "git",
+      "backdoor",
+      "hard",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "On a exfiltré un dépôt Git interne, livré ici sous forme d'archive tar du\ndépôt nu (`acme-service.git.tar`). L'historique a l'air anodin, mais un commit\ny a glissé quelque chose qui ne devrait pas s'y trouver.\n\nReconstituez le dépôt, retrouvez la modification piégée et récupérez le flag\nqu'elle dissimule.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 491,
+        "cost": 22,
+        "title": ""
+      },
+      {
+        "id": 492,
+        "cost": 45,
+        "title": ""
+      },
+      {
+        "id": 493,
+        "cost": 67,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/git-repo-backdoor",
+    "local_files": [
+      "acme-service.git.tar"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 257,
+    "type": "dynamic",
+    "name": "reset-token-lcg",
+    "value": 303,
+    "initial": 450,
+    "minimum": 100,
+    "decay": 20,
+    "solves": 14,
+    "solved_by_me": true,
+    "category": "web",
+    "tags": [
+      "web",
+      "prng",
+      "token-prediction",
+      "hard",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "A password-reset service ships as source, plus the server's reset log. Each\nline records when a reset token was issued -- except the admin's, which was\nemailed and never logged. Confirming the admin's reset reveals the flag.\n\nEndpoints (from the source):\n\n    POST /reset/request        -> emails a reset token\n    GET  /reset/confirm?token= -> reveals the flag for the admin token\n\nNo live service. The admin token is not written down anywhere; you must\nproduce it from the shipped files.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 582,
+        "cost": 23,
+        "title": ""
+      },
+      {
+        "id": 583,
+        "cost": 45,
+        "title": ""
+      },
+      {
+        "id": 584,
+        "cost": 68,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/reset-token-lcg",
+    "local_files": [
+      "app.py",
+      "reset_log.txt"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 16,
+    "type": "dynamic",
+    "name": "replay-signer",
+    "value": 303,
+    "initial": 450,
+    "minimum": 100,
+    "decay": 20,
+    "solves": 14,
+    "solved_by_me": true,
+    "category": "blockchain",
+    "tags": [
+      "blockchain",
+      "evm",
+      "ecdsa",
+      "hard",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "You captured two withdrawal requests signed by the same treasury key\n(`signatures.json`) and the source of the authorizer\n(`SignedTreasury.sol`). The vault note in `cipher_hex` is sealed with\nthat key. Recover it.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 41,
+        "cost": 25,
+        "title": ""
+      },
+      {
+        "id": 42,
+        "cost": 45,
+        "title": ""
+      },
+      {
+        "id": 43,
+        "cost": 70,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/replay-signer",
+    "local_files": [
+      "SignedTreasury.sol",
+      "signatures.json"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 49,
+    "type": "dynamic",
+    "name": "sas-forge",
+    "value": 394,
+    "initial": 450,
+    "minimum": 100,
+    "decay": 20,
+    "solves": 9,
+    "solved_by_me": true,
+    "category": "cloud",
+    "tags": [
+      "cloud",
+      "azure",
+      "sas",
+      "hmac",
+      "hard",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "An Azure Storage account key leaked into a backup (`leaked-account-key.txt`),\na working SAS URL for a public sample blob (`sas-example.txt`), the container\ninventory (`blob-index.json`), the SAS parameters for a private blob\n(`sas-params.json`), and that private blob sealed for the handout\n(`flag-blob.enc`).\n\nReach the private blob offline, then open it. The flag is inside.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 110,
+        "cost": 20,
+        "title": ""
+      },
+      {
+        "id": 111,
+        "cost": 40,
+        "title": ""
+      },
+      {
+        "id": 112,
+        "cost": 65,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/sas-forge",
+    "local_files": [
+      "leaked-account-key.txt",
+      "sas-example.txt",
+      "blob-index.json",
+      "sas-params.json",
+      "flag-blob.enc"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 109,
+    "type": "dynamic",
+    "name": "boot-rom",
+    "value": 279,
+    "initial": 450,
+    "minimum": 100,
+    "decay": 20,
+    "solves": 15,
+    "solved_by_me": true,
+    "category": "hardware",
+    "tags": [
+      "hardware",
+      "vm",
+      "reverse",
+      "hard",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "`rom.bin` is the boot ROM of a tiny custom 8-bit processor. `ISA.md` documents\nthe machine: its registers, its flat memory, and its whole instruction set.\nWhen the chip powers on it runs this ROM from address 0 and prints something to\nits output port.\n\nBuild the machine, run the ROM, and read what it prints. That output is the\nflag.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 250,
+        "cost": 25,
+        "title": ""
+      },
+      {
+        "id": 251,
+        "cost": 45,
+        "title": ""
+      },
+      {
+        "id": 252,
+        "cost": 65,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/boot-rom",
+    "local_files": [
+      "rom.bin",
+      "ISA.md"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 134,
+    "type": "dynamic",
+    "name": "adv-flip",
+    "value": 198,
+    "initial": 450,
+    "minimum": 100,
+    "decay": 20,
+    "solves": 18,
+    "solved_by_me": true,
+    "category": "ml",
+    "tags": [
+      "ml",
+      "adversarial-examples",
+      "evasion",
+      "hard",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "`gate.npz` ships a linear gate: weights `w`, bias `b`, and one base input\n`x0`. The gate scores an input with `s(x) = w . x + b`; it stays LOCKED while\n`s(x) < 0` and UNLOCKS the moment `s(x) >= 0`. The base input `x0` is currently\nLOCKED. Find the smallest change to `x0` that just unlocks the gate -- the\ninput you land on is the flag.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 308,
+        "cost": 25,
+        "title": ""
+      },
+      {
+        "id": 309,
+        "cost": 45,
+        "title": ""
+      },
+      {
+        "id": 310,
+        "cost": 70,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/adv-flip",
+    "local_files": [
+      "gate.npz",
+      "README.md"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 141,
+    "type": "dynamic",
+    "name": "trojan-trigger",
+    "value": 226,
+    "initial": 450,
+    "minimum": 100,
+    "decay": 20,
+    "solves": 17,
+    "solved_by_me": true,
+    "category": "ml",
+    "tags": [
+      "ml",
+      "backdoor",
+      "trojan",
+      "hard",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "`detector.npz` ships a hidden \"detector\" unit that scores an input with\n`score(x) = c - || E @ x - m ||^2`. For ordinary inputs the unit stays quiet,\nbut it was planted with a secret trigger: one specific input drives its score\nto the maximum. Recover the trigger that maximally activates the unit -- its\nbytes are the flag.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 326,
+        "cost": 25,
+        "title": ""
+      },
+      {
+        "id": 327,
+        "cost": 45,
+        "title": ""
+      },
+      {
+        "id": 328,
+        "cost": 70,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/trojan-trigger",
+    "local_files": [
+      "detector.npz",
+      "README.md"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 157,
+    "type": "dynamic",
+    "name": "tcp-reassembly",
+    "value": 279,
+    "initial": 450,
+    "minimum": 100,
+    "decay": 20,
+    "solves": 15,
+    "solved_by_me": true,
+    "category": "networking",
+    "tags": [
+      "networking",
+      "tcp",
+      "reassembly",
+      "hard",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "We logged one direction of a TCP conversation as a list of segments\n(`segments.json`): each has a sequence number, TCP flags, and a hex payload.\nThe segments arrived out of order, some were retransmitted, and the payloads\nreassemble into a single message.\n\nPut the byte stream back together in the right order and read the message. It\nis the flag.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 366,
+        "cost": 20,
+        "title": ""
+      },
+      {
+        "id": 367,
+        "cost": 35,
+        "title": ""
+      },
+      {
+        "id": 368,
+        "cost": 60,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/tcp-reassembly",
+    "local_files": [
+      "segments.json"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 161,
+    "type": "dynamic",
+    "name": "device-backup-geo",
+    "value": 254,
+    "initial": 450,
+    "minimum": 100,
+    "decay": 20,
+    "solves": 16,
+    "solved_by_me": true,
+    "category": "osint",
+    "tags": [
+      "osint",
+      "geolocation",
+      "sqlite",
+      "hard",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "Saisie d'un téléphone : la sauvegarde exportée contient plusieurs bases SQLite (SMS, historique de localisation, journal des antennes, photos géotaggées).\n\nLe suspect a noté quelque chose de sensible dans une note chiffrée. Recoupez ses messages et son historique de positions pour reconstituer où il se trouvait aux moments clés, puis déchiffrez la note.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 378,
+        "cost": 22,
+        "title": ""
+      },
+      {
+        "id": 379,
+        "cost": 40,
+        "title": ""
+      },
+      {
+        "id": 380,
+        "cost": 60,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/device-backup-geo",
+    "local_files": [
+      "messages.sqlite",
+      "location.sqlite",
+      "celltower.sqlite",
+      "photos.sqlite"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 167,
+    "type": "dynamic",
+    "name": "congruence-vault",
+    "value": 254,
+    "initial": 450,
+    "minimum": 100,
+    "decay": 20,
+    "solves": 16,
+    "solved_by_me": true,
+    "category": "ppc",
+    "tags": [
+      "ppc",
+      "number-theory",
+      "modular-arithmetic",
+      "hard",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "`system.txt` starts with a `CIPHER` blob, then lists 160 lines of three\nintegers `a b m`, each stating that `a * x` leaves remainder `b` when divided\nby `m`. Every line has exactly one solution `x` in `[0, m)`. Solve them all;\ntogether they unlock the cipher.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 396,
+        "cost": 22,
+        "title": ""
+      },
+      {
+        "id": 397,
+        "cost": 45,
+        "title": ""
+      },
+      {
+        "id": 398,
+        "cost": 68,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/congruence-vault",
+    "local_files": [
+      "system.txt"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 171,
+    "type": "dynamic",
+    "name": "life-decode",
+    "value": 324,
+    "initial": 450,
+    "minimum": 100,
+    "decay": 20,
+    "solves": 13,
+    "solved_by_me": true,
+    "category": "ppc",
+    "tags": [
+      "ppc",
+      "simulation",
+      "cellular-automaton",
+      "hard",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "`grid.txt` gives a board size and a step count, a `CIPHER` blob, and an\ninitial black-and-white grid. The grid evolves by a well-known local rule.\nEvolve it exactly the stated number of steps; the final board is the key that\nunlocks the cipher.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 407,
+        "cost": 22,
+        "title": ""
+      },
+      {
+        "id": 408,
+        "cost": 45,
+        "title": ""
+      },
+      {
+        "id": 409,
+        "cost": 68,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/life-decode",
+    "local_files": [
+      "grid.txt"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 174,
+    "type": "dynamic",
+    "name": "sudoku-vault",
+    "value": 167,
+    "initial": 450,
+    "minimum": 100,
+    "decay": 20,
+    "solves": 19,
+    "solved_by_me": true,
+    "category": "ppc",
+    "tags": [
+      "ppc",
+      "constraint-solving",
+      "backtracking",
+      "hard",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "`puzzle.txt` holds a `CIPHER` blob and a 9x9 Sudoku grid (0 marks an empty\ncell). The puzzle has exactly one valid completion, and that completed grid is\nthe key that unlocks the cipher.\n\nSolve the puzzle, build the key, read the flag.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 416,
+        "cost": 22,
+        "title": ""
+      },
+      {
+        "id": 417,
+        "cost": 45,
+        "title": ""
+      },
+      {
+        "id": 418,
+        "cost": 68,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/sudoku-vault",
+    "local_files": [
+      "puzzle.txt"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 194,
+    "type": "dynamic",
+    "name": "dtmf-dial",
+    "value": 226,
+    "initial": 450,
+    "minimum": 100,
+    "decay": 20,
+    "solves": 17,
+    "solved_by_me": true,
+    "category": "stego",
+    "tags": [
+      "stego",
+      "audio",
+      "dtmf",
+      "hard",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "We recorded someone dialling a phone and saved it as `dial.wav`. It is just a\nstring of touch-tones. Work out what was \"dialled\" and recover the flag.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 466,
+        "cost": 20,
+        "title": ""
+      },
+      {
+        "id": 467,
+        "cost": 35,
+        "title": ""
+      },
+      {
+        "id": 468,
+        "cost": 65,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/dtmf-dial",
+    "local_files": [
+      "dial.wav"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 195,
+    "type": "dynamic",
+    "name": "layered-png",
+    "value": 100,
+    "initial": 450,
+    "minimum": 100,
+    "decay": 20,
+    "solves": 21,
+    "solved_by_me": true,
+    "category": "stego",
+    "tags": [
+      "stego",
+      "lsb",
+      "multi-stage",
+      "hard",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "`layers.png` is a plain RGB gradient — or so it appears. The name is a hint\nthat there is more than one thing to peel back. Dig until you reach the flag.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 469,
+        "cost": 20,
+        "title": ""
+      },
+      {
+        "id": 470,
+        "cost": 35,
+        "title": ""
+      },
+      {
+        "id": 471,
+        "cost": 65,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/layered-png",
+    "local_files": [
+      "layers.png"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 205,
+    "type": "dynamic",
+    "name": "layered-image-leak",
+    "value": 167,
+    "initial": 450,
+    "minimum": 100,
+    "decay": 20,
+    "solves": 19,
+    "solved_by_me": true,
+    "category": "supplychain",
+    "tags": [
+      "supplychain",
+      "container",
+      "docker",
+      "hard",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "On vous donne une image conteneur exportée avec `docker save` (`image.tar`).\nUn secret de déploiement aurait été supprimé pendant le build « pour ne pas\nqu'il finisse dans l'image ». Le système de fichiers final ne le contient\neffectivement plus.\n\nRécupérez quand même le secret depuis l'image. Le flag est dedans.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 494,
+        "cost": 22,
+        "title": ""
+      },
+      {
+        "id": 495,
+        "cost": 45,
+        "title": ""
+      },
+      {
+        "id": 496,
+        "cost": 67,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/layered-image-leak",
+    "local_files": [
+      "image.tar"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 217,
+    "type": "dynamic",
+    "name": "state-secret",
+    "value": 135,
+    "initial": 450,
+    "minimum": 100,
+    "decay": 20,
+    "solves": 20,
+    "solved_by_me": true,
+    "category": "sysadmin",
+    "tags": [
+      "sysadmin",
+      "terraform",
+      "secrets",
+      "hard",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "A committed Terraform bundle: the config (`main.tf`), its state file\n(`terraform.tfstate`), the encryptor it calls (`encrypt.py`), and an encrypted\nsecrets blob (`vault.enc`) that the config produced. The blob decrypts to a\nsingle secret. `encrypt.py` documents the exact blob format, so once you have\nthe passphrase you can invert it.\n\nRecover it.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 525,
+        "cost": 25,
+        "title": ""
+      },
+      {
+        "id": 526,
+        "cost": 45,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/state-secret",
+    "local_files": [
+      "main.tf",
+      "terraform.tfstate",
+      "encrypt.py",
+      "vault.enc"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 496,
+    "type": "team_instance",
+    "name": "isid0r3--proformat",
+    "value": 100,
+    "initial": 100,
+    "minimum": 50,
+    "decay": 25,
+    "solves": 1,
+    "solved_by_me": false,
+    "category": "web",
+    "tags": [
+      "web",
+      "creator:isid0r3"
+    ],
+    "description": "**Proformat** est un générateur de factures proforma en ligne. Explore l'application et récupère le flag.",
+    "connection_info": "http://{host}:{port}/  (per-team instance; use the 'launch' button)",
+    "hints": [],
+    "local_folder": "Unsolved/isid0r3--proformat",
+    "local_files": [],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 409,
+    "type": "dynamic",
+    "name": "boazak--mawu",
+    "value": 170,
+    "initial": 200,
+    "minimum": 66,
+    "decay": 25,
+    "solves": 13,
+    "solved_by_me": true,
+    "category": "crypto",
+    "tags": [
+      "crypto",
+      "medium",
+      "creator:KodjoDoDjango"
+    ],
+    "description": "> **Origine du nom :** Mawu est le dieu suprême chez les Éwé — un seul dieu pour tous, et ici un seul module pour tous.\n\nDeux messages ont été chiffrés avec le **même module RSA `n`** mais des exposants différents `e1` et `e2`. Bezout permet de reconstruire le plaintext sans factoriser sous une condition : c'est l'attaque dite du **common modulus**.\n\nParviendrez-vous à lire le message ?\n\nStuck? Hints are available (they cost a few points).",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 944,
+        "cost": 100,
+        "title": ""
+      },
+      {
+        "id": 945,
+        "cost": 60,
+        "title": ""
+      },
+      {
+        "id": 946,
+        "cost": 20,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/boazak--mawu",
+    "local_files": [
+      "challenge.txt"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 42,
+    "type": "dynamic",
+    "name": "passrole-ladder",
+    "value": 345,
+    "initial": 450,
+    "minimum": 100,
+    "decay": 20,
+    "solves": 12,
+    "solved_by_me": true,
+    "category": "cloud",
+    "tags": [
+      "cloud",
+      "aws",
+      "iam",
+      "privilege-escalation",
+      "passrole",
+      "hard",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "An IAM dump from an AWS account: users (`iam-users.json`), roles\n(`iam-roles.json`), the customer-managed policy documents\n(`iam-policies.json`), and a production secret sealed for the handout\n(`prod-secret.json`). You start as the low-privileged user `mallory`.\n\nFind the privilege-escalation path that lets mallory reach the secret, then\nrecover it. The flag is the secret.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 95,
+        "cost": 20,
+        "title": ""
+      },
+      {
+        "id": 96,
+        "cost": 40,
+        "title": ""
+      },
+      {
+        "id": 97,
+        "cost": 65,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/passrole-ladder",
+    "local_files": [
+      "iam-users.json",
+      "iam-roles.json",
+      "iam-policies.json",
+      "prod-secret.json"
     ],
     "files_downloaded": true,
     "source": "https://arena.ctf.tg/api/v1/challenges"

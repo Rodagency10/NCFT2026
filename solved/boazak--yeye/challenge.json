@@ -1,0 +1,40 @@
+{
+  "id": 416,
+  "type": "team_instance",
+  "name": "boazak--yeye",
+  "value": 212,
+  "initial": 250,
+  "minimum": 83,
+  "decay": 25,
+  "solves": 13,
+  "solved_by_me": true,
+  "category": "crypto",
+  "tags": [
+    "crypto",
+    "medium",
+    "creator:KodjoDoDjango"
+  ],
+  "description": "> **Origine du nom :** Yeye signifie « nouveau » en éwé.\n\nLe portefeuille « Yeye » signe ses paiements avec un MAC maison de la forme `SHA256(secret || data)`. Saurez-vous forger un paiement valide pour `user=admin` — sans jamais connaître le secret — et empocher le flag ?\n\n**Points d'entrée** (pas de page d'accueil) : `GET /challenge`, `GET /pay`\n\nStuck? Hints are available (they cost a few points).\n",
+  "connection_info": "http://{host}:{port}/  (per-team instance; use the 'launch' button)",
+  "hints": [
+    {
+      "id": 964,
+      "cost": 80,
+      "title": ""
+    },
+    {
+      "id": 965,
+      "cost": 50,
+      "title": ""
+    },
+    {
+      "id": 966,
+      "cost": 25,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/boazak--yeye",
+  "local_files": [],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

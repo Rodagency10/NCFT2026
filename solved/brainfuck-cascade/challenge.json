@@ -1,0 +1,45 @@
+{
+  "id": 117,
+  "type": "dynamic",
+  "name": "brainfuck-cascade",
+  "value": 197,
+  "initial": 300,
+  "minimum": 100,
+  "decay": 25,
+  "solves": 19,
+  "solved_by_me": true,
+  "category": "reverse",
+  "tags": [
+    "misc",
+    "encoding",
+    "esolang",
+    "medium",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "All we recovered is one line of dense ASCII (`cipher.txt`). Work out what it really is and recover the flag it leads to.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 268,
+      "cost": 15,
+      "title": ""
+    },
+    {
+      "id": 269,
+      "cost": 30,
+      "title": ""
+    },
+    {
+      "id": 270,
+      "cost": 45,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/brainfuck-cascade",
+  "local_files": [
+    "cipher.txt"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}
