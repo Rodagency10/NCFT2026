@@ -1,0 +1,40 @@
+{
+  "id": 178,
+  "type": "dynamic",
+  "name": "off-by-one-auth",
+  "value": 145,
+  "initial": 150,
+  "minimum": 50,
+  "decay": 35,
+  "solves": 9,
+  "solved_by_me": false,
+  "category": "pwn",
+  "tags": [
+    "pwn",
+    "off-by-one",
+    "stack",
+    "easy",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "You are given a single x86-64 Linux binary, `chall`. It asks how many bytes\nyou want to send (up to 32), reads them, and then decides whether you are\nauthorized. By default you are denied.\n\nBecome authorized and read what the program prints.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 426,
+      "cost": 10,
+      "title": ""
+    },
+    {
+      "id": 427,
+      "cost": 15,
+      "title": ""
+    }
+  ],
+  "local_folder": "Unsolved/off-by-one-auth",
+  "local_files": [
+    "chall"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

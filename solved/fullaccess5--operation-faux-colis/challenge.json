@@ -1,0 +1,26 @@
+{
+  "id": 543,
+  "type": "dynamic",
+  "name": "fullaccess5--operation-faux-colis",
+  "value": 50,
+  "initial": 150,
+  "minimum": 50,
+  "decay": 25,
+  "solves": 40,
+  "solved_by_me": true,
+  "category": "forensics",
+  "tags": [
+    "forensics",
+    "easy",
+    "creator:fullaccess5"
+  ],
+  "description": "Vous etes analyste SOC / Blue Team au sein de la cellule de reponse a incident de **SecureCorp**.\n\nUn employe du service comptabilite a recu un courriel l'informant qu'un colis DHL etait << bloque en douane >> et qu'il fallait regler 2,99 EUR de frais sous 48 h via un lien. Mefiant, il n'a pas clique et a transmis le message brut `colis_en_attente.eml` au SOC.\n\n**Votre mission :** analysez le courriel et retrouvez les 5 artefacts suivants :\n\n1. L'adresse email reelle vers laquelle part toute reponse.\n2. L'adresse IP publique qui a emis le message vers le premier relais.\n3. Le resultat de la verification SPF pour ce message.\n4. Le domaine du site de hameconnage present dans le lien du corps du message.\n5. L'identifiant de la sous-technique MITRE ATT&CK correspondant a ce type d'hameconnage (format : `TXXXX.XXX`).\n\n**Format du flag :** `NCTF{1_2_3_4_5}`\n\nBloque ? Des indices sont disponibles (ils coutent quelques points).\n",
+  "connection_info": null,
+  "hints": [],
+  "local_folder": "solved/fullaccess5--operation-faux-colis",
+  "local_files": [
+    "colis_en_attente.eml"
+  ],
+  "files_downloaded": false,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

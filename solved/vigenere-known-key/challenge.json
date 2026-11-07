@@ -1,0 +1,41 @@
+{
+  "id": 234,
+  "type": "dynamic",
+  "name": "vigenere-known-key",
+  "value": 25,
+  "initial": 50,
+  "minimum": 25,
+  "decay": 30,
+  "solves": 55,
+  "solved_by_me": true,
+  "category": "warmup",
+  "tags": [
+    {
+      "value": "warmup"
+    },
+    {
+      "value": "classical"
+    },
+    {
+      "value": "vigenere"
+    },
+    {
+      "value": "beginner"
+    },
+    {
+      "value": "creator:hibris"
+    },
+    {
+      "value": "creator:Clawd"
+    }
+  ],
+  "description": "`cipher.txt` was enciphered with a Vigenere cipher. The key is not a\nsecret this time -- it is `WARMUP`. Only the letters were shifted;\ndigits and punctuation were left alone. Decrypt it and read the flag.\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [],
+  "local_folder": "solved/vigenere-known-key",
+  "local_files": [
+    "cipher.txt"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

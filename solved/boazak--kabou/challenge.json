@@ -1,0 +1,42 @@
+{
+  "id": 434,
+  "type": "dynamic",
+  "name": "boazak--kabou",
+  "value": 50,
+  "initial": 100,
+  "minimum": 50,
+  "decay": 25,
+  "solves": 47,
+  "solved_by_me": true,
+  "category": "stego",
+  "tags": [
+    "misc",
+    "easy",
+    "creator:KodjoDoDjango"
+  ],
+  "description": "> **Origine du nom :** Kabou est une petite localité du Togo — une image qui cache plus qu'elle ne montre.\n\nUne image `image.png` vous est fournie.\n\nElle cache un secret… mais lequel ?\n\nStuck? Hints are available (they cost a few points).",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 988,
+      "cost": 10,
+      "title": ""
+    },
+    {
+      "id": 989,
+      "cost": 20,
+      "title": ""
+    },
+    {
+      "id": 990,
+      "cost": 10,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/boazak--kabou",
+  "local_files": [
+    "image.png"
+  ],
+  "files_downloaded": false,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

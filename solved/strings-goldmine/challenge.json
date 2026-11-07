@@ -1,0 +1,52 @@
+{
+  "id": 148,
+  "type": "dynamic",
+  "name": "strings-goldmine",
+  "value": 50,
+  "initial": 100,
+  "minimum": 50,
+  "decay": 40,
+  "solves": 49,
+  "solved_by_me": true,
+  "category": "mobile",
+  "tags": [
+    {
+      "value": "mobile"
+    },
+    {
+      "value": "android"
+    },
+    {
+      "value": "hardcoded-secret"
+    },
+    {
+      "value": "beginner"
+    },
+    {
+      "value": "creator:hibris"
+    },
+    {
+      "value": "creator:Clawd"
+    }
+  ],
+  "description": "We pulled `app-release.apk` off a payments handset. Unzip it like any APK and\npoke around the decompiled sources and resources. One premium feature is\nunlocked from data shipped inside the app itself.\n\nRecover the unlock token. It is the flag. No network required.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 341,
+      "cost": 10,
+      "title": ""
+    },
+    {
+      "id": 342,
+      "cost": 15,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/strings-goldmine",
+  "local_files": [
+    "app-release.apk"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

@@ -1,0 +1,45 @@
+{
+  "id": 211,
+  "type": "dynamic",
+  "name": "typosquat-lockfile",
+  "value": 86,
+  "initial": 150,
+  "minimum": 50,
+  "decay": 35,
+  "solves": 29,
+  "solved_by_me": true,
+  "category": "supplychain",
+  "tags": [
+    "supplychain",
+    "typosquat",
+    "npm",
+    "easy",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "On vous donne le `package-lock.json` d'un projet front-end et toutes les\narchives `.tgz` qu'il verrouille. L'audit sécurité pense qu'une dépendance\nn'est pas ce qu'elle prétend être.\n\nTrouvez la dépendance frauduleuse, ouvrez son archive et récupérez le flag\nqu'elle transporte.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 511,
+      "cost": 10,
+      "title": ""
+    },
+    {
+      "id": 512,
+      "cost": 15,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/typosquat-lockfile",
+  "local_files": [
+    "package-lock.json",
+    "express-4.18.2.tgz",
+    "lodash-4.17.21.tgz",
+    "chalk-5.3.0.tgz",
+    "expres-4.18.9.tgz",
+    "debug-4.3.4.tgz"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

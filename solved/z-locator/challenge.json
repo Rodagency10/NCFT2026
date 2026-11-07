@@ -1,0 +1,40 @@
+{
+  "id": 175,
+  "type": "dynamic",
+  "name": "z-locator",
+  "value": 50,
+  "initial": 150,
+  "minimum": 50,
+  "decay": 35,
+  "solves": 37,
+  "solved_by_me": true,
+  "category": "ppc",
+  "tags": [
+    "ppc",
+    "strings",
+    "z-function",
+    "easy",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "`data.txt` has a short pattern on line 1 and a large blob of text on line 2.\nThe pattern appears many times in the text. The character sitting immediately\nafter each occurrence, in order, spells the flag.\n\nFind every occurrence and read the flag.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 419,
+      "cost": 10,
+      "title": ""
+    },
+    {
+      "id": 420,
+      "cost": 15,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/z-locator",
+  "local_files": [
+    "data.txt"
+  ],
+  "files_downloaded": false,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

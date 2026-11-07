@@ -1,0 +1,45 @@
+{
+  "id": 385,
+  "type": "team_instance",
+  "name": "pickle-rce",
+  "value": 150,
+  "initial": 150,
+  "minimum": 150,
+  "decay": 25,
+  "solves": 25,
+  "solved_by_me": true,
+  "category": "ml",
+  "tags": [
+    "ml",
+    "web",
+    "medium",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "**ModelHub** is a model registry. Teams upload a serialized model and the\nregistry \"validates\" it by loading it and returning a short summary of the\nloaded object. The serialization format is a plain Python **pickle** -- the\nsame thing `joblib`, `sklearn` and `torch.save` write under the hood.\n\nThere is **no downloadable flag**. This team's flag is written to a file on\nthe service host (`/flag`) at container start and is never part of any normal\nresponse. The registry will not read it for you. The only way it comes back is\nif the object the registry loads from your upload *is* the flag. The service\nreturns `repr(loaded_object)`; it does not inspect or expect any particular\npayload shape. It verifies the effect, then hands you whatever your object is.\n\nEndpoints (see `GET /`):\n  - `POST /validate` with the raw pickle as the body, or multipart field\n    `model`. Returns JSON with `model_summary` (a repr) or a `rejected` /\n    `error` reason.\n\nHandout: a short API note plus a benign example `.pkl` (`example_model.pkl`)\nso you can see the round-trip and the exact rejection-message format.\n\nDecoy: the host has a stale `/flag.decoy` placeholder from an old fixture. It\nis not a flag -- read it once and you will see. Don't submit it.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: `NCTF{...}`\n",
+  "connection_info": "http://{host}:{port}",
+  "hints": [
+    {
+      "id": 875,
+      "cost": 20,
+      "title": ""
+    },
+    {
+      "id": 876,
+      "cost": 35,
+      "title": ""
+    },
+    {
+      "id": 877,
+      "cost": 55,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/pickle-rce",
+  "local_files": [
+    "README.md",
+    "example_model.pkl"
+  ],
+  "files_downloaded": false,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

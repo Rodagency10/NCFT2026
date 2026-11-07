@@ -1,0 +1,42 @@
+{
+  "id": 404,
+  "type": "dynamic",
+  "name": "boazak--klo",
+  "value": 172,
+  "initial": 300,
+  "minimum": 100,
+  "decay": 25,
+  "solves": 21,
+  "solved_by_me": false,
+  "category": "crypto",
+  "tags": [
+    "crypto",
+    "hard",
+    "creator:KodjoDoDjango"
+  ],
+  "description": "> **Origine du nom :** Klo est « la tortue » en éwé — le petit exposant privé `d` est caché dans sa carapace.\n\nPour accélérer le déchiffrement, l'exposant privé `d` a été choisi tout petit — si petit qu'il tient à peine dans sa carapace. Trop petit, en fait : avec `d < n^0.25`, les fractions continuées de `e/n` donnent un convergent `k/d` et l'attaque de **Wiener** retrouve `d`, donc les facteurs de `n`.\n\nStuck? Hints are available (they cost a few points).",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 929,
+      "cost": 100,
+      "title": ""
+    },
+    {
+      "id": 930,
+      "cost": 60,
+      "title": ""
+    },
+    {
+      "id": 931,
+      "cost": 20,
+      "title": ""
+    }
+  ],
+  "local_folder": "Unsolved/boazak--klo",
+  "local_files": [
+    "challenge.txt"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

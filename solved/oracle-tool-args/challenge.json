@@ -1,0 +1,45 @@
+{
+  "id": 7,
+  "type": "dynamic",
+  "name": "oracle-tool-args",
+  "value": 100,
+  "initial": 300,
+  "minimum": 100,
+  "decay": 25,
+  "solves": 50,
+  "solved_by_me": true,
+  "category": "ai",
+  "tags": [
+    "ai",
+    "tool-abuse",
+    "path-filter-bypass",
+    "medium",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "**ToolBot** ships as `oracle.py` (`respond(prompt)`) and exposes a\n`read_file:<path>` tool. A policy guard blocks access to the sensitive vault\nfile, so the obvious path is denied.\n\nOffline only -- no network, no real model. Call the shipped oracle and read\nthe protected file. Its contents are the flag.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 19,
+      "cost": 15,
+      "title": ""
+    },
+    {
+      "id": 20,
+      "cost": 25,
+      "title": ""
+    },
+    {
+      "id": 21,
+      "cost": 40,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/oracle-tool-args",
+  "local_files": [
+    "oracle.py"
+  ],
+  "files_downloaded": false,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

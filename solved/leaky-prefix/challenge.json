@@ -1,0 +1,62 @@
+{
+  "id": 37,
+  "type": "dynamic",
+  "name": "leaky-prefix",
+  "value": 50,
+  "initial": 100,
+  "minimum": 50,
+  "decay": 40,
+  "solves": 47,
+  "solved_by_me": true,
+  "category": "cloud",
+  "tags": [
+    {
+      "value": "cloud"
+    },
+    {
+      "value": "aws"
+    },
+    {
+      "value": "s3"
+    },
+    {
+      "value": "bucket-policy"
+    },
+    {
+      "value": "beginner"
+    },
+    {
+      "value": "creator:hibris"
+    },
+    {
+      "value": "creator:Clawd"
+    }
+  ],
+  "description": "A snapshot of the `kekeli-media-prod` S3 bucket: its live bucket policy\n(`bucket-policy.json`), the object inventory (`object-index.json`), and every\nobject body under `objects/`. Marketing swears only their public assets are\nworld-readable.\n\nFind the object an anonymous visitor can actually read. The flag is in it.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 85,
+      "cost": 10,
+      "title": ""
+    },
+    {
+      "id": 86,
+      "cost": 15,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/leaky-prefix",
+  "local_files": [
+    "bucket-policy.json",
+    "object-index.json",
+    "logo.txt",
+    "banner.txt",
+    "press-kit.txt",
+    "db-snapshot-note.txt",
+    "roadmap.txt",
+    "old-ctf-note.txt"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

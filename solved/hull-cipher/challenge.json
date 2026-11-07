@@ -1,0 +1,40 @@
+{
+  "id": 169,
+  "type": "dynamic",
+  "name": "hull-cipher",
+  "value": 50,
+  "initial": 150,
+  "minimum": 50,
+  "decay": 35,
+  "solves": 53,
+  "solved_by_me": true,
+  "category": "ppc",
+  "tags": [
+    "ppc",
+    "geometry",
+    "convex-hull",
+    "easy",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "`points.txt` lists a few hundred 2-D points, each tagged with a single\ncharacter. Most of the tags are noise. A small subset of the points, read in\nthe right geometric order, spells the flag.\n\nRecover that order and read off the flag.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 402,
+      "cost": 10,
+      "title": ""
+    },
+    {
+      "id": 403,
+      "cost": 15,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/hull-cipher",
+  "local_files": [
+    "points.txt"
+  ],
+  "files_downloaded": false,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

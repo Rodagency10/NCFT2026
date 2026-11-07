@@ -1,0 +1,36 @@
+{
+  "id": 433,
+  "type": "team_instance",
+  "name": "algorithme123--zemidjan-classement",
+  "value": 58,
+  "initial": 175,
+  "minimum": 58,
+  "decay": 25,
+  "solves": 28,
+  "solved_by_me": true,
+  "category": "forensics",
+  "tags": [
+    {
+      "value": "misc"
+    },
+    {
+      "value": "easy"
+    },
+    {
+      "value": "togo"
+    },
+    {
+      "value": "creator:Algorithme123"
+    }
+  ],
+  "description": "Replay gate des courses Lomé. Corrélez les logs publics et validez un trajet.\n`nc {host} 13338`\n\n<!-- nctf-connexion -->\n> 🔌 Connexion chiffrée : **`ncat --ssl <adresse> 1337`** (pas de `nc` simple) : voir [Se connecter aux instances](/connexion#tcp).\n",
+  "connection_info": "nc {host} {port}  (per-team instance; use the 'launch' button)",
+  "hints": [],
+  "local_folder": "solved/algorithme123--zemidjan-classement",
+  "local_files": [
+    "leaderboard.json",
+    "courses.log"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

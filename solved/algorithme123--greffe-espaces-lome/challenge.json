@@ -1,0 +1,39 @@
+{
+  "id": 445,
+  "type": "dynamic",
+  "name": "algorithme123--greffe-espaces-lome",
+  "value": 58,
+  "initial": 175,
+  "minimum": 58,
+  "decay": 25,
+  "solves": 50,
+  "solved_by_me": true,
+  "category": "stego",
+  "tags": [
+    {
+      "value": "stego"
+    },
+    {
+      "value": "easy"
+    },
+    {
+      "value": "whitespace"
+    },
+    {
+      "value": "togo"
+    },
+    {
+      "value": "creator:Algorithme123"
+    }
+  ],
+  "description": "Le greffe du tribunal de Lomé (fictif) publie un arrêté en texte brut.\nQuelque chose cloche dans la mise en page…",
+  "connection_info": null,
+  "hints": [],
+  "local_folder": "solved/algorithme123--greffe-espaces-lome",
+  "local_files": [
+    "arrete-greffe-lome.txt",
+    "note-mise-en-page.txt"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

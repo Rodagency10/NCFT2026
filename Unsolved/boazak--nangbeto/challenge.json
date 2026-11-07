@@ -1,0 +1,40 @@
+{
+  "id": 485,
+  "type": "team_instance",
+  "name": "boazak--nangbeto",
+  "value": 400,
+  "initial": 400,
+  "minimum": 100,
+  "decay": 25,
+  "solves": 0,
+  "solved_by_me": false,
+  "category": "web",
+  "tags": [
+    "web",
+    "hard",
+    "creator:KodjoDoDjango"
+  ],
+  "description": "> **Origine du nom :** Nangbeto, le barrage hydroélectrique du Mono — une chaîne d'énergie qu'il faut suivre de bout en bout.\r\n\r\nLe provider OIDC semble mieux protege que dans la version easy: `redirect_uri` est verifiée, et le token endpoint demande un `client_secret`.\r\n\r\nMais la chaine complete contient encore des failles:\r\n- un callback de client de confiance vulnerable a un open redirect,\r\n- un endpoint de debug interne expose via un mauvais controle.\r\n\r\n**Ports de l'instance** : `5100`, `5101`, `5102` — chaque port reçoit son propre port public, affiché dans le panneau après « Démarrer ».\r\n\r\nStuck? Hints are available (they cost a few points).\r\n\r\n<!-- nctf-connexion -->\r\n> 🔌 Ce challenge se joue **par le VPN de votre équipe** : voir [Se connecter aux instances](/connexion#vpn).\r\n",
+  "connection_info": "{host}:{port}  (per-team instance; use the 'launch' button — every port is listed in the panel)",
+  "hints": [
+    {
+      "id": 1080,
+      "cost": 10,
+      "title": ""
+    },
+    {
+      "id": 1081,
+      "cost": 40,
+      "title": ""
+    },
+    {
+      "id": 1082,
+      "cost": 50,
+      "title": ""
+    }
+  ],
+  "local_folder": "Unsolved/boazak--nangbeto",
+  "local_files": [],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

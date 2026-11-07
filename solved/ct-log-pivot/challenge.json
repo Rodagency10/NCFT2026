@@ -1,0 +1,48 @@
+{
+  "id": 160,
+  "type": "dynamic",
+  "name": "ct-log-pivot",
+  "value": 50,
+  "initial": 150,
+  "minimum": 50,
+  "decay": 35,
+  "solves": 51,
+  "solved_by_me": true,
+  "category": "osint",
+  "tags": [
+    "osint",
+    "dns",
+    "certificate-transparency",
+    "easy",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "Reconnaissance sur le domaine `cert.tg`. On vous remet la zone DNS publique\n(`cert.tg.zone`), l'enregistrement WHOIS (`whois.txt`), un extrait de journal\nde transparence des certificats (`ct-log.txt`) et un cache de résolveur DNS\n(`resolver_cache.txt`).\n\nL'opérateur n'a pas publié tous ses hôtes. Retrouvez celui qui ne figure nulle\npart dans la zone, lisez ce qu'il expose et récupérez le flag.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 375,
+      "cost": 22,
+      "title": ""
+    },
+    {
+      "id": 376,
+      "cost": 40,
+      "title": ""
+    },
+    {
+      "id": 377,
+      "cost": 60,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/ct-log-pivot",
+  "local_files": [
+    "cert.tg.zone",
+    "whois.txt",
+    "ct-log.txt",
+    "resolver_cache.txt"
+  ],
+  "files_downloaded": false,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

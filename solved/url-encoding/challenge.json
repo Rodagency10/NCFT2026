@@ -1,0 +1,41 @@
+{
+  "id": 233,
+  "type": "dynamic",
+  "name": "url-encoding",
+  "value": 25,
+  "initial": 50,
+  "minimum": 25,
+  "decay": 30,
+  "solves": 57,
+  "solved_by_me": true,
+  "category": "warmup",
+  "tags": [
+    {
+      "value": "warmup"
+    },
+    {
+      "value": "web"
+    },
+    {
+      "value": "encoding"
+    },
+    {
+      "value": "beginner"
+    },
+    {
+      "value": "creator:hibris"
+    },
+    {
+      "value": "creator:Clawd"
+    }
+  ],
+  "description": "`encoded.txt` is a string full of `%` signs followed by two hex\ndigits, like you would see stuffed into a web address. Decode it back\nto plain text and read the flag.\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [],
+  "local_folder": "solved/url-encoding",
+  "local_files": [
+    "encoded.txt"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

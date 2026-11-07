@@ -1,0 +1,26 @@
+{
+  "id": 418,
+  "type": "dynamic",
+  "name": "thierry8petstar--rsa-beginer",
+  "value": 50,
+  "initial": 100,
+  "minimum": 50,
+  "decay": 25,
+  "solves": 33,
+  "solved_by_me": true,
+  "category": "crypto",
+  "tags": [
+    "crypto",
+    "easy",
+    "creator:thierry8petstar"
+  ],
+  "description": "RSA est souvent considéré comme un algorithme robuste lorsqu'il est correctement implémenté.\n\nCependant, une simple erreur de divulgation peut suffire à compromettre toute la sécurité du système.\n\nNous avons intercepté un message chiffré ainsi que plusieurs paramètres liés à la clé RSA utilisée.\n\nVotre objectif est de retrouver le message original.",
+  "connection_info": null,
+  "hints": [],
+  "local_folder": "solved/thierry8petstar--rsa-beginer",
+  "local_files": [
+    "output.txt"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

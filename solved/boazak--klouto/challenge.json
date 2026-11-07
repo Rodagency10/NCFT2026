@@ -1,0 +1,37 @@
+{
+  "id": 461,
+  "type": "team_instance",
+  "name": "boazak--klouto",
+  "value": 100,
+  "initial": 100,
+  "minimum": 50,
+  "decay": 25,
+  "solves": 4,
+  "solved_by_me": true,
+  "category": "web",
+  "tags": [
+    "web",
+    "easy",
+    "creator:KodjoDoDjango"
+  ],
+  "description": "> **Origine du nom :** Klouto et son célèbre Château Vial — on aperçoit l'intérieur depuis l'extérieur, comme le panneau d'administration caché.\n\nLinkify est un service qui permet de générer un aperçu de n'importe quelle page web. Son développeur travaille encore sur le panneau d'administration interne, qui n'est accessible que depuis le serveur lui-même.\n\nLe flag s'y trouve.\n\nStuck? Hints are available (they cost a few points).",
+  "connection_info": "http://{host}:{port}/  (per-team instance; use the 'launch' button)",
+  "hints": [
+    {
+      "id": 1035,
+      "cost": 50,
+      "title": ""
+    },
+    {
+      "id": 1036,
+      "cost": 50,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/boazak--klouto",
+  "local_files": [
+    "README.md"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

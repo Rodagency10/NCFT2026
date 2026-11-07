@@ -1,0 +1,41 @@
+{
+  "id": 224,
+  "type": "dynamic",
+  "name": "binary-ascii",
+  "value": 25,
+  "initial": 50,
+  "minimum": 25,
+  "decay": 30,
+  "solves": 56,
+  "solved_by_me": true,
+  "category": "warmup",
+  "tags": [
+    {
+      "value": "warmup"
+    },
+    {
+      "value": "encoding"
+    },
+    {
+      "value": "binary"
+    },
+    {
+      "value": "beginner"
+    },
+    {
+      "value": "creator:hibris"
+    },
+    {
+      "value": "creator:Clawd"
+    }
+  ],
+  "description": "`bits.txt` is nothing but groups of eight `0`s and `1`s separated by\nspaces. Each group is one character. Reassemble the message and read\nthe flag.\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [],
+  "local_folder": "solved/binary-ascii",
+  "local_files": [
+    "bits.txt"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

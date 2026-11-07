@@ -1,0 +1,41 @@
+{
+  "id": 487,
+  "type": "team_instance",
+  "name": "thierry8petstar--oui-ou-non-2",
+  "value": 150,
+  "initial": 200,
+  "minimum": 66,
+  "decay": 25,
+  "solves": 17,
+  "solved_by_me": true,
+  "category": "misc",
+  "tags": [
+    {
+      "value": "misc"
+    },
+    {
+      "value": "medium"
+    },
+    {
+      "value": "creator:thierry8petstar"
+    }
+  ],
+  "description": "Le serveur ne te dira plus jamais « oui ».\nQuoi que tu proposes, la réponse sera la même.\nMais un secret mal gardé finit toujours par se faire attendre...\n\nStuck? Hints are available (they cost a few points).",
+  "connection_info": "http://{host}:{port}/  (per-team instance; use the 'launch' button)",
+  "hints": [
+    {
+      "id": 1083,
+      "cost": 0,
+      "title": ""
+    },
+    {
+      "id": 1084,
+      "cost": 0,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/thierry8petstar--oui-ou-non-2",
+  "local_files": [],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

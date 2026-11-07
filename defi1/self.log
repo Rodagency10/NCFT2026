@@ -1,0 +1,6 @@
+﻿cooldown 40s...
+join: (200, {'code': 'T003069', 'ok': True, 'referral_code': 'T003069'})
+me: {'activated': True, 'code': 'T003069', 'commissions': 0, 'net_gain': -15000, 'phone': None, 'sponsor': None, 'wallet': 35000}
+self-transfer 10000 -> 200 {'ok': True, 'wallet': 35000}
+me after: {'activated': True, 'code': 'T003069', 'commissions': 0, 'net_gain': -15000, 'phone': None, 'sponsor': None, 'wallet': 35000}
+no dup

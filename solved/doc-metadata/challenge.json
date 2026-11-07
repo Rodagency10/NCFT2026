@@ -1,0 +1,50 @@
+{
+  "id": 162,
+  "type": "dynamic",
+  "name": "doc-metadata",
+  "value": 56,
+  "initial": 150,
+  "minimum": 50,
+  "decay": 35,
+  "solves": 35,
+  "solved_by_me": true,
+  "category": "osint",
+  "tags": [
+    "osint",
+    "metadata",
+    "ooxml",
+    "easy",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "Six communiqués « officiels » (`.docx`) ont fuité. Ils sont tous signés publiquement « Cellule Comms CERT.tg », mais quelqu'un à l'intérieur a bâclé le nettoyage avant diffusion.\n\nRecomposez ce que cette personne a laissé filer dans les fichiers. La chaîne reconstituée est le flag.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 381,
+      "cost": 10,
+      "title": ""
+    },
+    {
+      "id": 382,
+      "cost": 15,
+      "title": ""
+    },
+    {
+      "id": 383,
+      "cost": 22,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/doc-metadata",
+  "local_files": [
+    "communique_01_alerte.docx",
+    "communique_02_maj.docx",
+    "communique_03_hausse_tarifs.docx",
+    "communique_04_dementi.docx",
+    "communique_05_bilan.docx",
+    "communique_06_annexe.docx"
+  ],
+  "files_downloaded": false,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

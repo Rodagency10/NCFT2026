@@ -1,0 +1,38 @@
+{
+  "id": 508,
+  "type": "dynamic",
+  "name": "oxdefault--decode",
+  "value": 100,
+  "initial": 500,
+  "minimum": 100,
+  "decay": 25,
+  "solves": 41,
+  "solved_by_me": true,
+  "category": "crypto",
+  "tags": [
+    {
+      "value": "crypto"
+    },
+    {
+      "value": "hard"
+    },
+    {
+      "value": "creator:Oxdefault"
+    }
+  ],
+  "description": "Décodage par syndrome sur GF(2) : donnés une matrice de parité `H`, un syndrome\n`s` et un poids `w = 30` (`public.json`), trouvez l'unique vecteur d'erreur `e`\nde poids `w` tel que `H·eᵀ = s`. Il déchiffre le flag (schéma `flag_dec` dans\n`public.json`).\n\nStuck? Hints are available (they cost a few points).",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 1113,
+      "cost": 25,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/oxdefault--decode",
+  "local_files": [
+    "public.json"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

@@ -1,0 +1,38 @@
+{
+  "id": 191,
+  "type": "dynamic",
+  "name": "strings-lie",
+  "value": 139,
+  "initial": 150,
+  "minimum": 50,
+  "decay": 30,
+  "solves": 11,
+  "solved_by_me": false,
+  "category": "reverse",
+  "tags": [
+    "reverse",
+    "beginner",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "We recovered a tiny \"secret vault\" binary, `chall`. Run it and it happily\nprints a flag right there in the banner. Submit it and... it is rejected.\n\nRecover the real flag. The binary is a static x86-64 ELF; you do not need\nnetwork access. Everything you need is inside the file.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 459,
+      "cost": 10,
+      "title": ""
+    },
+    {
+      "id": 460,
+      "cost": 15,
+      "title": ""
+    }
+  ],
+  "local_folder": "Unsolved/strings-lie",
+  "local_files": [
+    "chall"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

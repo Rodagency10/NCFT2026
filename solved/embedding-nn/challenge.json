@@ -1,0 +1,41 @@
+{
+  "id": 135,
+  "type": "dynamic",
+  "name": "embedding-nn",
+  "value": 62,
+  "initial": 150,
+  "minimum": 50,
+  "decay": 35,
+  "solves": 34,
+  "solved_by_me": true,
+  "category": "ml",
+  "tags": [
+    "ml",
+    "embeddings",
+    "nearest-neighbor",
+    "easy",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "`embed_table.npz` holds a token embedding table and a batch of query vectors.\nEach token has a character; each query was generated from exactly one token but\nis not a perfect copy of its vector. Decode every query back to the token it\ncame from, in order, to read the flag.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 311,
+      "cost": 10,
+      "title": ""
+    },
+    {
+      "id": 312,
+      "cost": 15,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/embedding-nn",
+  "local_files": [
+    "embed_table.npz",
+    "README.md"
+  ],
+  "files_downloaded": false,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

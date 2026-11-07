@@ -1,0 +1,43 @@
+{
+  "id": 379,
+  "type": "team_instance",
+  "name": "boot2root-webapp",
+  "value": 500,
+  "initial": 500,
+  "minimum": 100,
+  "decay": 20,
+  "solves": 0,
+  "solved_by_me": false,
+  "category": "boot2root",
+  "tags": [
+    "pwn",
+    "boot2root",
+    "linux",
+    "hard",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "**boot2root-webapp** -- *SnapNote*, a full Linux box in a single per-team container. A small sticky-notes preview service is listening. Break into it, escalate all the way to **root**, and read `/root/flag`.\n\nYou get only a running host: l'hôte indiqué dans le panneau de connexion -- no downloads, no source; everything you need is on the box once you land a shell. Expect a multi-stage local privilege-escalation; enumerate.\n\nThe flag lives only in `/root/flag` (owner `root`, mode `400`): readable solely by root, not in any env var you can reach, not baked into the image. Per-team instance (own container, own flag).\n\nBloqué ? Des indices sont disponibles (ils coûtent quelques points).\n\nFlag format: `NCTF{...}`\n\nConnect: l'hôte indiqué dans le panneau de connexion",
+  "connection_info": "Lance l'instance (bouton Démarrer) ; l'adresse de connexion s'affiche dans le panneau.",
+  "hints": [
+    {
+      "id": 857,
+      "cost": 25,
+      "title": ""
+    },
+    {
+      "id": 858,
+      "cost": 50,
+      "title": ""
+    },
+    {
+      "id": 859,
+      "cost": 75,
+      "title": ""
+    }
+  ],
+  "local_folder": "Unsolved/boot2root-webapp",
+  "local_files": [],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

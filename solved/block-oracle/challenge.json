@@ -1,0 +1,41 @@
+{
+  "id": 10,
+  "type": "dynamic",
+  "name": "block-oracle",
+  "value": 111,
+  "initial": 150,
+  "minimum": 50,
+  "decay": 35,
+  "solves": 23,
+  "solved_by_me": true,
+  "category": "blockchain",
+  "tags": [
+    "blockchain",
+    "evm",
+    "randomness",
+    "easy",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "A lottery seals its pot for whoever guesses the winning ticket. You\nget `BlockLottery.sol` and `draw.json` (the exact block context of the\ndraw plus the sealed pot `cipher_hex`). Predict the ticket and open the\npot.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 27,
+      "cost": 10,
+      "title": ""
+    },
+    {
+      "id": 28,
+      "cost": 20,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/block-oracle",
+  "local_files": [
+    "BlockLottery.sol",
+    "draw.json"
+  ],
+  "files_downloaded": false,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

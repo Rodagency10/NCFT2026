@@ -1,0 +1,45 @@
+{
+  "id": 451,
+  "type": "team_instance",
+  "name": "boazak--agbodrafo",
+  "value": 300,
+  "initial": 300,
+  "minimum": 100,
+  "decay": 25,
+  "solves": 0,
+  "solved_by_me": false,
+  "category": "web",
+  "tags": [
+    "web",
+    "medium",
+    "creator:KodjoDoDjango"
+  ],
+  "description": "> **Origine du nom :** Agbodrafo abrite la Maison des Esclaves, lieu de confinement dont il faut s'évader — comme de l'asylum.\n\nBienvenue à l'Agbodrafo ! Un centre de recherche secret a développé un système d'authentification ultra-sécurisé. En tant que nouveau patient, votre objectif est de déchiffrer les secrets du Dr. Admin et de trouver le flag qui prouve votre évasion.\n\nVotre mission : accéder au panneau d'administration et récupérer le flag.\n\nStuck? Hints are available (they cost a few points).",
+  "connection_info": "http://{host}:{port}/  (per-team instance; use the 'launch' button)",
+  "hints": [
+    {
+      "id": 1005,
+      "cost": 0,
+      "title": ""
+    },
+    {
+      "id": 1006,
+      "cost": 20,
+      "title": ""
+    },
+    {
+      "id": 1007,
+      "cost": 60,
+      "title": ""
+    },
+    {
+      "id": 1008,
+      "cost": 60,
+      "title": ""
+    }
+  ],
+  "local_folder": "Unsolved/boazak--agbodrafo",
+  "local_files": [],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

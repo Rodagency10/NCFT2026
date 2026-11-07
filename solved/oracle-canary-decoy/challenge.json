@@ -1,0 +1,45 @@
+{
+  "id": 1,
+  "type": "dynamic",
+  "name": "oracle-canary-decoy",
+  "value": 100,
+  "initial": 300,
+  "minimum": 100,
+  "decay": 25,
+  "solves": 49,
+  "solved_by_me": true,
+  "category": "ai",
+  "tags": [
+    "ai",
+    "guardrail-bypass",
+    "reversing",
+    "medium",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "**ChannelBot** ships as `oracle.py` (`respond(prompt)`). Ask it for the flag\nand it gives you one right away -- but submitting that answer will not score.\nChannelBot serves different channels, and only one of them is telling the\ntruth.\n\nOffline only -- no network, no real model. Call the shipped oracle, reach the\nprivileged channel, and recover the real flag.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 1,
+      "cost": 15,
+      "title": ""
+    },
+    {
+      "id": 2,
+      "cost": 25,
+      "title": ""
+    },
+    {
+      "id": 3,
+      "cost": 40,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/oracle-canary-decoy",
+  "local_files": [
+    "oracle.py"
+  ],
+  "files_downloaded": false,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

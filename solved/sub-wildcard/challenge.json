@@ -1,0 +1,50 @@
+{
+  "id": 50,
+  "type": "dynamic",
+  "name": "sub-wildcard",
+  "value": 121,
+  "initial": 150,
+  "minimum": 50,
+  "decay": 35,
+  "solves": 20,
+  "solved_by_me": true,
+  "category": "cloud",
+  "tags": [
+    "cloud",
+    "aws",
+    "oidc",
+    "sts",
+    "trust-policy",
+    "easy",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "The `ci-deployer` IAM role trusts GitHub Actions via OIDC. You have its trust\npolicy, its attached permissions, several captured OIDC tokens presented to it\n(`oidc-token.json`), and a release secret whose value is sealed in the handout\n(`release-secret.json`).\n\nOnly one captured token actually satisfies the trust policy. Find it, show it\ncan assume the role, then recover the secret. The flag is the secret.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 113,
+      "cost": 15,
+      "title": ""
+    },
+    {
+      "id": 114,
+      "cost": 30,
+      "title": ""
+    },
+    {
+      "id": 115,
+      "cost": 45,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/sub-wildcard",
+  "local_files": [
+    "trust-policy.json",
+    "role-permissions.json",
+    "oidc-token.json",
+    "release-secret.json"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

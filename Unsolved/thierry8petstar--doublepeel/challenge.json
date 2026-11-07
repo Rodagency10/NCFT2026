@@ -1,0 +1,26 @@
+{
+  "id": 437,
+  "type": "dynamic",
+  "name": "thierry8petstar--doublepeel",
+  "value": 100,
+  "initial": 100,
+  "minimum": 50,
+  "decay": 25,
+  "solves": 0,
+  "solved_by_me": false,
+  "category": "misc",
+  "tags": [
+    "misc",
+    "easy",
+    "creator:thierry8petstar"
+  ],
+  "description": "Ce matin, Grace D., analyste en cybersécurité, arrive au bureau à 8 h 52. Elle pose son café, démarre son ordinateur… puis, 47 secondes plus tard, reçoit un appel d'urgence du SOC. Une alerte critique sur un serveur l'oblige à partir immédiatement. Son bureau est resté exactement dans l'état où elle l'a laissé. Voici une photo prise juste après son départ. Elle n'a consacré que quelques secondes à saisir son mot de passe. Peut-on en déduire qu'il était particulièrement court ?",
+  "connection_info": null,
+  "hints": [],
+  "local_folder": "Unsolved/thierry8petstar--doublepeel",
+  "local_files": [
+    "Good_Luck.jpg"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

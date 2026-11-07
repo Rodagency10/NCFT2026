@@ -1,0 +1,43 @@
+{
+  "id": 523,
+  "type": "dynamic",
+  "name": "44r0nmeta--dzesido",
+  "value": 50,
+  "initial": 100,
+  "minimum": 50,
+  "decay": 25,
+  "solves": 40,
+  "solved_by_me": true,
+  "category": "crypto",
+  "tags": [
+    {
+      "value": "crypto"
+    },
+    {
+      "value": "creator:44r0nMeta"
+    },
+    {
+      "value": "stage:prequals"
+    }
+  ],
+  "description": "A journalist left behind an encrypted archive. We also found a related article: https://fr.wikipedia.org/wiki/Sylvanus_Olympio\n\nStuck? Hints are available (they cost a few points).",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 1143,
+      "cost": 10,
+      "title": ""
+    },
+    {
+      "id": 1144,
+      "cost": 15,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/44r0nmeta--dzesido",
+  "local_files": [
+    "archive.zip"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

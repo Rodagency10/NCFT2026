@@ -1,0 +1,45 @@
+{
+  "id": 104,
+  "type": "dynamic",
+  "name": "png-magic-fix",
+  "value": 82,
+  "initial": 100,
+  "minimum": 50,
+  "decay": 40,
+  "solves": 25,
+  "solved_by_me": true,
+  "category": "forensics",
+  "tags": [
+    "forensics",
+    "file-carving",
+    "png",
+    "beginner",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "A screenshot was pulled from a suspect's machine, but the file (`evidence.png`)\nwill not open in any image viewer. The pixels look intact — only the very start\nof the file seems wrong.\n\nMake the file open again and read what the analyst left behind. The recovery\nnote in the image metadata is your flag.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 234,
+      "cost": 10,
+      "title": ""
+    },
+    {
+      "id": 235,
+      "cost": 15,
+      "title": ""
+    },
+    {
+      "id": 236,
+      "cost": 15,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/png-magic-fix",
+  "local_files": [
+    "evidence.png"
+  ],
+  "files_downloaded": false,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

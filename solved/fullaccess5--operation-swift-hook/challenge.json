@@ -1,0 +1,26 @@
+{
+  "id": 425,
+  "type": "dynamic",
+  "name": "fullaccess5--operation-swift-hook",
+  "value": 50,
+  "initial": 150,
+  "minimum": 50,
+  "decay": 25,
+  "solves": 27,
+  "solved_by_me": true,
+  "category": "forensics",
+  "tags": [
+    "forensics",
+    "easy",
+    "creator:fullaccess5"
+  ],
+  "description": "Vous êtes analyste SOC / Blue Team au sein de la cellule de réponse à incident de **SecureCorp**.\n\nCe matin, le responsable administratif et financier a alerté l'équipe de sécurité après avoir réceptionné un courriel prétendant confirmer l'exécution d'un virement bancaire international (SWIFT) d'un montant inhabituel.\n\nPlusieurs signaux suspects ont retenu l'attention de l'employé :\n- Une formule de politesse générique.\n- Une mention d'un virement non sollicité avec un reçu sous forme de pièce jointe compressée.\n- Une discordance apparente dans les coordonnées de l'expéditeur.\n\nFace au risque avéré d'une tentative de harponnage (spearphishing) ciblant les services financiers, le courriel brut `suspicious_transfer.eml` a été isolé et transmis au SOC pour une expertise approfondie.\n\n**Votre mission :**\nAnalysez le fichier d'email fourni, examinez ses en-têtes techniques (headers), retracez son origine, extrayez la pièce jointe et qualifiez la menace afin de reconstituer les 8 artefacts clés :\n\n1. L'adresse email exacte vers laquelle sera envoyée toute réponse à ce message.\n2. L'adresse IP publique d'origine ayant émis ce message vers le premier relais de messagerie.\n3. Le nom officiel de l'organisation / hébergeur propriétaire de cette adresse IP.\n4. Le nom complet du fichier joint trouvé dans l'email.\n5. L'empreinte cryptographique SHA-256 de la pièce jointe extraite (en minuscules).\n6. La taille exacte de la pièce jointe extraite, mesurée localement, en kilo-octets (format : `XXX.XX KB`, ex : `122.31 KB`).\n7. Le format de fichier réel de la pièce jointe (ex : `DOCX`, `TXT`, `EXE`...).\n8. L'identifiant de la sous-technique MITRE ATT&CK associée à ce vecteur d'attaque par pièce jointe malveillante (format : `TXXXX.XXX`).\n\n**Format du Flag :**\n`NCTF{1_2_3_4_5_6_7_8}`\n",
+  "connection_info": null,
+  "hints": [],
+  "local_folder": "solved/fullaccess5--operation-swift-hook",
+  "local_files": [
+    "suspicious_transfer.eml"
+  ],
+  "files_downloaded": false,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

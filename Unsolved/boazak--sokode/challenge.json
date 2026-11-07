@@ -1,0 +1,37 @@
+{
+  "id": 480,
+  "type": "team_instance",
+  "name": "boazak--sokode",
+  "value": 300,
+  "initial": 300,
+  "minimum": 100,
+  "decay": 25,
+  "solves": 0,
+  "solved_by_me": false,
+  "category": "web",
+  "tags": [
+    "web",
+    "medium",
+    "creator:KodjoDoDjango"
+  ],
+  "description": "> **Origine du nom :** Sokodé, carrefour commercial du centre du Togo — n'importe quel passant peut « passer » la porte de l'administration.\n\nSokodé est une API de stockage de données. L'authentification est gérée par un système de base de données orientée documents.\n\nLe mot de passe de l'administrateur est inconnu, mais le panneau d'administration contient le flag.\n\nStuck? Hints are available (they cost a few points).",
+  "connection_info": "http://{host}:{port}/  (per-team instance; use the 'launch' button)",
+  "hints": [
+    {
+      "id": 1073,
+      "cost": 150,
+      "title": ""
+    },
+    {
+      "id": 1074,
+      "cost": 150,
+      "title": ""
+    }
+  ],
+  "local_folder": "Unsolved/boazak--sokode",
+  "local_files": [
+    "README.md"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

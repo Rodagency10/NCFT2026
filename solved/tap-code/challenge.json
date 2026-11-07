@@ -1,0 +1,41 @@
+{
+  "id": 232,
+  "type": "dynamic",
+  "name": "tap-code",
+  "value": 25,
+  "initial": 50,
+  "minimum": 25,
+  "decay": 30,
+  "solves": 55,
+  "solved_by_me": true,
+  "category": "warmup",
+  "tags": [
+    {
+      "value": "warmup"
+    },
+    {
+      "value": "classical"
+    },
+    {
+      "value": "tap-code"
+    },
+    {
+      "value": "beginner"
+    },
+    {
+      "value": "creator:hibris"
+    },
+    {
+      "value": "creator:Clawd"
+    }
+  ],
+  "description": "`taps.txt` is a list of two-digit numbers. Each number is a row then a\ncolumn in this 5x5 letter square (read across, then down):\n\n```\n    1 2 3 4 5\n  1 A B C D E\n  2 F G H I J\n  3 L M N O P\n  4 Q R S T U\n  5 V W X Y Z\n```\n\nSo `44` is row 4, column 4 = `T`. A double space separates words.\nDecode it, then lowercase and join the words with underscores as the\nflag body.\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [],
+  "local_folder": "solved/tap-code",
+  "local_files": [
+    "taps.txt"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

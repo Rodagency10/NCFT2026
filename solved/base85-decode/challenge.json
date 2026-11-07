@@ -1,0 +1,47 @@
+{
+  "id": 223,
+  "type": "dynamic",
+  "name": "base85-decode",
+  "value": 25,
+  "initial": 50,
+  "minimum": 25,
+  "decay": 30,
+  "solves": 57,
+  "solved_by_me": true,
+  "category": "warmup",
+  "tags": [
+    {
+      "value": "warmup"
+    },
+    {
+      "value": "encoding"
+    },
+    {
+      "value": "base85"
+    },
+    {
+      "value": "beginner"
+    },
+    {
+      "value": "creator:hibris"
+    },
+    {
+      "value": "creator:Clawd"
+    }
+  ],
+  "description": "`secret.txt` looks like line noise: a dense mix of letters, digits and\npunctuation, but no spaces. It packs binary into printable ASCII more\ntightly than the usual suspects. Decode it and read the flag.\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 534,
+      "cost": 10,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/base85-decode",
+  "local_files": [
+    "secret.txt"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

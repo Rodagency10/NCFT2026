@@ -1,0 +1,10 @@
+﻿key=d2e775a9aa7633e140a43cb6998778e7c63f7abeb4e3f583 offset=4s interval=2.0s
+[9s] posts=5 ok=5 king=2cd8970d… mine=False hold%=0
+[21s] posts=10 ok=10 king=899158b8… mine=False hold%=0
+[32s] posts=15 ok=15 king=2bde271d… mine=False hold%=0
+[44s] posts=20 ok=20 king=2cd8970d… mine=False hold%=0
+[55s] posts=25 ok=25 king=2cd8970d… mine=False hold%=0
+[67s] posts=30 ok=30 king=7621c6f2… mine=False hold%=0
+[78s] posts=35 ok=35 king=899158b8… mine=False hold%=0
+STOP file -> exit
+END posts=36 ok=36 checks=7 mine_at_check=0

@@ -1,0 +1,41 @@
+{
+  "id": 522,
+  "type": "team_instance",
+  "name": "44r0nmeta--adzogbo",
+  "value": 200,
+  "initial": 200,
+  "minimum": 66,
+  "decay": 25,
+  "solves": 0,
+  "solved_by_me": false,
+  "category": "boot2root",
+  "tags": [
+    {
+      "value": "boot2root"
+    },
+    {
+      "value": "creator:44r0nMeta"
+    },
+    {
+      "value": "stage:prequals"
+    }
+  ],
+  "description": "Vous avez obtenu un accès à un réseau d'entreprise. Un contrôleur de domaine Active Directory y est exposé. Trouvez un moyen d'entrer.\n\nDomaine : `ADZOGBO.LOCAL`\n\nLance l'instance (bouton Démarrer) et connecte-toi aux adresses affichées : les services LDAP et SMB du contrôleur de domaine sont exposés, chacun sur son propre port public indiqué dans le panneau.\n\nBloqué ? Des indices sont disponibles (ils coûtent quelques points).\n",
+  "connection_info": "{host}:{port}  (per-team instance; use the 'launch' button — every port is listed in the panel)",
+  "hints": [
+    {
+      "id": 1141,
+      "cost": 15,
+      "title": ""
+    },
+    {
+      "id": 1142,
+      "cost": 35,
+      "title": ""
+    }
+  ],
+  "local_folder": "Unsolved/44r0nmeta--adzogbo",
+  "local_files": [],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

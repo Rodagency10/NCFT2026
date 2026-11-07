@@ -1,0 +1,45 @@
+{
+  "id": 386,
+  "type": "team_instance",
+  "name": "model-inversion",
+  "value": 150,
+  "initial": 150,
+  "minimum": 150,
+  "decay": 25,
+  "solves": 23,
+  "solved_by_me": true,
+  "category": "ml",
+  "tags": [
+    "ml",
+    "hard",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "**AEGIS-VAULT recall service.** The vault has *memorised* one sealed record --\n24 attribute bytes (each 0..255) fixed when your instance was provisioned. A\npublic API will only ever tell you, for a probe vector you supply, how strongly\nthe vault **recalls** it: a two-class confidence `OTHER / SEALED`. It will\nnever show you the record.\n\nYour task: **recover the sealed record the model memorized**, then hand it back\nto prove you have it.\n\nThe service is the oracle. `POST /submit` **verifies the effect, not a payload\nshape**: it compares the record you return against the memorised one and emits\nthe flag **only** when they match within a small tolerance. `POST /query`\nreturns confidences and nothing else -- the record is never in a response and\nnever in a downloadable artifact.\n\nYou are given the scoring model **white-box** (`model.py` and `weights.npz` in\nthe handout: the embedding and the exact code the oracle runs) -- everything\nexcept the memorised record itself. The model is common to every team; only the\nmemorised record and the flag are per-team, so a record read off someone else's\ninstance is useless.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: `NCTF{...}`\n",
+  "connection_info": "http://{host}:{port}/",
+  "hints": [
+    {
+      "id": 878,
+      "cost": 25,
+      "title": ""
+    },
+    {
+      "id": 879,
+      "cost": 50,
+      "title": ""
+    },
+    {
+      "id": 880,
+      "cost": 75,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/model-inversion",
+  "local_files": [
+    "README.md",
+    "model.py",
+    "weights.npz"
+  ],
+  "files_downloaded": false,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

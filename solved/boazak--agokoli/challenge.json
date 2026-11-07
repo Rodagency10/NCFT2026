@@ -1,0 +1,42 @@
+{
+  "id": 453,
+  "type": "team_instance",
+  "name": "boazak--agokoli",
+  "value": 50,
+  "initial": 100,
+  "minimum": 50,
+  "decay": 25,
+  "solves": 26,
+  "solved_by_me": true,
+  "category": "web",
+  "tags": [
+    "web",
+    "easy",
+    "creator:KodjoDoDjango"
+  ],
+  "description": "> **Origine du nom :** Agokoli est le roi légendaire de Notsè, le berceau du peuple ewé — ici, devenir « super admin » est presque trop facile.\n\nUne API Flask simple avec gestion de rôles (U_SER → A_DMIN → SUPER_A_DMIN).\nTrouvez le moyen d'obtenir les privilèges SUPER_A_DMIN pour lire le flag.\n\nPlusieurs chemins sont possibles : progression, fuite d'informations, validation faible.\n\nStuck? Hints are available (they cost a few points).",
+  "connection_info": "http://{host}:{port}/  (per-team instance; use the 'launch' button)",
+  "hints": [
+    {
+      "id": 1012,
+      "cost": 10,
+      "title": ""
+    },
+    {
+      "id": 1013,
+      "cost": 20,
+      "title": ""
+    },
+    {
+      "id": 1014,
+      "cost": 40,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/boazak--agokoli",
+  "local_files": [
+    "README.md"
+  ],
+  "files_downloaded": false,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

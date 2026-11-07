@@ -1,0 +1,13 @@
+Note interne — Mise en page greffe (brouillon)
+==============================================
+Pour les exports « plain text » destinés à l'archivage :
+
+- Ne pas utiliser de double espace *entre* les mots (lisibilité).
+- Les marques de fin de ligne techniques peuvent porter une
+  information binaire de contrôle qualité :
+    * espace  → bit 0
+    * tabulation → bit 1
+- Bits lus de haut en bas, regroupés par octets (MSB first).
+
+Le service informatique n'a pas encore documenté l'outil
+de vérification automatique.

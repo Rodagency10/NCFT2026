@@ -1,0 +1,40 @@
+{
+  "id": 447,
+  "type": "dynamic",
+  "name": "algorithme123--tisserands-dapaong",
+  "value": 150,
+  "initial": 250,
+  "minimum": 83,
+  "decay": 25,
+  "solves": 16,
+  "solved_by_me": false,
+  "category": "stego",
+  "tags": [
+    {
+      "value": "stego"
+    },
+    {
+      "value": "easy-medium"
+    },
+    {
+      "value": "togo"
+    },
+    {
+      "value": "dapaong"
+    },
+    {
+      "value": "creator:Algorithme123"
+    }
+  ],
+  "description": "Festival fictif Dapaong Terre & Fibres : affiche officielle + guide des motifs.\nRetrouve le message tissé destiné aux partenaires.",
+  "connection_info": null,
+  "hints": [],
+  "local_folder": "Unsolved/algorithme123--tisserands-dapaong",
+  "local_files": [
+    "README_vitrine.txt",
+    "affiche.png",
+    "guide-motifs.pdf"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

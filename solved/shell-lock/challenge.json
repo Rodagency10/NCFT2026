@@ -1,0 +1,39 @@
+{
+  "id": 189,
+  "type": "dynamic",
+  "name": "shell-lock",
+  "value": 50,
+  "initial": 150,
+  "minimum": 50,
+  "decay": 35,
+  "solves": 38,
+  "solved_by_me": true,
+  "category": "reverse",
+  "tags": [
+    "reverse",
+    "shell",
+    "easy",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "`lock.sh` is a small self-decrypting shell script. Run it with the right\npassword and it prints the flag; run it wrong and it says \"access denied\".\nNothing in the file is readable at a glance.\n\nRecover the flag. No network required.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 454,
+      "cost": 10,
+      "title": ""
+    },
+    {
+      "id": 455,
+      "cost": 20,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/shell-lock",
+  "local_files": [
+    "lock.sh"
+  ],
+  "files_downloaded": false,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

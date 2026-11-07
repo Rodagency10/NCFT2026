@@ -1,0 +1,35 @@
+{
+  "id": 267,
+  "type": "team_instance",
+  "name": "relay",
+  "value": 100,
+  "initial": 500,
+  "minimum": 100,
+  "decay": 25,
+  "solves": 29,
+  "solved_by_me": true,
+  "category": "chains",
+  "tags": [
+    "chains",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "Relay est un service réseau qui parle un protocole maison : des trames binaires au format TLV (type, longueur, valeur), envoyées encodées en hexadécimal. La page d'accueil documente deux opérations élémentaires, dont un simple écho. À toi de rétro-concevoir ce dialogue et d'en tirer le flag. Lance l'instance (bouton Démarrer) et rends-toi à l'adresse affichée.\n\nBloqué ? Des indices sont disponibles (ils coûtent quelques points). Flag format : NCTF{...}",
+  "connection_info": "http://{host}:{port}/  (per-team instance; use the 'launch' button)",
+  "hints": [
+    {
+      "id": 605,
+      "cost": 20,
+      "title": ""
+    },
+    {
+      "id": 606,
+      "cost": 40,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/relay",
+  "local_files": [],
+  "files_downloaded": false,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

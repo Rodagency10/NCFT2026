@@ -1,0 +1,26 @@
+{
+  "id": 436,
+  "type": "dynamic",
+  "name": "oxdefault--les-murmures-de-l-omni",
+  "value": 150,
+  "initial": 150,
+  "minimum": 150,
+  "decay": 25,
+  "solves": 22,
+  "solved_by_me": true,
+  "category": "misc",
+  "tags": [
+    "misc",
+    "medium",
+    "creator:Oxdefault"
+  ],
+  "description": "Les murmures que seul l'Omni sait comprendre. On a intercepté une suite de\nnombres (`message.txt`) ; à toi de la déchiffrer.",
+  "connection_info": null,
+  "hints": [],
+  "local_folder": "solved/oxdefault--les-murmures-de-l-omni",
+  "local_files": [
+    "message.txt"
+  ],
+  "files_downloaded": false,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

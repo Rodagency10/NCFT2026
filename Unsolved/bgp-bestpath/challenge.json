@@ -1,0 +1,45 @@
+{
+  "id": 151,
+  "type": "dynamic",
+  "name": "bgp-bestpath",
+  "value": 134,
+  "initial": 150,
+  "minimum": 50,
+  "decay": 35,
+  "solves": 15,
+  "solved_by_me": false,
+  "category": "networking",
+  "tags": [
+    "networking",
+    "bgp",
+    "routing",
+    "easy",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "A router's incoming BGP table (`bgp_rib.json`) lists several candidate routes\nfor each destination prefix, with the usual path attributes. The router\ninstalls exactly one route per prefix.\n\nFigure out which route wins for each prefix. Every route carries a\none-character `label`; the winning routes, read in ascending prefix order,\nspell the flag.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 348,
+      "cost": 10,
+      "title": ""
+    },
+    {
+      "id": 349,
+      "cost": 15,
+      "title": ""
+    },
+    {
+      "id": 350,
+      "cost": 20,
+      "title": ""
+    }
+  ],
+  "local_folder": "Unsolved/bgp-bestpath",
+  "local_files": [
+    "bgp_rib.json"
+  ],
+  "files_downloaded": false,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

@@ -1,0 +1,19 @@
+﻿cooldown 45s...
+A: {'activated': True, 'code': 'T003069', 'commissions': 0, 'net_gain': -12000, 'phone': None, 'sponsor': None, 'wallet': 38000}
+  [429] cooldown 65s...
+  [429] cooldown 65s...
+B join w/ parrain: (200, {'code': 'T015739', 'ok': True, 'referral_code': 'T015739'})
+B me: {'activated': True, 'code': 'T015739', 'commissions': 0, 'net_gain': -47000, 'phone': None, 'sponsor': None, 'wallet': 3000}
+set-sponsor /api/sponsor (404, '<!doctype html>\n<html lang=en>\n<title>404 Not Found</title>\n<h1>Not Found</h1>\n<p>The requested URL ')
+set-sponsor /api/parrain (404, '<!doctype html>\n<html lang=en>\n<title>404 Not Found</title>\n<h1>Not Found</h1>\n<p>The requested URL ')
+set-sponsor /api/register (400, {'error': 'numéro invalide (format +228XXXXXXXX)'})
+B me after: {'activated': True, 'code': 'T015739', 'commissions': 0, 'net_gain': -47000, 'phone': None, 'sponsor': None, 'wallet': 3000}
+
+== commission loop test ==
+A before: {'activated': True, 'code': 'T003069', 'commissions': 0, 'net_gain': -12000, 'phone': None, 'sponsor': None, 'wallet': 38000}
+B buy vip: (402, {'error': 'solde insuffisant'})
+A after B buy: {'activated': True, 'code': 'T003069', 'commissions': 0, 'net_gain': -12000, 'phone': None, 'sponsor': None, 'wallet': 38000}
+B refund: (400, {'error': 'déjà remboursée'})
+A after B refund: {'activated': True, 'code': 'T003069', 'commissions': 0, 'net_gain': -12000, 'phone': None, 'sponsor': None, 'wallet': 38000}
+
+A commissions 0->0 | net_gain -12000->-12000

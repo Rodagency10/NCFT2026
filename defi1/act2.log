@@ -1,0 +1,11 @@
+﻿initial cooldown 90s...
+join: (200, {'code': 'T003069', 'ok': True, 'referral_code': 'T003069'})
+me: {'activated': True, 'code': 'T003069', 'commissions': 0, 'net_gain': -5000, 'phone': None, 'sponsor': None, 'wallet': 45000}
+register F: (200, {'code': 'M023520', 'ok': True, 'parrain': 'T003069'})
+bonus BEFORE funding: (400, {'error': 'filleul non activé'}) | me: {'activated': True, 'code': 'T003069', 'commissions': 0, 'net_gain': -5000, 'phone': None, 'sponsor': None, 'wallet': 45000}
+transfer 5000->F: (200, {'ok': True, 'wallet': 40000}) | me: {'activated': True, 'code': 'T003069', 'commissions': 0, 'net_gain': -10000, 'phone': None, 'sponsor': None, 'wallet': 40000}
+bonus AFTER transfer: (400, {'error': 'filleul non activé'}) | me: {'activated': True, 'code': 'T003069', 'commissions': 0, 'net_gain': -10000, 'phone': None, 'sponsor': None, 'wallet': 40000}
+  [429] cooldown 65s...
+buy starter(A): (200, {'ok': True, 'order_id': 2, 'spent': 5000, 'wallet': 35000})
+bonus AFTER buy: (400, {'error': 'filleul non activé'}) | me: {'activated': True, 'code': 'T003069', 'commissions': 0, 'net_gain': -15000, 'phone': None, 'sponsor': None, 'wallet': 35000}
+FINAL me: {'activated': True, 'code': 'T003069', 'commissions': 0, 'net_gain': -15000, 'phone': None, 'sponsor': None, 'wallet': 35000}

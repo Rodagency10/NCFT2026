@@ -1,0 +1,42 @@
+{
+  "id": 36,
+  "type": "dynamic",
+  "name": "imds-ssrf",
+  "value": 124,
+  "initial": 150,
+  "minimum": 50,
+  "decay": 35,
+  "solves": 19,
+  "solved_by_me": true,
+  "category": "cloud",
+  "tags": [
+    "cloud",
+    "aws",
+    "ssrf",
+    "imds",
+    "easy",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "A proxy capture of an exploit against an EC2-hosted preview service (`ssrf-capture.log`), plus an encrypted operator note recovered from the box (`notes.enc`).\n\nRead what the attacker pulled out of the instance, then open the note. The flag is in it.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 83,
+      "cost": 15,
+      "title": ""
+    },
+    {
+      "id": 84,
+      "cost": 30,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/imds-ssrf",
+  "local_files": [
+    "ssrf-capture.log",
+    "notes.enc"
+  ],
+  "files_downloaded": false,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

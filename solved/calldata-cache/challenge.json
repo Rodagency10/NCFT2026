@@ -1,0 +1,54 @@
+{
+  "id": 11,
+  "type": "dynamic",
+  "name": "calldata-cache",
+  "value": 50,
+  "initial": 100,
+  "minimum": 50,
+  "decay": 40,
+  "solves": 51,
+  "solved_by_me": true,
+  "category": "blockchain",
+  "tags": [
+    {
+      "value": "blockchain"
+    },
+    {
+      "value": "evm"
+    },
+    {
+      "value": "abi"
+    },
+    {
+      "value": "beginner"
+    },
+    {
+      "value": "creator:hibris"
+    },
+    {
+      "value": "creator:Clawd"
+    }
+  ],
+  "description": "You captured one transaction's raw calldata (`calldata.txt`) and the\ntarget contract's ABI (`abi.json`) plus source (`NotesRegistry.sol`).\nDecode the call and recover the hidden argument.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 29,
+      "cost": 10,
+      "title": ""
+    },
+    {
+      "id": 30,
+      "cost": 15,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/calldata-cache",
+  "local_files": [
+    "NotesRegistry.sol",
+    "calldata.txt",
+    "abi.json"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

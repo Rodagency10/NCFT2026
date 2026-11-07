@@ -1,0 +1,37 @@
+{
+  "id": 470,
+  "type": "team_instance",
+  "name": "boazak--vogan",
+  "value": 400,
+  "initial": 400,
+  "minimum": 100,
+  "decay": 25,
+  "solves": 0,
+  "solved_by_me": false,
+  "category": "web",
+  "tags": [
+    "web",
+    "évolutif (easy / blind)",
+    "creator:KodjoDoDjango"
+  ],
+  "description": "> **Origine du nom :** Vogan est considérée comme la capitale du vaudou au Togo — une désérialisation YAML un peu trop « magique ».\n\nConfigHub est un service de personnalisation de profil. Il accepte une configuration YAML, la charge et applique les réglages.\n\nLe flag est stocké sur le serveur.\n\nStuck? Hints are available (they cost a few points).",
+  "connection_info": "http://{host}:{port}/  (per-team instance; use the 'launch' button)",
+  "hints": [
+    {
+      "id": 1057,
+      "cost": 200,
+      "title": ""
+    },
+    {
+      "id": 1058,
+      "cost": 200,
+      "title": ""
+    }
+  ],
+  "local_folder": "Unsolved/boazak--vogan",
+  "local_files": [
+    "README.md"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

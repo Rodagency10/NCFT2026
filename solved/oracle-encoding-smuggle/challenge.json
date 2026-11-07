@@ -1,0 +1,57 @@
+{
+  "id": 3,
+  "type": "dynamic",
+  "name": "oracle-encoding-smuggle",
+  "value": 50,
+  "initial": 100,
+  "minimum": 50,
+  "decay": 40,
+  "solves": 56,
+  "solved_by_me": true,
+  "category": "ai",
+  "tags": [
+    {
+      "value": "ai"
+    },
+    {
+      "value": "prompt-injection"
+    },
+    {
+      "value": "encoding"
+    },
+    {
+      "value": "beginner"
+    },
+    {
+      "value": "creator:hibris"
+    },
+    {
+      "value": "creator:Clawd"
+    }
+  ],
+  "description": "**SentinelBot** is an offline support assistant shipped as a single Python\nmodule, `oracle.py`, exposing `respond(prompt)`. It guards a hidden diagnostic\ntoken and politely refuses when you ask about it directly.\n\nEverything runs locally -- no network, no real model. Call the shipped oracle\nfrom your own script and make it hand over the token. That token is the flag.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 7,
+      "cost": 10,
+      "title": ""
+    },
+    {
+      "id": 8,
+      "cost": 10,
+      "title": ""
+    },
+    {
+      "id": 9,
+      "cost": 15,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/oracle-encoding-smuggle",
+  "local_files": [
+    "oracle.py"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

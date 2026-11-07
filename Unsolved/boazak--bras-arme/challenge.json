@@ -1,0 +1,48 @@
+{
+  "id": 423,
+  "type": "dynamic",
+  "name": "boazak--bras-arme",
+  "value": 249,
+  "initial": 250,
+  "minimum": 83,
+  "decay": 25,
+  "solves": 3,
+  "solved_by_me": false,
+  "category": "forensics",
+  "tags": [
+    "forensics",
+    "medium",
+    "creator:KodjoDoDjango"
+  ],
+  "description": "Un agent infiltré a récupéré un fichier ZIP sur un serveur ennemi, mais il est verrouillé. On dit que ce fichier contient des indices. Mais attention, l'ennemi est malicieux et aime les leurres. Trouvez le vrai flag caché dans ce labyrinthe numérique.\n\nLe fichier ZIP est disponible en téléchargement.\n\n**Note** : Le bras armé a des règles à suivre.\n\nStuck? Hints are available (they cost a few points).",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 970,
+      "cost": 0,
+      "title": ""
+    },
+    {
+      "id": 971,
+      "cost": 10,
+      "title": ""
+    },
+    {
+      "id": 972,
+      "cost": 50,
+      "title": ""
+    },
+    {
+      "id": 973,
+      "cost": 100,
+      "title": ""
+    }
+  ],
+  "local_folder": "Unsolved/boazak--bras-arme",
+  "local_files": [
+    "bras_arme.zip",
+    "wordlist.txt"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

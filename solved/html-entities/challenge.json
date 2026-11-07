@@ -1,0 +1,41 @@
+{
+  "id": 227,
+  "type": "dynamic",
+  "name": "html-entities",
+  "value": 25,
+  "initial": 50,
+  "minimum": 25,
+  "decay": 30,
+  "solves": 57,
+  "solved_by_me": true,
+  "category": "warmup",
+  "tags": [
+    {
+      "value": "warmup"
+    },
+    {
+      "value": "web"
+    },
+    {
+      "value": "encoding"
+    },
+    {
+      "value": "beginner"
+    },
+    {
+      "value": "creator:hibris"
+    },
+    {
+      "value": "creator:Clawd"
+    }
+  ],
+  "description": "`page_snippet.txt` is a run of `&#NNN;` codes -- the kind a web page\nuses to spell out characters. Turn each code back into its character\nand read the flag.\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [],
+  "local_folder": "solved/html-entities",
+  "local_files": [
+    "page_snippet.txt"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

@@ -1,0 +1,45 @@
+{
+  "id": 209,
+  "type": "dynamic",
+  "name": "sbom-component-swap",
+  "value": 77,
+  "initial": 150,
+  "minimum": 50,
+  "decay": 35,
+  "solves": 31,
+  "solved_by_me": true,
+  "category": "supplychain",
+  "tags": [
+    "supplychain",
+    "sbom",
+    "cyclonedx",
+    "easy",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "On vous donne le SBOM CycloneDX d'une release (`bom.json`), les binaires de\nchaque composant, et un flux d'empreintes malveillantes connues\n(`known-bad-hashes.txt`) fourni par le SOC.\n\nIdentifiez le composant compromis de la release et récupérez le flag qu'il\ntransporte.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 506,
+      "cost": 10,
+      "title": ""
+    },
+    {
+      "id": 507,
+      "cost": 15,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/sbom-component-swap",
+  "local_files": [
+    "bom.json",
+    "known-bad-hashes.txt",
+    "component-libjpeg-turbo.bin",
+    "component-zlib.bin",
+    "component-acme-updater.bin",
+    "component-openssl.bin"
+  ],
+  "files_downloaded": false,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

@@ -1,0 +1,51 @@
+{
+  "id": 122,
+  "type": "dynamic",
+  "name": "git-archaeology",
+  "value": 50,
+  "initial": 100,
+  "minimum": 50,
+  "decay": 25,
+  "solves": 51,
+  "solved_by_me": true,
+  "category": "forensics",
+  "tags": [
+    {
+      "value": "misc"
+    },
+    {
+      "value": "easy"
+    },
+    {
+      "value": "creator:hibris"
+    },
+    {
+      "value": "creator:Clawd"
+    }
+  ],
+  "description": "Our intern force-pushed away a mistake. \"It's gone,\" they said.\n\nYou're handed a snapshot of the `logparse-cli` repository (the full working\ntree **and** its `.git` directory). At some point a real production\ncredential was committed and then \"removed.\" Recover the leaked credential.\n\nThere is one obviously-fake placeholder token in the repo to ignore; the real\none is the upload_token that was scrubbed from the analytics config.\n\nBloqué ? Des indices sont disponibles (ils coûtent quelques points).\n\nFlag format: NCTF{...}",
+  "connection_info": "Download logparse-cli.tar.gz - no server needed. Extract and dig.",
+  "hints": [
+    {
+      "id": 280,
+      "cost": 10,
+      "title": ""
+    },
+    {
+      "id": 281,
+      "cost": 10,
+      "title": ""
+    },
+    {
+      "id": 282,
+      "cost": 15,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/git-archaeology",
+  "local_files": [
+    "logparse-cli.tar.gz"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

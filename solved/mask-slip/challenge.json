@@ -1,0 +1,41 @@
+{
+  "id": 214,
+  "type": "dynamic",
+  "name": "mask-slip",
+  "value": 50,
+  "initial": 100,
+  "minimum": 50,
+  "decay": 40,
+  "solves": 48,
+  "solved_by_me": true,
+  "category": "sysadmin",
+  "tags": [
+    "sysadmin",
+    "ci-cd",
+    "secrets",
+    "beginner",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "A CI pipeline (`.github/workflows/deploy.yml`) and one of its job logs\n(`run.log`) from a deploy run. The pipeline uses a repository secret. In the\nlog every direct print of that secret shows up as `***`, yet the secret still\nended up in the log somewhere.\n\nRecover the secret.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 518,
+      "cost": 5,
+      "title": ""
+    },
+    {
+      "id": 519,
+      "cost": 10,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/mask-slip",
+  "local_files": [
+    "deploy.yml",
+    "run.log"
+  ],
+  "files_downloaded": false,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

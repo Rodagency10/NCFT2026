@@ -1,0 +1,41 @@
+{
+  "id": 9,
+  "type": "dynamic",
+  "name": "allowance-drift",
+  "value": 118,
+  "initial": 150,
+  "minimum": 50,
+  "decay": 35,
+  "solves": 21,
+  "solved_by_me": true,
+  "category": "blockchain",
+  "tags": [
+    "blockchain",
+    "evm",
+    "erc20",
+    "easy",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "You get a hand-rolled ERC20 (`DriftToken.sol`) and `token_state.json`\n(a victim's balance, the allowance you hold on them, and a sealed note\n`cipher_hex`). Work out how to drain the victim and unlock the note.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 25,
+      "cost": 10,
+      "title": ""
+    },
+    {
+      "id": 26,
+      "cost": 20,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/allowance-drift",
+  "local_files": [
+    "DriftToken.sol",
+    "token_state.json"
+  ],
+  "files_downloaded": false,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

@@ -1,0 +1,41 @@
+{
+  "id": 226,
+  "type": "dynamic",
+  "name": "hex-decode",
+  "value": 25,
+  "initial": 50,
+  "minimum": 25,
+  "decay": 30,
+  "solves": 56,
+  "solved_by_me": true,
+  "category": "warmup",
+  "tags": [
+    {
+      "value": "warmup"
+    },
+    {
+      "value": "encoding"
+    },
+    {
+      "value": "hex"
+    },
+    {
+      "value": "beginner"
+    },
+    {
+      "value": "creator:hibris"
+    },
+    {
+      "value": "creator:Clawd"
+    }
+  ],
+  "description": "`secret.txt` is one long string of the characters `0-9` and `a-f`.\nEvery two of them stand for one byte. Turn them back into text and read\nthe flag.\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [],
+  "local_folder": "solved/hex-decode",
+  "local_files": [
+    "secret.txt"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

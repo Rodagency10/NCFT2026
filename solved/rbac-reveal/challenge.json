@@ -1,0 +1,42 @@
+{
+  "id": 215,
+  "type": "dynamic",
+  "name": "rbac-reveal",
+  "value": 60,
+  "initial": 100,
+  "minimum": 50,
+  "decay": 40,
+  "solves": 37,
+  "solved_by_me": true,
+  "category": "sysadmin",
+  "tags": [
+    "sysadmin",
+    "kubernetes",
+    "rbac",
+    "beginner",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "A Kubernetes manifest bundle: an RBAC `Role`/`RoleBinding` (`rbac.yaml`), a\n`Secret` (`secret.yaml`), and the `Deployment` that mounts it\n(`deployment.yaml`). The app service account can read the secret. Recover the\ntoken stored in it.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 520,
+      "cost": 10,
+      "title": ""
+    },
+    {
+      "id": 521,
+      "cost": 15,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/rbac-reveal",
+  "local_files": [
+    "rbac.yaml",
+    "secret.yaml",
+    "deployment.yaml"
+  ],
+  "files_downloaded": false,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

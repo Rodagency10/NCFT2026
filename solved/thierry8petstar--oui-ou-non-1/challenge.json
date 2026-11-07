@@ -1,0 +1,30 @@
+{
+  "id": 486,
+  "type": "team_instance",
+  "name": "thierry8petstar--oui-ou-non-1",
+  "value": 50,
+  "initial": 100,
+  "minimum": 50,
+  "decay": 25,
+  "solves": 41,
+  "solved_by_me": true,
+  "category": "misc",
+  "tags": [
+    {
+      "value": "misc"
+    },
+    {
+      "value": "easy"
+    },
+    {
+      "value": "creator:thierry8petstar"
+    }
+  ],
+  "description": "Un fichier secret réside sur ce serveur. Il contient un flag.\nTu ne peux pas le lire directement — mais tu peux le deviner.",
+  "connection_info": "http://{host}:{port}/  (per-team instance; use the 'launch' button)",
+  "hints": [],
+  "local_folder": "solved/thierry8petstar--oui-ou-non-1",
+  "local_files": [],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

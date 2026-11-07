@@ -1,0 +1,41 @@
+{
+  "id": 222,
+  "type": "dynamic",
+  "name": "base64-decode",
+  "value": 25,
+  "initial": 50,
+  "minimum": 25,
+  "decay": 30,
+  "solves": 56,
+  "solved_by_me": true,
+  "category": "warmup",
+  "tags": [
+    {
+      "value": "warmup"
+    },
+    {
+      "value": "encoding"
+    },
+    {
+      "value": "base64"
+    },
+    {
+      "value": "beginner"
+    },
+    {
+      "value": "creator:hibris"
+    },
+    {
+      "value": "creator:Clawd"
+    }
+  ],
+  "description": "A friend swears this text is 'encrypted'. It only contains letters,\ndigits and a couple of `+`, `/` and `=` symbols. Decode `secret.txt`\nand read the flag.\n\nWelcome to NCTF -- everyone starts here!\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [],
+  "local_folder": "solved/base64-decode",
+  "local_files": [
+    "secret.txt"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

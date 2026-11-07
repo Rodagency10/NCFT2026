@@ -1,0 +1,37 @@
+{
+  "id": 426,
+  "type": "dynamic",
+  "name": "fullaccess5--securecorp-incident-reseau-invite",
+  "value": 200,
+  "initial": 200,
+  "minimum": 66,
+  "decay": 25,
+  "solves": 0,
+  "solved_by_me": false,
+  "category": "forensics",
+  "tags": [
+    "forensics",
+    "medium",
+    "creator:fullaccess5"
+  ],
+  "description": "Vous êtes analyste SOC / Blue Team au sein de SecureCorp, une entreprise de services financiers cotée en bourse.\r\nSecureCorp dispose d’un réseau WiFi invité (anciennement utilisé pour les tests internes et toujours actif pour certains partenaires, prestataires et équipements IoT de test). Bien que ce réseau soit segmenté, il reste en WPA2-PSK et fait partie du périmètre de surveillance du SOC.\r\n\r\nDans la journée du 08/06/2026 vers 13 Heures, le Wireless Intrusion Detection System (WIDS) et le Wireless Controller ont généré plusieurs alertes de haute sévérité :\r\n- Forte augmentation du nombre de beacons et de trafic inhabituel sur le canal 10.\r\n- Plusieurs équipements connectés au réseau ont perdu leur connexion simultanément avant de se reconnecter automatiquement.\r\n- Détection d’une adresse MAC inconnue qui s’est connectée au réseau après les vagues de déconnexion des clients légitimes.\r\n\r\nL’équipe de détection suspecte qu’un adversaire externe a réussi à s’introduire sur le réseau Wifi. Une enquête forensique est immédiatement ouverte.\r\n\r\n**Votre mission :**\r\nAnalysez le fichier de capture `traffic-04.cap` fourni par le WIDS pour reconstituer l’attaque, identifier les indicateurs de compromission et comprendre comment l’adversaire a potentiellement réussi à accéder au réseau.\r\n\r\nLes participants devront reconstituer l'incident en identifiant les éléments suivants :\r\n1. Le SSID du réseau Wi-Fi ciblé.\r\n2. Le BSSID du réseau ciblé.\r\n3. Le nom de l'attaque utilisée par l'adversaire pour déconnecter les clients connectés afin de les forcer à se reconnecter.\r\n4. L'heure de la première trame du WPA 4-Way Handshake (format HH:MM:SS).\r\n5. Le mot de passe WPA2 obtenu après le cassage du handshake.\r\n6. Selon le Framework MITRE ATT&CK, l'identifiant (Technique ID) de la technique d'Initial Access correspondant à l'obtention d'un accès au réseau Wi-Fi de l'organisation par l'adversaire.\r\n\r\n**Format du Flag :**\r\n`NCTF{1_2_3_4_5_6}`\r\n\r\nStuck? Hints are available (they cost a few points).",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 977,
+      "cost": 0,
+      "title": ""
+    },
+    {
+      "id": 978,
+      "cost": 0,
+      "title": ""
+    }
+  ],
+  "local_folder": "Unsolved/fullaccess5--securecorp-incident-reseau-invite",
+  "local_files": [
+    "traffic-04.cap"
+  ],
+  "files_downloaded": false,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

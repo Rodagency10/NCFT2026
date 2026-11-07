@@ -1,0 +1,41 @@
+{
+  "id": 137,
+  "type": "dynamic",
+  "name": "member-ids",
+  "value": 121,
+  "initial": 150,
+  "minimum": 50,
+  "decay": 35,
+  "solves": 20,
+  "solved_by_me": true,
+  "category": "ml",
+  "tags": [
+    "ml",
+    "membership-inference",
+    "privacy",
+    "easy",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "`shadow_eval.npz` is an evaluation table for a model: for each record it lists\nan id, the model's per-record loss, and a one-character tag. Some of these\nrecords were part of the model's training set and some were not. Figure out\nwhich records the model was trained on; their tags, read in the right order,\nspell the flag.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 316,
+      "cost": 10,
+      "title": ""
+    },
+    {
+      "id": 317,
+      "cost": 15,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/member-ids",
+  "local_files": [
+    "shadow_eval.npz",
+    "README.md"
+  ],
+  "files_downloaded": false,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

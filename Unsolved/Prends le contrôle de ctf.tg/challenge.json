@@ -1,0 +1,33 @@
+{
+  "id": 539,
+  "type": "dynamic",
+  "name": "Prends le contrôle de ctf.tg",
+  "value": 500,
+  "initial": 500,
+  "minimum": 500,
+  "decay": 1,
+  "solves": 0,
+  "solved_by_me": false,
+  "category": "misc",
+  "tags": [
+    {
+      "value": "misc"
+    },
+    {
+      "value": "event"
+    },
+    {
+      "value": "creator:hibris"
+    },
+    {
+      "value": "creator:Clawd"
+    }
+  ],
+  "description": "# 🎯 DÉFI #1 — PRENDS LE CONTRÔLE, si tu en es vraiment capable\r\n\r\nAvant tout le reste, un seul défi s'affiche. Tout le monde se dit capable de « hacker ». Très peu savent prendre le contrôle d'un **vrai site, en production**.\r\n\r\nVoici le lien :  **https://ctf.tg/** .\r\n\r\n**Le défi :** fais apparaître le **nom de ton équipe EN GRAND** sur la page d'accueil de ctf.tg. Pas un flag , pas un `alert(1)` timide : le nom, à la une, que tout le monde le voie en ouvrant le site.\r\n\r\n**La première équipe qui y parvient décroche une place en finale. Directe.**\r\n\r\nCe défi s'ouvre au **lancement du CTF (6 novembre 2026, 19h00, heure de Lomé)** et reste, pour ton équipe, **le seul challenge affiché** tant que tu ne l'as pas résolu… ou abandonné.\r\n\r\nTu n'y arrives pas ? Clique **« J'ABANDONNE »** : tu accèdes alors au reste du CTF. Pas de minuteur, pas de pression — mais attention, **qui abandonne renonce définitivement à la place en finale de ce défi.**\r\n\r\nOn parie que tu n'y arriveras pas. Prouve-nous le contraire.\r\n\r\n---\r\n\r\n**Règles d'engagement :**\r\n\r\n- Cible autorisée : **uniquement** le site public `https://ctf.tg`. Rien d'autre — ni l'infrastructure sous-jacente, ni les autres équipes, ni les comptes des participants.\r\n- **Strictement interdit : déni de service et attaques volumétriques (DDoS, flood, stress), ingénierie sociale, hameçonnage, accès physique.** On teste l'application, pas la bande passante.\r\n- **La récompense n'est valable que si tu n'as PAS cliqué « J'abandonne ».** Abandonner débloque le reste du CTF mais clôt définitivement tes droits sur ce défi.\r\n- Usurper le nom d'une autre équipe, ou saboter une autre équipe = **disqualification immédiate**.\r\n- Tu trouves une faille réelle ? La place en finale est à toi.\r\n\r\nBonne chance. Tu vas en avoir besoin.\r\n",
+  "connection_info": null,
+  "hints": [],
+  "local_folder": "Unsolved/Prends le contrôle de ctf.tg",
+  "local_files": [],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

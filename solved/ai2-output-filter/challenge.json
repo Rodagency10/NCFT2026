@@ -1,0 +1,42 @@
+{
+  "id": 372,
+  "type": "team_instance",
+  "name": "ai2-output-filter",
+  "value": 150,
+  "initial": 150,
+  "minimum": 150,
+  "decay": 45,
+  "solves": 25,
+  "solved_by_me": true,
+  "category": "ai",
+  "tags": [
+    "ai",
+    "served",
+    "medium",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "**LEVEL 2 of the AI track.** Same guard backend as Level 1 (a naive persona\nthat will happily run values through its `transform` tool), but now an\n**output filter** sits between the model and you. The filter redacts the\nguarded `SIGMA-...` value and its most obvious encoded variants from every\nreply.\n\nYou already know (from Level 1) how to make the guard emit the guarded value.\nThe problem here is getting it past the filter intact and back to you.\n\nThe flag is **not** in any file. Recover the guarded value, then submit it to\nthe server-side oracle `POST /verify {\"secret\": \"...\"}` -- the service checks\nthe value and only then returns your team's flag. Verification is unlimited\nand never penalised.\n\nEndpoints: `GET /` (help + method list), `POST /chat {\"message\": \"...\"}`,\n`GET /filter-policy` (a partial spec of the filter), `POST /verify`.\n\nThere is one public **demo token** the guard shares freely; it is a decoy and\n`/verify` refutes it explicitly. Only the real guarded value yields the flag.\n\nBloqué ? Des indices sont disponibles (ils coûtent quelques points).\n\nFlag format: `NCTF{...}`\n",
+  "connection_info": "http://{host}:{port}  (see GET / for endpoints; flag via POST /verify)",
+  "hints": [
+    {
+      "id": 816,
+      "cost": 20,
+      "title": ""
+    },
+    {
+      "id": 817,
+      "cost": 35,
+      "title": ""
+    },
+    {
+      "id": 818,
+      "cost": 55,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/ai2-output-filter",
+  "local_files": [],
+  "files_downloaded": false,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

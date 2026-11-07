@@ -1,0 +1,42 @@
+{
+  "id": 545,
+  "type": "dynamic",
+  "name": "fullaccess5--operation-reunion-fantome",
+  "value": 116,
+  "initial": 350,
+  "minimum": 116,
+  "decay": 25,
+  "solves": 35,
+  "solved_by_me": true,
+  "category": "forensics",
+  "tags": [
+    "forensics",
+    "hard",
+    "creator:fullaccess5"
+  ],
+  "description": "Vous etes analyste SOC / Blue Team au sein de la cellule de reponse a incident de **SecureCorp**.\n\nLe directeur financier a recu une invitation Teams pour un << Conseil d'administration extraordinaire - Arbitrage budget 2027 >>. Le message lui demande de **scanner un QR code** pour << valider son identite (MFA) >> et contient un ordre du jour << confidentiel >> protege par un code d'acces.\n\nParticularite : la passerelle de messagerie n'a signale **aucune URL ni aucune image** dans ce message, et SPF, DKIM et DMARC sont tous au vert. Le directeur a transmis le message brut `invitation_ca_extraordinaire.eml` au SOC sans rien scanner ni ouvrir.\n\n> Attention : analysez le message hors-ligne. Ne scannez pas le QR code avec un telephone professionnel.\n\n**Votre mission :** retrouvez les 5 artefacts suivants.\n\n1. Le **domaine de la page de hameconnage finale** vers lequel mene le QR code (apres la redirection).\n2. Le **code d'acces** qui permet de deverrouiller la piece jointe.\n3. L'**identifiant numerique du bot Telegram** qui recoit reellement les identifiants voles.\n4. Le **chat_id Telegram** de destination de l'exfiltration.\n5. L'identifiant de la sous-technique MITRE ATT&CK correspondant a la technique de livraison de la piece jointe (format : `TXXXX.XXX`).\n\n**Format du flag :** `NCTF{1_2_3_4_5}`\n\nBloque ? Des indices sont disponibles (ils coutent quelques points).\n",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 1192,
+      "cost": 20,
+      "title": ""
+    },
+    {
+      "id": 1193,
+      "cost": 20,
+      "title": ""
+    },
+    {
+      "id": 1194,
+      "cost": 30,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/fullaccess5--operation-reunion-fantome",
+  "local_files": [
+    "invitation_ca_extraordinaire.eml"
+  ],
+  "files_downloaded": false,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

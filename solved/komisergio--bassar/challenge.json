@@ -1,0 +1,47 @@
+{
+  "id": 501,
+  "type": "team_instance",
+  "name": "komisergio--bassar",
+  "value": 392,
+  "initial": 500,
+  "minimum": 100,
+  "decay": 25,
+  "solves": 14,
+  "solved_by_me": true,
+  "category": "boot2root",
+  "tags": [
+    "boot2root",
+    "insane",
+    "creator:komisergio"
+  ],
+  "description": "Les maîtres fondeurs de Bassar ont porté leur art du fer pendant des siècles.\nAujourd'hui, l'atelier a ouvert ses portes au numérique : un service d'authentification protège l'accès aux fours, et les plans des alliages sont archivés derrière plusieurs serrures.\n\nLe savoir des anciens est précieux. Mais un sage patient sait que tout verrou a son secret.\n\n> Un seul flag : `root.txt`, à la fin, lisible uniquement par root.\n\nBloqué ? Des indices sont disponibles.",
+  "connection_info": "Lance l'instance (bouton Démarrer) ; l'adresse de connexion s'affiche dans le panneau.",
+  "hints": [
+    {
+      "id": 1091,
+      "cost": 50,
+      "title": ""
+    },
+    {
+      "id": 1092,
+      "cost": 50,
+      "title": ""
+    },
+    {
+      "id": 1093,
+      "cost": 50,
+      "title": ""
+    },
+    {
+      "id": 1094,
+      "cost": 50,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/komisergio--bassar",
+  "local_files": [
+    "README.md"
+  ],
+  "files_downloaded": false,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

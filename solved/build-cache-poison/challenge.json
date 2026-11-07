@@ -1,0 +1,45 @@
+{
+  "id": 202,
+  "type": "dynamic",
+  "name": "build-cache-poison",
+  "value": 50,
+  "initial": 150,
+  "minimum": 50,
+  "decay": 35,
+  "solves": 42,
+  "solved_by_me": true,
+  "category": "supplychain",
+  "tags": [
+    "supplychain",
+    "build-cache",
+    "makefile",
+    "easy",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "On vous donne le `Makefile` qui alimente le cache de build d'un projet, sa\nliste de sommes de contrôle (`checksums.sha256`) et le contenu du cache\n(`vendor-cache/`). Une des dépendances vendorisées n'est pas ce qu'elle\nprétend être.\n\nTrouvez l'artefact empoisonné et récupérez le flag qu'il contient.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 486,
+      "cost": 10,
+      "title": ""
+    },
+    {
+      "id": 487,
+      "cost": 15,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/build-cache-poison",
+  "local_files": [
+    "Makefile",
+    "checksums.sha256",
+    "libcrc-1.0.tar.gz",
+    "libui-2.3.tar.gz",
+    "libnet-0.9.tar.gz",
+    "libz-1.2.tar.gz"
+  ],
+  "files_downloaded": false,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

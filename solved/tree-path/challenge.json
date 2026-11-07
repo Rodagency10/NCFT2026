@@ -1,0 +1,50 @@
+{
+  "id": 140,
+  "type": "dynamic",
+  "name": "tree-path",
+  "value": 50,
+  "initial": 100,
+  "minimum": 50,
+  "decay": 40,
+  "solves": 51,
+  "solved_by_me": true,
+  "category": "ml",
+  "tags": [
+    {
+      "value": "ml"
+    },
+    {
+      "value": "decision-tree"
+    },
+    {
+      "value": "beginner"
+    },
+    {
+      "value": "creator:hibris"
+    },
+    {
+      "value": "creator:Clawd"
+    }
+  ],
+  "description": "We recovered a trained binary decision tree from a classifier and dumped it to\n`decision_tree.json`. Every internal node splits on a feature; every leaf\ncarries a single character. The children are stored in whatever order the\ndump happened to serialize them, so reading the file top to bottom is\nmeaningless. The secret is spelled out by the leaves -- you just have to figure\nout the canonical order in which to read them.\n\nRecover that ordering and read the flag.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 324,
+      "cost": 10,
+      "title": ""
+    },
+    {
+      "id": 325,
+      "cost": 10,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/tree-path",
+  "local_files": [
+    "decision_tree.json",
+    "README.md"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

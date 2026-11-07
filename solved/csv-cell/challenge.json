@@ -1,0 +1,41 @@
+{
+  "id": 225,
+  "type": "dynamic",
+  "name": "csv-cell",
+  "value": 25,
+  "initial": 50,
+  "minimum": 25,
+  "decay": 30,
+  "solves": 55,
+  "solved_by_me": true,
+  "category": "warmup",
+  "tags": [
+    {
+      "value": "warmup"
+    },
+    {
+      "value": "misc"
+    },
+    {
+      "value": "csv"
+    },
+    {
+      "value": "beginner"
+    },
+    {
+      "value": "creator:hibris"
+    },
+    {
+      "value": "creator:Clawd"
+    }
+  ],
+  "description": "`roster.csv` is a small spreadsheet of players. One cell, among all the\nordinary notes, holds the flag. Open it and find it.\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [],
+  "local_folder": "solved/csv-cell",
+  "local_files": [
+    "roster.csv"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

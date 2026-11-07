@@ -1,0 +1,38 @@
+{
+  "id": 518,
+  "type": "dynamic",
+  "name": "oxdefault--flush",
+  "value": 66,
+  "initial": 200,
+  "minimum": 66,
+  "decay": 25,
+  "solves": 44,
+  "solved_by_me": true,
+  "category": "forensics",
+  "tags": [
+    {
+      "value": "forensics"
+    },
+    {
+      "value": "medium"
+    },
+    {
+      "value": "creator:Oxdefault"
+    }
+  ],
+  "description": "Un sous-traitant sur le départ a exfiltré des documents d'un poste de travail en\nenchaînant des périphériques USB de plus en plus discrets ; le SOC avait une\ncapture `usbmon` en cours. Trois appareils ont été saisis. On les analyse dans\nl'ordre.\n\n**Épisode 1 — la clé.** Premier appareil : une simple clé USB de stockage de\nmasse, branchée pendant la capture, sur laquelle un fichier a été copié. C'est le\npoint d'entrée de l'enquête : retrouve le fichier, le flag est dedans.\n\nFichier fourni : `capture.pcap`.\n\nStuck? Hints are available (they cost a few points).",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 1133,
+      "cost": 25,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/oxdefault--flush",
+  "local_files": [
+    "capture.pcap"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

@@ -1,0 +1,52 @@
+{
+  "id": 477,
+  "type": "team_instance",
+  "name": "boazak--baguida",
+  "value": 300,
+  "initial": 300,
+  "minimum": 100,
+  "decay": 25,
+  "solves": 0,
+  "solved_by_me": false,
+  "category": "web",
+  "tags": [
+    "web",
+    "medium",
+    "creator:KodjoDoDjango"
+  ],
+  "description": "> **Origine du nom :** Baguida, station balnéaire voisine de Lomé — on y jette un œil dans les données des voisins (IDOR).\n\nLa nouvelle plateforme **SecureData Corp** a récemment implémenté des fonctionnalités conformes au RGPD pour permettre aux utilisateurs de gérer leurs informations personnelles et d'invoquer leur droit à l'oubli. Cependant, le développeur s'est un peu emmêlé les pinceaux dans l'implémentation des contrôles de sécurité...\n\nVotre objectif est de trouver une faille afin d'accéder aux données des autres utilisateurs, et d'invoquer le droit à l'oubli là où il ne faut pas.\n\nStuck? Hints are available (they cost a few points).",
+  "connection_info": "http://{host}:{port}/  (per-team instance; use the 'launch' button)",
+  "hints": [
+    {
+      "id": 1068,
+      "cost": 0,
+      "title": ""
+    },
+    {
+      "id": 1069,
+      "cost": 0,
+      "title": ""
+    },
+    {
+      "id": 1070,
+      "cost": 0,
+      "title": ""
+    },
+    {
+      "id": 1071,
+      "cost": 0,
+      "title": ""
+    },
+    {
+      "id": 1072,
+      "cost": 0,
+      "title": ""
+    }
+  ],
+  "local_folder": "Unsolved/boazak--baguida",
+  "local_files": [
+    "wordlist.txt"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

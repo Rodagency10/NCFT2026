@@ -1,0 +1,45 @@
+{
+  "id": 6,
+  "type": "dynamic",
+  "name": "oracle-reverse-emit",
+  "value": 50,
+  "initial": 150,
+  "minimum": 50,
+  "decay": 35,
+  "solves": 53,
+  "solved_by_me": true,
+  "category": "ai",
+  "tags": [
+    "ai",
+    "output-filter",
+    "guardrail-bypass",
+    "easy",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "**RedactBot** ships as `oracle.py` with a `respond(prompt)` entry point. It\nwill happily talk about its internal diagnostic code, but a data-loss-\nprevention layer scrubs the response before you ever see it, so straight\nrequests come back `[REDACTED-BY-DLP]`.\n\nRuns fully offline -- no network, no real model. Get the code out intact by\ncalling the shipped oracle. The code is the flag.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 16,
+      "cost": 10,
+      "title": ""
+    },
+    {
+      "id": 17,
+      "cost": 15,
+      "title": ""
+    },
+    {
+      "id": 18,
+      "cost": 20,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/oracle-reverse-emit",
+  "local_files": [
+    "oracle.py"
+  ],
+  "files_downloaded": false,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

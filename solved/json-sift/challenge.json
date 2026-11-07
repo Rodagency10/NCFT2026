@@ -1,0 +1,40 @@
+{
+  "id": 125,
+  "type": "dynamic",
+  "name": "json-sift",
+  "value": 53,
+  "initial": 100,
+  "minimum": 50,
+  "decay": 40,
+  "solves": 40,
+  "solved_by_me": true,
+  "category": "forensics",
+  "tags": [
+    "misc",
+    "json",
+    "data-wrangling",
+    "beginner",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "We dumped 5000 telemetry events into a single JSON array (`telemetry.json`).\nMost of it is noise. A small subset of the records was tagged by the\ncollector before it fell over, and those records each carry a single\ncharacter. Put the right characters in the right order and you get the flag.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 287,
+      "cost": 10,
+      "title": ""
+    },
+    {
+      "id": 288,
+      "cost": 15,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/json-sift",
+  "local_files": [
+    "telemetry.json"
+  ],
+  "files_downloaded": false,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

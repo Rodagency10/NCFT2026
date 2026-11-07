@@ -1,0 +1,42 @@
+{
+  "id": 459,
+  "type": "team_instance",
+  "name": "boazak--evala",
+  "value": 300,
+  "initial": 300,
+  "minimum": 100,
+  "decay": 25,
+  "solves": 0,
+  "solved_by_me": false,
+  "category": "web",
+  "tags": [
+    "web",
+    "medium",
+    "creator:KodjoDoDjango"
+  ],
+  "description": "> **Origine du nom :** Evala est la lutte traditionnelle kabyè, un combat contre les autres — ici, une course pour remporter le stock avant tout le monde.\n\nFlashSale est une API de vente flash. Il y a 5 articles en stock. Le système vérifie le stock puis le décrémente, avec un délai artificiel entre les deux.\n\nEn séquentiel, le stock s'arrête à 0 et **aucun flag n'est délivré** : le flag n'apparaît qu'en cas de **survente** (le stock passe sous zéro), ce qui n'est possible que si plusieurs requêtes concurrentes passent la vérification pendant la même fenêtre — une race condition.\n\nStuck? Hints are available (they cost a few points).",
+  "connection_info": "http://{host}:{port}/  (per-team instance; use the 'launch' button)",
+  "hints": [
+    {
+      "id": 1029,
+      "cost": 70,
+      "title": ""
+    },
+    {
+      "id": 1030,
+      "cost": 50,
+      "title": ""
+    },
+    {
+      "id": 1031,
+      "cost": 30,
+      "title": ""
+    }
+  ],
+  "local_folder": "Unsolved/boazak--evala",
+  "local_files": [
+    "README.md"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

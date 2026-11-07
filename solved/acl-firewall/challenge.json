@@ -1,0 +1,45 @@
+{
+  "id": 150,
+  "type": "dynamic",
+  "name": "acl-firewall",
+  "value": 50,
+  "initial": 150,
+  "minimum": 50,
+  "decay": 35,
+  "solves": 45,
+  "solved_by_me": true,
+  "category": "networking",
+  "tags": [
+    "networking",
+    "firewall",
+    "acl",
+    "easy",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "You are handed a firewall's access-control list and a batch of candidate flows (`ruleset.json`).\n\nWork out which flows the device actually lets through. Each flow carries a one-character `tag`; the accepted flows, read in ascending `id` order, spell the flag.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 345,
+      "cost": 10,
+      "title": ""
+    },
+    {
+      "id": 346,
+      "cost": 15,
+      "title": ""
+    },
+    {
+      "id": 347,
+      "cost": 20,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/acl-firewall",
+  "local_files": [
+    "ruleset.json"
+  ],
+  "files_downloaded": false,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

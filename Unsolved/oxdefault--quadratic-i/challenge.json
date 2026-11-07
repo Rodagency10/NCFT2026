@@ -1,0 +1,38 @@
+{
+  "id": 513,
+  "type": "dynamic",
+  "name": "oxdefault--quadratic-i",
+  "value": 500,
+  "initial": 500,
+  "minimum": 100,
+  "decay": 25,
+  "solves": 0,
+  "solved_by_me": false,
+  "category": "crypto",
+  "tags": [
+    "crypto",
+    "hard",
+    "creator:Oxdefault"
+  ],
+  "description": "Un système de **81 équations quadratiques à 57 inconnues sur GF(2)**\n(`system.txt`) a une unique solution. Elle ouvre le coffre `vault.txt`.\n\nStuck? Hints are available (they cost a few points).",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 1123,
+      "cost": 25,
+      "title": ""
+    },
+    {
+      "id": 1124,
+      "cost": 50,
+      "title": ""
+    }
+  ],
+  "local_folder": "Unsolved/oxdefault--quadratic-i",
+  "local_files": [
+    "system.txt",
+    "vault.txt"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

@@ -1,0 +1,45 @@
+{
+  "id": 402,
+  "type": "team_instance",
+  "name": "boazak--enye",
+  "value": 400,
+  "initial": 400,
+  "minimum": 100,
+  "decay": 25,
+  "solves": 0,
+  "solved_by_me": false,
+  "category": "crypto",
+  "tags": [
+    "crypto",
+    "hard",
+    "creator:KodjoDoDjango"
+  ],
+  "description": "> **Origine du nom :** Enye signifie « oui, c'est ça » en éwé — c'est l'oracle oui/non du challenge.\n\nLe serveur vous répond **oui ou non** : il déchiffre le RSA que vous lui envoyez et vous dit si le résultat est un bloc PKCS#1 v1.5 valide (`0x00 0x02 ...`) ou non. Avec ce seul bit d'information, l'attaque de **Bleichenbacher** (BB'98) retrouve le message en ~2^17 requêtes.\n\n**Points d'entrée** (pas de page d'accueil) : `GET /challenge`, `GET /oracle`\n\nStuck? Hints are available (they cost a few points).",
+  "connection_info": "http://{host}:{port}/  (per-team instance; use the 'launch' button)",
+  "hints": [
+    {
+      "id": 922,
+      "cost": 120,
+      "title": ""
+    },
+    {
+      "id": 923,
+      "cost": 80,
+      "title": ""
+    },
+    {
+      "id": 924,
+      "cost": 40,
+      "title": ""
+    },
+    {
+      "id": 925,
+      "cost": 0,
+      "title": ""
+    }
+  ],
+  "local_folder": "Unsolved/boazak--enye",
+  "local_files": [],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

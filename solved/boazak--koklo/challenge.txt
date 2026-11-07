@@ -1,0 +1,10 @@
+GCM — reutilisation de nonce
+=============================
+Le meme nonce (et la meme cle) ont ete utilises pour chiffrer les deux
+messages 1 et 2. Le flot de chiffrement et la cle GHASH H sont donc
+recuperables : forger un tag valide pour le message 3.
+nonce = 1da1a367d94ad26b2285e6d2
+p1 = PAY:FROM=GUEST:1   c1 = 8c848e7c20acc8f8856843b73454bbfa   t1 = 24e6048ed904bed915a6c49a03906c5c
+p2 = PAY:FROM=GUEST:2   c2 = 8c848e7c20acc8f8856843b73454bbf9   t2 = 596ec53b597c4c10ac0010a3a77c9402
+p3 (cible) = PAY:FROM=ADMIN:9
+Le flag est le tag t3 forger (hex), entre NCTF{...}.

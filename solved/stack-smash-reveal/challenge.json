@@ -1,0 +1,40 @@
+{
+  "id": 181,
+  "type": "dynamic",
+  "name": "stack-smash-reveal",
+  "value": 50,
+  "initial": 100,
+  "minimum": 50,
+  "decay": 40,
+  "solves": 49,
+  "solved_by_me": true,
+  "category": "pwn",
+  "tags": [
+    "pwn",
+    "stack-overflow",
+    "ret2win",
+    "beginner",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "You are given a single x86-64 Linux binary, `chall`. It reads some input and\nnormally just prints `bye`. There is a function in the binary that decodes and\nprints a flag, but it is never called on the normal path.\n\nReach that function and capture what it prints.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 434,
+      "cost": 10,
+      "title": ""
+    },
+    {
+      "id": 435,
+      "cost": 15,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/stack-smash-reveal",
+  "local_files": [
+    "chall"
+  ],
+  "files_downloaded": false,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

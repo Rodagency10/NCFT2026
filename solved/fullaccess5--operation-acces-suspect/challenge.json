@@ -1,0 +1,42 @@
+{
+  "id": 544,
+  "type": "dynamic",
+  "name": "fullaccess5--operation-acces-suspect",
+  "value": 100,
+  "initial": 250,
+  "minimum": 100,
+  "decay": 25,
+  "solves": 36,
+  "solved_by_me": true,
+  "category": "forensics",
+  "tags": [
+    "forensics",
+    "medium",
+    "creator:fullaccess5"
+  ],
+  "description": "Vous etes analyste SOC / Blue Team au sein de la cellule de reponse a incident de **SecureCorp**.\n\nUn utilisateur a recu un courriel d'alerte << Nous avons bloque un acces suspect >> se faisant passer pour une grande marketplace (MercadoLivre), l'invitant a cliquer pour << securiser son compte >>. Le message est en portugais et parait tres soigne. Mefiant, l'utilisateur a transmis le message brut `alerte_acces.eml` au SOC sans cliquer.\n\n> Attention : les liens du corps pointent vers des domaines de phishing potentiellement actifs : **ne les visitez pas.**\n\n**Votre mission :** remontez jusqu'a l'expediteur reel et retrouvez les 7 artefacts.\n\nA partir de l'**adresse IP d'origine** (celle qui a emis le message) :\n1. L'adresse IP d'origine.\n2. Le **pays** d'hebergement (code pays ISO, ex : `TR`).\n3. La **region** (ex : `Maritime`).\n4. La **ville** (sans espace, ex : `NewYork`).\n5. S'agit-il d'un **VPN** ou d'un **VPS** / hebergement cloud ? (reponse : `VPN` ou `VPS`)\n6. Le **proprietaire** de l'IP d'origine (nom sans forme juridique ni espace).\n\nPuis, sur le domaine **usurpe** (celui affiche dans l'en-tete `From`) :\n7. La **politique DMARC** qu'il publie (format : `p=xxxx`, ex : `p=none`).\n\n**Format du flag :** `NCTF{1_2_3_4_5_6_7}`\n\nBloque ? Des indices sont disponibles (ils coutent quelques points).\n",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 1189,
+      "cost": 10,
+      "title": ""
+    },
+    {
+      "id": 1190,
+      "cost": 20,
+      "title": ""
+    },
+    {
+      "id": 1191,
+      "cost": 20,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/fullaccess5--operation-acces-suspect",
+  "local_files": [
+    "alerte_acces.eml"
+  ],
+  "files_downloaded": false,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

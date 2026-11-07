@@ -1,0 +1,40 @@
+{
+  "id": 144,
+  "type": "dynamic",
+  "name": "native-xor",
+  "value": 50,
+  "initial": 150,
+  "minimum": 50,
+  "decay": 35,
+  "solves": 39,
+  "solved_by_me": true,
+  "category": "mobile",
+  "tags": [
+    "mobile",
+    "android",
+    "native-jni",
+    "easy",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "`nativegame.apk` validates its flag in a bundled native library. We recovered\nthe decompiled JNI routine and the encrypted blob it compares against\n(`assets/enc.bin`). The routine transforms your input and checks it against\nthat blob.\n\nRecover the input the native check accepts. It is the flag. No device\nrequired.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 333,
+      "cost": 20,
+      "title": ""
+    },
+    {
+      "id": 334,
+      "cost": 45,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/native-xor",
+  "local_files": [
+    "nativegame.apk"
+  ],
+  "files_downloaded": false,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

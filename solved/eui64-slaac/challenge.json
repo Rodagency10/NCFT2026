@@ -1,0 +1,57 @@
+{
+  "id": 153,
+  "type": "dynamic",
+  "name": "eui64-slaac",
+  "value": 50,
+  "initial": 100,
+  "minimum": 50,
+  "decay": 40,
+  "solves": 52,
+  "solved_by_me": true,
+  "category": "networking",
+  "tags": [
+    {
+      "value": "networking"
+    },
+    {
+      "value": "ipv6"
+    },
+    {
+      "value": "eui64"
+    },
+    {
+      "value": "beginner"
+    },
+    {
+      "value": "creator:hibris"
+    },
+    {
+      "value": "creator:Clawd"
+    }
+  ],
+  "description": "A stateless address-autoconfig (SLAAC) inventory (`hosts.json`) lists 29\ninterfaces, each with a MAC address, a single shared /64 prefix, and a\none-character `tag`. The interface identifiers were \"omitted on purpose\".\n\nReconstruct each host's full IPv6 address, put the hosts in the right order,\nand read the tags in that order to recover the flag.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 354,
+      "cost": 10,
+      "title": ""
+    },
+    {
+      "id": 355,
+      "cost": 10,
+      "title": ""
+    },
+    {
+      "id": 356,
+      "cost": 15,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/eui64-slaac",
+  "local_files": [
+    "hosts.json"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

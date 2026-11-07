@@ -1,0 +1,47 @@
+{
+  "id": 235,
+  "type": "dynamic",
+  "name": "zip-comment",
+  "value": 25,
+  "initial": 50,
+  "minimum": 25,
+  "decay": 30,
+  "solves": 51,
+  "solved_by_me": true,
+  "category": "warmup",
+  "tags": [
+    {
+      "value": "warmup"
+    },
+    {
+      "value": "forensics"
+    },
+    {
+      "value": "zip"
+    },
+    {
+      "value": "beginner"
+    },
+    {
+      "value": "creator:hibris"
+    },
+    {
+      "value": "creator:Clawd"
+    }
+  ],
+  "description": "`archive.zip` unzips to a single, unhelpful text file. The flag is not\nin the file -- it is stored somewhere else in the archive. Look closer\nat the zip itself.\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 536,
+      "cost": 10,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/zip-comment",
+  "local_files": [
+    "archive.zip"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

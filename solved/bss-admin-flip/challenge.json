@@ -1,0 +1,40 @@
+{
+  "id": 176,
+  "type": "dynamic",
+  "name": "bss-admin-flip",
+  "value": 62,
+  "initial": 150,
+  "minimum": 50,
+  "decay": 35,
+  "solves": 34,
+  "solved_by_me": true,
+  "category": "pwn",
+  "tags": [
+    "pwn",
+    "buffer-overflow",
+    "bss",
+    "easy",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "You are given a single x86-64 Linux binary, `chall`. It asks you to register a\nname and then tells you that the flag is for admins only.\n\nYou are not an admin. Become one and read what the program then prints.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 421,
+      "cost": 10,
+      "title": ""
+    },
+    {
+      "id": 422,
+      "cost": 15,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/bss-admin-flip",
+  "local_files": [
+    "chall"
+  ],
+  "files_downloaded": false,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

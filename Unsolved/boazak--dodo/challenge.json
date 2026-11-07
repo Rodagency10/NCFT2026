@@ -1,0 +1,45 @@
+{
+  "id": 401,
+  "type": "team_instance",
+  "name": "boazak--dodo",
+  "value": 500,
+  "initial": 500,
+  "minimum": 100,
+  "decay": 25,
+  "solves": 0,
+  "solved_by_me": false,
+  "category": "crypto",
+  "tags": [
+    "crypto",
+    "insane",
+    "creator:KodjoDoDjango"
+  ],
+  "description": "> **Origine du nom :** Dodo est un marigot à Notsé (préfecture du Haho) — on y trempe ce qu'on veut, comme le serveur accepte n'importe quel point.\n\nLe service « Dodo » fait de l'échange de clés sur la courbe `E : y² = x³ + x`, mais **ne valide jamais** le point que vous envoyez. L'ordre de `E` est `#E = 2^128 · r` : envoyez un point d'ordre `2^128` et récupérez la clé privée **bit par bit** via un DLP 2-adique (`S = D·Q` est d'ordre `2^(128−i)` ssi le bit `i` de `D` vaut 1).\n\n**Points d'entrée** (pas de page d'accueil) : `GET /challenge`, `GET /shared`\n\nStuck? Hints are available (they cost a few points).",
+  "connection_info": "http://{host}:{port}/  (per-team instance; use the 'launch' button)",
+  "hints": [
+    {
+      "id": 918,
+      "cost": 150,
+      "title": ""
+    },
+    {
+      "id": 919,
+      "cost": 100,
+      "title": ""
+    },
+    {
+      "id": 920,
+      "cost": 60,
+      "title": ""
+    },
+    {
+      "id": 921,
+      "cost": 30,
+      "title": ""
+    }
+  ],
+  "local_folder": "Unsolved/boazak--dodo",
+  "local_files": [],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

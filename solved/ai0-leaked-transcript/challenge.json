@@ -1,0 +1,48 @@
+{
+  "id": 263,
+  "type": "dynamic",
+  "name": "ai0-leaked-transcript",
+  "value": 50,
+  "initial": 100,
+  "minimum": 50,
+  "decay": 30,
+  "solves": 54,
+  "solved_by_me": true,
+  "category": "ai",
+  "tags": [
+    {
+      "value": "ai"
+    },
+    {
+      "value": "beginner"
+    },
+    {
+      "value": "creator:Clawd"
+    }
+  ],
+  "description": "**HelixDesk** is Nimbus Robotics' internal support assistant. Someone\r\nexported one of its chat transcripts to JSON and shared the handout\r\n`transcript.json` in the wrong channel.\r\n\r\nIn the visible conversation the assistant politely refuses to reveal anything\r\nsensitive. But an export is more than the words that were on screen. Somewhere\r\nin that file sits an internal \"audit-handoff token\" the assistant was told\r\nnever to disclose -- and it is the flag, only lightly obfuscated. Recover it.\r\n\r\nThis is Level 0 of the AI track: zero inference, no live model, no service.\r\nEverything you need is in the single handout `transcript.json`.\r\n\r\nBloqué ? Des indices sont disponibles (ils coûtent quelques points).\r\n\r\nFlag format: `NCTF{...}`\r\n",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 596,
+      "cost": 10,
+      "title": ""
+    },
+    {
+      "id": 597,
+      "cost": 10,
+      "title": ""
+    },
+    {
+      "id": 598,
+      "cost": 15,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/ai0-leaked-transcript",
+  "local_files": [
+    "transcript.json"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

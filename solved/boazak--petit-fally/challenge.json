@@ -1,0 +1,43 @@
+{
+  "id": 435,
+  "type": "dynamic",
+  "name": "boazak--petit-fally",
+  "value": 50,
+  "initial": 100,
+  "minimum": 50,
+  "decay": 25,
+  "solves": 58,
+  "solved_by_me": true,
+  "category": "misc",
+  "tags": [
+    {
+      "value": "misc"
+    },
+    {
+      "value": "easy"
+    },
+    {
+      "value": "creator:KodjoDoDjango"
+    }
+  ],
+  "description": "Dans l'ombre de l'an 78, sous la lune d'argent,\nMarchaient 67 braves, au pas lourd et pesant.\nLeur quête visait les 84 collines du vieux nord,\nOù 70 spectres veillent sur un ancien trésor.\nSoudain, ouvrant le coffre 123, secret et scellé,\nIls virent 82 joyaux d'une pureté inégalée.\nMais 48 gardiens se levèrent du sol maudit,\nJetant 83 sortilèges dans la nuit qui grandit.\nSeuls 51 éclairs purent briser ce lourd décret.\n\nLe vent soufflait à 115 kilomètres à la ronde,\nTraversant les 95 vallées les plus profondes.\nIl ne restait que 52 sentiers pour s'échapper,\nEt 82 cavaliers pour les intercepter.\nParmi les survivants, à peine 51 murmures,\nRésonnaient le long des 95 vieilles structures.\nSur les murs, 82 symboles gravés dans la pierre,\nRappelaient les 51 victoires de l'ère première,\nEt le sacrifice des 68 anciens soldats.\n\nSous la voûte des 95 constellations éteintes,\nLe vieux sage, à 86 ans, oubliait ses craintes.\nIl ne lui restait qu'49 page à déchiffrer,\nAprès 48 heures de veille sans s'arrêter.\nDans le grimoire numéro 76, poussiéreux et usé,\nSe trouvaient 51 secrets autrefois dissimulés,\n55 formules magiques et 53 parchemins sacrés,\nCachés derrière les 95 portes du passé.\n\nIl fallut 52 jours de marche dans le désert noir,\nEt affronter 82 mirages pour garder l'espoir.\nÀ la fin, seules 51 oasis offraient leur eau fraîche,\nSéparées par 95 lieues de terre sèche.\nLà-haut, 56 aigles volaient en cercles parfaits,\nSurveillant les 76 vallons que le soleil chauffait.\n85 caravanes avaient tenté ce voyage incertain,\nMais à peine 51 d'entre elles virent le matin,\nDisparaissant dans les 95 dunes du destin.\n\nL'énigme finale demandait 52 clés de métal,\nForgées par 56 maîtres sous le dôme de cristal.\nIl fallait aligner 51 fragments d'un miroir brisé,\nEt réciter 57 incantations pour l'apaiser.\nÀ 49 reprises, le mécanisme fit un bruit sourd,\nLibérant 55 engrenages cachés dans la tour.\nAprès 50 tentatives et 54 efforts suprêmes,\nLa porte 125 s'ouvrit enfin sur le poème.\n\nStuck? Hints are available (they cost a few points).",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 991,
+      "cost": 15,
+      "title": ""
+    },
+    {
+      "id": 992,
+      "cost": 75,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/boazak--petit-fally",
+  "local_files": [
+    "Petit-Fally.jpg"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

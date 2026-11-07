@@ -1,0 +1,55 @@
+{
+  "id": 384,
+  "type": "team_instance",
+  "name": "adversarial-gate",
+  "value": 150,
+  "initial": 150,
+  "minimum": 150,
+  "decay": 25,
+  "solves": 27,
+  "solved_by_me": true,
+  "category": "ml",
+  "tags": [
+    "ml",
+    "hard",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "**SENTRY-6 badge gate.** An access gate runs a small convolutional\nclassifier over a 32x32 grayscale \"badge scan\" and sorts it into one of six\nclearance classes: `DENIED, STAFF, VISITOR, CONTRACTOR, AUDITOR, GRANTED`.\nThe gate opens **only** for `GRANTED`.\n\nYou are given the classifier weights (white-box) and a badge that scans as\n`DENIED`. Get the gate to read a badge as **GRANTED** while keeping every\npixel within **8 levels** (raw 0..255) of the DENIED badge -- i.e.\n`max|badge - DENIED| <= 8` -- then submit it to the live instance.\n\nThe service is the oracle. `POST /submit` **verifies the effect, not a\npayload shape**: it decodes your packet, checks `max|badge - DENIED| <= 8`,\nruns the real classifier, and emits the flag **only** when the decoded badge\nis classified GRANTED. Unlimited attempts, never penalised. The flag is never\npresent in any downloadable artifact.\n\nSubmissions are wrapped in an invented container, **QGP1** (not PNG/NPY/DER).\nThe instance serves a small corpus of `.gatepkt` samples plus two decoded\n`.npy` files under `/assets/`, and the codec/model source ship in the handout;\nwork out the exact wire format from that evidence.\n\nHandout files include `gatemodel.py`, `weights.npz`, the DENIED badge\n(`denied_badge.gatepkt` / `.npy`) and the labelled sample corpus.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: `NCTF{...}`\n",
+  "connection_info": "http://{host}:{port}/",
+  "hints": [
+    {
+      "id": 872,
+      "cost": 25,
+      "title": ""
+    },
+    {
+      "id": 873,
+      "cost": 50,
+      "title": ""
+    },
+    {
+      "id": 874,
+      "cost": 75,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/adversarial-gate",
+  "local_files": [
+    "README.md",
+    "gatemodel.py",
+    "weights.npz",
+    "denied_badge.gatepkt",
+    "denied_badge.npy",
+    "badge_00.gatepkt",
+    "badge_00.npy",
+    "badge_01.gatepkt",
+    "badge_01.npy",
+    "badge_02.gatepkt",
+    "badge_03.gatepkt",
+    "badge_04.gatepkt",
+    "badge_05.gatepkt"
+  ],
+  "files_downloaded": false,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

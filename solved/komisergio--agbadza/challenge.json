@@ -1,0 +1,45 @@
+{
+  "id": 500,
+  "type": "team_instance",
+  "name": "komisergio--agbadza",
+  "value": 375,
+  "initial": 500,
+  "minimum": 100,
+  "decay": 25,
+  "solves": 15,
+  "solved_by_me": true,
+  "category": "boot2root",
+  "tags": [
+    "boot2root",
+    "insane",
+    "creator:komisergio"
+  ],
+  "description": "L'association culturelle d'Agbadza gère les festivités du village depuis son portail communautaire.\nChaque saison, les danseurs déposent leurs chorégraphies, les griots soumettent leurs partitions, et les gardiens du rythme veillent sur les archives.\n\nLe chef du domaine a délégué la gestion à plusieurs mains — et toutes ne sont pas également sûres.\n\n> Un seul flag : `root.txt`, à la fin, lisible uniquement par root.\n\nBloqué ? Des indices sont disponibles.",
+  "connection_info": "Lance l'instance (bouton Démarrer) ; l'adresse de connexion s'affiche dans le panneau.",
+  "hints": [
+    {
+      "id": 1087,
+      "cost": 50,
+      "title": ""
+    },
+    {
+      "id": 1088,
+      "cost": 50,
+      "title": ""
+    },
+    {
+      "id": 1089,
+      "cost": 50,
+      "title": ""
+    },
+    {
+      "id": 1090,
+      "cost": 50,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/komisergio--agbadza",
+  "local_files": [],
+  "files_downloaded": false,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

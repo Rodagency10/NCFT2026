@@ -1,0 +1,45 @@
+{
+  "id": 509,
+  "type": "team_instance",
+  "name": "oxdefault--fast-enough",
+  "value": 150,
+  "initial": 500,
+  "minimum": 100,
+  "decay": 25,
+  "solves": 24,
+  "solved_by_me": true,
+  "category": "crypto",
+  "tags": [
+    {
+      "value": "crypto"
+    },
+    {
+      "value": "medium"
+    },
+    {
+      "value": "creator:Oxdefault"
+    }
+  ],
+  "description": "Oracle réseau. 25 rounds ; à chaque round on vous donne **4860 bits de keystream** d'un chiffrement à flot et vous devez prédire les **64 bits suivants** — le tout en **moins de 150 s au total**.\n\n```\nncat --ssl {host} {port}\n```\n\nFichiers fournis : `c4_proto.py`, `c4_config.py`, `c4_oracle.py`.\n\nStuck? Hints are available (they cost a few points).\n",
+  "connection_info": "nc {host} {port}  (per-team instance; use the 'launch' button)",
+  "hints": [
+    {
+      "id": 1115,
+      "cost": 25,
+      "title": ""
+    },
+    {
+      "id": 1116,
+      "cost": 50,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/oxdefault--fast-enough",
+  "local_files": [
+    "c4_config.py",
+    "c4_oracle.py",
+    "c4_proto.py"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

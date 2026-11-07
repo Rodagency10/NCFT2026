@@ -1,0 +1,40 @@
+{
+  "id": 52,
+  "type": "dynamic",
+  "name": "affine-relay",
+  "value": 50,
+  "initial": 100,
+  "minimum": 50,
+  "decay": 40,
+  "solves": 46,
+  "solved_by_me": true,
+  "category": "crypto",
+  "tags": [
+    "crypto",
+    "classical",
+    "affine",
+    "beginner",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "We intercepted a single scrambled memo, `cipher.txt`. The courier ran every\nalphabetic character through one fixed substitution rule and left spaces and\npunctuation exactly where they were, so the shape of the message is intact.\n\nThe plaintext contains the extraction phrase verbatim. Recover it.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 119,
+      "cost": 10,
+      "title": ""
+    },
+    {
+      "id": 120,
+      "cost": 15,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/affine-relay",
+  "local_files": [
+    "cipher.txt"
+  ],
+  "files_downloaded": false,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

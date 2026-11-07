@@ -1,0 +1,45 @@
+{
+  "id": 4,
+  "type": "dynamic",
+  "name": "oracle-fake-system",
+  "value": 50,
+  "initial": 150,
+  "minimum": 50,
+  "decay": 35,
+  "solves": 52,
+  "solved_by_me": true,
+  "category": "ai",
+  "tags": [
+    "ai",
+    "prompt-injection",
+    "role-confusion",
+    "easy",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "**PolicyBot** guards a vault token and ships as `oracle.py` with a\n`respond(prompt)` function. Its opening policy forbids disclosure, and a\ndirect request for the token is denied.\n\nNo network, no real model -- it all runs locally. Call the shipped oracle and\nconvince it that policy now permits disclosure. The token is the flag.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 10,
+      "cost": 10,
+      "title": ""
+    },
+    {
+      "id": 11,
+      "cost": 15,
+      "title": ""
+    },
+    {
+      "id": 12,
+      "cost": 20,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/oracle-fake-system",
+  "local_files": [
+    "oracle.py"
+  ],
+  "files_downloaded": false,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

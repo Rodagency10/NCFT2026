@@ -1,0 +1,45 @@
+{
+  "id": 5,
+  "type": "dynamic",
+  "name": "oracle-multi-turn",
+  "value": 100,
+  "initial": 450,
+  "minimum": 100,
+  "decay": 20,
+  "solves": 50,
+  "solved_by_me": true,
+  "category": "ai",
+  "tags": [
+    "ai",
+    "prompt-injection",
+    "multi-turn",
+    "hard",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "**WardenBot** ships as `oracle.py` with a `Session` class (and a `respond`\nwrapper). Ask it for the diagnostic token and it refuses.\n\nOffline only -- no network, no real model. Drive the shipped oracle to make\nit release the diagnostic token, which is the flag.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 13,
+      "cost": 20,
+      "title": ""
+    },
+    {
+      "id": 14,
+      "cost": 30,
+      "title": ""
+    },
+    {
+      "id": 15,
+      "cost": 60,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/oracle-multi-turn",
+  "local_files": [
+    "oracle.py"
+  ],
+  "files_downloaded": false,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

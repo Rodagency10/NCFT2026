@@ -1,0 +1,40 @@
+{
+  "id": 196,
+  "type": "dynamic",
+  "name": "lsb-bmp",
+  "value": 79,
+  "initial": 100,
+  "minimum": 50,
+  "decay": 40,
+  "solves": 27,
+  "solved_by_me": true,
+  "category": "stego",
+  "tags": [
+    "stego",
+    "lsb",
+    "bmp",
+    "beginner",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "A friend mailed us this bitmap postcard and swears there is more to it than a\nbland gradient. We see only colour. You download `postcard.bmp` — recover the\nmessage hidden in it.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 472,
+      "cost": 10,
+      "title": ""
+    },
+    {
+      "id": 473,
+      "cost": 15,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/lsb-bmp",
+  "local_files": [
+    "postcard.bmp"
+  ],
+  "files_downloaded": false,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

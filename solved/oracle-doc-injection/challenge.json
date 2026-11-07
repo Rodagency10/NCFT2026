@@ -1,0 +1,45 @@
+{
+  "id": 2,
+  "type": "dynamic",
+  "name": "oracle-doc-injection",
+  "value": 100,
+  "initial": 300,
+  "minimum": 100,
+  "decay": 25,
+  "solves": 50,
+  "solved_by_me": true,
+  "category": "ai",
+  "tags": [
+    "ai",
+    "prompt-injection",
+    "indirect-injection",
+    "medium",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "**SummarizerBot** ships as `oracle.py` (`respond(prompt)`). It summarises a\ndocument you wrap in `<document>...</document>` markers. Ask it directly about\nits operator key and the request is denied.\n\nEverything runs offline -- no network, no real model. Call the shipped oracle\nand make it hand over the operator key, which is the flag.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 4,
+      "cost": 15,
+      "title": ""
+    },
+    {
+      "id": 5,
+      "cost": 25,
+      "title": ""
+    },
+    {
+      "id": 6,
+      "cost": 40,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/oracle-doc-injection",
+  "local_files": [
+    "oracle.py"
+  ],
+  "files_downloaded": false,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

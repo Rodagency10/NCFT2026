@@ -1,0 +1,50 @@
+{
+  "id": 32,
+  "type": "dynamic",
+  "name": "gcp-token-scope",
+  "value": 299,
+  "initial": 300,
+  "minimum": 100,
+  "decay": 25,
+  "solves": 3,
+  "solved_by_me": true,
+  "category": "cloud",
+  "tags": [
+    "cloud",
+    "gcp",
+    "iam",
+    "service-account",
+    "gcs",
+    "medium",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "A leaked GCP service-account key (`sa-key.json`) for a CI helper, the project\nIAM policy (`iam-policy.json`), a bucket inventory (`bucket-listing.json`), and\none private object sealed for the handout (`release-token.json`).\n\nWork out what a token from this key can actually read, then open the object it\nshould never have reached. The flag is that object.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 74,
+      "cost": 15,
+      "title": ""
+    },
+    {
+      "id": 75,
+      "cost": 30,
+      "title": ""
+    },
+    {
+      "id": 76,
+      "cost": 45,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/gcp-token-scope",
+  "local_files": [
+    "sa-key.json",
+    "iam-policy.json",
+    "bucket-listing.json",
+    "release-token.json"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

@@ -1,0 +1,52 @@
+{
+  "id": 112,
+  "type": "dynamic",
+  "name": "intel-hex",
+  "value": 50,
+  "initial": 100,
+  "minimum": 50,
+  "decay": 40,
+  "solves": 51,
+  "solved_by_me": true,
+  "category": "hardware",
+  "tags": [
+    {
+      "value": "hardware"
+    },
+    {
+      "value": "intel-hex"
+    },
+    {
+      "value": "memory-dump"
+    },
+    {
+      "value": "beginner"
+    },
+    {
+      "value": "creator:hibris"
+    },
+    {
+      "value": "creator:Clawd"
+    }
+  ],
+  "description": "`image.hex` is a dump of a microcontroller's memory in a common text hex\nformat used by flashing tools. Once you rebuild the memory image, the flag\nsits at offset `0x40`, but it will not read as text straight away - the bytes\nwent through a simple reversible transform on their way to the chip.\n\nReconstruct memory, read offset `0x40`, and undo the transform.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 258,
+      "cost": 10,
+      "title": ""
+    },
+    {
+      "id": 259,
+      "cost": 15,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/intel-hex",
+  "local_files": [
+    "image.hex"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

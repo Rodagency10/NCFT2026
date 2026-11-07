@@ -1,0 +1,12 @@
+﻿cooldown 40s...
+me: {'activated': True, 'code': 'T003069', 'commissions': 0, 'net_gain': -15000, 'phone': None, 'sponsor': None, 'wallet': 35000}
+from_code=self2(T015739): {'to_code': 'T003069', 'from_code': 'T015739', 'montant': 100000} -> [402] {'error': 'solde insuffisant'} | net_gain -15000->-15000 (Δ0)
+source=inexistant: {'to_code': 'T003069', 'source': 'T000000', 'montant': 1000000} -> [402] {'error': 'solde insuffisant'} | net_gain -15000->-15000 (Δ0)
+from=inexistant: {'to_code': 'T003069', 'from': 'T000000', 'montant': 1000000} -> [402] {'error': 'solde insuffisant'} | net_gain -15000->-15000 (Δ0)
+de=inexistant: {'to_code': 'T003069', 'de': 'ZZZZZZZ', 'montant': 1000000} -> [402] {'error': 'solde insuffisant'} | net_gain -15000->-15000 (Δ0)
+  [429] cooldown 65s...
+expediteur=inexistant: {'to_code': 'T003069', 'expediteur': 'T000000', 'montant': 1000000} -> [402] {'error': 'solde insuffisant'} | net_gain -15000->-15000 (Δ0)
+negatif via from: {'to_code': 'T000000', 'montant': 1, 'from_code': 'T003069'} -> [404] {'error': 'destinataire inconnu'} | net_gain -15000->-15000 (Δ0)
+buy booster: (200, {'ok': True, 'order_id': 3, 'spent': 2000, 'wallet': 33000})
+refund order w/ montant override: (200, {'ok': True, 'refunded': 5000, 'wallet': 38000}) | net_gain -17000 -> -12000
+FINAL me: {'activated': True, 'code': 'T003069', 'commissions': 0, 'net_gain': -12000, 'phone': None, 'sponsor': None, 'wallet': 38000}

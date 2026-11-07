@@ -1,0 +1,42 @@
+{
+  "id": 502,
+  "type": "team_instance",
+  "name": "komisergio--djaradjara",
+  "value": 300,
+  "initial": 300,
+  "minimum": 100,
+  "decay": 25,
+  "solves": 0,
+  "solved_by_me": false,
+  "category": "boot2root",
+  "tags": [
+    "boot2root",
+    "medium",
+    "creator:komisergio"
+  ],
+  "description": "Le marigot de Djaradjara garde la mémoire des anciens. Depuis que le village a confié ses archives à un portail numérique, les habitants dorment mieux — ou croient-ils.\n\nLes greniers ne s'ouvrent qu'aux sceaux reconnus. Un seul flag : `root.txt`, lisible uniquement par root.\n\nStuck? Hints are available (they cost a few points).\n\n<!-- nctf-connexion -->\n> 🔌 Ce challenge se joue **par le VPN de votre équipe** : voir [Se connecter aux instances](/connexion#vpn).",
+  "connection_info": "Lance l'instance (bouton Démarrer) ; l'adresse de connexion s'affiche dans le panneau.",
+  "hints": [
+    {
+      "id": 1095,
+      "cost": 30,
+      "title": ""
+    },
+    {
+      "id": 1096,
+      "cost": 30,
+      "title": ""
+    },
+    {
+      "id": 1097,
+      "cost": 30,
+      "title": ""
+    }
+  ],
+  "local_folder": "Unsolved/komisergio--djaradjara",
+  "local_files": [
+    "README.txt"
+  ],
+  "files_downloaded": false,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

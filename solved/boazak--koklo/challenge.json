@@ -1,0 +1,42 @@
+{
+  "id": 405,
+  "type": "dynamic",
+  "name": "boazak--koklo",
+  "value": 133,
+  "initial": 250,
+  "minimum": 83,
+  "decay": 25,
+  "solves": 22,
+  "solved_by_me": true,
+  "category": "crypto",
+  "tags": [
+    "crypto",
+    "medium",
+    "creator:KodjoDoDjango"
+  ],
+  "description": "> **Origine du nom :** Koklo signifie « poule » en éwé — l'application de paiement du challenge.\n\nLe service bancaire « Koklo » envoie ses virements chiffrés en **AES-GCM**… mais a réutilisé le même nonce pour deux messages. Le flot de chiffrement et la clé GHASH `H` deviennent récupérables : forgez un tag valide pour le message cible `PAY:FROM=ADMIN:9`.\n\nStuck? Hints are available (they cost a few points).",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 932,
+      "cost": 80,
+      "title": ""
+    },
+    {
+      "id": 933,
+      "cost": 50,
+      "title": ""
+    },
+    {
+      "id": 934,
+      "cost": 25,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/boazak--koklo",
+  "local_files": [
+    "challenge.txt"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

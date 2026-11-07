@@ -1,0 +1,39 @@
+{
+  "id": 182,
+  "type": "dynamic",
+  "name": "byte-drift",
+  "value": 50,
+  "initial": 100,
+  "minimum": 50,
+  "decay": 40,
+  "solves": 49,
+  "solved_by_me": true,
+  "category": "reverse",
+  "tags": [
+    "reverse",
+    "x86-64",
+    "beginner",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "We recovered a small lock program, `chall`. It asks for a passphrase and\neither says \"unlocked\" or \"locked\". No passphrase, no output worth keeping.\n\nThe binary is a stripped x86-64 ELF. The correct passphrase is the flag.\nEverything you need is inside the file; no network required.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 436,
+      "cost": 10,
+      "title": ""
+    },
+    {
+      "id": 437,
+      "cost": 15,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/byte-drift",
+  "local_files": [
+    "chall"
+  ],
+  "files_downloaded": false,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

@@ -1,0 +1,41 @@
+{
+  "id": 230,
+  "type": "dynamic",
+  "name": "rot13-decode",
+  "value": 25,
+  "initial": 50,
+  "minimum": 25,
+  "decay": 30,
+  "solves": 58,
+  "solved_by_me": true,
+  "category": "warmup",
+  "tags": [
+    {
+      "value": "warmup"
+    },
+    {
+      "value": "classical"
+    },
+    {
+      "value": "rot13"
+    },
+    {
+      "value": "beginner"
+    },
+    {
+      "value": "creator:hibris"
+    },
+    {
+      "value": "creator:Clawd"
+    }
+  ],
+  "description": "`secret.txt` reads almost like the flag, but every letter has been\nrotated halfway around the alphabet. Rotate it back and read the flag.\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [],
+  "local_folder": "solved/rot13-decode",
+  "local_files": [
+    "secret.txt"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

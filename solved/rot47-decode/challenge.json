@@ -1,0 +1,47 @@
+{
+  "id": 231,
+  "type": "dynamic",
+  "name": "rot47-decode",
+  "value": 25,
+  "initial": 50,
+  "minimum": 25,
+  "decay": 30,
+  "solves": 55,
+  "solved_by_me": true,
+  "category": "warmup",
+  "tags": [
+    {
+      "value": "warmup"
+    },
+    {
+      "value": "classical"
+    },
+    {
+      "value": "rot47"
+    },
+    {
+      "value": "beginner"
+    },
+    {
+      "value": "creator:hibris"
+    },
+    {
+      "value": "creator:Clawd"
+    }
+  ],
+  "description": "`secret.txt` is a jumble of visible punctuation and characters. It is\nthe flag with every printable symbol rotated by a fixed amount across a\n94-character range. Undo the rotation and read the flag.\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 535,
+      "cost": 10,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/rot47-decode",
+  "local_files": [
+    "secret.txt"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

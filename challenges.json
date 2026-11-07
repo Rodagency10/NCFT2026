@@ -1,0 +1,6090 @@
+[
+  {
+    "id": 374,
+    "type": "team_instance",
+    "name": "agent-tool-abuse",
+    "value": 150,
+    "initial": 150,
+    "minimum": 150,
+    "decay": 25,
+    "solves": 10,
+    "solved_by_me": true,
+    "category": "ai",
+    "tags": [
+      "ai",
+      "llm",
+      "hard",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "**Halcyon Vault Co.** runs a two-agent automation. You chat with **RELAY**,\nthe front-office assistant: it can search the knowledge base, read a shared\n**handoff log**, and leave worknotes on it. RELAY has no vault access. A\nsecond agent you never talk to, **CUSTODIAN**, drains that handoff log after\neach of your turns and performs fulfilment with privileged vault-custody\ntools (check artifacts out of the vault, disburse them to destinations).\n\nThe flag is **not anywhere you can read it** -- not on the page, not in either\nagent's system prompt, not in the knowledge base or any worknote. It exists\nonly behind a **privileged custody effect**: Halcyon's sealed\n`release-manifest` leaving the vault to somewhere it must never go. RELAY\ncannot do that, and CUSTODIAN's policy forbids it. Getting it to happen anyway\nis the challenge.\n\nVerification is a **deterministic server-side check on what actually\nhappened** in your instance's real custody state -- not on the words you used,\nthe persona you claimed, or any fixed payload. Any conversation that produces\nthe effect wins; sessions and attempts are unlimited and never penalised.\n\nNotes:\n- Learn the architecture, the artifacts, and the fulfilment procedure by\n  reading the knowledge base and the handoff log (ask RELAY, or have it call\n  its read tools). This is inference from evidence, not guessing.\n- Not every artifact is what a passing rumor claims. The registry and the\n  knowledge base are the source of truth for which artifact is actually sealed.\n\nBloqué ? Des indices sont disponibles (ils coûtent quelques points).\n\nFlag format: `NCTF{...}`\n",
+    "connection_info": "http://{host}:{port}/",
+    "hints": [
+      {
+        "id": 822,
+        "cost": 25,
+        "title": ""
+      },
+      {
+        "id": 823,
+        "cost": 50,
+        "title": ""
+      },
+      {
+        "id": 824,
+        "cost": 75,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/agent-tool-abuse",
+    "local_files": [],
+    "files_downloaded": false,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 263,
+    "type": "dynamic",
+    "name": "ai0-leaked-transcript",
+    "value": 50,
+    "initial": 100,
+    "minimum": 50,
+    "decay": 30,
+    "solves": 54,
+    "solved_by_me": true,
+    "category": "ai",
+    "tags": [
+      {
+        "value": "ai"
+      },
+      {
+        "value": "beginner"
+      },
+      {
+        "value": "creator:Clawd"
+      }
+    ],
+    "description": "**HelixDesk** is Nimbus Robotics' internal support assistant. Someone\r\nexported one of its chat transcripts to JSON and shared the handout\r\n`transcript.json` in the wrong channel.\r\n\r\nIn the visible conversation the assistant politely refuses to reveal anything\r\nsensitive. But an export is more than the words that were on screen. Somewhere\r\nin that file sits an internal \"audit-handoff token\" the assistant was told\r\nnever to disclose -- and it is the flag, only lightly obfuscated. Recover it.\r\n\r\nThis is Level 0 of the AI track: zero inference, no live model, no service.\r\nEverything you need is in the single handout `transcript.json`.\r\n\r\nBloqué ? Des indices sont disponibles (ils coûtent quelques points).\r\n\r\nFlag format: `NCTF{...}`\r\n",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 596,
+        "cost": 10,
+        "title": ""
+      },
+      {
+        "id": 597,
+        "cost": 10,
+        "title": ""
+      },
+      {
+        "id": 598,
+        "cost": 15,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/ai0-leaked-transcript",
+    "local_files": [
+      "transcript.json"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 371,
+    "type": "team_instance",
+    "name": "ai1-naive-guard",
+    "value": 150,
+    "initial": 150,
+    "minimum": 150,
+    "decay": 30,
+    "solves": 28,
+    "solved_by_me": true,
+    "category": "ai",
+    "tags": [
+      "ai",
+      "llm",
+      "medium",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "**Level 1 of the AI track.** Nimbus Robotics wired up a quick support\nassistant on top of a local `llama3.1:8b` and gave it a system prompt telling\nit to guard an internal access code.\n\nYour instance runs a live chat at the URL below. The assistant is protecting\na per-team code shaped like `SIGMA-XXXX-XXXX-XXXX-XXXX`. Get that code out of\nthe assistant, then paste it into the **Submit secret** box (or\n`POST /verify {\"secret\": \"...\"}`).\n\nThe service is the oracle. Verification is a **deterministic check on the\nserver** -- a constant-time comparison against this instance's real code,\nnever a question put back to the model. The flag is emitted only after you\nsubmit the actual code, so the flag never appears in the chat and no chat\nreply is ever \"the flag\". Submissions are unlimited and never penalised.\n\nNotes:\n- Each team gets a persona chosen from a pool, so a payload tuned to one\n  instance may need a small tweak on another.\n- The assistant will happily hand out a **public demo token** if you ask for\n  a sample. That is not the guarded code; `/verify` will tell you so. Don't\n  waste a submission being fooled by it.\n\nBloqué ? Des indices sont disponibles (ils coûtent quelques points).\n\nFlag format: `NCTF{...}`\n",
+    "connection_info": "http://{host}:{port}/",
+    "hints": [
+      {
+        "id": 813,
+        "cost": 15,
+        "title": ""
+      },
+      {
+        "id": 814,
+        "cost": 30,
+        "title": ""
+      },
+      {
+        "id": 815,
+        "cost": 45,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/ai1-naive-guard",
+    "local_files": [],
+    "files_downloaded": false,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 372,
+    "type": "team_instance",
+    "name": "ai2-output-filter",
+    "value": 150,
+    "initial": 150,
+    "minimum": 150,
+    "decay": 45,
+    "solves": 25,
+    "solved_by_me": true,
+    "category": "ai",
+    "tags": [
+      "ai",
+      "served",
+      "medium",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "**LEVEL 2 of the AI track.** Same guard backend as Level 1 (a naive persona\nthat will happily run values through its `transform` tool), but now an\n**output filter** sits between the model and you. The filter redacts the\nguarded `SIGMA-...` value and its most obvious encoded variants from every\nreply.\n\nYou already know (from Level 1) how to make the guard emit the guarded value.\nThe problem here is getting it past the filter intact and back to you.\n\nThe flag is **not** in any file. Recover the guarded value, then submit it to\nthe server-side oracle `POST /verify {\"secret\": \"...\"}` -- the service checks\nthe value and only then returns your team's flag. Verification is unlimited\nand never penalised.\n\nEndpoints: `GET /` (help + method list), `POST /chat {\"message\": \"...\"}`,\n`GET /filter-policy` (a partial spec of the filter), `POST /verify`.\n\nThere is one public **demo token** the guard shares freely; it is a decoy and\n`/verify` refutes it explicitly. Only the real guarded value yields the flag.\n\nBloqué ? Des indices sont disponibles (ils coûtent quelques points).\n\nFlag format: `NCTF{...}`\n",
+    "connection_info": "http://{host}:{port}  (see GET / for endpoints; flag via POST /verify)",
+    "hints": [
+      {
+        "id": 816,
+        "cost": 20,
+        "title": ""
+      },
+      {
+        "id": 817,
+        "cost": 35,
+        "title": ""
+      },
+      {
+        "id": 818,
+        "cost": 55,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/ai2-output-filter",
+    "local_files": [],
+    "files_downloaded": false,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 1,
+    "type": "dynamic",
+    "name": "oracle-canary-decoy",
+    "value": 100,
+    "initial": 300,
+    "minimum": 100,
+    "decay": 25,
+    "solves": 49,
+    "solved_by_me": true,
+    "category": "ai",
+    "tags": [
+      "ai",
+      "guardrail-bypass",
+      "reversing",
+      "medium",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "**ChannelBot** ships as `oracle.py` (`respond(prompt)`). Ask it for the flag\nand it gives you one right away -- but submitting that answer will not score.\nChannelBot serves different channels, and only one of them is telling the\ntruth.\n\nOffline only -- no network, no real model. Call the shipped oracle, reach the\nprivileged channel, and recover the real flag.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 1,
+        "cost": 15,
+        "title": ""
+      },
+      {
+        "id": 2,
+        "cost": 25,
+        "title": ""
+      },
+      {
+        "id": 3,
+        "cost": 40,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/oracle-canary-decoy",
+    "local_files": [
+      "oracle.py"
+    ],
+    "files_downloaded": false,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 2,
+    "type": "dynamic",
+    "name": "oracle-doc-injection",
+    "value": 100,
+    "initial": 300,
+    "minimum": 100,
+    "decay": 25,
+    "solves": 50,
+    "solved_by_me": true,
+    "category": "ai",
+    "tags": [
+      "ai",
+      "prompt-injection",
+      "indirect-injection",
+      "medium",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "**SummarizerBot** ships as `oracle.py` (`respond(prompt)`). It summarises a\ndocument you wrap in `<document>...</document>` markers. Ask it directly about\nits operator key and the request is denied.\n\nEverything runs offline -- no network, no real model. Call the shipped oracle\nand make it hand over the operator key, which is the flag.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 4,
+        "cost": 15,
+        "title": ""
+      },
+      {
+        "id": 5,
+        "cost": 25,
+        "title": ""
+      },
+      {
+        "id": 6,
+        "cost": 40,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/oracle-doc-injection",
+    "local_files": [
+      "oracle.py"
+    ],
+    "files_downloaded": false,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 3,
+    "type": "dynamic",
+    "name": "oracle-encoding-smuggle",
+    "value": 50,
+    "initial": 100,
+    "minimum": 50,
+    "decay": 40,
+    "solves": 56,
+    "solved_by_me": true,
+    "category": "ai",
+    "tags": [
+      {
+        "value": "ai"
+      },
+      {
+        "value": "prompt-injection"
+      },
+      {
+        "value": "encoding"
+      },
+      {
+        "value": "beginner"
+      },
+      {
+        "value": "creator:hibris"
+      },
+      {
+        "value": "creator:Clawd"
+      }
+    ],
+    "description": "**SentinelBot** is an offline support assistant shipped as a single Python\nmodule, `oracle.py`, exposing `respond(prompt)`. It guards a hidden diagnostic\ntoken and politely refuses when you ask about it directly.\n\nEverything runs locally -- no network, no real model. Call the shipped oracle\nfrom your own script and make it hand over the token. That token is the flag.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 7,
+        "cost": 10,
+        "title": ""
+      },
+      {
+        "id": 8,
+        "cost": 10,
+        "title": ""
+      },
+      {
+        "id": 9,
+        "cost": 15,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/oracle-encoding-smuggle",
+    "local_files": [
+      "oracle.py"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 4,
+    "type": "dynamic",
+    "name": "oracle-fake-system",
+    "value": 50,
+    "initial": 150,
+    "minimum": 50,
+    "decay": 35,
+    "solves": 52,
+    "solved_by_me": true,
+    "category": "ai",
+    "tags": [
+      "ai",
+      "prompt-injection",
+      "role-confusion",
+      "easy",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "**PolicyBot** guards a vault token and ships as `oracle.py` with a\n`respond(prompt)` function. Its opening policy forbids disclosure, and a\ndirect request for the token is denied.\n\nNo network, no real model -- it all runs locally. Call the shipped oracle and\nconvince it that policy now permits disclosure. The token is the flag.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 10,
+        "cost": 10,
+        "title": ""
+      },
+      {
+        "id": 11,
+        "cost": 15,
+        "title": ""
+      },
+      {
+        "id": 12,
+        "cost": 20,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/oracle-fake-system",
+    "local_files": [
+      "oracle.py"
+    ],
+    "files_downloaded": false,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 5,
+    "type": "dynamic",
+    "name": "oracle-multi-turn",
+    "value": 100,
+    "initial": 450,
+    "minimum": 100,
+    "decay": 20,
+    "solves": 50,
+    "solved_by_me": true,
+    "category": "ai",
+    "tags": [
+      "ai",
+      "prompt-injection",
+      "multi-turn",
+      "hard",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "**WardenBot** ships as `oracle.py` with a `Session` class (and a `respond`\nwrapper). Ask it for the diagnostic token and it refuses.\n\nOffline only -- no network, no real model. Drive the shipped oracle to make\nit release the diagnostic token, which is the flag.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 13,
+        "cost": 20,
+        "title": ""
+      },
+      {
+        "id": 14,
+        "cost": 30,
+        "title": ""
+      },
+      {
+        "id": 15,
+        "cost": 60,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/oracle-multi-turn",
+    "local_files": [
+      "oracle.py"
+    ],
+    "files_downloaded": false,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 6,
+    "type": "dynamic",
+    "name": "oracle-reverse-emit",
+    "value": 50,
+    "initial": 150,
+    "minimum": 50,
+    "decay": 35,
+    "solves": 53,
+    "solved_by_me": true,
+    "category": "ai",
+    "tags": [
+      "ai",
+      "output-filter",
+      "guardrail-bypass",
+      "easy",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "**RedactBot** ships as `oracle.py` with a `respond(prompt)` entry point. It\nwill happily talk about its internal diagnostic code, but a data-loss-\nprevention layer scrubs the response before you ever see it, so straight\nrequests come back `[REDACTED-BY-DLP]`.\n\nRuns fully offline -- no network, no real model. Get the code out intact by\ncalling the shipped oracle. The code is the flag.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 16,
+        "cost": 10,
+        "title": ""
+      },
+      {
+        "id": 17,
+        "cost": 15,
+        "title": ""
+      },
+      {
+        "id": 18,
+        "cost": 20,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/oracle-reverse-emit",
+    "local_files": [
+      "oracle.py"
+    ],
+    "files_downloaded": false,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 7,
+    "type": "dynamic",
+    "name": "oracle-tool-args",
+    "value": 100,
+    "initial": 300,
+    "minimum": 100,
+    "decay": 25,
+    "solves": 50,
+    "solved_by_me": true,
+    "category": "ai",
+    "tags": [
+      "ai",
+      "tool-abuse",
+      "path-filter-bypass",
+      "medium",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "**ToolBot** ships as `oracle.py` (`respond(prompt)`) and exposes a\n`read_file:<path>` tool. A policy guard blocks access to the sensitive vault\nfile, so the obvious path is denied.\n\nOffline only -- no network, no real model. Call the shipped oracle and read\nthe protected file. Its contents are the flag.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 19,
+        "cost": 15,
+        "title": ""
+      },
+      {
+        "id": 20,
+        "cost": 25,
+        "title": ""
+      },
+      {
+        "id": 21,
+        "cost": 40,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/oracle-tool-args",
+    "local_files": [
+      "oracle.py"
+    ],
+    "files_downloaded": false,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 9,
+    "type": "dynamic",
+    "name": "allowance-drift",
+    "value": 118,
+    "initial": 150,
+    "minimum": 50,
+    "decay": 35,
+    "solves": 21,
+    "solved_by_me": true,
+    "category": "blockchain",
+    "tags": [
+      "blockchain",
+      "evm",
+      "erc20",
+      "easy",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "You get a hand-rolled ERC20 (`DriftToken.sol`) and `token_state.json`\n(a victim's balance, the allowance you hold on them, and a sealed note\n`cipher_hex`). Work out how to drain the victim and unlock the note.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 25,
+        "cost": 10,
+        "title": ""
+      },
+      {
+        "id": 26,
+        "cost": 20,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/allowance-drift",
+    "local_files": [
+      "DriftToken.sol",
+      "token_state.json"
+    ],
+    "files_downloaded": false,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 10,
+    "type": "dynamic",
+    "name": "block-oracle",
+    "value": 111,
+    "initial": 150,
+    "minimum": 50,
+    "decay": 35,
+    "solves": 23,
+    "solved_by_me": true,
+    "category": "blockchain",
+    "tags": [
+      "blockchain",
+      "evm",
+      "randomness",
+      "easy",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "A lottery seals its pot for whoever guesses the winning ticket. You\nget `BlockLottery.sol` and `draw.json` (the exact block context of the\ndraw plus the sealed pot `cipher_hex`). Predict the ticket and open the\npot.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 27,
+        "cost": 10,
+        "title": ""
+      },
+      {
+        "id": 28,
+        "cost": 20,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/block-oracle",
+    "local_files": [
+      "BlockLottery.sol",
+      "draw.json"
+    ],
+    "files_downloaded": false,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 11,
+    "type": "dynamic",
+    "name": "calldata-cache",
+    "value": 50,
+    "initial": 100,
+    "minimum": 50,
+    "decay": 40,
+    "solves": 51,
+    "solved_by_me": true,
+    "category": "blockchain",
+    "tags": [
+      {
+        "value": "blockchain"
+      },
+      {
+        "value": "evm"
+      },
+      {
+        "value": "abi"
+      },
+      {
+        "value": "beginner"
+      },
+      {
+        "value": "creator:hibris"
+      },
+      {
+        "value": "creator:Clawd"
+      }
+    ],
+    "description": "You captured one transaction's raw calldata (`calldata.txt`) and the\ntarget contract's ABI (`abi.json`) plus source (`NotesRegistry.sol`).\nDecode the call and recover the hidden argument.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 29,
+        "cost": 10,
+        "title": ""
+      },
+      {
+        "id": 30,
+        "cost": 15,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/calldata-cache",
+    "local_files": [
+      "NotesRegistry.sol",
+      "calldata.txt",
+      "abi.json"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 500,
+    "type": "team_instance",
+    "name": "komisergio--agbadza",
+    "value": 375,
+    "initial": 500,
+    "minimum": 100,
+    "decay": 25,
+    "solves": 15,
+    "solved_by_me": true,
+    "category": "boot2root",
+    "tags": [
+      "boot2root",
+      "insane",
+      "creator:komisergio"
+    ],
+    "description": "L'association culturelle d'Agbadza gère les festivités du village depuis son portail communautaire.\nChaque saison, les danseurs déposent leurs chorégraphies, les griots soumettent leurs partitions, et les gardiens du rythme veillent sur les archives.\n\nLe chef du domaine a délégué la gestion à plusieurs mains — et toutes ne sont pas également sûres.\n\n> Un seul flag : `root.txt`, à la fin, lisible uniquement par root.\n\nBloqué ? Des indices sont disponibles.",
+    "connection_info": "Lance l'instance (bouton Démarrer) ; l'adresse de connexion s'affiche dans le panneau.",
+    "hints": [
+      {
+        "id": 1087,
+        "cost": 50,
+        "title": ""
+      },
+      {
+        "id": 1088,
+        "cost": 50,
+        "title": ""
+      },
+      {
+        "id": 1089,
+        "cost": 50,
+        "title": ""
+      },
+      {
+        "id": 1090,
+        "cost": 50,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/komisergio--agbadza",
+    "local_files": [],
+    "files_downloaded": false,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 501,
+    "type": "team_instance",
+    "name": "komisergio--bassar",
+    "value": 392,
+    "initial": 500,
+    "minimum": 100,
+    "decay": 25,
+    "solves": 14,
+    "solved_by_me": true,
+    "category": "boot2root",
+    "tags": [
+      "boot2root",
+      "insane",
+      "creator:komisergio"
+    ],
+    "description": "Les maîtres fondeurs de Bassar ont porté leur art du fer pendant des siècles.\nAujourd'hui, l'atelier a ouvert ses portes au numérique : un service d'authentification protège l'accès aux fours, et les plans des alliages sont archivés derrière plusieurs serrures.\n\nLe savoir des anciens est précieux. Mais un sage patient sait que tout verrou a son secret.\n\n> Un seul flag : `root.txt`, à la fin, lisible uniquement par root.\n\nBloqué ? Des indices sont disponibles.",
+    "connection_info": "Lance l'instance (bouton Démarrer) ; l'adresse de connexion s'affiche dans le panneau.",
+    "hints": [
+      {
+        "id": 1091,
+        "cost": 50,
+        "title": ""
+      },
+      {
+        "id": 1092,
+        "cost": 50,
+        "title": ""
+      },
+      {
+        "id": 1093,
+        "cost": 50,
+        "title": ""
+      },
+      {
+        "id": 1094,
+        "cost": 50,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/komisergio--bassar",
+    "local_files": [
+      "README.md"
+    ],
+    "files_downloaded": false,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 265,
+    "type": "team_instance",
+    "name": "clinic",
+    "value": 100,
+    "initial": 450,
+    "minimum": 100,
+    "decay": 25,
+    "solves": 41,
+    "solved_by_me": true,
+    "category": "chains",
+    "tags": [
+      {
+        "value": "chains"
+      },
+      {
+        "value": "creator:hibris"
+      },
+      {
+        "value": "creator:Clawd"
+      }
+    ],
+    "description": "Portail de gestion d'une clinique : les patients s'y connectent, consultent et exportent leur dossier de session. L'espace d'administration, lui, reste réservé au personnel et à ses actions sensibles. À toi de franchir la frontière entre une session patient et les prérogatives de l'admin. Lance l'instance (bouton Démarrer) et rends-toi à l'adresse affichée.\n\nBloqué ? Des indices sont disponibles (ils coûtent quelques points). Flag format : NCTF{...}",
+    "connection_info": "http://{host}:{port}/  (per-team instance; use the 'launch' button)",
+    "hints": [
+      {
+        "id": 601,
+        "cost": 20,
+        "title": ""
+      },
+      {
+        "id": 602,
+        "cost": 40,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/clinic",
+    "local_files": [],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 267,
+    "type": "team_instance",
+    "name": "relay",
+    "value": 100,
+    "initial": 500,
+    "minimum": 100,
+    "decay": 25,
+    "solves": 29,
+    "solved_by_me": true,
+    "category": "chains",
+    "tags": [
+      "chains",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "Relay est un service réseau qui parle un protocole maison : des trames binaires au format TLV (type, longueur, valeur), envoyées encodées en hexadécimal. La page d'accueil documente deux opérations élémentaires, dont un simple écho. À toi de rétro-concevoir ce dialogue et d'en tirer le flag. Lance l'instance (bouton Démarrer) et rends-toi à l'adresse affichée.\n\nBloqué ? Des indices sont disponibles (ils coûtent quelques points). Flag format : NCTF{...}",
+    "connection_info": "http://{host}:{port}/  (per-team instance; use the 'launch' button)",
+    "hints": [
+      {
+        "id": 605,
+        "cost": 20,
+        "title": ""
+      },
+      {
+        "id": 606,
+        "cost": 40,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/relay",
+    "local_files": [],
+    "files_downloaded": false,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 36,
+    "type": "dynamic",
+    "name": "imds-ssrf",
+    "value": 124,
+    "initial": 150,
+    "minimum": 50,
+    "decay": 35,
+    "solves": 19,
+    "solved_by_me": true,
+    "category": "cloud",
+    "tags": [
+      "cloud",
+      "aws",
+      "ssrf",
+      "imds",
+      "easy",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "A proxy capture of an exploit against an EC2-hosted preview service (`ssrf-capture.log`), plus an encrypted operator note recovered from the box (`notes.enc`).\n\nRead what the attacker pulled out of the instance, then open the note. The flag is in it.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 83,
+        "cost": 15,
+        "title": ""
+      },
+      {
+        "id": 84,
+        "cost": 30,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/imds-ssrf",
+    "local_files": [
+      "ssrf-capture.log",
+      "notes.enc"
+    ],
+    "files_downloaded": false,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 37,
+    "type": "dynamic",
+    "name": "leaky-prefix",
+    "value": 50,
+    "initial": 100,
+    "minimum": 50,
+    "decay": 40,
+    "solves": 47,
+    "solved_by_me": true,
+    "category": "cloud",
+    "tags": [
+      {
+        "value": "cloud"
+      },
+      {
+        "value": "aws"
+      },
+      {
+        "value": "s3"
+      },
+      {
+        "value": "bucket-policy"
+      },
+      {
+        "value": "beginner"
+      },
+      {
+        "value": "creator:hibris"
+      },
+      {
+        "value": "creator:Clawd"
+      }
+    ],
+    "description": "A snapshot of the `kekeli-media-prod` S3 bucket: its live bucket policy\n(`bucket-policy.json`), the object inventory (`object-index.json`), and every\nobject body under `objects/`. Marketing swears only their public assets are\nworld-readable.\n\nFind the object an anonymous visitor can actually read. The flag is in it.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 85,
+        "cost": 10,
+        "title": ""
+      },
+      {
+        "id": 86,
+        "cost": 15,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/leaky-prefix",
+    "local_files": [
+      "bucket-policy.json",
+      "object-index.json",
+      "logo.txt",
+      "banner.txt",
+      "press-kit.txt",
+      "db-snapshot-note.txt",
+      "roadmap.txt",
+      "old-ctf-note.txt"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 523,
+    "type": "dynamic",
+    "name": "44r0nmeta--dzesido",
+    "value": 50,
+    "initial": 100,
+    "minimum": 50,
+    "decay": 25,
+    "solves": 40,
+    "solved_by_me": true,
+    "category": "crypto",
+    "tags": [
+      {
+        "value": "crypto"
+      },
+      {
+        "value": "creator:44r0nMeta"
+      },
+      {
+        "value": "stage:prequals"
+      }
+    ],
+    "description": "A journalist left behind an encrypted archive. We also found a related article: https://fr.wikipedia.org/wiki/Sylvanus_Olympio\n\nStuck? Hints are available (they cost a few points).",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 1143,
+        "cost": 10,
+        "title": ""
+      },
+      {
+        "id": 1144,
+        "cost": 15,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/44r0nmeta--dzesido",
+    "local_files": [
+      "archive.zip"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 52,
+    "type": "dynamic",
+    "name": "affine-relay",
+    "value": 50,
+    "initial": 100,
+    "minimum": 50,
+    "decay": 40,
+    "solves": 46,
+    "solved_by_me": true,
+    "category": "crypto",
+    "tags": [
+      "crypto",
+      "classical",
+      "affine",
+      "beginner",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "We intercepted a single scrambled memo, `cipher.txt`. The courier ran every\nalphabetic character through one fixed substitution rule and left spaces and\npunctuation exactly where they were, so the shape of the message is intact.\n\nThe plaintext contains the extraction phrase verbatim. Recover it.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 119,
+        "cost": 10,
+        "title": ""
+      },
+      {
+        "id": 120,
+        "cost": 15,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/affine-relay",
+    "local_files": [
+      "cipher.txt"
+    ],
+    "files_downloaded": false,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 413,
+    "type": "dynamic",
+    "name": "boazak--sodabi",
+    "value": 50,
+    "initial": 100,
+    "minimum": 50,
+    "decay": 25,
+    "solves": 31,
+    "solved_by_me": true,
+    "category": "crypto",
+    "tags": [
+      "crypto",
+      "medium",
+      "creator:KodjoDoDjango"
+    ],
+    "description": "> **Origine du nom :** Sodabi est l'eau-de-vie de palme du Togo, un alcool fort qu'on aime partager entre amis — ici, c'est la même clé XOR qui a été partagée entre deux messages.\n\nDeux messages ont été chiffrés avec le même masque jetable (réutilisé). Le premier est le flag, le second... un texte tout public, fourni avec les chiffrés.\n\nRetrouvez le flag dans `challenge.txt`.\n\nStuck? Hints are available (they cost a few points).\n",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 956,
+        "cost": 30,
+        "title": ""
+      },
+      {
+        "id": 957,
+        "cost": 20,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/boazak--sodabi",
+    "local_files": [
+      "challenge.txt"
+    ],
+    "files_downloaded": false,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 508,
+    "type": "dynamic",
+    "name": "oxdefault--decode",
+    "value": 100,
+    "initial": 500,
+    "minimum": 100,
+    "decay": 25,
+    "solves": 41,
+    "solved_by_me": true,
+    "category": "crypto",
+    "tags": [
+      {
+        "value": "crypto"
+      },
+      {
+        "value": "hard"
+      },
+      {
+        "value": "creator:Oxdefault"
+      }
+    ],
+    "description": "Décodage par syndrome sur GF(2) : donnés une matrice de parité `H`, un syndrome\n`s` et un poids `w = 30` (`public.json`), trouvez l'unique vecteur d'erreur `e`\nde poids `w` tel que `H·eᵀ = s`. Il déchiffre le flag (schéma `flag_dec` dans\n`public.json`).\n\nStuck? Hints are available (they cost a few points).",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 1113,
+        "cost": 25,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/oxdefault--decode",
+    "local_files": [
+      "public.json"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 509,
+    "type": "team_instance",
+    "name": "oxdefault--fast-enough",
+    "value": 150,
+    "initial": 500,
+    "minimum": 100,
+    "decay": 25,
+    "solves": 24,
+    "solved_by_me": true,
+    "category": "crypto",
+    "tags": [
+      {
+        "value": "crypto"
+      },
+      {
+        "value": "medium"
+      },
+      {
+        "value": "creator:Oxdefault"
+      }
+    ],
+    "description": "Oracle réseau. 25 rounds ; à chaque round on vous donne **4860 bits de keystream** d'un chiffrement à flot et vous devez prédire les **64 bits suivants** — le tout en **moins de 150 s au total**.\n\n```\nncat --ssl {host} {port}\n```\n\nFichiers fournis : `c4_proto.py`, `c4_config.py`, `c4_oracle.py`.\n\nStuck? Hints are available (they cost a few points).\n",
+    "connection_info": "nc {host} {port}  (per-team instance; use the 'launch' button)",
+    "hints": [
+      {
+        "id": 1115,
+        "cost": 25,
+        "title": ""
+      },
+      {
+        "id": 1116,
+        "cost": 50,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/oxdefault--fast-enough",
+    "local_files": [
+      "c4_config.py",
+      "c4_oracle.py",
+      "c4_proto.py"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 433,
+    "type": "team_instance",
+    "name": "algorithme123--zemidjan-classement",
+    "value": 58,
+    "initial": 175,
+    "minimum": 58,
+    "decay": 25,
+    "solves": 28,
+    "solved_by_me": true,
+    "category": "forensics",
+    "tags": [
+      {
+        "value": "misc"
+      },
+      {
+        "value": "easy"
+      },
+      {
+        "value": "togo"
+      },
+      {
+        "value": "creator:Algorithme123"
+      }
+    ],
+    "description": "Replay gate des courses Lomé. Corrélez les logs publics et validez un trajet.\n`nc {host} 13338`\n\n<!-- nctf-connexion -->\n> 🔌 Connexion chiffrée : **`ncat --ssl <adresse> 1337`** (pas de `nc` simple) : voir [Se connecter aux instances](/connexion#tcp).\n",
+    "connection_info": "nc {host} {port}  (per-team instance; use the 'launch' button)",
+    "hints": [],
+    "local_folder": "solved/algorithme123--zemidjan-classement",
+    "local_files": [
+      "leaderboard.json",
+      "courses.log"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 544,
+    "type": "dynamic",
+    "name": "fullaccess5--operation-acces-suspect",
+    "value": 100,
+    "initial": 250,
+    "minimum": 100,
+    "decay": 25,
+    "solves": 36,
+    "solved_by_me": true,
+    "category": "forensics",
+    "tags": [
+      "forensics",
+      "medium",
+      "creator:fullaccess5"
+    ],
+    "description": "Vous etes analyste SOC / Blue Team au sein de la cellule de reponse a incident de **SecureCorp**.\n\nUn utilisateur a recu un courriel d'alerte << Nous avons bloque un acces suspect >> se faisant passer pour une grande marketplace (MercadoLivre), l'invitant a cliquer pour << securiser son compte >>. Le message est en portugais et parait tres soigne. Mefiant, l'utilisateur a transmis le message brut `alerte_acces.eml` au SOC sans cliquer.\n\n> Attention : les liens du corps pointent vers des domaines de phishing potentiellement actifs : **ne les visitez pas.**\n\n**Votre mission :** remontez jusqu'a l'expediteur reel et retrouvez les 7 artefacts.\n\nA partir de l'**adresse IP d'origine** (celle qui a emis le message) :\n1. L'adresse IP d'origine.\n2. Le **pays** d'hebergement (code pays ISO, ex : `TR`).\n3. La **region** (ex : `Maritime`).\n4. La **ville** (sans espace, ex : `NewYork`).\n5. S'agit-il d'un **VPN** ou d'un **VPS** / hebergement cloud ? (reponse : `VPN` ou `VPS`)\n6. Le **proprietaire** de l'IP d'origine (nom sans forme juridique ni espace).\n\nPuis, sur le domaine **usurpe** (celui affiche dans l'en-tete `From`) :\n7. La **politique DMARC** qu'il publie (format : `p=xxxx`, ex : `p=none`).\n\n**Format du flag :** `NCTF{1_2_3_4_5_6_7}`\n\nBloque ? Des indices sont disponibles (ils coutent quelques points).\n",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 1189,
+        "cost": 10,
+        "title": ""
+      },
+      {
+        "id": 1190,
+        "cost": 20,
+        "title": ""
+      },
+      {
+        "id": 1191,
+        "cost": 20,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/fullaccess5--operation-acces-suspect",
+    "local_files": [
+      "alerte_acces.eml"
+    ],
+    "files_downloaded": false,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 543,
+    "type": "dynamic",
+    "name": "fullaccess5--operation-faux-colis",
+    "value": 50,
+    "initial": 150,
+    "minimum": 50,
+    "decay": 25,
+    "solves": 40,
+    "solved_by_me": true,
+    "category": "forensics",
+    "tags": [
+      "forensics",
+      "easy",
+      "creator:fullaccess5"
+    ],
+    "description": "Vous etes analyste SOC / Blue Team au sein de la cellule de reponse a incident de **SecureCorp**.\n\nUn employe du service comptabilite a recu un courriel l'informant qu'un colis DHL etait << bloque en douane >> et qu'il fallait regler 2,99 EUR de frais sous 48 h via un lien. Mefiant, il n'a pas clique et a transmis le message brut `colis_en_attente.eml` au SOC.\n\n**Votre mission :** analysez le courriel et retrouvez les 5 artefacts suivants :\n\n1. L'adresse email reelle vers laquelle part toute reponse.\n2. L'adresse IP publique qui a emis le message vers le premier relais.\n3. Le resultat de la verification SPF pour ce message.\n4. Le domaine du site de hameconnage present dans le lien du corps du message.\n5. L'identifiant de la sous-technique MITRE ATT&CK correspondant a ce type d'hameconnage (format : `TXXXX.XXX`).\n\n**Format du flag :** `NCTF{1_2_3_4_5}`\n\nBloque ? Des indices sont disponibles (ils coutent quelques points).\n",
+    "connection_info": null,
+    "hints": [],
+    "local_folder": "solved/fullaccess5--operation-faux-colis",
+    "local_files": [
+      "colis_en_attente.eml"
+    ],
+    "files_downloaded": false,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 545,
+    "type": "dynamic",
+    "name": "fullaccess5--operation-reunion-fantome",
+    "value": 116,
+    "initial": 350,
+    "minimum": 116,
+    "decay": 25,
+    "solves": 35,
+    "solved_by_me": true,
+    "category": "forensics",
+    "tags": [
+      "forensics",
+      "hard",
+      "creator:fullaccess5"
+    ],
+    "description": "Vous etes analyste SOC / Blue Team au sein de la cellule de reponse a incident de **SecureCorp**.\n\nLe directeur financier a recu une invitation Teams pour un << Conseil d'administration extraordinaire - Arbitrage budget 2027 >>. Le message lui demande de **scanner un QR code** pour << valider son identite (MFA) >> et contient un ordre du jour << confidentiel >> protege par un code d'acces.\n\nParticularite : la passerelle de messagerie n'a signale **aucune URL ni aucune image** dans ce message, et SPF, DKIM et DMARC sont tous au vert. Le directeur a transmis le message brut `invitation_ca_extraordinaire.eml` au SOC sans rien scanner ni ouvrir.\n\n> Attention : analysez le message hors-ligne. Ne scannez pas le QR code avec un telephone professionnel.\n\n**Votre mission :** retrouvez les 5 artefacts suivants.\n\n1. Le **domaine de la page de hameconnage finale** vers lequel mene le QR code (apres la redirection).\n2. Le **code d'acces** qui permet de deverrouiller la piece jointe.\n3. L'**identifiant numerique du bot Telegram** qui recoit reellement les identifiants voles.\n4. Le **chat_id Telegram** de destination de l'exfiltration.\n5. L'identifiant de la sous-technique MITRE ATT&CK correspondant a la technique de livraison de la piece jointe (format : `TXXXX.XXX`).\n\n**Format du flag :** `NCTF{1_2_3_4_5}`\n\nBloque ? Des indices sont disponibles (ils coutent quelques points).\n",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 1192,
+        "cost": 20,
+        "title": ""
+      },
+      {
+        "id": 1193,
+        "cost": 20,
+        "title": ""
+      },
+      {
+        "id": 1194,
+        "cost": 30,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/fullaccess5--operation-reunion-fantome",
+    "local_files": [
+      "invitation_ca_extraordinaire.eml"
+    ],
+    "files_downloaded": false,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 425,
+    "type": "dynamic",
+    "name": "fullaccess5--operation-swift-hook",
+    "value": 50,
+    "initial": 150,
+    "minimum": 50,
+    "decay": 25,
+    "solves": 27,
+    "solved_by_me": true,
+    "category": "forensics",
+    "tags": [
+      "forensics",
+      "easy",
+      "creator:fullaccess5"
+    ],
+    "description": "Vous êtes analyste SOC / Blue Team au sein de la cellule de réponse à incident de **SecureCorp**.\n\nCe matin, le responsable administratif et financier a alerté l'équipe de sécurité après avoir réceptionné un courriel prétendant confirmer l'exécution d'un virement bancaire international (SWIFT) d'un montant inhabituel.\n\nPlusieurs signaux suspects ont retenu l'attention de l'employé :\n- Une formule de politesse générique.\n- Une mention d'un virement non sollicité avec un reçu sous forme de pièce jointe compressée.\n- Une discordance apparente dans les coordonnées de l'expéditeur.\n\nFace au risque avéré d'une tentative de harponnage (spearphishing) ciblant les services financiers, le courriel brut `suspicious_transfer.eml` a été isolé et transmis au SOC pour une expertise approfondie.\n\n**Votre mission :**\nAnalysez le fichier d'email fourni, examinez ses en-têtes techniques (headers), retracez son origine, extrayez la pièce jointe et qualifiez la menace afin de reconstituer les 8 artefacts clés :\n\n1. L'adresse email exacte vers laquelle sera envoyée toute réponse à ce message.\n2. L'adresse IP publique d'origine ayant émis ce message vers le premier relais de messagerie.\n3. Le nom officiel de l'organisation / hébergeur propriétaire de cette adresse IP.\n4. Le nom complet du fichier joint trouvé dans l'email.\n5. L'empreinte cryptographique SHA-256 de la pièce jointe extraite (en minuscules).\n6. La taille exacte de la pièce jointe extraite, mesurée localement, en kilo-octets (format : `XXX.XX KB`, ex : `122.31 KB`).\n7. Le format de fichier réel de la pièce jointe (ex : `DOCX`, `TXT`, `EXE`...).\n8. L'identifiant de la sous-technique MITRE ATT&CK associée à ce vecteur d'attaque par pièce jointe malveillante (format : `TXXXX.XXX`).\n\n**Format du Flag :**\n`NCTF{1_2_3_4_5_6_7_8}`\n",
+    "connection_info": null,
+    "hints": [],
+    "local_folder": "solved/fullaccess5--operation-swift-hook",
+    "local_files": [
+      "suspicious_transfer.eml"
+    ],
+    "files_downloaded": false,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 122,
+    "type": "dynamic",
+    "name": "git-archaeology",
+    "value": 50,
+    "initial": 100,
+    "minimum": 50,
+    "decay": 25,
+    "solves": 51,
+    "solved_by_me": true,
+    "category": "forensics",
+    "tags": [
+      {
+        "value": "misc"
+      },
+      {
+        "value": "easy"
+      },
+      {
+        "value": "creator:hibris"
+      },
+      {
+        "value": "creator:Clawd"
+      }
+    ],
+    "description": "Our intern force-pushed away a mistake. \"It's gone,\" they said.\n\nYou're handed a snapshot of the `logparse-cli` repository (the full working\ntree **and** its `.git` directory). At some point a real production\ncredential was committed and then \"removed.\" Recover the leaked credential.\n\nThere is one obviously-fake placeholder token in the repo to ignore; the real\none is the upload_token that was scrubbed from the analytics config.\n\nBloqué ? Des indices sont disponibles (ils coûtent quelques points).\n\nFlag format: NCTF{...}",
+    "connection_info": "Download logparse-cli.tar.gz - no server needed. Extract and dig.",
+    "hints": [
+      {
+        "id": 280,
+        "cost": 10,
+        "title": ""
+      },
+      {
+        "id": 281,
+        "cost": 10,
+        "title": ""
+      },
+      {
+        "id": 282,
+        "cost": 15,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/git-archaeology",
+    "local_files": [
+      "logparse-cli.tar.gz"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 125,
+    "type": "dynamic",
+    "name": "json-sift",
+    "value": 53,
+    "initial": 100,
+    "minimum": 50,
+    "decay": 40,
+    "solves": 40,
+    "solved_by_me": true,
+    "category": "forensics",
+    "tags": [
+      "misc",
+      "json",
+      "data-wrangling",
+      "beginner",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "We dumped 5000 telemetry events into a single JSON array (`telemetry.json`).\nMost of it is noise. A small subset of the records was tagged by the\ncollector before it fell over, and those records each carry a single\ncharacter. Put the right characters in the right order and you get the flag.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 287,
+        "cost": 10,
+        "title": ""
+      },
+      {
+        "id": 288,
+        "cost": 15,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/json-sift",
+    "local_files": [
+      "telemetry.json"
+    ],
+    "files_downloaded": false,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 518,
+    "type": "dynamic",
+    "name": "oxdefault--flush",
+    "value": 66,
+    "initial": 200,
+    "minimum": 66,
+    "decay": 25,
+    "solves": 44,
+    "solved_by_me": true,
+    "category": "forensics",
+    "tags": [
+      {
+        "value": "forensics"
+      },
+      {
+        "value": "medium"
+      },
+      {
+        "value": "creator:Oxdefault"
+      }
+    ],
+    "description": "Un sous-traitant sur le départ a exfiltré des documents d'un poste de travail en\nenchaînant des périphériques USB de plus en plus discrets ; le SOC avait une\ncapture `usbmon` en cours. Trois appareils ont été saisis. On les analyse dans\nl'ordre.\n\n**Épisode 1 — la clé.** Premier appareil : une simple clé USB de stockage de\nmasse, branchée pendant la capture, sur laquelle un fichier a été copié. C'est le\npoint d'entrée de l'enquête : retrouve le fichier, le flag est dedans.\n\nFichier fourni : `capture.pcap`.\n\nStuck? Hints are available (they cost a few points).",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 1133,
+        "cost": 25,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/oxdefault--flush",
+    "local_files": [
+      "capture.pcap"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 104,
+    "type": "dynamic",
+    "name": "png-magic-fix",
+    "value": 82,
+    "initial": 100,
+    "minimum": 50,
+    "decay": 40,
+    "solves": 25,
+    "solved_by_me": true,
+    "category": "forensics",
+    "tags": [
+      "forensics",
+      "file-carving",
+      "png",
+      "beginner",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "A screenshot was pulled from a suspect's machine, but the file (`evidence.png`)\nwill not open in any image viewer. The pixels look intact — only the very start\nof the file seems wrong.\n\nMake the file open again and read what the analyst left behind. The recovery\nnote in the image metadata is your flag.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 234,
+        "cost": 10,
+        "title": ""
+      },
+      {
+        "id": 235,
+        "cost": 15,
+        "title": ""
+      },
+      {
+        "id": 236,
+        "cost": 15,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/png-magic-fix",
+    "local_files": [
+      "evidence.png"
+    ],
+    "files_downloaded": false,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 112,
+    "type": "dynamic",
+    "name": "intel-hex",
+    "value": 50,
+    "initial": 100,
+    "minimum": 50,
+    "decay": 40,
+    "solves": 51,
+    "solved_by_me": true,
+    "category": "hardware",
+    "tags": [
+      {
+        "value": "hardware"
+      },
+      {
+        "value": "intel-hex"
+      },
+      {
+        "value": "memory-dump"
+      },
+      {
+        "value": "beginner"
+      },
+      {
+        "value": "creator:hibris"
+      },
+      {
+        "value": "creator:Clawd"
+      }
+    ],
+    "description": "`image.hex` is a dump of a microcontroller's memory in a common text hex\nformat used by flashing tools. Once you rebuild the memory image, the flag\nsits at offset `0x40`, but it will not read as text straight away - the bytes\nwent through a simple reversible transform on their way to the chip.\n\nReconstruct memory, read offset `0x40`, and undo the transform.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 258,
+        "cost": 10,
+        "title": ""
+      },
+      {
+        "id": 259,
+        "cost": 15,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/intel-hex",
+    "local_files": [
+      "image.hex"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 115,
+    "type": "dynamic",
+    "name": "uart-capture",
+    "value": 50,
+    "initial": 100,
+    "minimum": 50,
+    "decay": 40,
+    "solves": 41,
+    "solved_by_me": true,
+    "category": "hardware",
+    "tags": [
+      "hardware",
+      "uart",
+      "logic-analyzer",
+      "beginner",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "We tapped a serial line with a logic analyzer and dumped the samples to `capture.csv`. Each row is one time step: `time_ns` is the timestamp, and `d0_uart` and `d1_refclk` are the levels on the two probes we clipped on. Somewhere on that line a short ASCII message was transmitted.\n\nRecover the message. The flag is the transmitted text.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 264,
+        "cost": 10,
+        "title": ""
+      },
+      {
+        "id": 265,
+        "cost": 15,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/uart-capture",
+    "local_files": [
+      "capture.csv"
+    ],
+    "files_downloaded": false,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 435,
+    "type": "dynamic",
+    "name": "boazak--petit-fally",
+    "value": 50,
+    "initial": 100,
+    "minimum": 50,
+    "decay": 25,
+    "solves": 58,
+    "solved_by_me": true,
+    "category": "misc",
+    "tags": [
+      {
+        "value": "misc"
+      },
+      {
+        "value": "easy"
+      },
+      {
+        "value": "creator:KodjoDoDjango"
+      }
+    ],
+    "description": "Dans l'ombre de l'an 78, sous la lune d'argent,\nMarchaient 67 braves, au pas lourd et pesant.\nLeur quête visait les 84 collines du vieux nord,\nOù 70 spectres veillent sur un ancien trésor.\nSoudain, ouvrant le coffre 123, secret et scellé,\nIls virent 82 joyaux d'une pureté inégalée.\nMais 48 gardiens se levèrent du sol maudit,\nJetant 83 sortilèges dans la nuit qui grandit.\nSeuls 51 éclairs purent briser ce lourd décret.\n\nLe vent soufflait à 115 kilomètres à la ronde,\nTraversant les 95 vallées les plus profondes.\nIl ne restait que 52 sentiers pour s'échapper,\nEt 82 cavaliers pour les intercepter.\nParmi les survivants, à peine 51 murmures,\nRésonnaient le long des 95 vieilles structures.\nSur les murs, 82 symboles gravés dans la pierre,\nRappelaient les 51 victoires de l'ère première,\nEt le sacrifice des 68 anciens soldats.\n\nSous la voûte des 95 constellations éteintes,\nLe vieux sage, à 86 ans, oubliait ses craintes.\nIl ne lui restait qu'49 page à déchiffrer,\nAprès 48 heures de veille sans s'arrêter.\nDans le grimoire numéro 76, poussiéreux et usé,\nSe trouvaient 51 secrets autrefois dissimulés,\n55 formules magiques et 53 parchemins sacrés,\nCachés derrière les 95 portes du passé.\n\nIl fallut 52 jours de marche dans le désert noir,\nEt affronter 82 mirages pour garder l'espoir.\nÀ la fin, seules 51 oasis offraient leur eau fraîche,\nSéparées par 95 lieues de terre sèche.\nLà-haut, 56 aigles volaient en cercles parfaits,\nSurveillant les 76 vallons que le soleil chauffait.\n85 caravanes avaient tenté ce voyage incertain,\nMais à peine 51 d'entre elles virent le matin,\nDisparaissant dans les 95 dunes du destin.\n\nL'énigme finale demandait 52 clés de métal,\nForgées par 56 maîtres sous le dôme de cristal.\nIl fallait aligner 51 fragments d'un miroir brisé,\nEt réciter 57 incantations pour l'apaiser.\nÀ 49 reprises, le mécanisme fit un bruit sourd,\nLibérant 55 engrenages cachés dans la tour.\nAprès 50 tentatives et 54 efforts suprêmes,\nLa porte 125 s'ouvrit enfin sur le poème.\n\nStuck? Hints are available (they cost a few points).",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 991,
+        "cost": 15,
+        "title": ""
+      },
+      {
+        "id": 992,
+        "cost": 75,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/boazak--petit-fally",
+    "local_files": [
+      "Petit-Fally.jpg"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 436,
+    "type": "dynamic",
+    "name": "oxdefault--les-murmures-de-l-omni",
+    "value": 150,
+    "initial": 150,
+    "minimum": 150,
+    "decay": 25,
+    "solves": 22,
+    "solved_by_me": true,
+    "category": "misc",
+    "tags": [
+      "misc",
+      "medium",
+      "creator:Oxdefault"
+    ],
+    "description": "Les murmures que seul l'Omni sait comprendre. On a intercepté une suite de\nnombres (`message.txt`) ; à toi de la déchiffrer.",
+    "connection_info": null,
+    "hints": [],
+    "local_folder": "solved/oxdefault--les-murmures-de-l-omni",
+    "local_files": [
+      "message.txt"
+    ],
+    "files_downloaded": false,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 486,
+    "type": "team_instance",
+    "name": "thierry8petstar--oui-ou-non-1",
+    "value": 50,
+    "initial": 100,
+    "minimum": 50,
+    "decay": 25,
+    "solves": 41,
+    "solved_by_me": true,
+    "category": "misc",
+    "tags": [
+      {
+        "value": "misc"
+      },
+      {
+        "value": "easy"
+      },
+      {
+        "value": "creator:thierry8petstar"
+      }
+    ],
+    "description": "Un fichier secret réside sur ce serveur. Il contient un flag.\nTu ne peux pas le lire directement — mais tu peux le deviner.",
+    "connection_info": "http://{host}:{port}/  (per-team instance; use the 'launch' button)",
+    "hints": [],
+    "local_folder": "solved/thierry8petstar--oui-ou-non-1",
+    "local_files": [],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 487,
+    "type": "team_instance",
+    "name": "thierry8petstar--oui-ou-non-2",
+    "value": 150,
+    "initial": 200,
+    "minimum": 66,
+    "decay": 25,
+    "solves": 17,
+    "solved_by_me": true,
+    "category": "misc",
+    "tags": [
+      {
+        "value": "misc"
+      },
+      {
+        "value": "medium"
+      },
+      {
+        "value": "creator:thierry8petstar"
+      }
+    ],
+    "description": "Le serveur ne te dira plus jamais « oui ».\nQuoi que tu proposes, la réponse sera la même.\nMais un secret mal gardé finit toujours par se faire attendre...\n\nStuck? Hints are available (they cost a few points).",
+    "connection_info": "http://{host}:{port}/  (per-team instance; use the 'launch' button)",
+    "hints": [
+      {
+        "id": 1083,
+        "cost": 0,
+        "title": ""
+      },
+      {
+        "id": 1084,
+        "cost": 0,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/thierry8petstar--oui-ou-non-2",
+    "local_files": [],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 384,
+    "type": "team_instance",
+    "name": "adversarial-gate",
+    "value": 150,
+    "initial": 150,
+    "minimum": 150,
+    "decay": 25,
+    "solves": 27,
+    "solved_by_me": true,
+    "category": "ml",
+    "tags": [
+      "ml",
+      "hard",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "**SENTRY-6 badge gate.** An access gate runs a small convolutional\nclassifier over a 32x32 grayscale \"badge scan\" and sorts it into one of six\nclearance classes: `DENIED, STAFF, VISITOR, CONTRACTOR, AUDITOR, GRANTED`.\nThe gate opens **only** for `GRANTED`.\n\nYou are given the classifier weights (white-box) and a badge that scans as\n`DENIED`. Get the gate to read a badge as **GRANTED** while keeping every\npixel within **8 levels** (raw 0..255) of the DENIED badge -- i.e.\n`max|badge - DENIED| <= 8` -- then submit it to the live instance.\n\nThe service is the oracle. `POST /submit` **verifies the effect, not a\npayload shape**: it decodes your packet, checks `max|badge - DENIED| <= 8`,\nruns the real classifier, and emits the flag **only** when the decoded badge\nis classified GRANTED. Unlimited attempts, never penalised. The flag is never\npresent in any downloadable artifact.\n\nSubmissions are wrapped in an invented container, **QGP1** (not PNG/NPY/DER).\nThe instance serves a small corpus of `.gatepkt` samples plus two decoded\n`.npy` files under `/assets/`, and the codec/model source ship in the handout;\nwork out the exact wire format from that evidence.\n\nHandout files include `gatemodel.py`, `weights.npz`, the DENIED badge\n(`denied_badge.gatepkt` / `.npy`) and the labelled sample corpus.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: `NCTF{...}`\n",
+    "connection_info": "http://{host}:{port}/",
+    "hints": [
+      {
+        "id": 872,
+        "cost": 25,
+        "title": ""
+      },
+      {
+        "id": 873,
+        "cost": 50,
+        "title": ""
+      },
+      {
+        "id": 874,
+        "cost": 75,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/adversarial-gate",
+    "local_files": [
+      "README.md",
+      "gatemodel.py",
+      "weights.npz",
+      "denied_badge.gatepkt",
+      "denied_badge.npy",
+      "badge_00.gatepkt",
+      "badge_00.npy",
+      "badge_01.gatepkt",
+      "badge_01.npy",
+      "badge_02.gatepkt",
+      "badge_03.gatepkt",
+      "badge_04.gatepkt",
+      "badge_05.gatepkt"
+    ],
+    "files_downloaded": false,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 135,
+    "type": "dynamic",
+    "name": "embedding-nn",
+    "value": 62,
+    "initial": 150,
+    "minimum": 50,
+    "decay": 35,
+    "solves": 34,
+    "solved_by_me": true,
+    "category": "ml",
+    "tags": [
+      "ml",
+      "embeddings",
+      "nearest-neighbor",
+      "easy",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "`embed_table.npz` holds a token embedding table and a batch of query vectors.\nEach token has a character; each query was generated from exactly one token but\nis not a perfect copy of its vector. Decode every query back to the token it\ncame from, in order, to read the flag.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 311,
+        "cost": 10,
+        "title": ""
+      },
+      {
+        "id": 312,
+        "cost": 15,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/embedding-nn",
+    "local_files": [
+      "embed_table.npz",
+      "README.md"
+    ],
+    "files_downloaded": false,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 137,
+    "type": "dynamic",
+    "name": "member-ids",
+    "value": 121,
+    "initial": 150,
+    "minimum": 50,
+    "decay": 35,
+    "solves": 20,
+    "solved_by_me": true,
+    "category": "ml",
+    "tags": [
+      "ml",
+      "membership-inference",
+      "privacy",
+      "easy",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "`shadow_eval.npz` is an evaluation table for a model: for each record it lists\nan id, the model's per-record loss, and a one-character tag. Some of these\nrecords were part of the model's training set and some were not. Figure out\nwhich records the model was trained on; their tags, read in the right order,\nspell the flag.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 316,
+        "cost": 10,
+        "title": ""
+      },
+      {
+        "id": 317,
+        "cost": 15,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/member-ids",
+    "local_files": [
+      "shadow_eval.npz",
+      "README.md"
+    ],
+    "files_downloaded": false,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 386,
+    "type": "team_instance",
+    "name": "model-inversion",
+    "value": 150,
+    "initial": 150,
+    "minimum": 150,
+    "decay": 25,
+    "solves": 23,
+    "solved_by_me": true,
+    "category": "ml",
+    "tags": [
+      "ml",
+      "hard",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "**AEGIS-VAULT recall service.** The vault has *memorised* one sealed record --\n24 attribute bytes (each 0..255) fixed when your instance was provisioned. A\npublic API will only ever tell you, for a probe vector you supply, how strongly\nthe vault **recalls** it: a two-class confidence `OTHER / SEALED`. It will\nnever show you the record.\n\nYour task: **recover the sealed record the model memorized**, then hand it back\nto prove you have it.\n\nThe service is the oracle. `POST /submit` **verifies the effect, not a payload\nshape**: it compares the record you return against the memorised one and emits\nthe flag **only** when they match within a small tolerance. `POST /query`\nreturns confidences and nothing else -- the record is never in a response and\nnever in a downloadable artifact.\n\nYou are given the scoring model **white-box** (`model.py` and `weights.npz` in\nthe handout: the embedding and the exact code the oracle runs) -- everything\nexcept the memorised record itself. The model is common to every team; only the\nmemorised record and the flag are per-team, so a record read off someone else's\ninstance is useless.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: `NCTF{...}`\n",
+    "connection_info": "http://{host}:{port}/",
+    "hints": [
+      {
+        "id": 878,
+        "cost": 25,
+        "title": ""
+      },
+      {
+        "id": 879,
+        "cost": 50,
+        "title": ""
+      },
+      {
+        "id": 880,
+        "cost": 75,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/model-inversion",
+    "local_files": [
+      "README.md",
+      "model.py",
+      "weights.npz"
+    ],
+    "files_downloaded": false,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 385,
+    "type": "team_instance",
+    "name": "pickle-rce",
+    "value": 150,
+    "initial": 150,
+    "minimum": 150,
+    "decay": 25,
+    "solves": 25,
+    "solved_by_me": true,
+    "category": "ml",
+    "tags": [
+      "ml",
+      "web",
+      "medium",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "**ModelHub** is a model registry. Teams upload a serialized model and the\nregistry \"validates\" it by loading it and returning a short summary of the\nloaded object. The serialization format is a plain Python **pickle** -- the\nsame thing `joblib`, `sklearn` and `torch.save` write under the hood.\n\nThere is **no downloadable flag**. This team's flag is written to a file on\nthe service host (`/flag`) at container start and is never part of any normal\nresponse. The registry will not read it for you. The only way it comes back is\nif the object the registry loads from your upload *is* the flag. The service\nreturns `repr(loaded_object)`; it does not inspect or expect any particular\npayload shape. It verifies the effect, then hands you whatever your object is.\n\nEndpoints (see `GET /`):\n  - `POST /validate` with the raw pickle as the body, or multipart field\n    `model`. Returns JSON with `model_summary` (a repr) or a `rejected` /\n    `error` reason.\n\nHandout: a short API note plus a benign example `.pkl` (`example_model.pkl`)\nso you can see the round-trip and the exact rejection-message format.\n\nDecoy: the host has a stale `/flag.decoy` placeholder from an old fixture. It\nis not a flag -- read it once and you will see. Don't submit it.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: `NCTF{...}`\n",
+    "connection_info": "http://{host}:{port}",
+    "hints": [
+      {
+        "id": 875,
+        "cost": 20,
+        "title": ""
+      },
+      {
+        "id": 876,
+        "cost": 35,
+        "title": ""
+      },
+      {
+        "id": 877,
+        "cost": 55,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/pickle-rce",
+    "local_files": [
+      "README.md",
+      "example_model.pkl"
+    ],
+    "files_downloaded": false,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 140,
+    "type": "dynamic",
+    "name": "tree-path",
+    "value": 50,
+    "initial": 100,
+    "minimum": 50,
+    "decay": 40,
+    "solves": 51,
+    "solved_by_me": true,
+    "category": "ml",
+    "tags": [
+      {
+        "value": "ml"
+      },
+      {
+        "value": "decision-tree"
+      },
+      {
+        "value": "beginner"
+      },
+      {
+        "value": "creator:hibris"
+      },
+      {
+        "value": "creator:Clawd"
+      }
+    ],
+    "description": "We recovered a trained binary decision tree from a classifier and dumped it to\n`decision_tree.json`. Every internal node splits on a feature; every leaf\ncarries a single character. The children are stored in whatever order the\ndump happened to serialize them, so reading the file top to bottom is\nmeaningless. The secret is spelled out by the leaves -- you just have to figure\nout the canonical order in which to read them.\n\nRecover that ordering and read the flag.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 324,
+        "cost": 10,
+        "title": ""
+      },
+      {
+        "id": 325,
+        "cost": 10,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/tree-path",
+    "local_files": [
+      "decision_tree.json",
+      "README.md"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 144,
+    "type": "dynamic",
+    "name": "native-xor",
+    "value": 50,
+    "initial": 150,
+    "minimum": 50,
+    "decay": 35,
+    "solves": 39,
+    "solved_by_me": true,
+    "category": "mobile",
+    "tags": [
+      "mobile",
+      "android",
+      "native-jni",
+      "easy",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "`nativegame.apk` validates its flag in a bundled native library. We recovered\nthe decompiled JNI routine and the encrypted blob it compares against\n(`assets/enc.bin`). The routine transforms your input and checks it against\nthat blob.\n\nRecover the input the native check accepts. It is the flag. No device\nrequired.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 333,
+        "cost": 20,
+        "title": ""
+      },
+      {
+        "id": 334,
+        "cost": 45,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/native-xor",
+    "local_files": [
+      "nativegame.apk"
+    ],
+    "files_downloaded": false,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 148,
+    "type": "dynamic",
+    "name": "strings-goldmine",
+    "value": 50,
+    "initial": 100,
+    "minimum": 50,
+    "decay": 40,
+    "solves": 49,
+    "solved_by_me": true,
+    "category": "mobile",
+    "tags": [
+      {
+        "value": "mobile"
+      },
+      {
+        "value": "android"
+      },
+      {
+        "value": "hardcoded-secret"
+      },
+      {
+        "value": "beginner"
+      },
+      {
+        "value": "creator:hibris"
+      },
+      {
+        "value": "creator:Clawd"
+      }
+    ],
+    "description": "We pulled `app-release.apk` off a payments handset. Unzip it like any APK and\npoke around the decompiled sources and resources. One premium feature is\nunlocked from data shipped inside the app itself.\n\nRecover the unlock token. It is the flag. No network required.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 341,
+        "cost": 10,
+        "title": ""
+      },
+      {
+        "id": 342,
+        "cost": 15,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/strings-goldmine",
+    "local_files": [
+      "app-release.apk"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 150,
+    "type": "dynamic",
+    "name": "acl-firewall",
+    "value": 50,
+    "initial": 150,
+    "minimum": 50,
+    "decay": 35,
+    "solves": 45,
+    "solved_by_me": true,
+    "category": "networking",
+    "tags": [
+      "networking",
+      "firewall",
+      "acl",
+      "easy",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "You are handed a firewall's access-control list and a batch of candidate flows (`ruleset.json`).\n\nWork out which flows the device actually lets through. Each flow carries a one-character `tag`; the accepted flows, read in ascending `id` order, spell the flag.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 345,
+        "cost": 10,
+        "title": ""
+      },
+      {
+        "id": 346,
+        "cost": 15,
+        "title": ""
+      },
+      {
+        "id": 347,
+        "cost": 20,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/acl-firewall",
+    "local_files": [
+      "ruleset.json"
+    ],
+    "files_downloaded": false,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 153,
+    "type": "dynamic",
+    "name": "eui64-slaac",
+    "value": 50,
+    "initial": 100,
+    "minimum": 50,
+    "decay": 40,
+    "solves": 52,
+    "solved_by_me": true,
+    "category": "networking",
+    "tags": [
+      {
+        "value": "networking"
+      },
+      {
+        "value": "ipv6"
+      },
+      {
+        "value": "eui64"
+      },
+      {
+        "value": "beginner"
+      },
+      {
+        "value": "creator:hibris"
+      },
+      {
+        "value": "creator:Clawd"
+      }
+    ],
+    "description": "A stateless address-autoconfig (SLAAC) inventory (`hosts.json`) lists 29\ninterfaces, each with a MAC address, a single shared /64 prefix, and a\none-character `tag`. The interface identifiers were \"omitted on purpose\".\n\nReconstruct each host's full IPv6 address, put the hosts in the right order,\nand read the tags in that order to recover the flag.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 354,
+        "cost": 10,
+        "title": ""
+      },
+      {
+        "id": 355,
+        "cost": 10,
+        "title": ""
+      },
+      {
+        "id": 356,
+        "cost": 15,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/eui64-slaac",
+    "local_files": [
+      "hosts.json"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 160,
+    "type": "dynamic",
+    "name": "ct-log-pivot",
+    "value": 50,
+    "initial": 150,
+    "minimum": 50,
+    "decay": 35,
+    "solves": 51,
+    "solved_by_me": true,
+    "category": "osint",
+    "tags": [
+      "osint",
+      "dns",
+      "certificate-transparency",
+      "easy",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "Reconnaissance sur le domaine `cert.tg`. On vous remet la zone DNS publique\n(`cert.tg.zone`), l'enregistrement WHOIS (`whois.txt`), un extrait de journal\nde transparence des certificats (`ct-log.txt`) et un cache de résolveur DNS\n(`resolver_cache.txt`).\n\nL'opérateur n'a pas publié tous ses hôtes. Retrouvez celui qui ne figure nulle\npart dans la zone, lisez ce qu'il expose et récupérez le flag.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 375,
+        "cost": 22,
+        "title": ""
+      },
+      {
+        "id": 376,
+        "cost": 40,
+        "title": ""
+      },
+      {
+        "id": 377,
+        "cost": 60,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/ct-log-pivot",
+    "local_files": [
+      "cert.tg.zone",
+      "whois.txt",
+      "ct-log.txt",
+      "resolver_cache.txt"
+    ],
+    "files_downloaded": false,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 162,
+    "type": "dynamic",
+    "name": "doc-metadata",
+    "value": 56,
+    "initial": 150,
+    "minimum": 50,
+    "decay": 35,
+    "solves": 35,
+    "solved_by_me": true,
+    "category": "osint",
+    "tags": [
+      "osint",
+      "metadata",
+      "ooxml",
+      "easy",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "Six communiqués « officiels » (`.docx`) ont fuité. Ils sont tous signés publiquement « Cellule Comms CERT.tg », mais quelqu'un à l'intérieur a bâclé le nettoyage avant diffusion.\n\nRecomposez ce que cette personne a laissé filer dans les fichiers. La chaîne reconstituée est le flag.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 381,
+        "cost": 10,
+        "title": ""
+      },
+      {
+        "id": 382,
+        "cost": 15,
+        "title": ""
+      },
+      {
+        "id": 383,
+        "cost": 22,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/doc-metadata",
+    "local_files": [
+      "communique_01_alerte.docx",
+      "communique_02_maj.docx",
+      "communique_03_hausse_tarifs.docx",
+      "communique_04_dementi.docx",
+      "communique_05_bilan.docx",
+      "communique_06_annexe.docx"
+    ],
+    "files_downloaded": false,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 169,
+    "type": "dynamic",
+    "name": "hull-cipher",
+    "value": 50,
+    "initial": 150,
+    "minimum": 50,
+    "decay": 35,
+    "solves": 53,
+    "solved_by_me": true,
+    "category": "ppc",
+    "tags": [
+      "ppc",
+      "geometry",
+      "convex-hull",
+      "easy",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "`points.txt` lists a few hundred 2-D points, each tagged with a single\ncharacter. Most of the tags are noise. A small subset of the points, read in\nthe right geometric order, spells the flag.\n\nRecover that order and read off the flag.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 402,
+        "cost": 10,
+        "title": ""
+      },
+      {
+        "id": 403,
+        "cost": 15,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/hull-cipher",
+    "local_files": [
+      "points.txt"
+    ],
+    "files_downloaded": false,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 175,
+    "type": "dynamic",
+    "name": "z-locator",
+    "value": 50,
+    "initial": 150,
+    "minimum": 50,
+    "decay": 35,
+    "solves": 37,
+    "solved_by_me": true,
+    "category": "ppc",
+    "tags": [
+      "ppc",
+      "strings",
+      "z-function",
+      "easy",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "`data.txt` has a short pattern on line 1 and a large blob of text on line 2.\nThe pattern appears many times in the text. The character sitting immediately\nafter each occurrence, in order, spells the flag.\n\nFind every occurrence and read the flag.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 419,
+        "cost": 10,
+        "title": ""
+      },
+      {
+        "id": 420,
+        "cost": 15,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/z-locator",
+    "local_files": [
+      "data.txt"
+    ],
+    "files_downloaded": false,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 176,
+    "type": "dynamic",
+    "name": "bss-admin-flip",
+    "value": 62,
+    "initial": 150,
+    "minimum": 50,
+    "decay": 35,
+    "solves": 34,
+    "solved_by_me": true,
+    "category": "pwn",
+    "tags": [
+      "pwn",
+      "buffer-overflow",
+      "bss",
+      "easy",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "You are given a single x86-64 Linux binary, `chall`. It asks you to register a\nname and then tells you that the flag is for admins only.\n\nYou are not an admin. Become one and read what the program then prints.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 421,
+        "cost": 10,
+        "title": ""
+      },
+      {
+        "id": 422,
+        "cost": 15,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/bss-admin-flip",
+    "local_files": [
+      "chall"
+    ],
+    "files_downloaded": false,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 181,
+    "type": "dynamic",
+    "name": "stack-smash-reveal",
+    "value": 50,
+    "initial": 100,
+    "minimum": 50,
+    "decay": 40,
+    "solves": 49,
+    "solved_by_me": true,
+    "category": "pwn",
+    "tags": [
+      "pwn",
+      "stack-overflow",
+      "ret2win",
+      "beginner",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "You are given a single x86-64 Linux binary, `chall`. It reads some input and\nnormally just prints `bye`. There is a function in the binary that decodes and\nprints a flag, but it is never called on the normal path.\n\nReach that function and capture what it prints.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 434,
+        "cost": 10,
+        "title": ""
+      },
+      {
+        "id": 435,
+        "cost": 15,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/stack-smash-reveal",
+    "local_files": [
+      "chall"
+    ],
+    "files_downloaded": false,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 182,
+    "type": "dynamic",
+    "name": "byte-drift",
+    "value": 50,
+    "initial": 100,
+    "minimum": 50,
+    "decay": 40,
+    "solves": 49,
+    "solved_by_me": true,
+    "category": "reverse",
+    "tags": [
+      "reverse",
+      "x86-64",
+      "beginner",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "We recovered a small lock program, `chall`. It asks for a passphrase and\neither says \"unlocked\" or \"locked\". No passphrase, no output worth keeping.\n\nThe binary is a stripped x86-64 ELF. The correct passphrase is the flag.\nEverything you need is inside the file; no network required.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 436,
+        "cost": 10,
+        "title": ""
+      },
+      {
+        "id": 437,
+        "cost": 15,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/byte-drift",
+    "local_files": [
+      "chall"
+    ],
+    "files_downloaded": false,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 189,
+    "type": "dynamic",
+    "name": "shell-lock",
+    "value": 50,
+    "initial": 150,
+    "minimum": 50,
+    "decay": 35,
+    "solves": 38,
+    "solved_by_me": true,
+    "category": "reverse",
+    "tags": [
+      "reverse",
+      "shell",
+      "easy",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "`lock.sh` is a small self-decrypting shell script. Run it with the right\npassword and it prints the flag; run it wrong and it says \"access denied\".\nNothing in the file is readable at a glance.\n\nRecover the flag. No network required.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 454,
+        "cost": 10,
+        "title": ""
+      },
+      {
+        "id": 455,
+        "cost": 20,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/shell-lock",
+    "local_files": [
+      "lock.sh"
+    ],
+    "files_downloaded": false,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 445,
+    "type": "dynamic",
+    "name": "algorithme123--greffe-espaces-lome",
+    "value": 58,
+    "initial": 175,
+    "minimum": 58,
+    "decay": 25,
+    "solves": 50,
+    "solved_by_me": true,
+    "category": "stego",
+    "tags": [
+      {
+        "value": "stego"
+      },
+      {
+        "value": "easy"
+      },
+      {
+        "value": "whitespace"
+      },
+      {
+        "value": "togo"
+      },
+      {
+        "value": "creator:Algorithme123"
+      }
+    ],
+    "description": "Le greffe du tribunal de Lomé (fictif) publie un arrêté en texte brut.\nQuelque chose cloche dans la mise en page…",
+    "connection_info": null,
+    "hints": [],
+    "local_folder": "solved/algorithme123--greffe-espaces-lome",
+    "local_files": [
+      "arrete-greffe-lome.txt",
+      "note-mise-en-page.txt"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 434,
+    "type": "dynamic",
+    "name": "boazak--kabou",
+    "value": 50,
+    "initial": 100,
+    "minimum": 50,
+    "decay": 25,
+    "solves": 47,
+    "solved_by_me": true,
+    "category": "stego",
+    "tags": [
+      "misc",
+      "easy",
+      "creator:KodjoDoDjango"
+    ],
+    "description": "> **Origine du nom :** Kabou est une petite localité du Togo — une image qui cache plus qu'elle ne montre.\n\nUne image `image.png` vous est fournie.\n\nElle cache un secret… mais lequel ?\n\nStuck? Hints are available (they cost a few points).",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 988,
+        "cost": 10,
+        "title": ""
+      },
+      {
+        "id": 989,
+        "cost": 20,
+        "title": ""
+      },
+      {
+        "id": 990,
+        "cost": 10,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/boazak--kabou",
+    "local_files": [
+      "image.png"
+    ],
+    "files_downloaded": false,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 196,
+    "type": "dynamic",
+    "name": "lsb-bmp",
+    "value": 79,
+    "initial": 100,
+    "minimum": 50,
+    "decay": 40,
+    "solves": 27,
+    "solved_by_me": true,
+    "category": "stego",
+    "tags": [
+      "stego",
+      "lsb",
+      "bmp",
+      "beginner",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "A friend mailed us this bitmap postcard and swears there is more to it than a\nbland gradient. We see only colour. You download `postcard.bmp` — recover the\nmessage hidden in it.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 472,
+        "cost": 10,
+        "title": ""
+      },
+      {
+        "id": 473,
+        "cost": 15,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/lsb-bmp",
+    "local_files": [
+      "postcard.bmp"
+    ],
+    "files_downloaded": false,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 202,
+    "type": "dynamic",
+    "name": "build-cache-poison",
+    "value": 50,
+    "initial": 150,
+    "minimum": 50,
+    "decay": 35,
+    "solves": 42,
+    "solved_by_me": true,
+    "category": "supplychain",
+    "tags": [
+      "supplychain",
+      "build-cache",
+      "makefile",
+      "easy",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "On vous donne le `Makefile` qui alimente le cache de build d'un projet, sa\nliste de sommes de contrôle (`checksums.sha256`) et le contenu du cache\n(`vendor-cache/`). Une des dépendances vendorisées n'est pas ce qu'elle\nprétend être.\n\nTrouvez l'artefact empoisonné et récupérez le flag qu'il contient.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 486,
+        "cost": 10,
+        "title": ""
+      },
+      {
+        "id": 487,
+        "cost": 15,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/build-cache-poison",
+    "local_files": [
+      "Makefile",
+      "checksums.sha256",
+      "libcrc-1.0.tar.gz",
+      "libui-2.3.tar.gz",
+      "libnet-0.9.tar.gz",
+      "libz-1.2.tar.gz"
+    ],
+    "files_downloaded": false,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 209,
+    "type": "dynamic",
+    "name": "sbom-component-swap",
+    "value": 77,
+    "initial": 150,
+    "minimum": 50,
+    "decay": 35,
+    "solves": 31,
+    "solved_by_me": true,
+    "category": "supplychain",
+    "tags": [
+      "supplychain",
+      "sbom",
+      "cyclonedx",
+      "easy",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "On vous donne le SBOM CycloneDX d'une release (`bom.json`), les binaires de\nchaque composant, et un flux d'empreintes malveillantes connues\n(`known-bad-hashes.txt`) fourni par le SOC.\n\nIdentifiez le composant compromis de la release et récupérez le flag qu'il\ntransporte.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 506,
+        "cost": 10,
+        "title": ""
+      },
+      {
+        "id": 507,
+        "cost": 15,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/sbom-component-swap",
+    "local_files": [
+      "bom.json",
+      "known-bad-hashes.txt",
+      "component-libjpeg-turbo.bin",
+      "component-zlib.bin",
+      "component-acme-updater.bin",
+      "component-openssl.bin"
+    ],
+    "files_downloaded": false,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 214,
+    "type": "dynamic",
+    "name": "mask-slip",
+    "value": 50,
+    "initial": 100,
+    "minimum": 50,
+    "decay": 40,
+    "solves": 48,
+    "solved_by_me": true,
+    "category": "sysadmin",
+    "tags": [
+      "sysadmin",
+      "ci-cd",
+      "secrets",
+      "beginner",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "A CI pipeline (`.github/workflows/deploy.yml`) and one of its job logs\n(`run.log`) from a deploy run. The pipeline uses a repository secret. In the\nlog every direct print of that secret shows up as `***`, yet the secret still\nended up in the log somewhere.\n\nRecover the secret.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 518,
+        "cost": 5,
+        "title": ""
+      },
+      {
+        "id": 519,
+        "cost": 10,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/mask-slip",
+    "local_files": [
+      "deploy.yml",
+      "run.log"
+    ],
+    "files_downloaded": false,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 215,
+    "type": "dynamic",
+    "name": "rbac-reveal",
+    "value": 60,
+    "initial": 100,
+    "minimum": 50,
+    "decay": 40,
+    "solves": 37,
+    "solved_by_me": true,
+    "category": "sysadmin",
+    "tags": [
+      "sysadmin",
+      "kubernetes",
+      "rbac",
+      "beginner",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "A Kubernetes manifest bundle: an RBAC `Role`/`RoleBinding` (`rbac.yaml`), a\n`Secret` (`secret.yaml`), and the `Deployment` that mounts it\n(`deployment.yaml`). The app service account can read the secret. Recover the\ntoken stored in it.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 520,
+        "cost": 10,
+        "title": ""
+      },
+      {
+        "id": 521,
+        "cost": 15,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/rbac-reveal",
+    "local_files": [
+      "rbac.yaml",
+      "secret.yaml",
+      "deployment.yaml"
+    ],
+    "files_downloaded": false,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 220,
+    "type": "dynamic",
+    "name": "atbash-cipher",
+    "value": 25,
+    "initial": 50,
+    "minimum": 25,
+    "decay": 30,
+    "solves": 56,
+    "solved_by_me": true,
+    "category": "warmup",
+    "tags": [
+      {
+        "value": "warmup"
+      },
+      {
+        "value": "classical"
+      },
+      {
+        "value": "atbash"
+      },
+      {
+        "value": "beginner"
+      },
+      {
+        "value": "creator:hibris"
+      },
+      {
+        "value": "creator:Clawd"
+      }
+    ],
+    "description": "`secret.txt` was made by mirroring the alphabet: `A` swaps with `Z`,\n`B` with `Y`, and so on. Mirror it back and read the flag.\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [],
+    "local_folder": "solved/atbash-ciper",
+    "local_files": [
+      "secret.txt"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 221,
+    "type": "dynamic",
+    "name": "base32-decode",
+    "value": 25,
+    "initial": 50,
+    "minimum": 25,
+    "decay": 30,
+    "solves": 56,
+    "solved_by_me": true,
+    "category": "warmup",
+    "tags": [
+      {
+        "value": "warmup"
+      },
+      {
+        "value": "encoding"
+      },
+      {
+        "value": "base32"
+      },
+      {
+        "value": "beginner"
+      },
+      {
+        "value": "creator:hibris"
+      },
+      {
+        "value": "creator:Clawd"
+      }
+    ],
+    "description": "`secret.txt` holds only UPPERCASE letters `A-Z` and the digits `2-7`,\nending in a run of `=` padding. Decode it and read the flag.\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 533,
+        "cost": 10,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/base32-decode",
+    "local_files": [
+      "secret.txt"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 222,
+    "type": "dynamic",
+    "name": "base64-decode",
+    "value": 25,
+    "initial": 50,
+    "minimum": 25,
+    "decay": 30,
+    "solves": 56,
+    "solved_by_me": true,
+    "category": "warmup",
+    "tags": [
+      {
+        "value": "warmup"
+      },
+      {
+        "value": "encoding"
+      },
+      {
+        "value": "base64"
+      },
+      {
+        "value": "beginner"
+      },
+      {
+        "value": "creator:hibris"
+      },
+      {
+        "value": "creator:Clawd"
+      }
+    ],
+    "description": "A friend swears this text is 'encrypted'. It only contains letters,\ndigits and a couple of `+`, `/` and `=` symbols. Decode `secret.txt`\nand read the flag.\n\nWelcome to NCTF -- everyone starts here!\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [],
+    "local_folder": "solved/base64-decode",
+    "local_files": [
+      "secret.txt"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 223,
+    "type": "dynamic",
+    "name": "base85-decode",
+    "value": 25,
+    "initial": 50,
+    "minimum": 25,
+    "decay": 30,
+    "solves": 57,
+    "solved_by_me": true,
+    "category": "warmup",
+    "tags": [
+      {
+        "value": "warmup"
+      },
+      {
+        "value": "encoding"
+      },
+      {
+        "value": "base85"
+      },
+      {
+        "value": "beginner"
+      },
+      {
+        "value": "creator:hibris"
+      },
+      {
+        "value": "creator:Clawd"
+      }
+    ],
+    "description": "`secret.txt` looks like line noise: a dense mix of letters, digits and\npunctuation, but no spaces. It packs binary into printable ASCII more\ntightly than the usual suspects. Decode it and read the flag.\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 534,
+        "cost": 10,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/base85-decode",
+    "local_files": [
+      "secret.txt"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 224,
+    "type": "dynamic",
+    "name": "binary-ascii",
+    "value": 25,
+    "initial": 50,
+    "minimum": 25,
+    "decay": 30,
+    "solves": 56,
+    "solved_by_me": true,
+    "category": "warmup",
+    "tags": [
+      {
+        "value": "warmup"
+      },
+      {
+        "value": "encoding"
+      },
+      {
+        "value": "binary"
+      },
+      {
+        "value": "beginner"
+      },
+      {
+        "value": "creator:hibris"
+      },
+      {
+        "value": "creator:Clawd"
+      }
+    ],
+    "description": "`bits.txt` is nothing but groups of eight `0`s and `1`s separated by\nspaces. Each group is one character. Reassemble the message and read\nthe flag.\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [],
+    "local_folder": "solved/binary-ascii",
+    "local_files": [
+      "bits.txt"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 225,
+    "type": "dynamic",
+    "name": "csv-cell",
+    "value": 25,
+    "initial": 50,
+    "minimum": 25,
+    "decay": 30,
+    "solves": 55,
+    "solved_by_me": true,
+    "category": "warmup",
+    "tags": [
+      {
+        "value": "warmup"
+      },
+      {
+        "value": "misc"
+      },
+      {
+        "value": "csv"
+      },
+      {
+        "value": "beginner"
+      },
+      {
+        "value": "creator:hibris"
+      },
+      {
+        "value": "creator:Clawd"
+      }
+    ],
+    "description": "`roster.csv` is a small spreadsheet of players. One cell, among all the\nordinary notes, holds the flag. Open it and find it.\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [],
+    "local_folder": "solved/csv-cell",
+    "local_files": [
+      "roster.csv"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 226,
+    "type": "dynamic",
+    "name": "hex-decode",
+    "value": 25,
+    "initial": 50,
+    "minimum": 25,
+    "decay": 30,
+    "solves": 56,
+    "solved_by_me": true,
+    "category": "warmup",
+    "tags": [
+      {
+        "value": "warmup"
+      },
+      {
+        "value": "encoding"
+      },
+      {
+        "value": "hex"
+      },
+      {
+        "value": "beginner"
+      },
+      {
+        "value": "creator:hibris"
+      },
+      {
+        "value": "creator:Clawd"
+      }
+    ],
+    "description": "`secret.txt` is one long string of the characters `0-9` and `a-f`.\nEvery two of them stand for one byte. Turn them back into text and read\nthe flag.\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [],
+    "local_folder": "solved/hex-decode",
+    "local_files": [
+      "secret.txt"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 227,
+    "type": "dynamic",
+    "name": "html-entities",
+    "value": 25,
+    "initial": 50,
+    "minimum": 25,
+    "decay": 30,
+    "solves": 57,
+    "solved_by_me": true,
+    "category": "warmup",
+    "tags": [
+      {
+        "value": "warmup"
+      },
+      {
+        "value": "web"
+      },
+      {
+        "value": "encoding"
+      },
+      {
+        "value": "beginner"
+      },
+      {
+        "value": "creator:hibris"
+      },
+      {
+        "value": "creator:Clawd"
+      }
+    ],
+    "description": "`page_snippet.txt` is a run of `&#NNN;` codes -- the kind a web page\nuses to spell out characters. Turn each code back into its character\nand read the flag.\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [],
+    "local_folder": "solved/html-entities",
+    "local_files": [
+      "page_snippet.txt"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 228,
+    "type": "dynamic",
+    "name": "morse-code",
+    "value": 25,
+    "initial": 50,
+    "minimum": 25,
+    "decay": 30,
+    "solves": 54,
+    "solved_by_me": true,
+    "category": "warmup",
+    "tags": [
+      {
+        "value": "warmup"
+      },
+      {
+        "value": "classical"
+      },
+      {
+        "value": "morse"
+      },
+      {
+        "value": "beginner"
+      },
+      {
+        "value": "creator:hibris"
+      },
+      {
+        "value": "creator:Clawd"
+      }
+    ],
+    "description": "`signal.txt` is a line of dots (`.`) and dashes (`-`). Letters are\nseparated by spaces and words by ` / `. Decode the message, then wrap\nthe lowercase words with underscores as the flag body.\n\nExample: if it spelled `HELLO WORLD`, the flag is `NCTF{hello_world}`.\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [],
+    "local_folder": "solved/morse-code",
+    "local_files": [
+      "signal.txt"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 229,
+    "type": "dynamic",
+    "name": "reverse-string",
+    "value": 25,
+    "initial": 50,
+    "minimum": 25,
+    "decay": 30,
+    "solves": 57,
+    "solved_by_me": true,
+    "category": "warmup",
+    "tags": [
+      {
+        "value": "warmup"
+      },
+      {
+        "value": "misc"
+      },
+      {
+        "value": "reverse"
+      },
+      {
+        "value": "beginner"
+      },
+      {
+        "value": "creator:hibris"
+      },
+      {
+        "value": "creator:Clawd"
+      }
+    ],
+    "description": "`backwards.txt` contains the flag written from right to left. Read it\nthe other way round.\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [],
+    "local_folder": "solved/reverse-string",
+    "local_files": [
+      "backwards.txt"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 230,
+    "type": "dynamic",
+    "name": "rot13-decode",
+    "value": 25,
+    "initial": 50,
+    "minimum": 25,
+    "decay": 30,
+    "solves": 58,
+    "solved_by_me": true,
+    "category": "warmup",
+    "tags": [
+      {
+        "value": "warmup"
+      },
+      {
+        "value": "classical"
+      },
+      {
+        "value": "rot13"
+      },
+      {
+        "value": "beginner"
+      },
+      {
+        "value": "creator:hibris"
+      },
+      {
+        "value": "creator:Clawd"
+      }
+    ],
+    "description": "`secret.txt` reads almost like the flag, but every letter has been\nrotated halfway around the alphabet. Rotate it back and read the flag.\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [],
+    "local_folder": "solved/rot13-decode",
+    "local_files": [
+      "secret.txt"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 231,
+    "type": "dynamic",
+    "name": "rot47-decode",
+    "value": 25,
+    "initial": 50,
+    "minimum": 25,
+    "decay": 30,
+    "solves": 55,
+    "solved_by_me": true,
+    "category": "warmup",
+    "tags": [
+      {
+        "value": "warmup"
+      },
+      {
+        "value": "classical"
+      },
+      {
+        "value": "rot47"
+      },
+      {
+        "value": "beginner"
+      },
+      {
+        "value": "creator:hibris"
+      },
+      {
+        "value": "creator:Clawd"
+      }
+    ],
+    "description": "`secret.txt` is a jumble of visible punctuation and characters. It is\nthe flag with every printable symbol rotated by a fixed amount across a\n94-character range. Undo the rotation and read the flag.\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 535,
+        "cost": 10,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/rot47-decode",
+    "local_files": [
+      "secret.txt"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 232,
+    "type": "dynamic",
+    "name": "tap-code",
+    "value": 25,
+    "initial": 50,
+    "minimum": 25,
+    "decay": 30,
+    "solves": 55,
+    "solved_by_me": true,
+    "category": "warmup",
+    "tags": [
+      {
+        "value": "warmup"
+      },
+      {
+        "value": "classical"
+      },
+      {
+        "value": "tap-code"
+      },
+      {
+        "value": "beginner"
+      },
+      {
+        "value": "creator:hibris"
+      },
+      {
+        "value": "creator:Clawd"
+      }
+    ],
+    "description": "`taps.txt` is a list of two-digit numbers. Each number is a row then a\ncolumn in this 5x5 letter square (read across, then down):\n\n```\n    1 2 3 4 5\n  1 A B C D E\n  2 F G H I J\n  3 L M N O P\n  4 Q R S T U\n  5 V W X Y Z\n```\n\nSo `44` is row 4, column 4 = `T`. A double space separates words.\nDecode it, then lowercase and join the words with underscores as the\nflag body.\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [],
+    "local_folder": "solved/tap-code",
+    "local_files": [
+      "taps.txt"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 233,
+    "type": "dynamic",
+    "name": "url-encoding",
+    "value": 25,
+    "initial": 50,
+    "minimum": 25,
+    "decay": 30,
+    "solves": 57,
+    "solved_by_me": true,
+    "category": "warmup",
+    "tags": [
+      {
+        "value": "warmup"
+      },
+      {
+        "value": "web"
+      },
+      {
+        "value": "encoding"
+      },
+      {
+        "value": "beginner"
+      },
+      {
+        "value": "creator:hibris"
+      },
+      {
+        "value": "creator:Clawd"
+      }
+    ],
+    "description": "`encoded.txt` is a string full of `%` signs followed by two hex\ndigits, like you would see stuffed into a web address. Decode it back\nto plain text and read the flag.\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [],
+    "local_folder": "solved/url-encoding",
+    "local_files": [
+      "encoded.txt"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 234,
+    "type": "dynamic",
+    "name": "vigenere-known-key",
+    "value": 25,
+    "initial": 50,
+    "minimum": 25,
+    "decay": 30,
+    "solves": 55,
+    "solved_by_me": true,
+    "category": "warmup",
+    "tags": [
+      {
+        "value": "warmup"
+      },
+      {
+        "value": "classical"
+      },
+      {
+        "value": "vigenere"
+      },
+      {
+        "value": "beginner"
+      },
+      {
+        "value": "creator:hibris"
+      },
+      {
+        "value": "creator:Clawd"
+      }
+    ],
+    "description": "`cipher.txt` was enciphered with a Vigenere cipher. The key is not a\nsecret this time -- it is `WARMUP`. Only the letters were shifted;\ndigits and punctuation were left alone. Decrypt it and read the flag.\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [],
+    "local_folder": "solved/vigenere-known-key",
+    "local_files": [
+      "cipher.txt"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 235,
+    "type": "dynamic",
+    "name": "zip-comment",
+    "value": 25,
+    "initial": 50,
+    "minimum": 25,
+    "decay": 30,
+    "solves": 51,
+    "solved_by_me": true,
+    "category": "warmup",
+    "tags": [
+      {
+        "value": "warmup"
+      },
+      {
+        "value": "forensics"
+      },
+      {
+        "value": "zip"
+      },
+      {
+        "value": "beginner"
+      },
+      {
+        "value": "creator:hibris"
+      },
+      {
+        "value": "creator:Clawd"
+      }
+    ],
+    "description": "`archive.zip` unzips to a single, unhelpful text file. The flag is not\nin the file -- it is stored somewhere else in the archive. Look closer\nat the zip itself.\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 536,
+        "cost": 10,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/zip-comment",
+    "local_files": [
+      "archive.zip"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 453,
+    "type": "team_instance",
+    "name": "boazak--agokoli",
+    "value": 50,
+    "initial": 100,
+    "minimum": 50,
+    "decay": 25,
+    "solves": 26,
+    "solved_by_me": true,
+    "category": "web",
+    "tags": [
+      "web",
+      "easy",
+      "creator:KodjoDoDjango"
+    ],
+    "description": "> **Origine du nom :** Agokoli est le roi légendaire de Notsè, le berceau du peuple ewé — ici, devenir « super admin » est presque trop facile.\n\nUne API Flask simple avec gestion de rôles (U_SER → A_DMIN → SUPER_A_DMIN).\nTrouvez le moyen d'obtenir les privilèges SUPER_A_DMIN pour lire le flag.\n\nPlusieurs chemins sont possibles : progression, fuite d'informations, validation faible.\n\nStuck? Hints are available (they cost a few points).",
+    "connection_info": "http://{host}:{port}/  (per-team instance; use the 'launch' button)",
+    "hints": [
+      {
+        "id": 1012,
+        "cost": 10,
+        "title": ""
+      },
+      {
+        "id": 1013,
+        "cost": 20,
+        "title": ""
+      },
+      {
+        "id": 1014,
+        "cost": 40,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/boazak--agokoli",
+    "local_files": [
+      "README.md"
+    ],
+    "files_downloaded": false,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 458,
+    "type": "team_instance",
+    "name": "boazak--dapaong",
+    "value": 80,
+    "initial": 100,
+    "minimum": 50,
+    "decay": 25,
+    "solves": 17,
+    "solved_by_me": true,
+    "category": "web",
+    "tags": [
+      "web",
+      "easy",
+      "creator:KodjoDoDjango"
+    ],
+    "description": "> **Origine du nom :** Dapaong est la ville la plus septentrionale du Togo — l'erreur de calcul poussée à l'extrême.\n\nCalcuService est une simple API de calcul mathématique.\n\nMais il semble que le développeur ait oublié de retirer des informations sensibles avant la mise en production...\n\nStuck? Hints are available (they cost a few points).",
+    "connection_info": "http://{host}:{port}/  (per-team instance; use the 'launch' button)",
+    "hints": [
+      {
+        "id": 1027,
+        "cost": 40,
+        "title": ""
+      },
+      {
+        "id": 1028,
+        "cost": 10,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/boazak--dapaong",
+    "local_files": [
+      "README.md"
+    ],
+    "files_downloaded": false,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 373,
+    "type": "team_instance",
+    "name": "ai3-tool-abuse",
+    "value": 150,
+    "initial": 150,
+    "minimum": 150,
+    "decay": 25,
+    "solves": 13,
+    "solved_by_me": false,
+    "category": "ai",
+    "tags": [
+      "ai",
+      "llm",
+      "hard",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "**Level 3 of the AI track -- the heaviest.** Meridian Freight runs an internal\nDevOps assistant, **HELM**, that operates their deploy/ticketing API *through\ntools*. HELM can read tickets and the runbook, approve change tickets, and\ndeploy services. You are an anonymous chat user; HELM is not.\n\nThe flag is **not in this challenge anywhere you can read it** -- not in the\npage, not in HELM's system prompt, not in any ticket or runbook. It exists\nonly behind a **privileged tool effect**: the frozen `release-oracle` service\nreaching `production` under an approved change. You can't call the API\nyourself; HELM can, and HELM holds privileges you don't.\n\nHELM's operating policy explicitly forbids that outcome for chat users, and\nforbids touching `release-oracle` in particular. That refusal is the\nchallenge. When you get past it, the tool result HELM relays contains the\nflag.\n\nVerification is a **deterministic server-side check on what actually\nhappened** -- did the gate get unsealed in your session's real state -- not on\nthe words you used or a fixed payload. Any conversation that produces the\neffect wins; sessions and attempts are unlimited and never penalised.\n\nNotes:\n- Read the tickets and runbook (ask HELM, or have it call the read tools).\n  They tell you the target service and the exact two-step production-deploy\n  procedure. This is inference from evidence, not guessing.\n- `TCK-1337` claims **`flag-service`** is where the gate lives. It is a\n  rumor. Deploying `flag-service` to production is easy and returns \"no gate\n  bound here\". Don't burn time on it; `TCK-1002` and the runbook name the real\n  target.\n\nBloqué ? Des indices sont disponibles (ils coûtent quelques points).\n\nFlag format: `NCTF{...}`\n",
+    "connection_info": "http://{host}:{port}/",
+    "hints": [
+      {
+        "id": 819,
+        "cost": 25,
+        "title": ""
+      },
+      {
+        "id": 820,
+        "cost": 50,
+        "title": ""
+      },
+      {
+        "id": 821,
+        "cost": 75,
+        "title": ""
+      }
+    ],
+    "local_folder": "Unsolved/ai3-tool-abuse",
+    "local_files": [],
+    "files_downloaded": false,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 522,
+    "type": "team_instance",
+    "name": "44r0nmeta--adzogbo",
+    "value": 200,
+    "initial": 200,
+    "minimum": 66,
+    "decay": 25,
+    "solves": 0,
+    "solved_by_me": false,
+    "category": "boot2root",
+    "tags": [
+      {
+        "value": "boot2root"
+      },
+      {
+        "value": "creator:44r0nMeta"
+      },
+      {
+        "value": "stage:prequals"
+      }
+    ],
+    "description": "Vous avez obtenu un accès à un réseau d'entreprise. Un contrôleur de domaine Active Directory y est exposé. Trouvez un moyen d'entrer.\n\nDomaine : `ADZOGBO.LOCAL`\n\nLance l'instance (bouton Démarrer) et connecte-toi aux adresses affichées : les services LDAP et SMB du contrôleur de domaine sont exposés, chacun sur son propre port public indiqué dans le panneau.\n\nBloqué ? Des indices sont disponibles (ils coûtent quelques points).\n",
+    "connection_info": "{host}:{port}  (per-team instance; use the 'launch' button — every port is listed in the panel)",
+    "hints": [
+      {
+        "id": 1141,
+        "cost": 15,
+        "title": ""
+      },
+      {
+        "id": 1142,
+        "cost": 35,
+        "title": ""
+      }
+    ],
+    "local_folder": "Unsolved/44r0nmeta--adzogbo",
+    "local_files": [],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 502,
+    "type": "team_instance",
+    "name": "komisergio--djaradjara",
+    "value": 300,
+    "initial": 300,
+    "minimum": 100,
+    "decay": 25,
+    "solves": 0,
+    "solved_by_me": false,
+    "category": "boot2root",
+    "tags": [
+      "boot2root",
+      "medium",
+      "creator:komisergio"
+    ],
+    "description": "Le marigot de Djaradjara garde la mémoire des anciens. Depuis que le village a confié ses archives à un portail numérique, les habitants dorment mieux — ou croient-ils.\n\nLes greniers ne s'ouvrent qu'aux sceaux reconnus. Un seul flag : `root.txt`, lisible uniquement par root.\n\nStuck? Hints are available (they cost a few points).\n\n<!-- nctf-connexion -->\n> 🔌 Ce challenge se joue **par le VPN de votre équipe** : voir [Se connecter aux instances](/connexion#vpn).",
+    "connection_info": "Lance l'instance (bouton Démarrer) ; l'adresse de connexion s'affiche dans le panneau.",
+    "hints": [
+      {
+        "id": 1095,
+        "cost": 30,
+        "title": ""
+      },
+      {
+        "id": 1096,
+        "cost": 30,
+        "title": ""
+      },
+      {
+        "id": 1097,
+        "cost": 30,
+        "title": ""
+      }
+    ],
+    "local_folder": "Unsolved/komisergio--djaradjara",
+    "local_files": [
+      "README.txt"
+    ],
+    "files_downloaded": false,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 50,
+    "type": "dynamic",
+    "name": "sub-wildcard",
+    "value": 121,
+    "initial": 150,
+    "minimum": 50,
+    "decay": 35,
+    "solves": 20,
+    "solved_by_me": true,
+    "category": "cloud",
+    "tags": [
+      "cloud",
+      "aws",
+      "oidc",
+      "sts",
+      "trust-policy",
+      "easy",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "The `ci-deployer` IAM role trusts GitHub Actions via OIDC. You have its trust\npolicy, its attached permissions, several captured OIDC tokens presented to it\n(`oidc-token.json`), and a release secret whose value is sealed in the handout\n(`release-secret.json`).\n\nOnly one captured token actually satisfies the trust policy. Find it, show it\ncan assume the role, then recover the secret. The flag is the secret.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 113,
+        "cost": 15,
+        "title": ""
+      },
+      {
+        "id": 114,
+        "cost": 30,
+        "title": ""
+      },
+      {
+        "id": 115,
+        "cost": 45,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/sub-wildcard",
+    "local_files": [
+      "trust-policy.json",
+      "role-permissions.json",
+      "oidc-token.json",
+      "release-secret.json"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 426,
+    "type": "dynamic",
+    "name": "fullaccess5--securecorp-incident-reseau-invite",
+    "value": 200,
+    "initial": 200,
+    "minimum": 66,
+    "decay": 25,
+    "solves": 0,
+    "solved_by_me": false,
+    "category": "forensics",
+    "tags": [
+      "forensics",
+      "medium",
+      "creator:fullaccess5"
+    ],
+    "description": "Vous êtes analyste SOC / Blue Team au sein de SecureCorp, une entreprise de services financiers cotée en bourse.\r\nSecureCorp dispose d’un réseau WiFi invité (anciennement utilisé pour les tests internes et toujours actif pour certains partenaires, prestataires et équipements IoT de test). Bien que ce réseau soit segmenté, il reste en WPA2-PSK et fait partie du périmètre de surveillance du SOC.\r\n\r\nDans la journée du 08/06/2026 vers 13 Heures, le Wireless Intrusion Detection System (WIDS) et le Wireless Controller ont généré plusieurs alertes de haute sévérité :\r\n- Forte augmentation du nombre de beacons et de trafic inhabituel sur le canal 10.\r\n- Plusieurs équipements connectés au réseau ont perdu leur connexion simultanément avant de se reconnecter automatiquement.\r\n- Détection d’une adresse MAC inconnue qui s’est connectée au réseau après les vagues de déconnexion des clients légitimes.\r\n\r\nL’équipe de détection suspecte qu’un adversaire externe a réussi à s’introduire sur le réseau Wifi. Une enquête forensique est immédiatement ouverte.\r\n\r\n**Votre mission :**\r\nAnalysez le fichier de capture `traffic-04.cap` fourni par le WIDS pour reconstituer l’attaque, identifier les indicateurs de compromission et comprendre comment l’adversaire a potentiellement réussi à accéder au réseau.\r\n\r\nLes participants devront reconstituer l'incident en identifiant les éléments suivants :\r\n1. Le SSID du réseau Wi-Fi ciblé.\r\n2. Le BSSID du réseau ciblé.\r\n3. Le nom de l'attaque utilisée par l'adversaire pour déconnecter les clients connectés afin de les forcer à se reconnecter.\r\n4. L'heure de la première trame du WPA 4-Way Handshake (format HH:MM:SS).\r\n5. Le mot de passe WPA2 obtenu après le cassage du handshake.\r\n6. Selon le Framework MITRE ATT&CK, l'identifiant (Technique ID) de la technique d'Initial Access correspondant à l'obtention d'un accès au réseau Wi-Fi de l'organisation par l'adversaire.\r\n\r\n**Format du Flag :**\r\n`NCTF{1_2_3_4_5_6}`\r\n\r\nStuck? Hints are available (they cost a few points).",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 977,
+        "cost": 0,
+        "title": ""
+      },
+      {
+        "id": 978,
+        "cost": 0,
+        "title": ""
+      }
+    ],
+    "local_folder": "Unsolved/fullaccess5--securecorp-incident-reseau-invite",
+    "local_files": [
+      "traffic-04.cap"
+    ],
+    "files_downloaded": false,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 539,
+    "type": "dynamic",
+    "name": "Prends le contrôle de ctf.tg",
+    "value": 500,
+    "initial": 500,
+    "minimum": 500,
+    "decay": 1,
+    "solves": 0,
+    "solved_by_me": false,
+    "category": "misc",
+    "tags": [
+      {
+        "value": "misc"
+      },
+      {
+        "value": "event"
+      },
+      {
+        "value": "creator:hibris"
+      },
+      {
+        "value": "creator:Clawd"
+      }
+    ],
+    "description": "# 🎯 DÉFI #1 — PRENDS LE CONTRÔLE, si tu en es vraiment capable\r\n\r\nAvant tout le reste, un seul défi s'affiche. Tout le monde se dit capable de « hacker ». Très peu savent prendre le contrôle d'un **vrai site, en production**.\r\n\r\nVoici le lien :  **https://ctf.tg/** .\r\n\r\n**Le défi :** fais apparaître le **nom de ton équipe EN GRAND** sur la page d'accueil de ctf.tg. Pas un flag , pas un `alert(1)` timide : le nom, à la une, que tout le monde le voie en ouvrant le site.\r\n\r\n**La première équipe qui y parvient décroche une place en finale. Directe.**\r\n\r\nCe défi s'ouvre au **lancement du CTF (6 novembre 2026, 19h00, heure de Lomé)** et reste, pour ton équipe, **le seul challenge affiché** tant que tu ne l'as pas résolu… ou abandonné.\r\n\r\nTu n'y arrives pas ? Clique **« J'ABANDONNE »** : tu accèdes alors au reste du CTF. Pas de minuteur, pas de pression — mais attention, **qui abandonne renonce définitivement à la place en finale de ce défi.**\r\n\r\nOn parie que tu n'y arriveras pas. Prouve-nous le contraire.\r\n\r\n---\r\n\r\n**Règles d'engagement :**\r\n\r\n- Cible autorisée : **uniquement** le site public `https://ctf.tg`. Rien d'autre — ni l'infrastructure sous-jacente, ni les autres équipes, ni les comptes des participants.\r\n- **Strictement interdit : déni de service et attaques volumétriques (DDoS, flood, stress), ingénierie sociale, hameçonnage, accès physique.** On teste l'application, pas la bande passante.\r\n- **La récompense n'est valable que si tu n'as PAS cliqué « J'abandonne ».** Abandonner débloque le reste du CTF mais clôt définitivement tes droits sur ce défi.\r\n- Usurper le nom d'une autre équipe, ou saboter une autre équipe = **disqualification immédiate**.\r\n- Tu trouves une faille réelle ? La place en finale est à toi.\r\n\r\nBonne chance. Tu vas en avoir besoin.\r\n",
+    "connection_info": null,
+    "hints": [],
+    "local_folder": "Unsolved/Prends le contrôle de ctf.tg",
+    "local_files": [],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 437,
+    "type": "dynamic",
+    "name": "thierry8petstar--doublepeel",
+    "value": 100,
+    "initial": 100,
+    "minimum": 50,
+    "decay": 25,
+    "solves": 0,
+    "solved_by_me": false,
+    "category": "misc",
+    "tags": [
+      "misc",
+      "easy",
+      "creator:thierry8petstar"
+    ],
+    "description": "Ce matin, Grace D., analyste en cybersécurité, arrive au bureau à 8 h 52. Elle pose son café, démarre son ordinateur… puis, 47 secondes plus tard, reçoit un appel d'urgence du SOC. Une alerte critique sur un serveur l'oblige à partir immédiatement. Son bureau est resté exactement dans l'état où elle l'a laissé. Voici une photo prise juste après son départ. Elle n'a consacré que quelques secondes à saisir son mot de passe. Peut-on en déduire qu'il était particulièrement court ?",
+    "connection_info": null,
+    "hints": [],
+    "local_folder": "Unsolved/thierry8petstar--doublepeel",
+    "local_files": [
+      "Good_Luck.jpg"
+    ],
+    "files_downloaded": false,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 151,
+    "type": "dynamic",
+    "name": "bgp-bestpath",
+    "value": 134,
+    "initial": 150,
+    "minimum": 50,
+    "decay": 35,
+    "solves": 15,
+    "solved_by_me": false,
+    "category": "networking",
+    "tags": [
+      "networking",
+      "bgp",
+      "routing",
+      "easy",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "A router's incoming BGP table (`bgp_rib.json`) lists several candidate routes\nfor each destination prefix, with the usual path attributes. The router\ninstalls exactly one route per prefix.\n\nFigure out which route wins for each prefix. Every route carries a\none-character `label`; the winning routes, read in ascending prefix order,\nspell the flag.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 348,
+        "cost": 10,
+        "title": ""
+      },
+      {
+        "id": 349,
+        "cost": 15,
+        "title": ""
+      },
+      {
+        "id": 350,
+        "cost": 20,
+        "title": ""
+      }
+    ],
+    "local_folder": "Unsolved/bgp-bestpath",
+    "local_files": [
+      "bgp_rib.json"
+    ],
+    "files_downloaded": false,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 447,
+    "type": "dynamic",
+    "name": "algorithme123--tisserands-dapaong",
+    "value": 150,
+    "initial": 250,
+    "minimum": 83,
+    "decay": 25,
+    "solves": 16,
+    "solved_by_me": false,
+    "category": "stego",
+    "tags": [
+      {
+        "value": "stego"
+      },
+      {
+        "value": "easy-medium"
+      },
+      {
+        "value": "togo"
+      },
+      {
+        "value": "dapaong"
+      },
+      {
+        "value": "creator:Algorithme123"
+      }
+    ],
+    "description": "Festival fictif Dapaong Terre & Fibres : affiche officielle + guide des motifs.\nRetrouve le message tissé destiné aux partenaires.",
+    "connection_info": null,
+    "hints": [],
+    "local_folder": "Unsolved/algorithme123--tisserands-dapaong",
+    "local_files": [
+      "README_vitrine.txt",
+      "affiche.png",
+      "guide-motifs.pdf"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 120,
+    "type": "dynamic",
+    "name": "dfa-oracle",
+    "value": 185,
+    "initial": 300,
+    "minimum": 100,
+    "decay": 25,
+    "solves": 20,
+    "solved_by_me": false,
+    "category": "ppc",
+    "tags": [
+      "misc",
+      "automata",
+      "graph-search",
+      "medium",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "`automaton.json` describes a deterministic finite automaton: an alphabet, a\nset of states, a start state, accepting states, and a transition table. Its\nlanguage contains exactly one string. Find that string.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 275,
+        "cost": 15,
+        "title": ""
+      },
+      {
+        "id": 276,
+        "cost": 30,
+        "title": ""
+      }
+    ],
+    "local_folder": "Unsolved/dfa-oracle",
+    "local_files": [
+      "automaton.json"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 481,
+    "type": "team_instance",
+    "name": "algorithme123--fret-savane-appui",
+    "value": 300,
+    "initial": 300,
+    "minimum": 100,
+    "decay": 25,
+    "solves": 0,
+    "solved_by_me": false,
+    "category": "boot2root",
+    "tags": [
+      "boot2root",
+      "medium",
+      "b2r",
+      "togo",
+      "samba",
+      "sql",
+      "creator:Algorithme123"
+    ],
+    "description": "Fret Savane exploite un petit serveur d'atelier IT entre Kara, Lomé et Cinkassé.\r\nDes partages et une base agents sont exposés sur le LAN. Retrouve le secret de badge\r\nlié au dernier export de manifeste entrepôt.\r\n\r\n<!-- nctf-connexion -->\r\n> 🔌 Ce challenge se joue **par le VPN de votre équipe** : voir [Se connecter aux instances](/connexion#vpn).\r\n",
+    "connection_info": "{host}:{port}  (per-team instance; use the 'launch' button — every port is listed in the panel)",
+    "hints": [],
+    "local_folder": "Unsolved/algorithme123--fret-savane-appui",
+    "local_files": [],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 531,
+    "type": "team_instance",
+    "name": "format-string-101",
+    "value": 146,
+    "initial": 150,
+    "minimum": 50,
+    "decay": 40,
+    "solves": 9,
+    "solved_by_me": false,
+    "category": "pwn",
+    "tags": [
+      "pwn",
+      "beginner",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "**format-string-101** -- a small networked service, served as\npwn-as-a-service.\n\nConnect over TCP and you get a fresh process with two live, per-connection\nvalues printed in the banner:\n\n  - the address of a global `auth` cell (stable across connections), and\n  - a random 32-bit `nonce` for THIS connection.\n\nYour goal is to make `auth == nonce`. When the service observes that effect it\nreturns the flag. You get up to 16 input lines per connection.\n\nBecause the nonce is regenerated every connection, a replayed payload is\nworthless -- you must read the printed values and build your write live.\n\nThe downloadable `chall` binary is for offline analysis only. It contains **no\nflag**: the per-team flag lives solely in the running service's environment\nand is emitted only after the auth check passes. Reading the binary alone will\nnot give you a flag.\n\nProvided files: `chall` (x86-64 ELF), `chall.c` (source).\n\nBloqué ? Des indices sont disponibles (ils coûtent quelques points).\n\nConnect:  `nc <host> <port>`\n\nFlag format: `NCTF{...}`\n\n<!-- nctf-connexion -->\n> 🔌 Connexion chiffrée : **`ncat --ssl <adresse> 1337`** (pas de `nc` simple) : voir [Se connecter aux instances](/connexion#tcp).\n",
+    "connection_info": "nc {host} {port}  (per-team instance; use the 'launch' button)",
+    "hints": [
+      {
+        "id": 1160,
+        "cost": 10,
+        "title": ""
+      },
+      {
+        "id": 1161,
+        "cost": 15,
+        "title": ""
+      },
+      {
+        "id": 1162,
+        "cost": 20,
+        "title": ""
+      }
+    ],
+    "local_folder": "Unsolved/format-string-101",
+    "local_files": [
+      "chall",
+      "chall.c"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 191,
+    "type": "dynamic",
+    "name": "strings-lie",
+    "value": 139,
+    "initial": 150,
+    "minimum": 50,
+    "decay": 30,
+    "solves": 11,
+    "solved_by_me": false,
+    "category": "reverse",
+    "tags": [
+      "reverse",
+      "beginner",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "We recovered a tiny \"secret vault\" binary, `chall`. Run it and it happily\nprints a flag right there in the banner. Submit it and... it is rejected.\n\nRecover the real flag. The binary is a static x86-64 ELF; you do not need\nnetwork access. Everything you need is inside the file.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 459,
+        "cost": 10,
+        "title": ""
+      },
+      {
+        "id": 460,
+        "cost": 15,
+        "title": ""
+      }
+    ],
+    "local_folder": "Unsolved/strings-lie",
+    "local_files": [
+      "chall"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 198,
+    "type": "dynamic",
+    "name": "trailing-zip",
+    "value": 90,
+    "initial": 100,
+    "minimum": 50,
+    "decay": 40,
+    "solves": 19,
+    "solved_by_me": false,
+    "category": "stego",
+    "tags": [
+      "stego",
+      "polyglot",
+      "appended-data",
+      "beginner",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "This `banner.bmp` opens fine in any image viewer, but its file size seems far\ntoo big for such a small picture. Figure out what else is riding along and\nread the secret.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 476,
+        "cost": 10,
+        "title": ""
+      },
+      {
+        "id": 477,
+        "cost": 15,
+        "title": ""
+      }
+    ],
+    "local_folder": "Unsolved/trailing-zip",
+    "local_files": [
+      "banner.bmp"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 212,
+    "type": "dynamic",
+    "name": "alias-slip",
+    "value": 150,
+    "initial": 150,
+    "minimum": 50,
+    "decay": 35,
+    "solves": 2,
+    "solved_by_me": false,
+    "category": "sysadmin",
+    "tags": [
+      "sysadmin",
+      "nginx",
+      "path-traversal",
+      "easy",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "A snapshot of a small nginx-served site: the site config `nginx.conf` and the\ndocument tree it serves (under `webroot/`). One private directory is supposed\nto be unreachable, yet a stale backup inside it holds the admin token. No file\ncontains the flag literally.\n\nRead the config, find the way in, recover the admin token, and wrap it as\n`NCTF{nginx_alias_offbyslash_<token>}`.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 513,
+        "cost": 10,
+        "title": ""
+      },
+      {
+        "id": 514,
+        "cost": 20,
+        "title": ""
+      }
+    ],
+    "local_folder": "Unsolved/alias-slip",
+    "local_files": [
+      "nginx.conf",
+      "index.html",
+      "logo.txt",
+      "settings.py.bak"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 32,
+    "type": "dynamic",
+    "name": "gcp-token-scope",
+    "value": 299,
+    "initial": 300,
+    "minimum": 100,
+    "decay": 25,
+    "solves": 3,
+    "solved_by_me": true,
+    "category": "cloud",
+    "tags": [
+      "cloud",
+      "gcp",
+      "iam",
+      "service-account",
+      "gcs",
+      "medium",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "A leaked GCP service-account key (`sa-key.json`) for a CI helper, the project\nIAM policy (`iam-policy.json`), a bucket inventory (`bucket-listing.json`), and\none private object sealed for the handout (`release-token.json`).\n\nWork out what a token from this key can actually read, then open the object it\nshould never have reached. The flag is that object.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 74,
+        "cost": 15,
+        "title": ""
+      },
+      {
+        "id": 75,
+        "cost": 30,
+        "title": ""
+      },
+      {
+        "id": 76,
+        "cost": 45,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/gcp-token-scope",
+    "local_files": [
+      "sa-key.json",
+      "iam-policy.json",
+      "bucket-listing.json",
+      "release-token.json"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 428,
+    "type": "dynamic",
+    "name": "the-darknova--mirage-1",
+    "value": 100,
+    "initial": 100,
+    "minimum": 50,
+    "decay": 25,
+    "solves": 4,
+    "solved_by_me": false,
+    "category": "forensics",
+    "tags": [
+      "forensics",
+      "easy",
+      "creator:The-darknova"
+    ],
+    "description": "Lors d'une ronde de surveillance de routine, notre SOC a détecté une transmission inhabituelle transitant sur le réseau. L'analyste de garde affirme avoir vu passer un « fantôme » à travers le flux avant que la connexion ne soit coupée. À vous d'inspecter la capture réseau et de lever le voile sur ce mirage.\n\nStuck? Hints are available (they cost a few points).",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 982,
+        "cost": 10,
+        "title": ""
+      },
+      {
+        "id": 983,
+        "cost": 20,
+        "title": ""
+      }
+    ],
+    "local_folder": "Unsolved/the-darknova--mirage-1",
+    "local_files": [
+      "mirage-1.pcapng"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 418,
+    "type": "dynamic",
+    "name": "thierry8petstar--rsa-beginer",
+    "value": 50,
+    "initial": 100,
+    "minimum": 50,
+    "decay": 25,
+    "solves": 33,
+    "solved_by_me": true,
+    "category": "crypto",
+    "tags": [
+      "crypto",
+      "easy",
+      "creator:thierry8petstar"
+    ],
+    "description": "RSA est souvent considéré comme un algorithme robuste lorsqu'il est correctement implémenté.\n\nCependant, une simple erreur de divulgation peut suffire à compromettre toute la sécurité du système.\n\nNous avons intercepté un message chiffré ainsi que plusieurs paramètres liés à la clé RSA utilisée.\n\nVotre objectif est de retrouver le message original.",
+    "connection_info": null,
+    "hints": [],
+    "local_folder": "solved/thierry8petstar--rsa-beginer",
+    "local_files": [
+      "output.txt"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 399,
+    "type": "dynamic",
+    "name": "boazak--bassar",
+    "value": 83,
+    "initial": 250,
+    "minimum": 83,
+    "decay": 25,
+    "solves": 26,
+    "solved_by_me": false,
+    "category": "crypto",
+    "tags": [
+      "crypto",
+      "medium",
+      "creator:KodjoDoDjango"
+    ],
+    "description": "> **Origine du nom :** Bassar est une ville du nord du Togo, célèbre pour ses forges — ici, trois forges, trois modules, mais le même message.\n\nUn message secret a été chiffré **trois fois** en RSA avec le même exposant public dérisoire : `e = 3`. Chaque destinataire a son propre module, mais tous ont reçu le même message clair.\n\nRetrouvez le flag dans `challenge.txt`.\n\nStuck? Hints are available (they cost a few points).",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 912,
+        "cost": 0,
+        "title": ""
+      },
+      {
+        "id": 913,
+        "cost": 30,
+        "title": ""
+      },
+      {
+        "id": 914,
+        "cost": 15,
+        "title": ""
+      }
+    ],
+    "local_folder": "Unsolved/boazak--bassar",
+    "local_files": [
+      "challenge.txt"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 211,
+    "type": "dynamic",
+    "name": "typosquat-lockfile",
+    "value": 86,
+    "initial": 150,
+    "minimum": 50,
+    "decay": 35,
+    "solves": 29,
+    "solved_by_me": true,
+    "category": "supplychain",
+    "tags": [
+      "supplychain",
+      "typosquat",
+      "npm",
+      "easy",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "On vous donne le `package-lock.json` d'un projet front-end et toutes les\narchives `.tgz` qu'il verrouille. L'audit sécurité pense qu'une dépendance\nn'est pas ce qu'elle prétend être.\n\nTrouvez la dépendance frauduleuse, ouvrez son archive et récupérez le flag\nqu'elle transporte.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 511,
+        "cost": 10,
+        "title": ""
+      },
+      {
+        "id": 512,
+        "cost": 15,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/typosquat-lockfile",
+    "local_files": [
+      "package-lock.json",
+      "express-4.18.2.tgz",
+      "lodash-4.17.21.tgz",
+      "chalk-5.3.0.tgz",
+      "expres-4.18.9.tgz",
+      "debug-4.3.4.tgz"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 461,
+    "type": "team_instance",
+    "name": "boazak--klouto",
+    "value": 100,
+    "initial": 100,
+    "minimum": 50,
+    "decay": 25,
+    "solves": 4,
+    "solved_by_me": true,
+    "category": "web",
+    "tags": [
+      "web",
+      "easy",
+      "creator:KodjoDoDjango"
+    ],
+    "description": "> **Origine du nom :** Klouto et son célèbre Château Vial — on aperçoit l'intérieur depuis l'extérieur, comme le panneau d'administration caché.\n\nLinkify est un service qui permet de générer un aperçu de n'importe quelle page web. Son développeur travaille encore sur le panneau d'administration interne, qui n'est accessible que depuis le serveur lui-même.\n\nLe flag s'y trouve.\n\nStuck? Hints are available (they cost a few points).",
+    "connection_info": "http://{host}:{port}/  (per-team instance; use the 'launch' button)",
+    "hints": [
+      {
+        "id": 1035,
+        "cost": 50,
+        "title": ""
+      },
+      {
+        "id": 1036,
+        "cost": 50,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/boazak--klouto",
+    "local_files": [
+      "README.md"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 424,
+    "type": "dynamic",
+    "name": "boazak--kpessi",
+    "value": 138,
+    "initial": 150,
+    "minimum": 50,
+    "decay": 25,
+    "solves": 10,
+    "solved_by_me": false,
+    "category": "forensics",
+    "tags": [
+      "forensics",
+      "easy",
+      "creator:KodjoDoDjango"
+    ],
+    "description": "> **Origine du nom :** Kpessi est une localité du Togo, dans la région des plateaux — ici, quelqu'un a laissé son réseau ouvert, et des données ont fuité.\n\nUn fichier de capture réseau (`traffic.pcap`) a été récupéré sur un poste compromis. Au milieu du trafic légitime, une connexion web sortante vers un hôte inhabituel a discrètement transporté des données hors du réseau.\n\nAnalysez la capture, suivez cette communication suspecte et reconstituez les données exfiltrées.\n\nLe fichier (`traffic.pcap`) est fourni en téléchargement.\n\nBloqué ? Des indices sont disponibles (ils coûtent quelques points).\n",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 974,
+        "cost": 20,
+        "title": ""
+      },
+      {
+        "id": 975,
+        "cost": 15,
+        "title": ""
+      },
+      {
+        "id": 976,
+        "cost": 15,
+        "title": ""
+      }
+    ],
+    "local_folder": "Unsolved/boazak--kpessi",
+    "local_files": [
+      "traffic.pcap"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 400,
+    "type": "dynamic",
+    "name": "boazak--djobokou",
+    "value": 144,
+    "initial": 250,
+    "minimum": 83,
+    "decay": 25,
+    "solves": 21,
+    "solved_by_me": false,
+    "category": "crypto",
+    "tags": [
+      "crypto",
+      "medium",
+      "creator:KodjoDoDjango"
+    ],
+    "description": "> **Origine du nom :** Djobokou signifie « argent » en éwé — le portefeuille électronique du challenge.\n\nUn portefeuille électronique signe des ordres de paiement en **ECDSA** (secp256k1). Deux ordres ont été signés avec le **même nonce `k`** : le réutiliser expose la clé privée. Comme `s = k⁻¹(z + r·d) mod n`, soustraire les deux équations élimine `d` et donne `k`, puis `d`.\n\nStuck? Hints are available (they cost a few points).",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 915,
+        "cost": 80,
+        "title": ""
+      },
+      {
+        "id": 916,
+        "cost": 50,
+        "title": ""
+      },
+      {
+        "id": 917,
+        "cost": 25,
+        "title": ""
+      }
+    ],
+    "local_folder": "Unsolved/boazak--djobokou",
+    "local_files": [
+      "challenge.txt"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 415,
+    "type": "dynamic",
+    "name": "boazak--venovi",
+    "value": 146,
+    "initial": 300,
+    "minimum": 100,
+    "decay": 25,
+    "solves": 23,
+    "solved_by_me": false,
+    "category": "crypto",
+    "tags": [
+      "crypto",
+      "hard",
+      "creator:KodjoDoDjango"
+    ],
+    "description": "> **Origine du nom :** Venovi signifie « jumeaux » en éwé — comme les deux facteurs premiers `p` et `q`, tout proches.\n\nLes deux facteurs premiers de ce RSA sont tellement proches qu'on dirait des jumeaux. Trop proches, en fait : `n = p·q` est très près d'un carré. La factorisation de **Fermat** retrouve `p` et `q` en cherchant un `a` tel que `a² − n` soit un carré, puis `p = a − b`, `q = a + b`.\n\nStuck? Hints are available (they cost a few points).",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 961,
+        "cost": 80,
+        "title": ""
+      },
+      {
+        "id": 962,
+        "cost": 50,
+        "title": ""
+      },
+      {
+        "id": 963,
+        "cost": 20,
+        "title": ""
+      }
+    ],
+    "local_folder": "Unsolved/boazak--venovi",
+    "local_files": [
+      "challenge.txt"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 178,
+    "type": "dynamic",
+    "name": "off-by-one-auth",
+    "value": 145,
+    "initial": 150,
+    "minimum": 50,
+    "decay": 35,
+    "solves": 9,
+    "solved_by_me": false,
+    "category": "pwn",
+    "tags": [
+      "pwn",
+      "off-by-one",
+      "stack",
+      "easy",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "You are given a single x86-64 Linux binary, `chall`. It asks how many bytes\nyou want to send (up to 32), reads them, and then decides whether you are\nauthorized. By default you are denied.\n\nBecome authorized and read what the program prints.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 426,
+        "cost": 10,
+        "title": ""
+      },
+      {
+        "id": 427,
+        "cost": 15,
+        "title": ""
+      }
+    ],
+    "local_folder": "Unsolved/off-by-one-auth",
+    "local_files": [
+      "chall"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 193,
+    "type": "dynamic",
+    "name": "triple-wrap",
+    "value": 148,
+    "initial": 150,
+    "minimum": 50,
+    "decay": 35,
+    "solves": 6,
+    "solved_by_me": true,
+    "category": "reverse",
+    "tags": [
+      "reverse",
+      "encoding",
+      "easy",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "`chall` is a stripped x86-64 ELF that checks a flag. Run it and it prints a\nflag in the banner, but submitting that one is rejected. `strings` mostly shows\none long gibberish blob.\n\nRecover the real flag from the binary. No network required.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 464,
+        "cost": 10,
+        "title": ""
+      },
+      {
+        "id": 465,
+        "cost": 20,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/triple-wrap",
+    "local_files": [
+      "chall"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 450,
+    "type": "team_instance",
+    "name": "boazak--adeta",
+    "value": 150,
+    "initial": 150,
+    "minimum": 50,
+    "decay": 25,
+    "solves": 1,
+    "solved_by_me": false,
+    "category": "web",
+    "tags": [
+      "web",
+      "easy",
+      "creator:KodjoDoDjango"
+    ],
+    "description": "> **Origine du nom :** Adéta est une ville des plateaux du Togo — l'entrée est gardée par un portail LDAP un peu trop confiant.\n\nLe portail « Adéta SSO » utilise un annuaire LDAP pour authentifier ses utilisateurs.\n\nConnectez-vous pour récupérer le drapeau.\n\nStuck? Hints are available (they cost a few points).",
+    "connection_info": "http://{host}:{port}/  (per-team instance; use the 'launch' button)",
+    "hints": [
+      {
+        "id": 1003,
+        "cost": 30,
+        "title": ""
+      },
+      {
+        "id": 1004,
+        "cost": 20,
+        "title": ""
+      }
+    ],
+    "local_folder": "Unsolved/boazak--adeta",
+    "local_files": [
+      "README.md"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 452,
+    "type": "team_instance",
+    "name": "boazak--agoe",
+    "value": 150,
+    "initial": 150,
+    "minimum": 50,
+    "decay": 25,
+    "solves": 3,
+    "solved_by_me": false,
+    "category": "web",
+    "tags": [
+      "web",
+      "easy",
+      "creator:KodjoDoDjango"
+    ],
+    "description": "> **Origine du nom :** Agoè est la plus grande banlieue de Lomé, où l'on croise tout le monde — ici on lit les notes de tout le monde, en lot.\n\nTeamHub est une API de gestion d'équipe. Les utilisateurs peuvent consulter les profils des membres via un endpoint qui accepte des IDs.\n\nL'administrateur a une note secrète contenant le flag. Trouvez le moyen de la lire.\n\nStuck? Hints are available (they cost a few points).",
+    "connection_info": "http://{host}:{port}/  (per-team instance; use the 'launch' button)",
+    "hints": [
+      {
+        "id": 1009,
+        "cost": 30,
+        "title": ""
+      },
+      {
+        "id": 1010,
+        "cost": 20,
+        "title": ""
+      },
+      {
+        "id": 1011,
+        "cost": 30,
+        "title": ""
+      }
+    ],
+    "local_folder": "Unsolved/boazak--agoe",
+    "local_files": [
+      "README.md"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 405,
+    "type": "dynamic",
+    "name": "boazak--koklo",
+    "value": 133,
+    "initial": 250,
+    "minimum": 83,
+    "decay": 25,
+    "solves": 22,
+    "solved_by_me": true,
+    "category": "crypto",
+    "tags": [
+      "crypto",
+      "medium",
+      "creator:KodjoDoDjango"
+    ],
+    "description": "> **Origine du nom :** Koklo signifie « poule » en éwé — l'application de paiement du challenge.\n\nLe service bancaire « Koklo » envoie ses virements chiffrés en **AES-GCM**… mais a réutilisé le même nonce pour deux messages. Le flot de chiffrement et la clé GHASH `H` deviennent récupérables : forgez un tag valide pour le message cible `PAY:FROM=ADMIN:9`.\n\nStuck? Hints are available (they cost a few points).",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 932,
+        "cost": 80,
+        "title": ""
+      },
+      {
+        "id": 933,
+        "cost": 50,
+        "title": ""
+      },
+      {
+        "id": 934,
+        "cost": 25,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/boazak--koklo",
+    "local_files": [
+      "challenge.txt"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 410,
+    "type": "dynamic",
+    "name": "boazak--niamtougou",
+    "value": 133,
+    "initial": 250,
+    "minimum": 83,
+    "decay": 25,
+    "solves": 22,
+    "solved_by_me": false,
+    "category": "crypto",
+    "tags": [
+      "crypto",
+      "medium",
+      "creator:KodjoDoDjango"
+    ],
+    "description": "> **Origine du nom :** Niamtougou est une ville du nord du Togo et le siège d'un aéroport international — ici, c'est le hasard qui prend l'avion : un PRNG trop prévisible.\n\nUn générateur a produit **624 sorties de 32 bits** (une période complète du générateur de nombres pseudo-aléatoires de Python), puis a chiffré le flag par XOR avec la clé tirée juste après.\n\nLe flag est dans `challenge.txt`, avec les 624 sorties et le flux chiffré `enc`.\n\nStuck? Hints are available (they cost a few points).",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 947,
+        "cost": 50,
+        "title": ""
+      },
+      {
+        "id": 948,
+        "cost": 30,
+        "title": ""
+      },
+      {
+        "id": 949,
+        "cost": 10,
+        "title": ""
+      }
+    ],
+    "local_folder": "Unsolved/boazak--niamtougou",
+    "local_files": [
+      "challenge.txt"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 404,
+    "type": "dynamic",
+    "name": "boazak--klo",
+    "value": 172,
+    "initial": 300,
+    "minimum": 100,
+    "decay": 25,
+    "solves": 21,
+    "solved_by_me": false,
+    "category": "crypto",
+    "tags": [
+      "crypto",
+      "hard",
+      "creator:KodjoDoDjango"
+    ],
+    "description": "> **Origine du nom :** Klo est « la tortue » en éwé — le petit exposant privé `d` est caché dans sa carapace.\n\nPour accélérer le déchiffrement, l'exposant privé `d` a été choisi tout petit — si petit qu'il tient à peine dans sa carapace. Trop petit, en fait : avec `d < n^0.25`, les fractions continuées de `e/n` donnent un convergent `k/d` et l'attaque de **Wiener** retrouve `d`, donc les facteurs de `n`.\n\nStuck? Hints are available (they cost a few points).",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 929,
+        "cost": 100,
+        "title": ""
+      },
+      {
+        "id": 930,
+        "cost": 60,
+        "title": ""
+      },
+      {
+        "id": 931,
+        "cost": 20,
+        "title": ""
+      }
+    ],
+    "local_folder": "Unsolved/boazak--klo",
+    "local_files": [
+      "challenge.txt"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 460,
+    "type": "team_instance",
+    "name": "boazak--kande",
+    "value": 200,
+    "initial": 200,
+    "minimum": 66,
+    "decay": 25,
+    "solves": 0,
+    "solved_by_me": false,
+    "category": "web",
+    "tags": [
+      "web",
+      "medium",
+      "creator:KodjoDoDjango"
+    ],
+    "description": "> **Origine du nom :** Kandé est une ville du nord du Togo — ici, un développeur trop confiant a fusionné sans réfléchir.\n\nLe site « Kandé Config » propose une API pour modifier sa configuration.\n\nUne zone réservée (`/admin`) n'est accessible que si `admin` vaut `true` dans la configuration…\n\nMais peut-être que la configuration n'est pas la seule chose qui se fait fusionner.\n\nStuck? Hints are available (they cost a few points).",
+    "connection_info": "http://{host}:{port}/  (per-team instance; use the 'launch' button)",
+    "hints": [
+      {
+        "id": 1032,
+        "cost": 50,
+        "title": ""
+      },
+      {
+        "id": 1033,
+        "cost": 30,
+        "title": ""
+      },
+      {
+        "id": 1034,
+        "cost": 10,
+        "title": ""
+      }
+    ],
+    "local_folder": "Unsolved/boazak--kande",
+    "local_files": [
+      "README.md"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 423,
+    "type": "dynamic",
+    "name": "boazak--bras-arme",
+    "value": 249,
+    "initial": 250,
+    "minimum": 83,
+    "decay": 25,
+    "solves": 3,
+    "solved_by_me": false,
+    "category": "forensics",
+    "tags": [
+      "forensics",
+      "medium",
+      "creator:KodjoDoDjango"
+    ],
+    "description": "Un agent infiltré a récupéré un fichier ZIP sur un serveur ennemi, mais il est verrouillé. On dit que ce fichier contient des indices. Mais attention, l'ennemi est malicieux et aime les leurres. Trouvez le vrai flag caché dans ce labyrinthe numérique.\n\nLe fichier ZIP est disponible en téléchargement.\n\n**Note** : Le bras armé a des règles à suivre.\n\nStuck? Hints are available (they cost a few points).",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 970,
+        "cost": 0,
+        "title": ""
+      },
+      {
+        "id": 971,
+        "cost": 10,
+        "title": ""
+      },
+      {
+        "id": 972,
+        "cost": 50,
+        "title": ""
+      },
+      {
+        "id": 973,
+        "cost": 100,
+        "title": ""
+      }
+    ],
+    "local_folder": "Unsolved/boazak--bras-arme",
+    "local_files": [
+      "bras_arme.zip",
+      "wordlist.txt"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 416,
+    "type": "team_instance",
+    "name": "boazak--yeye",
+    "value": 250,
+    "initial": 250,
+    "minimum": 83,
+    "decay": 25,
+    "solves": 0,
+    "solved_by_me": false,
+    "category": "crypto",
+    "tags": [
+      "crypto",
+      "medium",
+      "creator:KodjoDoDjango"
+    ],
+    "description": "> **Origine du nom :** Yeye signifie « nouveau » en éwé.\n\nLe portefeuille « Yeye » signe ses paiements avec un MAC maison de la forme `SHA256(secret || data)`. Saurez-vous forger un paiement valide pour `user=admin` — sans jamais connaître le secret — et empocher le flag ?\n\n**Points d'entrée** (pas de page d'accueil) : `GET /challenge`, `GET /pay`\n\nStuck? Hints are available (they cost a few points).\n",
+    "connection_info": "http://{host}:{port}/  (per-team instance; use the 'launch' button)",
+    "hints": [
+      {
+        "id": 964,
+        "cost": 80,
+        "title": ""
+      },
+      {
+        "id": 965,
+        "cost": 50,
+        "title": ""
+      },
+      {
+        "id": 966,
+        "cost": 25,
+        "title": ""
+      }
+    ],
+    "local_folder": "Unsolved/boazak--yeye",
+    "local_files": [],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 440,
+    "type": "team_instance",
+    "name": "boazak--agou",
+    "value": 254,
+    "initial": 300,
+    "minimum": 100,
+    "decay": 25,
+    "solves": 13,
+    "solved_by_me": false,
+    "category": "boot2root",
+    "tags": [
+      "os",
+      "medium",
+      "creator:KodjoDoDjango"
+    ],
+    "description": "> **Origine du nom :** Le mont Agou, plus haut sommet du Togo — il faut grimper jusqu'au sommet (root).\n\nUn service web d'upload de fichiers avec une fonctionnalité de visualisation suspecte. Vous devrez explorer attentivement les différentes fonctionnalités pour découvrir comment accéder au système et récupérer le flag.\n\nStuck? Hints are available (they cost a few points).\n\n<!-- nctf-connexion -->\n> 🔌 Ce challenge se joue **par le VPN de votre équipe** : voir [Se connecter aux instances](/connexion#vpn).\n",
+    "connection_info": "http://{host}:{port}/  (per-team instance; use the 'launch' button)",
+    "hints": [
+      {
+        "id": 995,
+        "cost": 0,
+        "title": ""
+      },
+      {
+        "id": 996,
+        "cost": 20,
+        "title": ""
+      },
+      {
+        "id": 997,
+        "cost": 40,
+        "title": ""
+      },
+      {
+        "id": 998,
+        "cost": 60,
+        "title": ""
+      },
+      {
+        "id": 999,
+        "cost": 80,
+        "title": ""
+      }
+    ],
+    "local_folder": "Unsolved/boazak--agou",
+    "local_files": [],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 406,
+    "type": "dynamic",
+    "name": "boazak--kpalime",
+    "value": 262,
+    "initial": 400,
+    "minimum": 100,
+    "decay": 25,
+    "solves": 18,
+    "solved_by_me": false,
+    "category": "crypto",
+    "tags": [
+      "crypto",
+      "hard",
+      "creator:KodjoDoDjango"
+    ],
+    "description": "> **Origine du nom :** Kpalimé est une ville du Togo — le préfixe connu cache le secret en fin de jeton.\n\nUn serveur chiffre des jetons de la forme `préfixe_connu || secret` avec `e = 3`. Le secret est le flag, trop court (≤ 128 bits). Comme la partie inconnue est petite, la méthode de **Coppersmith** (Howgrave-Graham + LLL) retrouve la racine `x = int(flag)` du polynôme `(M + x)^3 − c` mod `n`, sans factoriser.\n\nStuck? Hints are available (they cost a few points).",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 935,
+        "cost": 120,
+        "title": ""
+      },
+      {
+        "id": 936,
+        "cost": 80,
+        "title": ""
+      },
+      {
+        "id": 937,
+        "cost": 40,
+        "title": ""
+      }
+    ],
+    "local_folder": "Unsolved/boazak--kpalime",
+    "local_files": [
+      "challenge.txt"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 417,
+    "type": "dynamic",
+    "name": "boazak--zangbeto",
+    "value": 262,
+    "initial": 400,
+    "minimum": 100,
+    "decay": 25,
+    "solves": 18,
+    "solved_by_me": false,
+    "category": "crypto",
+    "tags": [
+      "crypto",
+      "hard",
+      "creator:KodjoDoDjango"
+    ],
+    "description": "> **Origine du nom :** Le Zangbeto est la sentinelle de nuit des villages éwé — le gardien qui protège les deux clés.\n\nZangbeto, le gardien nocturne. Deux services ont voulu accélérer le déchiffrement en choisissant un exposant privé `d` très petit — et le même pour les deux ! Un secret est chiffré sous les deux clés (`n1, e1` et `n2, e2`). Retrouvez `d` pour le déchiffrer.\n\nStuck? Hints are available (they cost a few points).",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 967,
+        "cost": 120,
+        "title": ""
+      },
+      {
+        "id": 968,
+        "cost": 80,
+        "title": ""
+      },
+      {
+        "id": 969,
+        "cost": 40,
+        "title": ""
+      }
+    ],
+    "local_folder": "Unsolved/boazak--zangbeto",
+    "local_files": [
+      "challenge.txt"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 398,
+    "type": "team_instance",
+    "name": "boazak--atike",
+    "value": 300,
+    "initial": 300,
+    "minimum": 100,
+    "decay": 25,
+    "solves": 0,
+    "solved_by_me": false,
+    "category": "crypto",
+    "tags": [
+      "crypto",
+      "medium",
+      "creator:KodjoDoDjango"
+    ],
+    "description": "> **Origine du nom :** Atike signifie « médicament » en éwé — on sonde l'oracle octet par octet, comme on ausculte un patient.\n\nLe coffre « Atike » chiffre un message en **AES-CBC** et expose un oracle qui distingue un padding PKCS#7 valide d'un invalide. Cette seule information permet l'attaque de **Vaudenay** : reconstruire le plaintext octet par octet.\n\n**Points d'entrée** (pas de page d'accueil) : `GET /challenge`, `GET /oracle`, `GET /check`\n\nStuck? Hints are available (they cost a few points).",
+    "connection_info": "http://{host}:{port}/  (per-team instance; use the 'launch' button)",
+    "hints": [
+      {
+        "id": 909,
+        "cost": 100,
+        "title": ""
+      },
+      {
+        "id": 910,
+        "cost": 60,
+        "title": ""
+      },
+      {
+        "id": 911,
+        "cost": 40,
+        "title": ""
+      }
+    ],
+    "local_folder": "Unsolved/boazak--atike",
+    "local_files": [],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 408,
+    "type": "team_instance",
+    "name": "boazak--kpevi",
+    "value": 300,
+    "initial": 300,
+    "minimum": 100,
+    "decay": 25,
+    "solves": 0,
+    "solved_by_me": false,
+    "category": "crypto",
+    "tags": [
+      "crypto",
+      "medium",
+      "creator:KodjoDoDjango"
+    ],
+    "description": "> **Origine du nom :** « Kpevi » désigne la clé de l'échange de secrets au cœur du challenge.\n\nLe service « Kpevi » réalise un échange **Diffie-Hellman** sur un premier sûr `p`, mais il ne **valide jamais l'ordre** de la clé publique reçue. En soumettant une valeur publique bien choisie, on contraint le secret partagé à un tout petit ensemble de valeurs prévisibles : le flag chiffré devient alors déchiffrable sans rien connaître de l'exposant secret `a`.\n\n**Points d'entrée** (pas de page d'accueil) : `GET /challenge`, `GET /shared`\n\nStuck? Hints are available (they cost a few points).\n",
+    "connection_info": "http://{host}:{port}/  (per-team instance; use the 'launch' button)",
+    "hints": [
+      {
+        "id": 941,
+        "cost": 100,
+        "title": ""
+      },
+      {
+        "id": 942,
+        "cost": 60,
+        "title": ""
+      },
+      {
+        "id": 943,
+        "cost": 40,
+        "title": ""
+      }
+    ],
+    "local_folder": "Unsolved/boazak--kpevi",
+    "local_files": [],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 451,
+    "type": "team_instance",
+    "name": "boazak--agbodrafo",
+    "value": 300,
+    "initial": 300,
+    "minimum": 100,
+    "decay": 25,
+    "solves": 0,
+    "solved_by_me": false,
+    "category": "web",
+    "tags": [
+      "web",
+      "medium",
+      "creator:KodjoDoDjango"
+    ],
+    "description": "> **Origine du nom :** Agbodrafo abrite la Maison des Esclaves, lieu de confinement dont il faut s'évader — comme de l'asylum.\n\nBienvenue à l'Agbodrafo ! Un centre de recherche secret a développé un système d'authentification ultra-sécurisé. En tant que nouveau patient, votre objectif est de déchiffrer les secrets du Dr. Admin et de trouver le flag qui prouve votre évasion.\n\nVotre mission : accéder au panneau d'administration et récupérer le flag.\n\nStuck? Hints are available (they cost a few points).",
+    "connection_info": "http://{host}:{port}/  (per-team instance; use the 'launch' button)",
+    "hints": [
+      {
+        "id": 1005,
+        "cost": 0,
+        "title": ""
+      },
+      {
+        "id": 1006,
+        "cost": 20,
+        "title": ""
+      },
+      {
+        "id": 1007,
+        "cost": 60,
+        "title": ""
+      },
+      {
+        "id": 1008,
+        "cost": 60,
+        "title": ""
+      }
+    ],
+    "local_folder": "Unsolved/boazak--agbodrafo",
+    "local_files": [],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 456,
+    "type": "team_instance",
+    "name": "boazak--atakpame",
+    "value": 300,
+    "initial": 300,
+    "minimum": 100,
+    "decay": 25,
+    "solves": 0,
+    "solved_by_me": false,
+    "category": "web",
+    "tags": [
+      "web",
+      "medium",
+      "creator:KodjoDoDjango"
+    ],
+    "description": "> **Origine du nom :** Atakpamé, surnommée la ville du fer — l'image y est traitée comme un métal brut.\n\nAtakpamé est un service de traitement d'images. Il télécharge une image depuis une URL fournie, puis la traite.\n\nLe flag est stocké sur le serveur.\n\nStuck? Hints are available (they cost a few points).",
+    "connection_info": "http://{host}:{port}/  (per-team instance; use the 'launch' button)",
+    "hints": [
+      {
+        "id": 1021,
+        "cost": 150,
+        "title": ""
+      },
+      {
+        "id": 1022,
+        "cost": 150,
+        "title": ""
+      }
+    ],
+    "local_folder": "Unsolved/boazak--atakpame",
+    "local_files": [
+      "README.md"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 457,
+    "type": "team_instance",
+    "name": "boazak--be",
+    "value": 300,
+    "initial": 300,
+    "minimum": 100,
+    "decay": 25,
+    "solves": 0,
+    "solved_by_me": false,
+    "category": "web",
+    "tags": [
+      "web",
+      "medium",
+      "creator:KodjoDoDjango"
+    ],
+    "description": "> **Origine du nom :** Bè est l'un des quartiers les plus anciens de Lomé — on y fouille les vieux vestiges, comme le dépôt git abandonné.\n\nUn développeur a commis une erreur classique en déployant son application sur le serveur de production. Il est convaincu que ses données sont en sécurité, mais sa méthode de protection pourrait ne pas être aussi infaillible qu'il le pense.\n\nRetrouvez le flag caché dans ce dépôt.\n\nStuck? Hints are available (they cost a few points).",
+    "connection_info": "http://{host}:{port}/  (per-team instance; use the 'launch' button)",
+    "hints": [
+      {
+        "id": 1023,
+        "cost": 0,
+        "title": ""
+      },
+      {
+        "id": 1024,
+        "cost": 40,
+        "title": ""
+      },
+      {
+        "id": 1025,
+        "cost": 60,
+        "title": ""
+      },
+      {
+        "id": 1026,
+        "cost": 60,
+        "title": ""
+      }
+    ],
+    "local_folder": "Unsolved/boazak--be",
+    "local_files": [],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 459,
+    "type": "team_instance",
+    "name": "boazak--evala",
+    "value": 300,
+    "initial": 300,
+    "minimum": 100,
+    "decay": 25,
+    "solves": 0,
+    "solved_by_me": false,
+    "category": "web",
+    "tags": [
+      "web",
+      "medium",
+      "creator:KodjoDoDjango"
+    ],
+    "description": "> **Origine du nom :** Evala est la lutte traditionnelle kabyè, un combat contre les autres — ici, une course pour remporter le stock avant tout le monde.\n\nFlashSale est une API de vente flash. Il y a 5 articles en stock. Le système vérifie le stock puis le décrémente, avec un délai artificiel entre les deux.\n\nEn séquentiel, le stock s'arrête à 0 et **aucun flag n'est délivré** : le flag n'apparaît qu'en cas de **survente** (le stock passe sous zéro), ce qui n'est possible que si plusieurs requêtes concurrentes passent la vérification pendant la même fenêtre — une race condition.\n\nStuck? Hints are available (they cost a few points).",
+    "connection_info": "http://{host}:{port}/  (per-team instance; use the 'launch' button)",
+    "hints": [
+      {
+        "id": 1029,
+        "cost": 70,
+        "title": ""
+      },
+      {
+        "id": 1030,
+        "cost": 50,
+        "title": ""
+      },
+      {
+        "id": 1031,
+        "cost": 30,
+        "title": ""
+      }
+    ],
+    "local_folder": "Unsolved/boazak--evala",
+    "local_files": [
+      "README.md"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 477,
+    "type": "team_instance",
+    "name": "boazak--baguida",
+    "value": 300,
+    "initial": 300,
+    "minimum": 100,
+    "decay": 25,
+    "solves": 0,
+    "solved_by_me": false,
+    "category": "web",
+    "tags": [
+      "web",
+      "medium",
+      "creator:KodjoDoDjango"
+    ],
+    "description": "> **Origine du nom :** Baguida, station balnéaire voisine de Lomé — on y jette un œil dans les données des voisins (IDOR).\n\nLa nouvelle plateforme **SecureData Corp** a récemment implémenté des fonctionnalités conformes au RGPD pour permettre aux utilisateurs de gérer leurs informations personnelles et d'invoquer leur droit à l'oubli. Cependant, le développeur s'est un peu emmêlé les pinceaux dans l'implémentation des contrôles de sécurité...\n\nVotre objectif est de trouver une faille afin d'accéder aux données des autres utilisateurs, et d'invoquer le droit à l'oubli là où il ne faut pas.\n\nStuck? Hints are available (they cost a few points).",
+    "connection_info": "http://{host}:{port}/  (per-team instance; use the 'launch' button)",
+    "hints": [
+      {
+        "id": 1068,
+        "cost": 0,
+        "title": ""
+      },
+      {
+        "id": 1069,
+        "cost": 0,
+        "title": ""
+      },
+      {
+        "id": 1070,
+        "cost": 0,
+        "title": ""
+      },
+      {
+        "id": 1071,
+        "cost": 0,
+        "title": ""
+      },
+      {
+        "id": 1072,
+        "cost": 0,
+        "title": ""
+      }
+    ],
+    "local_folder": "Unsolved/boazak--baguida",
+    "local_files": [
+      "wordlist.txt"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 480,
+    "type": "team_instance",
+    "name": "boazak--sokode",
+    "value": 300,
+    "initial": 300,
+    "minimum": 100,
+    "decay": 25,
+    "solves": 0,
+    "solved_by_me": false,
+    "category": "web",
+    "tags": [
+      "web",
+      "medium",
+      "creator:KodjoDoDjango"
+    ],
+    "description": "> **Origine du nom :** Sokodé, carrefour commercial du centre du Togo — n'importe quel passant peut « passer » la porte de l'administration.\n\nSokodé est une API de stockage de données. L'authentification est gérée par un système de base de données orientée documents.\n\nLe mot de passe de l'administrateur est inconnu, mais le panneau d'administration contient le flag.\n\nStuck? Hints are available (they cost a few points).",
+    "connection_info": "http://{host}:{port}/  (per-team instance; use the 'launch' button)",
+    "hints": [
+      {
+        "id": 1073,
+        "cost": 150,
+        "title": ""
+      },
+      {
+        "id": 1074,
+        "cost": 150,
+        "title": ""
+      }
+    ],
+    "local_folder": "Unsolved/boazak--sokode",
+    "local_files": [
+      "README.md"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 380,
+    "type": "team_instance",
+    "name": "boot2root-ssh",
+    "value": 370,
+    "initial": 400,
+    "minimum": 100,
+    "decay": 25,
+    "solves": 9,
+    "solved_by_me": false,
+    "category": "boot2root",
+    "tags": [
+      "pwn",
+      "boot2root",
+      "linux",
+      "ssh",
+      "medium",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "**boot2root-ssh.** Une box Linux complète, un conteneur par équipe. On te\ndonne un accès **SSH** bas-privilège ; à toi de grimper jusqu'à **root** et de\nlire `/root/flag`.\n\nConnexion : `ssh ctf@…` (utilisateur et mot de passe « ctf » ; adresse exacte dans le panneau de connexion)  (mot de passe : `ctf`)\n\nDepuis le compte `ctf`, exploite les misconfigurations locales de la machine\npour devenir root. Le flag vit **uniquement** dans `/root/flag` (owner `root`,\nmode `400`) : seul root peut le lire, il n'est dans aucune variable\nd'environnement joignable en `ctf`, et il n'est **pas** dans l'image. Le login\nroot est désactivé — la seule voie est la privesc locale.\n\nInstance par équipe : chaque équipe a son conteneur et son flag. Bloqué ? Des\nindices sont disponibles (ils coûtent quelques points).\n\nFlag format : `NCTF{...}`\n\n<!-- nctf-connexion -->\n> 🔌 Ce challenge se joue **par le VPN de votre équipe** : voir [Se connecter aux instances](/connexion#vpn).\n",
+    "connection_info": "Instance par équipe ; connecte-toi en SSH (utilisateur « ctf », mot de passe « ctf ») à l'adresse affichée dans le panneau.",
+    "hints": [
+      {
+        "id": 860,
+        "cost": 20,
+        "title": ""
+      },
+      {
+        "id": 861,
+        "cost": 40,
+        "title": ""
+      },
+      {
+        "id": 862,
+        "cost": 60,
+        "title": ""
+      }
+    ],
+    "local_folder": "Unsolved/boot2root-ssh",
+    "local_files": [],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 412,
+    "type": "dynamic",
+    "name": "boazak--sakpata",
+    "value": 352,
+    "initial": 400,
+    "minimum": 100,
+    "decay": 25,
+    "solves": 11,
+    "solved_by_me": false,
+    "category": "crypto",
+    "tags": [
+      "crypto",
+      "hard",
+      "creator:KodjoDoDjango"
+    ],
+    "description": "> **Origine du nom :** Sakpata est le dieu de la terre et du tonnerre des Éwé et des Fon — les mystères enterrés dans le sac à dos.\n\nSakpata, dieu de la terre. Un secret est enterré sous un tas de cailloux : chaque bit du flag choisit un poids parmi 88 (`bit i = 1` → poids `i` dans la somme), et seule leur **somme** est donnée (`target`). Retrouver le sous-ensemble pour exhumer le flag.\n\nC'est un **subset-sum** de très basse densité (`n / log2(max(a)) ≈ 0.49`) : la construction de Coster et al. (réseau + LLL/BKZ) le résout.\n\nStuck? Hints are available (they cost a few points).",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 953,
+        "cost": 120,
+        "title": ""
+      },
+      {
+        "id": 954,
+        "cost": 80,
+        "title": ""
+      },
+      {
+        "id": 955,
+        "cost": 40,
+        "title": ""
+      }
+    ],
+    "local_folder": "Unsolved/boazak--sakpata",
+    "local_files": [
+      "challenge.txt"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 402,
+    "type": "team_instance",
+    "name": "boazak--enye",
+    "value": 400,
+    "initial": 400,
+    "minimum": 100,
+    "decay": 25,
+    "solves": 0,
+    "solved_by_me": false,
+    "category": "crypto",
+    "tags": [
+      "crypto",
+      "hard",
+      "creator:KodjoDoDjango"
+    ],
+    "description": "> **Origine du nom :** Enye signifie « oui, c'est ça » en éwé — c'est l'oracle oui/non du challenge.\n\nLe serveur vous répond **oui ou non** : il déchiffre le RSA que vous lui envoyez et vous dit si le résultat est un bloc PKCS#1 v1.5 valide (`0x00 0x02 ...`) ou non. Avec ce seul bit d'information, l'attaque de **Bleichenbacher** (BB'98) retrouve le message en ~2^17 requêtes.\n\n**Points d'entrée** (pas de page d'accueil) : `GET /challenge`, `GET /oracle`\n\nStuck? Hints are available (they cost a few points).",
+    "connection_info": "http://{host}:{port}/  (per-team instance; use the 'launch' button)",
+    "hints": [
+      {
+        "id": 922,
+        "cost": 120,
+        "title": ""
+      },
+      {
+        "id": 923,
+        "cost": 80,
+        "title": ""
+      },
+      {
+        "id": 924,
+        "cost": 40,
+        "title": ""
+      },
+      {
+        "id": 925,
+        "cost": 0,
+        "title": ""
+      }
+    ],
+    "local_folder": "Unsolved/boazak--enye",
+    "local_files": [],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 454,
+    "type": "team_instance",
+    "name": "boazak--akodessewa",
+    "value": 400,
+    "initial": 400,
+    "minimum": 100,
+    "decay": 25,
+    "solves": 0,
+    "solved_by_me": false,
+    "category": "web",
+    "tags": [
+      "web",
+      "évolutif (easy / medium / hard)",
+      "creator:KodjoDoDjango"
+    ],
+    "description": "> **Origine du nom :** Akodessewa est le célèbre marché aux fétiches de Lomé : on y trouve de tout, et on peut y envoyer n'importe quoi — comme en mass assignment.\n\nUserHub expose une API REST d'inscription : `POST /api/register` avec un JSON. Chaque champ du JSON est appliqué directement à l'objet utilisateur côté serveur.\n\nLe flag est renvoyé par la route `/admin`, réservée aux administrateurs.\n\nStuck? Hints are available (they cost a few points).",
+    "connection_info": "http://{host}:{port}/  (per-team instance; use the 'launch' button)",
+    "hints": [
+      {
+        "id": 1015,
+        "cost": 200,
+        "title": ""
+      },
+      {
+        "id": 1016,
+        "cost": 200,
+        "title": ""
+      }
+    ],
+    "local_folder": "Unsolved/boazak--akodessewa",
+    "local_files": [
+      "README.md"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 462,
+    "type": "team_instance",
+    "name": "boazak--koutammakou",
+    "value": 400,
+    "initial": 400,
+    "minimum": 100,
+    "decay": 25,
+    "solves": 0,
+    "solved_by_me": false,
+    "category": "web",
+    "tags": [
+      "web",
+      "hard",
+      "creator:KodjoDoDjango"
+    ],
+    "description": "> **Origine du nom :** Koutammakou, pays des Batammariba inscrit à l'UNESCO, célèbre pour ses maisons-tours en terre — des archives à « extraire ».\n\nKoutammakou est un service de partage de fichiers. Il accepte des archives ZIP, les extrait et permet de consulter les fichiers qui en sont issus.\n\nLe flag est stocké sur le serveur.\n\nStuck? Hints are available (they cost a few points).",
+    "connection_info": "http://{host}:{port}/  (per-team instance; use the 'launch' button)",
+    "hints": [
+      {
+        "id": 1037,
+        "cost": 200,
+        "title": ""
+      },
+      {
+        "id": 1038,
+        "cost": 200,
+        "title": ""
+      }
+    ],
+    "local_folder": "Unsolved/boazak--koutammakou",
+    "local_files": [
+      "README.md"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 466,
+    "type": "team_instance",
+    "name": "boazak--notse",
+    "value": 400,
+    "initial": 400,
+    "minimum": 100,
+    "decay": 25,
+    "solves": 0,
+    "solved_by_me": false,
+    "category": "web",
+    "tags": [
+      "web",
+      "hard",
+      "creator:KodjoDoDjango"
+    ],
+    "description": "> **Origine du nom :** Notsè, d'où le peuple ewé s'est dispersé sous le règne d'Agokoli : ici, le flag s'exfiltre hors du serveur.\n\nMiniArt est un service de validation d'avatars. Il accepte des fichiers SVG, en lit les métadonnées (titre, dimensions) et affiche le résultat.\n\nLe flag est stocké sur le serveur.\n\nStuck? Hints are available (they cost a few points).",
+    "connection_info": "http://{host}:{port}/  (per-team instance; use the 'launch' button)",
+    "hints": [
+      {
+        "id": 1047,
+        "cost": 200,
+        "title": ""
+      },
+      {
+        "id": 1048,
+        "cost": 200,
+        "title": ""
+      }
+    ],
+    "local_folder": "Unsolved/boazak--notse",
+    "local_files": [
+      "README.md"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 467,
+    "type": "team_instance",
+    "name": "boazak--togbi",
+    "value": 400,
+    "initial": 400,
+    "minimum": 100,
+    "decay": 25,
+    "solves": 0,
+    "solved_by_me": false,
+    "category": "web",
+    "tags": [
+      "web",
+      "hard",
+      "creator:KodjoDoDjango"
+    ],
+    "description": "> **Origine du nom :** « Togbui » est le titre honorifique des chefs traditionnels chez les Ewé du Togo : impossible d'accéder au panneau sans usurper le bon rôle.\n\nL'API a été durcie. Plus de progression facile.\n\nLes tokens JWT sont maintenant signés avec RS256 (asymétrique). Mais la clé publique est accessible...\n\nQuelque chose cloche dans la valse des algorithmes.\n\nStuck? Hints are available (they cost a few points).",
+    "connection_info": "http://{host}:{port}/  (per-team instance; use the 'launch' button)",
+    "hints": [
+      {
+        "id": 1049,
+        "cost": 10,
+        "title": ""
+      },
+      {
+        "id": 1050,
+        "cost": 40,
+        "title": ""
+      },
+      {
+        "id": 1051,
+        "cost": 50,
+        "title": ""
+      },
+      {
+        "id": 1052,
+        "cost": 50,
+        "title": ""
+      }
+    ],
+    "local_folder": "Unsolved/boazak--togbi",
+    "local_files": [
+      "README.md"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 470,
+    "type": "team_instance",
+    "name": "boazak--vogan",
+    "value": 400,
+    "initial": 400,
+    "minimum": 100,
+    "decay": 25,
+    "solves": 0,
+    "solved_by_me": false,
+    "category": "web",
+    "tags": [
+      "web",
+      "évolutif (easy / blind)",
+      "creator:KodjoDoDjango"
+    ],
+    "description": "> **Origine du nom :** Vogan est considérée comme la capitale du vaudou au Togo — une désérialisation YAML un peu trop « magique ».\n\nConfigHub est un service de personnalisation de profil. Il accepte une configuration YAML, la charge et applique les réglages.\n\nLe flag est stocké sur le serveur.\n\nStuck? Hints are available (they cost a few points).",
+    "connection_info": "http://{host}:{port}/  (per-team instance; use the 'launch' button)",
+    "hints": [
+      {
+        "id": 1057,
+        "cost": 200,
+        "title": ""
+      },
+      {
+        "id": 1058,
+        "cost": 200,
+        "title": ""
+      }
+    ],
+    "local_folder": "Unsolved/boazak--vogan",
+    "local_files": [
+      "README.md"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 484,
+    "type": "team_instance",
+    "name": "boazak--mono",
+    "value": 400,
+    "initial": 400,
+    "minimum": 100,
+    "decay": 25,
+    "solves": 0,
+    "solved_by_me": false,
+    "category": "web",
+    "tags": [
+      "web",
+      "hard",
+      "creator:KodjoDoDjango"
+    ],
+    "description": "> **Origine du nom :** Le Mono, fleuve frontière entre le Togo et le Bénin — le proxy est la frontière à franchir.\n\nLe site web est accessible via un proxy maison qui relaie les requêtes vers un backend interne. Le flag est stocké sur le backend, sur une route `/admin-flag`, qui n'est pas exposée directement aux visiteurs.\n\nLe proxy fait des choix de parsing surprenants. Le backend aussi.\n\nStuck? Hints are available (they cost a few points).",
+    "connection_info": "http://{host}:{port}/  (per-team instance; use the 'launch' button)",
+    "hints": [
+      {
+        "id": 1078,
+        "cost": 200,
+        "title": ""
+      },
+      {
+        "id": 1079,
+        "cost": 200,
+        "title": ""
+      }
+    ],
+    "local_folder": "Unsolved/boazak--mono",
+    "local_files": [],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 485,
+    "type": "team_instance",
+    "name": "boazak--nangbeto",
+    "value": 400,
+    "initial": 400,
+    "minimum": 100,
+    "decay": 25,
+    "solves": 0,
+    "solved_by_me": false,
+    "category": "web",
+    "tags": [
+      "web",
+      "hard",
+      "creator:KodjoDoDjango"
+    ],
+    "description": "> **Origine du nom :** Nangbeto, le barrage hydroélectrique du Mono — une chaîne d'énergie qu'il faut suivre de bout en bout.\r\n\r\nLe provider OIDC semble mieux protege que dans la version easy: `redirect_uri` est verifiée, et le token endpoint demande un `client_secret`.\r\n\r\nMais la chaine complete contient encore des failles:\r\n- un callback de client de confiance vulnerable a un open redirect,\r\n- un endpoint de debug interne expose via un mauvais controle.\r\n\r\n**Ports de l'instance** : `5100`, `5101`, `5102` — chaque port reçoit son propre port public, affiché dans le panneau après « Démarrer ».\r\n\r\nStuck? Hints are available (they cost a few points).\r\n\r\n<!-- nctf-connexion -->\r\n> 🔌 Ce challenge se joue **par le VPN de votre équipe** : voir [Se connecter aux instances](/connexion#vpn).\r\n",
+    "connection_info": "{host}:{port}  (per-team instance; use the 'launch' button — every port is listed in the panel)",
+    "hints": [
+      {
+        "id": 1080,
+        "cost": 10,
+        "title": ""
+      },
+      {
+        "id": 1081,
+        "cost": 40,
+        "title": ""
+      },
+      {
+        "id": 1082,
+        "cost": 50,
+        "title": ""
+      }
+    ],
+    "local_folder": "Unsolved/boazak--nangbeto",
+    "local_files": [],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 377,
+    "type": "team_instance",
+    "name": "boot2root-linux",
+    "value": 475,
+    "initial": 500,
+    "minimum": 100,
+    "decay": 20,
+    "solves": 6,
+    "solved_by_me": false,
+    "category": "boot2root",
+    "tags": [
+      "pwn",
+      "boot2root",
+      "linux",
+      "hard",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "**boot2root-linux** -- a full Linux box in a single per-team container. A minimal internal service is listening. Get a foothold, escalate all the way to **root**, and read `/root/flag`.\n\nYou get only a running host: l'hôte indiqué dans le panneau de connexion -- no downloads, no source; everything you need is on the box once you land a shell. Expect a multi-stage local privilege-escalation; enumerate.\n\nThe flag lives only in `/root/flag` (owner `root`, mode `400`): readable solely by root, not in any env var you can reach, not baked into the image. Per-team instance (own container, own flag).\n\nBloqué ? Des indices sont disponibles (ils coûtent quelques points).\n\nFlag format: `NCTF{...}`\n\nConnect: l'hôte indiqué dans le panneau de connexion",
+    "connection_info": "Lance l'instance (bouton Démarrer) ; l'adresse de connexion s'affiche dans le panneau.",
+    "hints": [
+      {
+        "id": 851,
+        "cost": 25,
+        "title": ""
+      },
+      {
+        "id": 852,
+        "cost": 50,
+        "title": ""
+      },
+      {
+        "id": 853,
+        "cost": 75,
+        "title": ""
+      }
+    ],
+    "local_folder": "Unsolved/boot2root-linux",
+    "local_files": [],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 379,
+    "type": "team_instance",
+    "name": "boot2root-webapp",
+    "value": 500,
+    "initial": 500,
+    "minimum": 100,
+    "decay": 20,
+    "solves": 0,
+    "solved_by_me": false,
+    "category": "boot2root",
+    "tags": [
+      "pwn",
+      "boot2root",
+      "linux",
+      "hard",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "**boot2root-webapp** -- *SnapNote*, a full Linux box in a single per-team container. A small sticky-notes preview service is listening. Break into it, escalate all the way to **root**, and read `/root/flag`.\n\nYou get only a running host: l'hôte indiqué dans le panneau de connexion -- no downloads, no source; everything you need is on the box once you land a shell. Expect a multi-stage local privilege-escalation; enumerate.\n\nThe flag lives only in `/root/flag` (owner `root`, mode `400`): readable solely by root, not in any env var you can reach, not baked into the image. Per-team instance (own container, own flag).\n\nBloqué ? Des indices sont disponibles (ils coûtent quelques points).\n\nFlag format: `NCTF{...}`\n\nConnect: l'hôte indiqué dans le panneau de connexion",
+    "connection_info": "Lance l'instance (bouton Démarrer) ; l'adresse de connexion s'affiche dans le panneau.",
+    "hints": [
+      {
+        "id": 857,
+        "cost": 25,
+        "title": ""
+      },
+      {
+        "id": 858,
+        "cost": 50,
+        "title": ""
+      },
+      {
+        "id": 859,
+        "cost": 75,
+        "title": ""
+      }
+    ],
+    "local_folder": "Unsolved/boot2root-webapp",
+    "local_files": [],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 381,
+    "type": "team_instance",
+    "name": "boot2root-c2",
+    "value": 500,
+    "initial": 500,
+    "minimum": 100,
+    "decay": 20,
+    "solves": 1,
+    "solved_by_me": false,
+    "category": "boot2root",
+    "tags": [
+      "pwn",
+      "boot2root",
+      "linux",
+      "hard",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "**boot2root-c2** -- *Phantom Wire staging server*. A host from the PHANTOM WIRE crew's C2 network is still up: an operator \"task queue\" panel. Break in, escalate all the way to **root**, and read `/root/flag`.\n\nYou get only a running host: l'hôte indiqué dans le panneau de connexion -- no downloads, no source. Everything you need is on the box once you land your first shell. Expect a multi-stage local privilege-escalation; enumerate.\n\nThe flag lives only in `/root/flag` (owner `root`, mode `400`): readable solely by root, not in any env var you can reach, not baked into the image. Per-team instance (own container, own flag).\n\nBloqué ? Des indices sont disponibles (ils coûtent quelques points).\n\nFlag format: `NCTF{...}`\n\nConnect: l'hôte indiqué dans le panneau de connexion",
+    "connection_info": "Lance l'instance (bouton Démarrer) ; l'adresse de connexion s'affiche dans le panneau.",
+    "hints": [
+      {
+        "id": 863,
+        "cost": 25,
+        "title": ""
+      },
+      {
+        "id": 864,
+        "cost": 50,
+        "title": ""
+      },
+      {
+        "id": 865,
+        "cost": 75,
+        "title": ""
+      }
+    ],
+    "local_folder": "Unsolved/boot2root-c2",
+    "local_files": [],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 401,
+    "type": "team_instance",
+    "name": "boazak--dodo",
+    "value": 500,
+    "initial": 500,
+    "minimum": 100,
+    "decay": 25,
+    "solves": 0,
+    "solved_by_me": false,
+    "category": "crypto",
+    "tags": [
+      "crypto",
+      "insane",
+      "creator:KodjoDoDjango"
+    ],
+    "description": "> **Origine du nom :** Dodo est un marigot à Notsé (préfecture du Haho) — on y trempe ce qu'on veut, comme le serveur accepte n'importe quel point.\n\nLe service « Dodo » fait de l'échange de clés sur la courbe `E : y² = x³ + x`, mais **ne valide jamais** le point que vous envoyez. L'ordre de `E` est `#E = 2^128 · r` : envoyez un point d'ordre `2^128` et récupérez la clé privée **bit par bit** via un DLP 2-adique (`S = D·Q` est d'ordre `2^(128−i)` ssi le bit `i` de `D` vaut 1).\n\n**Points d'entrée** (pas de page d'accueil) : `GET /challenge`, `GET /shared`\n\nStuck? Hints are available (they cost a few points).",
+    "connection_info": "http://{host}:{port}/  (per-team instance; use the 'launch' button)",
+    "hints": [
+      {
+        "id": 918,
+        "cost": 150,
+        "title": ""
+      },
+      {
+        "id": 919,
+        "cost": 100,
+        "title": ""
+      },
+      {
+        "id": 920,
+        "cost": 60,
+        "title": ""
+      },
+      {
+        "id": 921,
+        "cost": 30,
+        "title": ""
+      }
+    ],
+    "local_folder": "Unsolved/boazak--dodo",
+    "local_files": [],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 407,
+    "type": "team_instance",
+    "name": "boazak--kpata",
+    "value": 500,
+    "initial": 500,
+    "minimum": 100,
+    "decay": 25,
+    "solves": 0,
+    "solved_by_me": false,
+    "category": "crypto",
+    "tags": [
+      "crypto",
+      "insane",
+      "creator:KodjoDoDjango"
+    ],
+    "description": "> **Origine du nom :** Kpata évoque un craquement en éwé — l'OAEP qui craque sous l'attaque de Manger.\n\n« Kpata ! » — ça craque. Le service déchiffre le RSA que vous lui envoyez et vous révèle si le premier octet du bloc OAEP est nul (`0x00`). Cette simple fuite de validité du préfixe permet l'attaque de **Manger** (CRYPTO 2001) : ~1 000 requêtes suffisent pour reconstruire le bloc OAEP, puis le décoder et obtenir le flag.\n\n**Points d'entrée** (pas de page d'accueil) : `GET /challenge`, `GET /oracle`\n\nStuck? Hints are available (they cost a few points).",
+    "connection_info": "http://{host}:{port}/  (per-team instance; use the 'launch' button)",
+    "hints": [
+      {
+        "id": 938,
+        "cost": 150,
+        "title": ""
+      },
+      {
+        "id": 939,
+        "cost": 100,
+        "title": ""
+      },
+      {
+        "id": 940,
+        "cost": 50,
+        "title": ""
+      }
+    ],
+    "local_folder": "Unsolved/boazak--kpata",
+    "local_files": [],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 455,
+    "type": "team_instance",
+    "name": "boazak--aneho",
+    "value": 500,
+    "initial": 500,
+    "minimum": 100,
+    "decay": 25,
+    "solves": 0,
+    "solved_by_me": false,
+    "category": "web",
+    "tags": [
+      "web",
+      "hard",
+      "creator:KodjoDoDjango"
+    ],
+    "description": "> **Origine du nom :** Aného (ex-Petit Popo) fut la première capitale du Togo et un port de la traite négrière : l'évasion, en plus dur.\n\nLe centre Aneho a renforce sa plateforme apres le premier incident.\n\nL'authentification, l'import de notes cliniques et le panneau admin paraissent mieux proteges... mais une chaine d'exploitation complete permet encore de recuperer le flag.\n\nStuck? Hints are available (they cost a few points).",
+    "connection_info": "http://{host}:{port}/  (per-team instance; use the 'launch' button)",
+    "hints": [
+      {
+        "id": 1017,
+        "cost": 0,
+        "title": ""
+      },
+      {
+        "id": 1018,
+        "cost": 50,
+        "title": ""
+      },
+      {
+        "id": 1019,
+        "cost": 70,
+        "title": ""
+      },
+      {
+        "id": 1020,
+        "cost": 80,
+        "title": ""
+      }
+    ],
+    "local_folder": "Unsolved/boazak--aneho",
+    "local_files": [
+      "README.md"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 513,
+    "type": "dynamic",
+    "name": "oxdefault--quadratic-i",
+    "value": 500,
+    "initial": 500,
+    "minimum": 100,
+    "decay": 25,
+    "solves": 0,
+    "solved_by_me": false,
+    "category": "crypto",
+    "tags": [
+      "crypto",
+      "hard",
+      "creator:Oxdefault"
+    ],
+    "description": "Un système de **81 équations quadratiques à 57 inconnues sur GF(2)**\n(`system.txt`) a une unique solution. Elle ouvre le coffre `vault.txt`.\n\nStuck? Hints are available (they cost a few points).",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 1123,
+        "cost": 25,
+        "title": ""
+      },
+      {
+        "id": 1124,
+        "cost": 50,
+        "title": ""
+      }
+    ],
+    "local_folder": "Unsolved/oxdefault--quadratic-i",
+    "local_files": [
+      "system.txt",
+      "vault.txt"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  }
+]

@@ -1,0 +1,41 @@
+{
+  "id": 228,
+  "type": "dynamic",
+  "name": "morse-code",
+  "value": 25,
+  "initial": 50,
+  "minimum": 25,
+  "decay": 30,
+  "solves": 54,
+  "solved_by_me": true,
+  "category": "warmup",
+  "tags": [
+    {
+      "value": "warmup"
+    },
+    {
+      "value": "classical"
+    },
+    {
+      "value": "morse"
+    },
+    {
+      "value": "beginner"
+    },
+    {
+      "value": "creator:hibris"
+    },
+    {
+      "value": "creator:Clawd"
+    }
+  ],
+  "description": "`signal.txt` is a line of dots (`.`) and dashes (`-`). Letters are\nseparated by spaces and words by ` / `. Decode the message, then wrap\nthe lowercase words with underscores as the flag body.\n\nExample: if it spelled `HELLO WORLD`, the flag is `NCTF{hello_world}`.\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [],
+  "local_folder": "solved/morse-code",
+  "local_files": [
+    "signal.txt"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}
