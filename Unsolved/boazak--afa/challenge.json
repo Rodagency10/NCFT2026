@@ -1,0 +1,47 @@
+{
+  "id": 396,
+  "type": "dynamic",
+  "name": "boazak--afa",
+  "value": 143,
+  "initial": 150,
+  "minimum": 50,
+  "decay": 25,
+  "solves": 8,
+  "solved_by_me": false,
+  "category": "crypto",
+  "tags": [
+    "crypto",
+    "medium",
+    "creator:KodjoDoDjango"
+  ],
+  "description": "> **Origine du nom :** Afa est la divination éwé et fon : lire l'avenir dans les graines et les noix de palme — ici, prédire les prochaines sorties du générateur.\n\nPour produire son « hasard », l'application a utilisé une simple suite linéaire congruente (`LCG`). Quelques sorties suffisent pour retrouver les paramètres et prédire la suite du flux, qui a servi à chiffrer le flag en XOR.\n\nReconstituez le flux et déchiffrez le flag dans `challenge.txt`.\n\nStuck? Hints are available (they cost a few points).",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 902,
+      "cost": 30,
+      "title": ""
+    },
+    {
+      "id": 903,
+      "cost": 20,
+      "title": ""
+    },
+    {
+      "id": 904,
+      "cost": 10,
+      "title": ""
+    },
+    {
+      "id": 905,
+      "cost": 40,
+      "title": ""
+    }
+  ],
+  "local_folder": "Unsolved/boazak--afa",
+  "local_files": [
+    "challenge.txt"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

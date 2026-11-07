@@ -371,11 +371,11 @@
     "id": 10,
     "type": "dynamic",
     "name": "block-oracle",
-    "value": 67,
+    "value": 62,
     "initial": 150,
     "minimum": 50,
     "decay": 35,
-    "solves": 33,
+    "solves": 34,
     "solved_by_me": true,
     "category": "blockchain",
     "tags": [
@@ -501,11 +501,11 @@
     "id": 32,
     "type": "dynamic",
     "name": "gcp-token-scope",
-    "value": 185,
+    "value": 172,
     "initial": 300,
     "minimum": 100,
     "decay": 25,
-    "solves": 20,
+    "solves": 21,
     "solved_by_me": true,
     "category": "cloud",
     "tags": [
@@ -705,11 +705,11 @@
     "id": 51,
     "type": "dynamic",
     "name": "trail-of-keys",
-    "value": 275,
+    "value": 268,
     "initial": 300,
     "minimum": 100,
     "decay": 25,
-    "solves": 10,
+    "solves": 11,
     "solved_by_me": true,
     "category": "cloud",
     "tags": [
@@ -933,7 +933,7 @@
     "initial": 300,
     "minimum": 100,
     "decay": 25,
-    "solves": 35,
+    "solves": 37,
     "solved_by_me": true,
     "category": "ppc",
     "tags": [
@@ -1333,7 +1333,7 @@
     "initial": 150,
     "minimum": 50,
     "decay": 35,
-    "solves": 39,
+    "solves": 40,
     "solved_by_me": true,
     "category": "networking",
     "tags": [
@@ -1811,7 +1811,7 @@
     "initial": 150,
     "minimum": 50,
     "decay": 30,
-    "solves": 40,
+    "solves": 41,
     "solved_by_me": true,
     "category": "reverse",
     "tags": [
@@ -1845,11 +1845,11 @@
     "id": 193,
     "type": "dynamic",
     "name": "triple-wrap",
-    "value": 95,
+    "value": 91,
     "initial": 150,
     "minimum": 50,
     "decay": 35,
-    "solves": 27,
+    "solves": 28,
     "solved_by_me": true,
     "category": "reverse",
     "tags": [
@@ -1888,7 +1888,7 @@
     "initial": 100,
     "minimum": 50,
     "decay": 40,
-    "solves": 42,
+    "solves": 43,
     "solved_by_me": true,
     "category": "stego",
     "tags": [
@@ -1924,11 +1924,11 @@
     "id": 197,
     "type": "dynamic",
     "name": "png-text-chunk",
-    "value": 107,
+    "value": 103,
     "initial": 150,
     "minimum": 50,
     "decay": 35,
-    "solves": 24,
+    "solves": 25,
     "solved_by_me": true,
     "category": "stego",
     "tags": [
@@ -2191,7 +2191,7 @@
     "initial": 150,
     "minimum": 50,
     "decay": 35,
-    "solves": 38,
+    "solves": 39,
     "solved_by_me": true,
     "category": "sysadmin",
     "tags": [
@@ -2234,7 +2234,7 @@
     "initial": 100,
     "minimum": 50,
     "decay": 40,
-    "solves": 52,
+    "solves": 53,
     "solved_by_me": true,
     "category": "sysadmin",
     "tags": [
@@ -3600,6 +3600,53 @@
     "source": "https://arena.ctf.tg/api/v1/challenges"
   },
   {
+    "id": 396,
+    "type": "dynamic",
+    "name": "boazak--afa",
+    "value": 143,
+    "initial": 150,
+    "minimum": 50,
+    "decay": 25,
+    "solves": 8,
+    "solved_by_me": false,
+    "category": "crypto",
+    "tags": [
+      "crypto",
+      "medium",
+      "creator:KodjoDoDjango"
+    ],
+    "description": "> **Origine du nom :** Afa est la divination éwé et fon : lire l'avenir dans les graines et les noix de palme — ici, prédire les prochaines sorties du générateur.\n\nPour produire son « hasard », l'application a utilisé une simple suite linéaire congruente (`LCG`). Quelques sorties suffisent pour retrouver les paramètres et prédire la suite du flux, qui a servi à chiffrer le flag en XOR.\n\nReconstituez le flux et déchiffrez le flag dans `challenge.txt`.\n\nStuck? Hints are available (they cost a few points).",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 902,
+        "cost": 30,
+        "title": ""
+      },
+      {
+        "id": 903,
+        "cost": 20,
+        "title": ""
+      },
+      {
+        "id": 904,
+        "cost": 10,
+        "title": ""
+      },
+      {
+        "id": 905,
+        "cost": 40,
+        "title": ""
+      }
+    ],
+    "local_folder": "Unsolved/boazak--afa",
+    "local_files": [
+      "challenge.txt"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
     "id": 398,
     "type": "team_instance",
     "name": "boazak--atike",
@@ -3647,7 +3694,7 @@
     "initial": 250,
     "minimum": 83,
     "decay": 25,
-    "solves": 41,
+    "solves": 42,
     "solved_by_me": true,
     "category": "crypto",
     "tags": [
@@ -3821,7 +3868,7 @@
     "initial": 300,
     "minimum": 100,
     "decay": 25,
-    "solves": 35,
+    "solves": 37,
     "solved_by_me": true,
     "category": "crypto",
     "tags": [
@@ -4027,7 +4074,7 @@
     "initial": 250,
     "minimum": 83,
     "decay": 25,
-    "solves": 36,
+    "solves": 38,
     "solved_by_me": true,
     "category": "crypto",
     "tags": [
@@ -4148,7 +4195,7 @@
     "initial": 300,
     "minimum": 100,
     "decay": 25,
-    "solves": 36,
+    "solves": 37,
     "solved_by_me": true,
     "category": "crypto",
     "tags": [
@@ -4294,11 +4341,11 @@
     "id": 419,
     "type": "dynamic",
     "name": "thierry8petstar--warmup-xor",
-    "value": 75,
+    "value": 68,
     "initial": 100,
     "minimum": 50,
     "decay": 25,
-    "solves": 20,
+    "solves": 21,
     "solved_by_me": true,
     "category": "crypto",
     "tags": [
@@ -4320,11 +4367,11 @@
     "id": 423,
     "type": "dynamic",
     "name": "boazak--bras-arme",
-    "value": 205,
+    "value": 198,
     "initial": 250,
     "minimum": 83,
     "decay": 25,
-    "solves": 14,
+    "solves": 15,
     "solved_by_me": true,
     "category": "forensics",
     "tags": [
@@ -4510,11 +4557,11 @@
     "id": 431,
     "type": "dynamic",
     "name": "thierry8petstar--exfiltrator",
-    "value": 95,
+    "value": 89,
     "initial": 100,
     "minimum": 50,
     "decay": 25,
-    "solves": 9,
+    "solves": 13,
     "solved_by_me": true,
     "category": "forensics",
     "tags": [
@@ -4576,7 +4623,7 @@
     "initial": 100,
     "minimum": 50,
     "decay": 25,
-    "solves": 51,
+    "solves": 52,
     "solved_by_me": true,
     "category": "stego",
     "tags": [

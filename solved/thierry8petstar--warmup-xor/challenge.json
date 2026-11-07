@@ -2,11 +2,11 @@
   "id": 419,
   "type": "dynamic",
   "name": "thierry8petstar--warmup-xor",
-  "value": 75,
+  "value": 68,
   "initial": 100,
   "minimum": 50,
   "decay": 25,
-  "solves": 20,
+  "solves": 21,
   "solved_by_me": true,
   "category": "crypto",
   "tags": [
