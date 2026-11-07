@@ -2,12 +2,12 @@
   "id": 97,
   "type": "dynamic",
   "name": "auth-timeline",
-  "value": 132,
+  "value": 91,
   "initial": 150,
   "minimum": 50,
   "decay": 35,
-  "solves": 16,
-  "solved_by_me": false,
+  "solves": 28,
+  "solved_by_me": true,
   "category": "forensics",
   "tags": [
     "forensics",
@@ -31,7 +31,7 @@
       "title": ""
     }
   ],
-  "local_folder": "Unsolved/auth-timeline",
+  "local_folder": "solved/auth-timeline",
   "local_files": [
     "auth.log"
   ],

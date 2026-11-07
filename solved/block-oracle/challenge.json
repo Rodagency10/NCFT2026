@@ -2,11 +2,11 @@
   "id": 10,
   "type": "dynamic",
   "name": "block-oracle",
-  "value": 62,
+  "value": 56,
   "initial": 150,
   "minimum": 50,
   "decay": 35,
-  "solves": 34,
+  "solves": 35,
   "solved_by_me": true,
   "category": "blockchain",
   "tags": [

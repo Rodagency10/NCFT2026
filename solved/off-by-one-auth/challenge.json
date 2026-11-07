@@ -2,11 +2,11 @@
   "id": 178,
   "type": "dynamic",
   "name": "off-by-one-auth",
-  "value": 99,
+  "value": 77,
   "initial": 150,
   "minimum": 50,
   "decay": 35,
-  "solves": 26,
+  "solves": 31,
   "solved_by_me": true,
   "category": "pwn",
   "tags": [

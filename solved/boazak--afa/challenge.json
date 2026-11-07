@@ -2,11 +2,11 @@
   "id": 396,
   "type": "dynamic",
   "name": "boazak--afa",
-  "value": 110,
+  "value": 50,
   "initial": 150,
   "minimum": 50,
   "decay": 25,
-  "solves": 17,
+  "solves": 29,
   "solved_by_me": true,
   "category": "crypto",
   "tags": [
