@@ -551,11 +551,11 @@
     "id": 36,
     "type": "dynamic",
     "name": "imds-ssrf",
-    "value": 86,
+    "value": 82,
     "initial": 150,
     "minimum": 50,
     "decay": 35,
-    "solves": 29,
+    "solves": 30,
     "solved_by_me": true,
     "category": "cloud",
     "tags": [
@@ -655,11 +655,11 @@
     "id": 50,
     "type": "dynamic",
     "name": "sub-wildcard",
-    "value": 107,
+    "value": 99,
     "initial": 150,
     "minimum": 50,
     "decay": 35,
-    "solves": 24,
+    "solves": 26,
     "solved_by_me": true,
     "category": "cloud",
     "tags": [
@@ -705,11 +705,11 @@
     "id": 51,
     "type": "dynamic",
     "name": "trail-of-keys",
-    "value": 268,
+    "value": 254,
     "initial": 300,
     "minimum": 100,
     "decay": 25,
-    "solves": 11,
+    "solves": 13,
     "solved_by_me": true,
     "category": "cloud",
     "tags": [
@@ -1435,7 +1435,7 @@
     "initial": 150,
     "minimum": 50,
     "decay": 35,
-    "solves": 54,
+    "solves": 56,
     "solved_by_me": true,
     "category": "osint",
     "tags": [
@@ -1483,7 +1483,7 @@
     "initial": 150,
     "minimum": 50,
     "decay": 35,
-    "solves": 42,
+    "solves": 43,
     "solved_by_me": true,
     "category": "osint",
     "tags": [
@@ -1924,11 +1924,11 @@
     "id": 197,
     "type": "dynamic",
     "name": "png-text-chunk",
-    "value": 103,
+    "value": 99,
     "initial": 150,
     "minimum": 50,
     "decay": 35,
-    "solves": 25,
+    "solves": 26,
     "solved_by_me": true,
     "category": "stego",
     "tags": [
@@ -1968,7 +1968,7 @@
     "initial": 100,
     "minimum": 50,
     "decay": 40,
-    "solves": 42,
+    "solves": 43,
     "solved_by_me": true,
     "category": "stego",
     "tags": [
@@ -2049,11 +2049,11 @@
     "id": 203,
     "type": "dynamic",
     "name": "dependency-confusion",
-    "value": 197,
+    "value": 185,
     "initial": 300,
     "minimum": 100,
     "decay": 25,
-    "solves": 19,
+    "solves": 20,
     "solved_by_me": true,
     "category": "supplychain",
     "tags": [
@@ -2142,11 +2142,11 @@
     "id": 211,
     "type": "dynamic",
     "name": "typosquat-lockfile",
-    "value": 72,
+    "value": 67,
     "initial": 150,
     "minimum": 50,
     "decay": 35,
-    "solves": 32,
+    "solves": 33,
     "solved_by_me": true,
     "category": "supplychain",
     "tags": [
@@ -2275,7 +2275,7 @@
     "initial": 100,
     "minimum": 50,
     "decay": 40,
-    "solves": 45,
+    "solves": 46,
     "solved_by_me": true,
     "category": "sysadmin",
     "tags": [
@@ -3603,12 +3603,12 @@
     "id": 396,
     "type": "dynamic",
     "name": "boazak--afa",
-    "value": 143,
+    "value": 110,
     "initial": 150,
     "minimum": 50,
     "decay": 25,
-    "solves": 8,
-    "solved_by_me": false,
+    "solves": 17,
+    "solved_by_me": true,
     "category": "crypto",
     "tags": [
       "crypto",
@@ -3639,7 +3639,7 @@
         "title": ""
       }
     ],
-    "local_folder": "Unsolved/boazak--afa",
+    "local_folder": "solved/boazak--afa",
     "local_files": [
       "challenge.txt"
     ],
@@ -3694,7 +3694,7 @@
     "initial": 250,
     "minimum": 83,
     "decay": 25,
-    "solves": 42,
+    "solves": 43,
     "solved_by_me": true,
     "category": "crypto",
     "tags": [
@@ -3736,7 +3736,7 @@
     "initial": 250,
     "minimum": 83,
     "decay": 25,
-    "solves": 39,
+    "solves": 40,
     "solved_by_me": true,
     "category": "crypto",
     "tags": [
@@ -3868,7 +3868,7 @@
     "initial": 300,
     "minimum": 100,
     "decay": 25,
-    "solves": 37,
+    "solves": 40,
     "solved_by_me": true,
     "category": "crypto",
     "tags": [
@@ -3910,7 +3910,7 @@
     "initial": 250,
     "minimum": 83,
     "decay": 25,
-    "solves": 38,
+    "solves": 40,
     "solved_by_me": true,
     "category": "crypto",
     "tags": [
@@ -3952,7 +3952,7 @@
     "initial": 400,
     "minimum": 100,
     "decay": 25,
-    "solves": 39,
+    "solves": 41,
     "solved_by_me": true,
     "category": "crypto",
     "tags": [
@@ -4074,7 +4074,7 @@
     "initial": 250,
     "minimum": 83,
     "decay": 25,
-    "solves": 38,
+    "solves": 40,
     "solved_by_me": true,
     "category": "crypto",
     "tags": [
@@ -4195,7 +4195,7 @@
     "initial": 300,
     "minimum": 100,
     "decay": 25,
-    "solves": 37,
+    "solves": 39,
     "solved_by_me": true,
     "category": "crypto",
     "tags": [
@@ -4277,7 +4277,7 @@
     "initial": 400,
     "minimum": 100,
     "decay": 25,
-    "solves": 34,
+    "solves": 37,
     "solved_by_me": true,
     "category": "crypto",
     "tags": [
@@ -4319,7 +4319,7 @@
     "initial": 100,
     "minimum": 50,
     "decay": 25,
-    "solves": 47,
+    "solves": 48,
     "solved_by_me": true,
     "category": "crypto",
     "tags": [
@@ -4367,11 +4367,11 @@
     "id": 423,
     "type": "dynamic",
     "name": "boazak--bras-arme",
-    "value": 198,
+    "value": 190,
     "initial": 250,
     "minimum": 83,
     "decay": 25,
-    "solves": 15,
+    "solves": 16,
     "solved_by_me": true,
     "category": "forensics",
     "tags": [
@@ -4557,11 +4557,11 @@
     "id": 431,
     "type": "dynamic",
     "name": "thierry8petstar--exfiltrator",
-    "value": 89,
+    "value": 77,
     "initial": 100,
     "minimum": 50,
     "decay": 25,
-    "solves": 13,
+    "solves": 18,
     "solved_by_me": true,
     "category": "forensics",
     "tags": [
@@ -6315,7 +6315,7 @@
     "initial": 150,
     "minimum": 50,
     "decay": 25,
-    "solves": 44,
+    "solves": 45,
     "solved_by_me": true,
     "category": "forensics",
     "tags": [
@@ -6415,6 +6415,46 @@
       "invitation_ca_extraordinaire.eml"
     ],
     "files_downloaded": false,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 97,
+    "type": "dynamic",
+    "name": "auth-timeline",
+    "value": 132,
+    "initial": 150,
+    "minimum": 50,
+    "decay": 35,
+    "solves": 16,
+    "solved_by_me": false,
+    "category": "forensics",
+    "tags": [
+      "forensics",
+      "log-analysis",
+      "correlation",
+      "easy",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "A public-facing server was compromised overnight. All we salvaged before the\nbox was reimaged is its `auth.log`. It is mostly internet background noise,\nbut one intruder actually got in and ran a command.\n\nReconstruct what happened, find the command the intruder ran, and recover the\nstring it left behind. That string is your flag.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 216,
+        "cost": 10,
+        "title": ""
+      },
+      {
+        "id": 217,
+        "cost": 15,
+        "title": ""
+      }
+    ],
+    "local_folder": "Unsolved/auth-timeline",
+    "local_files": [
+      "auth.log"
+    ],
+    "files_downloaded": true,
     "source": "https://arena.ctf.tg/api/v1/challenges"
   }
 ]

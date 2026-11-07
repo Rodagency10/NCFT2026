@@ -2,7 +2,7 @@
 
 Source : `https://arena.ctf.tg/api/v1/challenges`.
 
-113 résolus sur la plateforme, 41 restants, 154 au total.
+114 résolus sur la plateforme, 41 restants, 155 au total.
 
 ## Résolus
 
@@ -49,27 +49,28 @@ Source : `https://arena.ctf.tg/api/v1/challenges`.
 | ID | Challenge | Pts | Solves | Dossier |
 |----|-----------|-----|--------|---------|
 | 32 | gcp-token-scope | 172 | 21 | `solved/gcp-token-scope` |
-| 36 | imds-ssrf | 86 | 29 | `solved/imds-ssrf` |
+| 36 | imds-ssrf | 82 | 30 | `solved/imds-ssrf` |
 | 37 | leaky-prefix | 50 | 50 | `solved/leaky-prefix` |
-| 50 | sub-wildcard | 107 | 24 | `solved/sub-wildcard` |
-| 51 | trail-of-keys | 268 | 11 | `solved/trail-of-keys` |
+| 50 | sub-wildcard | 99 | 26 | `solved/sub-wildcard` |
+| 51 | trail-of-keys | 254 | 13 | `solved/trail-of-keys` |
 
 ### crypto
 
 | ID | Challenge | Pts | Solves | Dossier |
 |----|-----------|-----|--------|---------|
 | 52 | affine-relay | 50 | 53 | `solved/affine-relay` |
-| 399 | boazak--bassar | 83 | 42 | `solved/boazak--bassar` |
-| 400 | boazak--djobokou | 83 | 39 | `solved/boazak--djobokou` |
-| 404 | boazak--klo | 100 | 37 | `solved/boazak--klo` |
-| 405 | boazak--koklo | 83 | 38 | `solved/boazak--koklo` |
-| 406 | boazak--kpalime | 100 | 39 | `solved/boazak--kpalime` |
-| 410 | boazak--niamtougou | 83 | 38 | `solved/boazak--niamtougou` |
+| 396 | boazak--afa | 110 | 17 | `solved/boazak--afa` |
+| 399 | boazak--bassar | 83 | 43 | `solved/boazak--bassar` |
+| 400 | boazak--djobokou | 83 | 40 | `solved/boazak--djobokou` |
+| 404 | boazak--klo | 100 | 40 | `solved/boazak--klo` |
+| 405 | boazak--koklo | 83 | 40 | `solved/boazak--koklo` |
+| 406 | boazak--kpalime | 100 | 41 | `solved/boazak--kpalime` |
+| 410 | boazak--niamtougou | 83 | 40 | `solved/boazak--niamtougou` |
 | 412 | boazak--sakpata | 100 | 32 | `solved/boazak--sakpata` |
 | 413 | boazak--sodabi | 50 | 54 | `solved/boazak--sodabi` |
-| 415 | boazak--venovi | 100 | 37 | `solved/boazak--venovi` |
-| 417 | boazak--zangbeto | 100 | 34 | `solved/boazak--zangbeto` |
-| 418 | thierry8petstar--rsa-beginer | 50 | 47 | `solved/thierry8petstar--rsa-beginer` |
+| 415 | boazak--venovi | 100 | 39 | `solved/boazak--venovi` |
+| 417 | boazak--zangbeto | 100 | 37 | `solved/boazak--zangbeto` |
+| 418 | thierry8petstar--rsa-beginer | 50 | 48 | `solved/thierry8petstar--rsa-beginer` |
 | 419 | thierry8petstar--warmup-xor | 68 | 21 | `solved/thierry8petstar--warmup-xor` |
 | 508 | oxdefault--decode | 100 | 45 | `solved/oxdefault--decode` |
 | 509 | oxdefault--fast-enough | 150 | 25 | `solved/oxdefault--fast-enough` |
@@ -82,14 +83,14 @@ Source : `https://arena.ctf.tg/api/v1/challenges`.
 | 104 | png-magic-fix | 53 | 40 | `solved/png-magic-fix` |
 | 122 | git-archaeology | 50 | 54 | `solved/git-archaeology` |
 | 125 | json-sift | 50 | 45 | `solved/json-sift` |
-| 423 | boazak--bras-arme | 198 | 15 | `solved/boazak--bras-arme` |
+| 423 | boazak--bras-arme | 190 | 16 | `solved/boazak--bras-arme` |
 | 424 | boazak--kpessi | 50 | 29 | `solved/boazak--kpessi` |
 | 425 | fullaccess5--operation-swift-hook | 50 | 30 | `solved/fullaccess5--operation-swift-hook` |
 | 428 | the-darknova--mirage-1 | 50 | 27 | `solved/the-darknova--mirage-1` |
-| 431 | thierry8petstar--exfiltrator | 89 | 13 | `solved/thierry8petstar--exfiltrator` |
+| 431 | thierry8petstar--exfiltrator | 77 | 18 | `solved/thierry8petstar--exfiltrator` |
 | 433 | algorithme123--zemidjan-classement | 58 | 29 | `solved/algorithme123--zemidjan-classement` |
 | 518 | oxdefault--flush | 66 | 47 | `solved/oxdefault--flush` |
-| 543 | fullaccess5--operation-faux-colis | 50 | 44 | `solved/fullaccess5--operation-faux-colis` |
+| 543 | fullaccess5--operation-faux-colis | 50 | 45 | `solved/fullaccess5--operation-faux-colis` |
 | 544 | fullaccess5--operation-acces-suspect | 100 | 39 | `solved/fullaccess5--operation-acces-suspect` |
 | 545 | fullaccess5--operation-reunion-fantome | 116 | 40 | `solved/fullaccess5--operation-reunion-fantome` |
 
@@ -139,8 +140,8 @@ Source : `https://arena.ctf.tg/api/v1/challenges`.
 
 | ID | Challenge | Pts | Solves | Dossier |
 |----|-----------|-----|--------|---------|
-| 160 | ct-log-pivot | 50 | 54 | `solved/ct-log-pivot` |
-| 162 | doc-metadata | 50 | 42 | `solved/doc-metadata` |
+| 160 | ct-log-pivot | 50 | 56 | `solved/ct-log-pivot` |
+| 162 | doc-metadata | 50 | 43 | `solved/doc-metadata` |
 
 ### ppc
 
@@ -172,8 +173,8 @@ Source : `https://arena.ctf.tg/api/v1/challenges`.
 | ID | Challenge | Pts | Solves | Dossier |
 |----|-----------|-----|--------|---------|
 | 196 | lsb-bmp | 50 | 43 | `solved/lsb-bmp` |
-| 197 | png-text-chunk | 103 | 25 | `solved/png-text-chunk` |
-| 198 | trailing-zip | 50 | 42 | `solved/trailing-zip` |
+| 197 | png-text-chunk | 99 | 26 | `solved/png-text-chunk` |
+| 198 | trailing-zip | 50 | 43 | `solved/trailing-zip` |
 | 434 | boazak--kabou | 50 | 52 | `solved/boazak--kabou` |
 | 445 | algorithme123--greffe-espaces-lome | 58 | 53 | `solved/algorithme123--greffe-espaces-lome` |
 
@@ -182,9 +183,9 @@ Source : `https://arena.ctf.tg/api/v1/challenges`.
 | ID | Challenge | Pts | Solves | Dossier |
 |----|-----------|-----|--------|---------|
 | 202 | build-cache-poison | 50 | 47 | `solved/build-cache-poison` |
-| 203 | dependency-confusion | 197 | 19 | `solved/dependency-confusion` |
+| 203 | dependency-confusion | 185 | 20 | `solved/dependency-confusion` |
 | 209 | sbom-component-swap | 50 | 41 | `solved/sbom-component-swap` |
-| 211 | typosquat-lockfile | 72 | 32 | `solved/typosquat-lockfile` |
+| 211 | typosquat-lockfile | 67 | 33 | `solved/typosquat-lockfile` |
 
 ### sysadmin
 
@@ -192,7 +193,7 @@ Source : `https://arena.ctf.tg/api/v1/challenges`.
 |----|-----------|-----|--------|---------|
 | 212 | alias-slip | 50 | 39 | `solved/alias-slip` |
 | 214 | mask-slip | 50 | 53 | `solved/mask-slip` |
-| 215 | rbac-reveal | 50 | 45 | `solved/rbac-reveal` |
+| 215 | rbac-reveal | 50 | 46 | `solved/rbac-reveal` |
 
 ### warmup
 
@@ -249,7 +250,6 @@ Source : `https://arena.ctf.tg/api/v1/challenges`.
 
 | ID | Challenge | Pts | Solves | Dossier |
 |----|-----------|-----|--------|---------|
-| 396 | boazak--afa | 143 | 8 | `Unsolved/boazak--afa` |
 | 398 | boazak--atike | 300 | 0 | `Unsolved/boazak--atike` |
 | 401 | boazak--dodo | 500 | 0 | `Unsolved/boazak--dodo` |
 | 402 | boazak--enye | 400 | 0 | `Unsolved/boazak--enye` |
@@ -262,6 +262,7 @@ Source : `https://arena.ctf.tg/api/v1/challenges`.
 
 | ID | Challenge | Pts | Solves | Dossier |
 |----|-----------|-----|--------|---------|
+| 97 | auth-timeline | 132 | 16 | `Unsolved/auth-timeline` |
 | 426 | fullaccess5--securecorp-incident-reseau-invite | 200 | 0 | `Unsolved/fullaccess5--securecorp-incident-reseau-invite` |
 
 ### misc

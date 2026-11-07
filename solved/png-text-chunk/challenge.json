@@ -2,11 +2,11 @@
   "id": 197,
   "type": "dynamic",
   "name": "png-text-chunk",
-  "value": 103,
+  "value": 99,
   "initial": 150,
   "minimum": 50,
   "decay": 35,
-  "solves": 25,
+  "solves": 26,
   "solved_by_me": true,
   "category": "stego",
   "tags": [

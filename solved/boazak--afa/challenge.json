@@ -2,12 +2,12 @@
   "id": 396,
   "type": "dynamic",
   "name": "boazak--afa",
-  "value": 143,
+  "value": 110,
   "initial": 150,
   "minimum": 50,
   "decay": 25,
-  "solves": 8,
-  "solved_by_me": false,
+  "solves": 17,
+  "solved_by_me": true,
   "category": "crypto",
   "tags": [
     "crypto",
@@ -38,7 +38,7 @@
       "title": ""
     }
   ],
-  "local_folder": "Unsolved/boazak--afa",
+  "local_folder": "solved/boazak--afa",
   "local_files": [
     "challenge.txt"
   ],

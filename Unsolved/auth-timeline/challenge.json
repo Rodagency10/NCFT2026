@@ -1,0 +1,40 @@
+{
+  "id": 97,
+  "type": "dynamic",
+  "name": "auth-timeline",
+  "value": 132,
+  "initial": 150,
+  "minimum": 50,
+  "decay": 35,
+  "solves": 16,
+  "solved_by_me": false,
+  "category": "forensics",
+  "tags": [
+    "forensics",
+    "log-analysis",
+    "correlation",
+    "easy",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "A public-facing server was compromised overnight. All we salvaged before the\nbox was reimaged is its `auth.log`. It is mostly internet background noise,\nbut one intruder actually got in and ran a command.\n\nReconstruct what happened, find the command the intruder ran, and recover the\nstring it left behind. That string is your flag.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 216,
+      "cost": 10,
+      "title": ""
+    },
+    {
+      "id": 217,
+      "cost": 15,
+      "title": ""
+    }
+  ],
+  "local_folder": "Unsolved/auth-timeline",
+  "local_files": [
+    "auth.log"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}
