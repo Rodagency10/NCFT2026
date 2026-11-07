@@ -2,11 +2,11 @@
   "id": 428,
   "type": "dynamic",
   "name": "the-darknova--mirage-1",
-  "value": 54,
+  "value": 50,
   "initial": 100,
   "minimum": 50,
   "decay": 25,
-  "solves": 25,
+  "solves": 27,
   "solved_by_me": true,
   "category": "forensics",
   "tags": [

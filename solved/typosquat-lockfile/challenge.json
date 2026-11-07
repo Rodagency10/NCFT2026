@@ -2,11 +2,11 @@
   "id": 211,
   "type": "dynamic",
   "name": "typosquat-lockfile",
-  "value": 82,
+  "value": 72,
   "initial": 150,
   "minimum": 50,
   "decay": 35,
-  "solves": 30,
+  "solves": 32,
   "solved_by_me": true,
   "category": "supplychain",
   "tags": [

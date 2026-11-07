@@ -2,11 +2,11 @@
   "id": 424,
   "type": "dynamic",
   "name": "boazak--kpessi",
-  "value": 58,
+  "value": 50,
   "initial": 150,
   "minimum": 50,
   "decay": 25,
-  "solves": 25,
+  "solves": 29,
   "solved_by_me": true,
   "category": "forensics",
   "tags": [

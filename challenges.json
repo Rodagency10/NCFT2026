@@ -371,11 +371,11 @@
     "id": 10,
     "type": "dynamic",
     "name": "block-oracle",
-    "value": 77,
+    "value": 67,
     "initial": 150,
     "minimum": 50,
     "decay": 35,
-    "solves": 31,
+    "solves": 33,
     "solved_by_me": true,
     "category": "blockchain",
     "tags": [
@@ -416,7 +416,7 @@
     "initial": 100,
     "minimum": 50,
     "decay": 40,
-    "solves": 53,
+    "solves": 55,
     "solved_by_me": true,
     "category": "blockchain",
     "tags": [
@@ -463,14 +463,49 @@
     "source": "https://arena.ctf.tg/api/v1/challenges"
   },
   {
+    "id": 19,
+    "type": "team_instance",
+    "name": "artifacts-prefix",
+    "value": 450,
+    "initial": 450,
+    "minimum": 100,
+    "decay": 25,
+    "solves": 0,
+    "solved_by_me": false,
+    "category": "cloud",
+    "tags": [
+      "cloud",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "Entrepôt de sauvegardes du registre : un préfixe public laisse consulter librement quelques objets, tandis que les données privées restent verrouillées derrière un rôle à assumer. Lance l'instance (bouton Démarrer) et rends-toi à l'adresse affichée.",
+    "connection_info": "http://{host}:{port}/  (per-team instance; use the 'launch' button)",
+    "hints": [
+      {
+        "id": 48,
+        "cost": 20,
+        "title": ""
+      },
+      {
+        "id": 49,
+        "cost": 40,
+        "title": ""
+      }
+    ],
+    "local_folder": "Unsolved/artifacts-prefix",
+    "local_files": [],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
     "id": 32,
     "type": "dynamic",
     "name": "gcp-token-scope",
-    "value": 197,
+    "value": 185,
     "initial": 300,
     "minimum": 100,
     "decay": 25,
-    "solves": 19,
+    "solves": 20,
     "solved_by_me": true,
     "category": "cloud",
     "tags": [
@@ -670,11 +705,11 @@
     "id": 51,
     "type": "dynamic",
     "name": "trail-of-keys",
-    "value": 280,
+    "value": 275,
     "initial": 300,
     "minimum": 100,
     "decay": 25,
-    "solves": 9,
+    "solves": 10,
     "solved_by_me": true,
     "category": "cloud",
     "tags": [
@@ -757,11 +792,11 @@
     "id": 104,
     "type": "dynamic",
     "name": "png-magic-fix",
-    "value": 55,
+    "value": 53,
     "initial": 100,
     "minimum": 50,
     "decay": 40,
-    "solves": 39,
+    "solves": 40,
     "solved_by_me": true,
     "category": "forensics",
     "tags": [
@@ -1614,11 +1649,11 @@
     "id": 178,
     "type": "dynamic",
     "name": "off-by-one-auth",
-    "value": 103,
+    "value": 99,
     "initial": 150,
     "minimum": 50,
     "decay": 35,
-    "solves": 25,
+    "solves": 26,
     "solved_by_me": true,
     "category": "pwn",
     "tags": [
@@ -1776,7 +1811,7 @@
     "initial": 150,
     "minimum": 50,
     "decay": 30,
-    "solves": 39,
+    "solves": 40,
     "solved_by_me": true,
     "category": "reverse",
     "tags": [
@@ -1889,11 +1924,11 @@
     "id": 197,
     "type": "dynamic",
     "name": "png-text-chunk",
-    "value": 121,
+    "value": 107,
     "initial": 150,
     "minimum": 50,
     "decay": 35,
-    "solves": 20,
+    "solves": 24,
     "solved_by_me": true,
     "category": "stego",
     "tags": [
@@ -2014,11 +2049,11 @@
     "id": 203,
     "type": "dynamic",
     "name": "dependency-confusion",
-    "value": 208,
+    "value": 197,
     "initial": 300,
     "minimum": 100,
     "decay": 25,
-    "solves": 18,
+    "solves": 19,
     "solved_by_me": true,
     "category": "supplychain",
     "tags": [
@@ -2066,7 +2101,7 @@
     "initial": 150,
     "minimum": 50,
     "decay": 35,
-    "solves": 40,
+    "solves": 41,
     "solved_by_me": true,
     "category": "supplychain",
     "tags": [
@@ -2107,11 +2142,11 @@
     "id": 211,
     "type": "dynamic",
     "name": "typosquat-lockfile",
-    "value": 82,
+    "value": 72,
     "initial": 150,
     "minimum": 50,
     "decay": 35,
-    "solves": 30,
+    "solves": 32,
     "solved_by_me": true,
     "category": "supplychain",
     "tags": [
@@ -2152,11 +2187,11 @@
     "id": 212,
     "type": "dynamic",
     "name": "alias-slip",
-    "value": 51,
+    "value": 50,
     "initial": 150,
     "minimum": 50,
     "decay": 35,
-    "solves": 36,
+    "solves": 38,
     "solved_by_me": true,
     "category": "sysadmin",
     "tags": [
@@ -2323,7 +2358,7 @@
     "initial": 50,
     "minimum": 25,
     "decay": 30,
-    "solves": 60,
+    "solves": 61,
     "solved_by_me": true,
     "category": "warmup",
     "tags": [
@@ -2370,7 +2405,7 @@
     "initial": 50,
     "minimum": 25,
     "decay": 30,
-    "solves": 60,
+    "solves": 61,
     "solved_by_me": true,
     "category": "warmup",
     "tags": [
@@ -3380,11 +3415,11 @@
     "id": 381,
     "type": "team_instance",
     "name": "boot2root-c2",
-    "value": 496,
+    "value": 491,
     "initial": 500,
     "minimum": 100,
     "decay": 20,
-    "solves": 3,
+    "solves": 4,
     "solved_by_me": false,
     "category": "boot2root",
     "tags": [
@@ -3612,7 +3647,7 @@
     "initial": 250,
     "minimum": 83,
     "decay": 25,
-    "solves": 37,
+    "solves": 41,
     "solved_by_me": true,
     "category": "crypto",
     "tags": [
@@ -3654,7 +3689,7 @@
     "initial": 250,
     "minimum": 83,
     "decay": 25,
-    "solves": 36,
+    "solves": 39,
     "solved_by_me": true,
     "category": "crypto",
     "tags": [
@@ -3828,7 +3863,7 @@
     "initial": 250,
     "minimum": 83,
     "decay": 25,
-    "solves": 35,
+    "solves": 38,
     "solved_by_me": true,
     "category": "crypto",
     "tags": [
@@ -3870,7 +3905,7 @@
     "initial": 400,
     "minimum": 100,
     "decay": 25,
-    "solves": 38,
+    "solves": 39,
     "solved_by_me": true,
     "category": "crypto",
     "tags": [
@@ -4034,7 +4069,7 @@
     "initial": 400,
     "minimum": 100,
     "decay": 25,
-    "solves": 31,
+    "solves": 32,
     "solved_by_me": true,
     "category": "crypto",
     "tags": [
@@ -4113,7 +4148,7 @@
     "initial": 300,
     "minimum": 100,
     "decay": 25,
-    "solves": 34,
+    "solves": 36,
     "solved_by_me": true,
     "category": "crypto",
     "tags": [
@@ -4195,7 +4230,7 @@
     "initial": 400,
     "minimum": 100,
     "decay": 25,
-    "solves": 33,
+    "solves": 34,
     "solved_by_me": true,
     "category": "crypto",
     "tags": [
@@ -4237,7 +4272,7 @@
     "initial": 100,
     "minimum": 50,
     "decay": 25,
-    "solves": 44,
+    "solves": 47,
     "solved_by_me": true,
     "category": "crypto",
     "tags": [
@@ -4259,11 +4294,11 @@
     "id": 419,
     "type": "dynamic",
     "name": "thierry8petstar--warmup-xor",
-    "value": 80,
+    "value": 75,
     "initial": 100,
     "minimum": 50,
     "decay": 25,
-    "solves": 17,
+    "solves": 20,
     "solved_by_me": true,
     "category": "crypto",
     "tags": [
@@ -4274,7 +4309,7 @@
     "description": "Un développeur a créé son propre système de chiffrement \"ultra sécurisé\" basé sur un XOR avec une petite clé répétée.\n\nIl affirme que personne ne pourra retrouver son secret.\n\nLe ciphertext intercepté est fourni dans le fichier output.txt.\n\nPouvez-vous retrouver le message original ?",
     "connection_info": null,
     "hints": [],
-    "local_folder": "Unsolved/thierry8petstar--warmup-xor",
+    "local_folder": "solved/thierry8petstar--warmup-xor",
     "local_files": [
       "output.txt"
     ],
@@ -4285,11 +4320,11 @@
     "id": 423,
     "type": "dynamic",
     "name": "boazak--bras-arme",
-    "value": 212,
+    "value": 205,
     "initial": 250,
     "minimum": 83,
     "decay": 25,
-    "solves": 13,
+    "solves": 14,
     "solved_by_me": true,
     "category": "forensics",
     "tags": [
@@ -4333,11 +4368,11 @@
     "id": 424,
     "type": "dynamic",
     "name": "boazak--kpessi",
-    "value": 58,
+    "value": 50,
     "initial": 150,
     "minimum": 50,
     "decay": 25,
-    "solves": 25,
+    "solves": 29,
     "solved_by_me": true,
     "category": "forensics",
     "tags": [
@@ -4438,11 +4473,11 @@
     "id": 428,
     "type": "dynamic",
     "name": "the-darknova--mirage-1",
-    "value": 54,
+    "value": 50,
     "initial": 100,
     "minimum": 50,
     "decay": 25,
-    "solves": 25,
+    "solves": 27,
     "solved_by_me": true,
     "category": "forensics",
     "tags": [
@@ -4475,11 +4510,11 @@
     "id": 431,
     "type": "dynamic",
     "name": "thierry8petstar--exfiltrator",
-    "value": 98,
+    "value": 95,
     "initial": 100,
     "minimum": 50,
     "decay": 25,
-    "solves": 6,
+    "solves": 9,
     "solved_by_me": true,
     "category": "forensics",
     "tags": [
@@ -4490,7 +4525,7 @@
     "description": "Un attaquant a compromis un poste dans l'hôtel NCTF.\n\nVous avez capturé le trafic réseau suspect et découvert qu'un script malveillant, téléchargé depuis un serveur C2, s'exécutait sur la machine infectée. Il collecte discrètement des informations sur le poste et les renvoie vers l'extérieur.\n\nAnalysez la capture pour comprendre ce que ce script dérobe et par quel canal il exfiltre les données.\n\nLe fichier de capture (nctf_breach_investigation.pcapng) est fourni en téléchargement.\n\nFormat du flag : NCTF{...}\n",
     "connection_info": null,
     "hints": [],
-    "local_folder": "Unsolved/thierry8petstar--exfiltrator",
+    "local_folder": "solved/thierry8petstar--exfiltrator",
     "local_files": [
       "nctf_breach_investigation.pcapng"
     ],
@@ -5411,6 +5446,43 @@
     "source": "https://arena.ctf.tg/api/v1/challenges"
   },
   {
+    "id": 468,
+    "type": "team_instance",
+    "name": "boazak--togoville",
+    "value": 100,
+    "initial": 100,
+    "minimum": 50,
+    "decay": 25,
+    "solves": 0,
+    "solved_by_me": false,
+    "category": "web",
+    "tags": [
+      "web",
+      "easy",
+      "creator:KodjoDoDjango"
+    ],
+    "description": "> **Origine du nom :** Togoville, lieu de signature du traité de protectorat allemand en 1884 — ici on falsifie la « signature » (Host) pour détourner le lien de réinitialisation.\n\nTogoville est un portail interne. Son administrateur a oublié son mot de passe et utilise la fonctionnalité de réinitialisation par email.\n\nPour ce challenge, vous aurez besoin d'un serveur accessible depuis la machine du challenge (ex: `ngrok`, votre IP publique, ou la même machine en local).\n\nStuck? Hints are available (they cost a few points).",
+    "connection_info": "http://{host}:{port}/  (per-team instance; use the 'launch' button)",
+    "hints": [
+      {
+        "id": 1053,
+        "cost": 50,
+        "title": ""
+      },
+      {
+        "id": 1054,
+        "cost": 50,
+        "title": ""
+      }
+    ],
+    "local_folder": "Unsolved/boazak--togoville",
+    "local_files": [
+      "README.md"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
     "id": 470,
     "type": "team_instance",
     "name": "boazak--vogan",
@@ -5572,7 +5644,7 @@
     "initial": null,
     "minimum": null,
     "decay": null,
-    "solves": 1,
+    "solves": 2,
     "solved_by_me": false,
     "category": "web",
     "tags": [
@@ -5876,7 +5948,7 @@
     "initial": 500,
     "minimum": 100,
     "decay": 25,
-    "solves": 44,
+    "solves": 45,
     "solved_by_me": true,
     "category": "crypto",
     "tags": [

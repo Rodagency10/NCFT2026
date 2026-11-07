@@ -2,11 +2,11 @@
   "id": 212,
   "type": "dynamic",
   "name": "alias-slip",
-  "value": 51,
+  "value": 50,
   "initial": 150,
   "minimum": 50,
   "decay": 35,
-  "solves": 36,
+  "solves": 38,
   "solved_by_me": true,
   "category": "sysadmin",
   "tags": [

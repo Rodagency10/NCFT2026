@@ -2,11 +2,11 @@
   "id": 423,
   "type": "dynamic",
   "name": "boazak--bras-arme",
-  "value": 212,
+  "value": 205,
   "initial": 250,
   "minimum": 83,
   "decay": 25,
-  "solves": 13,
+  "solves": 14,
   "solved_by_me": true,
   "category": "forensics",
   "tags": [

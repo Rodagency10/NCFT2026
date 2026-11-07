@@ -2,11 +2,11 @@
   "id": 51,
   "type": "dynamic",
   "name": "trail-of-keys",
-  "value": 280,
+  "value": 275,
   "initial": 300,
   "minimum": 100,
   "decay": 25,
-  "solves": 9,
+  "solves": 10,
   "solved_by_me": true,
   "category": "cloud",
   "tags": [
