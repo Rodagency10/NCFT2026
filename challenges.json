@@ -675,7 +675,7 @@
     "minimum": 100,
     "decay": 25,
     "solves": 9,
-    "solved_by_me": false,
+    "solved_by_me": true,
     "category": "cloud",
     "tags": [
       "cloud",
@@ -705,7 +705,7 @@
         "title": ""
       }
     ],
-    "local_folder": "Unsolved/trail-of-keys",
+    "local_folder": "solved/trail-of-keys",
     "local_files": [
       "cloudtrail.json",
       "exfil-notes.json"

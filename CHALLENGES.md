@@ -2,7 +2,7 @@
 
 Source : `https://arena.ctf.tg/api/v1/challenges`.
 
-110 résolus sur la plateforme, 41 restants, 151 au total.
+111 résolus sur la plateforme, 40 restants, 151 au total.
 
 ## Résolus
 
@@ -52,6 +52,7 @@ Source : `https://arena.ctf.tg/api/v1/challenges`.
 | 36 | imds-ssrf | 86 | 29 | `solved/imds-ssrf` |
 | 37 | leaky-prefix | 50 | 50 | `solved/leaky-prefix` |
 | 50 | sub-wildcard | 107 | 24 | `solved/sub-wildcard` |
+| 51 | trail-of-keys | 280 | 9 | `solved/trail-of-keys` |
 
 ### crypto
 
@@ -302,9 +303,3 @@ Source : `https://arena.ctf.tg/api/v1/challenges`.
 | 480 | boazak--sokode | 300 | 0 | `Unsolved/boazak--sokode` |
 | 483 | boazak--lome | 100 | 1 | `Unsolved/boazak--lome` |
 | 484 | boazak--mono | 400 | 0 | `Unsolved/boazak--mono` |
-
-### cloud
-
-| ID | Challenge | Pts | Solves | Dossier |
-|----|-----------|-----|--------|---------|
-| 51 | trail-of-keys | 280 | 9 | `Unsolved/trail-of-keys` |
