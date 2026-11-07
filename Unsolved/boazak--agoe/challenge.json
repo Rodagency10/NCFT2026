@@ -2,11 +2,11 @@
   "id": 452,
   "type": "team_instance",
   "name": "boazak--agoe",
-  "value": 149,
+  "value": 148,
   "initial": 150,
   "minimum": 50,
   "decay": 25,
-  "solves": 4,
+  "solves": 5,
   "solved_by_me": false,
   "category": "web",
   "tags": [

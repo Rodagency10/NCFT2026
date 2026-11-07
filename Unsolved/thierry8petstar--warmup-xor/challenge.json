@@ -1,0 +1,26 @@
+{
+  "id": 419,
+  "type": "dynamic",
+  "name": "thierry8petstar--warmup-xor",
+  "value": 97,
+  "initial": 100,
+  "minimum": 50,
+  "decay": 25,
+  "solves": 8,
+  "solved_by_me": false,
+  "category": "crypto",
+  "tags": [
+    "crypto",
+    "easy",
+    "creator:thierry8petstar"
+  ],
+  "description": "Un développeur a créé son propre système de chiffrement \"ultra sécurisé\" basé sur un XOR avec une petite clé répétée.\n\nIl affirme que personne ne pourra retrouver son secret.\n\nLe ciphertext intercepté est fourni dans le fichier output.txt.\n\nPouvez-vous retrouver le message original ?",
+  "connection_info": null,
+  "hints": [],
+  "local_folder": "Unsolved/thierry8petstar--warmup-xor",
+  "local_files": [
+    "output.txt"
+  ],
+  "files_downloaded": false,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

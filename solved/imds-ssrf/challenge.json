@@ -2,11 +2,11 @@
   "id": 36,
   "type": "dynamic",
   "name": "imds-ssrf",
-  "value": 91,
+  "value": 86,
   "initial": 150,
   "minimum": 50,
   "decay": 35,
-  "solves": 28,
+  "solves": 29,
   "solved_by_me": true,
   "category": "cloud",
   "tags": [

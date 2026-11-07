@@ -1,0 +1,24 @@
+{
+  "id": 483,
+  "type": "team_instance",
+  "name": "boazak--lome",
+  "value": 100,
+  "initial": null,
+  "minimum": null,
+  "decay": null,
+  "solves": 1,
+  "solved_by_me": false,
+  "category": "web",
+  "tags": [
+    "web",
+    "easy",
+    "creator:KodjoDoDjango"
+  ],
+  "description": "",
+  "connection_info": null,
+  "hints": [],
+  "local_folder": "Unsolved/boazak--lome",
+  "local_files": [],
+  "files_downloaded": false,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

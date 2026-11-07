@@ -1,0 +1,24 @@
+{
+  "id": 431,
+  "type": "dynamic",
+  "name": "thierry8petstar--exfiltrator",
+  "value": 100,
+  "initial": null,
+  "minimum": null,
+  "decay": null,
+  "solves": 0,
+  "solved_by_me": false,
+  "category": "forensics",
+  "tags": [
+    "forensics",
+    "easy",
+    "creator:thierry8petstar"
+  ],
+  "description": "",
+  "connection_info": null,
+  "hints": [],
+  "local_folder": "Unsolved/thierry8petstar--exfiltrator",
+  "local_files": [],
+  "files_downloaded": false,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

@@ -2,12 +2,12 @@
   "id": 178,
   "type": "dynamic",
   "name": "off-by-one-auth",
-  "value": 130,
+  "value": 103,
   "initial": 150,
   "minimum": 50,
   "decay": 35,
-  "solves": 17,
-  "solved_by_me": false,
+  "solves": 25,
+  "solved_by_me": true,
   "category": "pwn",
   "tags": [
     "pwn",
@@ -31,7 +31,7 @@
       "title": ""
     }
   ],
-  "local_folder": "Unsolved/off-by-one-auth",
+  "local_folder": "solved/off-by-one-auth",
   "local_files": [
     "chall"
   ],

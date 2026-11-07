@@ -2,12 +2,12 @@
   "id": 203,
   "type": "dynamic",
   "name": "dependency-confusion",
-  "value": 300,
+  "value": 208,
   "initial": 300,
   "minimum": 100,
   "decay": 25,
-  "solves": 0,
-  "solved_by_me": false,
+  "solves": 18,
+  "solved_by_me": true,
   "category": "supplychain",
   "tags": [
     "supplychain",
@@ -36,7 +36,7 @@
       "title": ""
     }
   ],
-  "local_folder": "Unsolved/dependency-confusion",
+  "local_folder": "solved/dependency-confusion",
   "local_files": [
     "registry-internal.json",
     "registry-public.json",

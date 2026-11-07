@@ -2,11 +2,11 @@
   "id": 377,
   "type": "team_instance",
   "name": "boot2root-linux",
-  "value": 451,
+  "value": 400,
   "initial": 500,
   "minimum": 100,
   "decay": 20,
-  "solves": 8,
+  "solves": 11,
   "solved_by_me": false,
   "category": "boot2root",
   "tags": [

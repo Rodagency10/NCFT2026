@@ -2,11 +2,11 @@
   "id": 412,
   "type": "dynamic",
   "name": "boazak--sakpata",
-  "value": 245,
+  "value": 100,
   "initial": 400,
   "minimum": 100,
   "decay": 25,
-  "solves": 19,
+  "solves": 31,
   "solved_by_me": true,
   "category": "crypto",
   "tags": [

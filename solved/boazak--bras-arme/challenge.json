@@ -2,12 +2,12 @@
   "id": 423,
   "type": "dynamic",
   "name": "boazak--bras-arme",
-  "value": 248,
+  "value": 212,
   "initial": 250,
   "minimum": 83,
   "decay": 25,
-  "solves": 4,
-  "solved_by_me": false,
+  "solves": 13,
+  "solved_by_me": true,
   "category": "forensics",
   "tags": [
     "forensics",
@@ -38,7 +38,7 @@
       "title": ""
     }
   ],
-  "local_folder": "Unsolved/boazak--bras-arme",
+  "local_folder": "solved/boazak--bras-arme",
   "local_files": [
     "bras_arme.zip",
     "wordlist.txt"

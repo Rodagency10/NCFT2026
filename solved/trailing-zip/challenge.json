@@ -2,11 +2,11 @@
   "id": 198,
   "type": "dynamic",
   "name": "trailing-zip",
-  "value": 55,
+  "value": 50,
   "initial": 100,
   "minimum": 50,
   "decay": 40,
-  "solves": 39,
+  "solves": 42,
   "solved_by_me": true,
   "category": "stego",
   "tags": [

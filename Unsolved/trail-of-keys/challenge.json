@@ -1,0 +1,28 @@
+{
+  "id": 51,
+  "type": "dynamic",
+  "name": "trail-of-keys",
+  "value": 280,
+  "initial": null,
+  "minimum": null,
+  "decay": null,
+  "solves": 9,
+  "solved_by_me": false,
+  "category": "cloud",
+  "tags": [
+    "cloud",
+    "aws",
+    "cloudtrail",
+    "incident-response",
+    "medium",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "",
+  "connection_info": null,
+  "hints": [],
+  "local_folder": "Unsolved/trail-of-keys",
+  "local_files": [],
+  "files_downloaded": false,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

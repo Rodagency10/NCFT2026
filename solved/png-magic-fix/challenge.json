@@ -2,11 +2,11 @@
   "id": 104,
   "type": "dynamic",
   "name": "png-magic-fix",
-  "value": 60,
+  "value": 55,
   "initial": 100,
   "minimum": 50,
   "decay": 40,
-  "solves": 37,
+  "solves": 39,
   "solved_by_me": true,
   "category": "forensics",
   "tags": [

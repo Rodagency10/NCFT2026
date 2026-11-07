@@ -6,7 +6,7 @@
   "initial": 500,
   "minimum": 100,
   "decay": 25,
-  "solves": 0,
+  "solves": 2,
   "solved_by_me": false,
   "category": "crypto",
   "tags": [
