@@ -2,12 +2,12 @@
   "id": 419,
   "type": "dynamic",
   "name": "thierry8petstar--warmup-xor",
-  "value": 97,
+  "value": 80,
   "initial": 100,
   "minimum": 50,
   "decay": 25,
-  "solves": 8,
-  "solved_by_me": false,
+  "solves": 17,
+  "solved_by_me": true,
   "category": "crypto",
   "tags": [
     "crypto",
@@ -21,6 +21,6 @@
   "local_files": [
     "output.txt"
   ],
-  "files_downloaded": false,
+  "files_downloaded": true,
   "source": "https://arena.ctf.tg/api/v1/challenges"
 }

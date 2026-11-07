@@ -671,9 +671,9 @@
     "type": "dynamic",
     "name": "trail-of-keys",
     "value": 280,
-    "initial": null,
-    "minimum": null,
-    "decay": null,
+    "initial": 300,
+    "minimum": 100,
+    "decay": 25,
     "solves": 9,
     "solved_by_me": false,
     "category": "cloud",
@@ -686,12 +686,31 @@
       "creator:hibris",
       "creator:Clawd"
     ],
-    "description": "",
+    "description": "A CloudTrail export (`cloudtrail.json`) from one busy hour on the\n`kekeli-prod` account, plus an object (`exfil-notes.json`) that one session\nwrote to a scratch bucket. Someone read a sensitive secret and walked it out.\n\nTrace who did it, then open what they left behind. The flag is inside.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
     "connection_info": null,
-    "hints": [],
+    "hints": [
+      {
+        "id": 116,
+        "cost": 15,
+        "title": ""
+      },
+      {
+        "id": 117,
+        "cost": 30,
+        "title": ""
+      },
+      {
+        "id": 118,
+        "cost": 45,
+        "title": ""
+      }
+    ],
     "local_folder": "Unsolved/trail-of-keys",
-    "local_files": [],
-    "files_downloaded": false,
+    "local_files": [
+      "cloudtrail.json",
+      "exfil-notes.json"
+    ],
+    "files_downloaded": true,
     "source": "https://arena.ctf.tg/api/v1/challenges"
   },
   {
@@ -4240,12 +4259,12 @@
     "id": 419,
     "type": "dynamic",
     "name": "thierry8petstar--warmup-xor",
-    "value": 97,
+    "value": 80,
     "initial": 100,
     "minimum": 50,
     "decay": 25,
-    "solves": 8,
-    "solved_by_me": false,
+    "solves": 17,
+    "solved_by_me": true,
     "category": "crypto",
     "tags": [
       "crypto",
@@ -4259,7 +4278,7 @@
     "local_files": [
       "output.txt"
     ],
-    "files_downloaded": false,
+    "files_downloaded": true,
     "source": "https://arena.ctf.tg/api/v1/challenges"
   },
   {
@@ -4456,24 +4475,26 @@
     "id": 431,
     "type": "dynamic",
     "name": "thierry8petstar--exfiltrator",
-    "value": 100,
-    "initial": null,
-    "minimum": null,
-    "decay": null,
-    "solves": 0,
-    "solved_by_me": false,
+    "value": 98,
+    "initial": 100,
+    "minimum": 50,
+    "decay": 25,
+    "solves": 6,
+    "solved_by_me": true,
     "category": "forensics",
     "tags": [
       "forensics",
       "easy",
       "creator:thierry8petstar"
     ],
-    "description": "",
+    "description": "Un attaquant a compromis un poste dans l'hôtel NCTF.\n\nVous avez capturé le trafic réseau suspect et découvert qu'un script malveillant, téléchargé depuis un serveur C2, s'exécutait sur la machine infectée. Il collecte discrètement des informations sur le poste et les renvoie vers l'extérieur.\n\nAnalysez la capture pour comprendre ce que ce script dérobe et par quel canal il exfiltre les données.\n\nLe fichier de capture (nctf_breach_investigation.pcapng) est fourni en téléchargement.\n\nFormat du flag : NCTF{...}\n",
     "connection_info": null,
     "hints": [],
     "local_folder": "Unsolved/thierry8petstar--exfiltrator",
-    "local_files": [],
-    "files_downloaded": false,
+    "local_files": [
+      "nctf_breach_investigation.pcapng"
+    ],
+    "files_downloaded": true,
     "source": "https://arena.ctf.tg/api/v1/challenges"
   },
   {

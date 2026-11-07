@@ -3,9 +3,9 @@
   "type": "dynamic",
   "name": "trail-of-keys",
   "value": 280,
-  "initial": null,
-  "minimum": null,
-  "decay": null,
+  "initial": 300,
+  "minimum": 100,
+  "decay": 25,
   "solves": 9,
   "solved_by_me": false,
   "category": "cloud",
@@ -18,11 +18,30 @@
     "creator:hibris",
     "creator:Clawd"
   ],
-  "description": "",
+  "description": "A CloudTrail export (`cloudtrail.json`) from one busy hour on the\n`kekeli-prod` account, plus an object (`exfil-notes.json`) that one session\nwrote to a scratch bucket. Someone read a sensitive secret and walked it out.\n\nTrace who did it, then open what they left behind. The flag is inside.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
   "connection_info": null,
-  "hints": [],
+  "hints": [
+    {
+      "id": 116,
+      "cost": 15,
+      "title": ""
+    },
+    {
+      "id": 117,
+      "cost": 30,
+      "title": ""
+    },
+    {
+      "id": 118,
+      "cost": 45,
+      "title": ""
+    }
+  ],
   "local_folder": "Unsolved/trail-of-keys",
-  "local_files": [],
-  "files_downloaded": false,
+  "local_files": [
+    "cloudtrail.json",
+    "exfil-notes.json"
+  ],
+  "files_downloaded": true,
   "source": "https://arena.ctf.tg/api/v1/challenges"
 }
