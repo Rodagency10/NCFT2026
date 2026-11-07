@@ -2,11 +2,11 @@
   "id": 135,
   "type": "dynamic",
   "name": "embedding-nn",
-  "value": 62,
+  "value": 50,
   "initial": 150,
   "minimum": 50,
   "decay": 35,
-  "solves": 34,
+  "solves": 40,
   "solved_by_me": true,
   "category": "ml",
   "tags": [

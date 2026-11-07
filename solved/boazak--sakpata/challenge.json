@@ -1,0 +1,42 @@
+{
+  "id": 412,
+  "type": "dynamic",
+  "name": "boazak--sakpata",
+  "value": 245,
+  "initial": 400,
+  "minimum": 100,
+  "decay": 25,
+  "solves": 19,
+  "solved_by_me": true,
+  "category": "crypto",
+  "tags": [
+    "crypto",
+    "hard",
+    "creator:KodjoDoDjango"
+  ],
+  "description": "> **Origine du nom :** Sakpata est le dieu de la terre et du tonnerre des Éwé et des Fon — les mystères enterrés dans le sac à dos.\n\nSakpata, dieu de la terre. Un secret est enterré sous un tas de cailloux : chaque bit du flag choisit un poids parmi 88 (`bit i = 1` → poids `i` dans la somme), et seule leur **somme** est donnée (`target`). Retrouver le sous-ensemble pour exhumer le flag.\n\nC'est un **subset-sum** de très basse densité (`n / log2(max(a)) ≈ 0.49`) : la construction de Coster et al. (réseau + LLL/BKZ) le résout.\n\nStuck? Hints are available (they cost a few points).",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 953,
+      "cost": 120,
+      "title": ""
+    },
+    {
+      "id": 954,
+      "cost": 80,
+      "title": ""
+    },
+    {
+      "id": 955,
+      "cost": 40,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/boazak--sakpata",
+  "local_files": [
+    "challenge.txt"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

@@ -1,0 +1,40 @@
+{
+  "id": 197,
+  "type": "dynamic",
+  "name": "png-text-chunk",
+  "value": 132,
+  "initial": 150,
+  "minimum": 50,
+  "decay": 35,
+  "solves": 16,
+  "solved_by_me": true,
+  "category": "stego",
+  "tags": [
+    "stego",
+    "metadata",
+    "png",
+    "easy",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "Someone shared this `sunset.png` with a suspiciously chatty set of properties.\nThe picture itself is unremarkable. Read the metadata and pull out the flag.\n\nOne of the fields is a harmless decoy. Flag format: NCTF{...}\n\nStuck? Hints are available (they cost a few points).",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 474,
+      "cost": 10,
+      "title": ""
+    },
+    {
+      "id": 475,
+      "cost": 15,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/png-text-chunk",
+  "local_files": [
+    "sunset.png"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

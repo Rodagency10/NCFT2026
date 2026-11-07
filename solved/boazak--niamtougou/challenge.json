@@ -1,0 +1,42 @@
+{
+  "id": 410,
+  "type": "dynamic",
+  "name": "boazak--niamtougou",
+  "value": 83,
+  "initial": 250,
+  "minimum": 83,
+  "decay": 25,
+  "solves": 32,
+  "solved_by_me": true,
+  "category": "crypto",
+  "tags": [
+    "crypto",
+    "medium",
+    "creator:KodjoDoDjango"
+  ],
+  "description": "> **Origine du nom :** Niamtougou est une ville du nord du Togo et le siège d'un aéroport international — ici, c'est le hasard qui prend l'avion : un PRNG trop prévisible.\n\nUn générateur a produit **624 sorties de 32 bits** (une période complète du générateur de nombres pseudo-aléatoires de Python), puis a chiffré le flag par XOR avec la clé tirée juste après.\n\nLe flag est dans `challenge.txt`, avec les 624 sorties et le flux chiffré `enc`.\n\nStuck? Hints are available (they cost a few points).",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 947,
+      "cost": 50,
+      "title": ""
+    },
+    {
+      "id": 948,
+      "cost": 30,
+      "title": ""
+    },
+    {
+      "id": 949,
+      "cost": 10,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/boazak--niamtougou",
+  "local_files": [
+    "challenge.txt"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

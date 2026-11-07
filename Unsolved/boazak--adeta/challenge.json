@@ -6,7 +6,7 @@
   "initial": 150,
   "minimum": 50,
   "decay": 25,
-  "solves": 1,
+  "solves": 3,
   "solved_by_me": false,
   "category": "web",
   "tags": [

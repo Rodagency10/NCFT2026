@@ -6,7 +6,7 @@
   "initial": 500,
   "minimum": 100,
   "decay": 25,
-  "solves": 29,
+  "solves": 34,
   "solved_by_me": true,
   "category": "chains",
   "tags": [

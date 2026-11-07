@@ -6,7 +6,7 @@
   "initial": 250,
   "minimum": 83,
   "decay": 25,
-  "solves": 16,
+  "solves": 21,
   "solved_by_me": false,
   "category": "stego",
   "tags": [

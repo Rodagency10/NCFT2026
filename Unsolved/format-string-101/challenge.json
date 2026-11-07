@@ -2,11 +2,11 @@
   "id": 531,
   "type": "team_instance",
   "name": "format-string-101",
-  "value": 146,
+  "value": 132,
   "initial": 150,
   "minimum": 50,
   "decay": 40,
-  "solves": 9,
+  "solves": 18,
   "solved_by_me": false,
   "category": "pwn",
   "tags": [

@@ -2,11 +2,11 @@
   "id": 458,
   "type": "team_instance",
   "name": "boazak--dapaong",
-  "value": 80,
+  "value": 50,
   "initial": 100,
   "minimum": 50,
   "decay": 25,
-  "solves": 17,
+  "solves": 27,
   "solved_by_me": true,
   "category": "web",
   "tags": [

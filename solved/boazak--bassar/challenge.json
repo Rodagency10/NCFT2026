@@ -1,0 +1,42 @@
+{
+  "id": 399,
+  "type": "dynamic",
+  "name": "boazak--bassar",
+  "value": 83,
+  "initial": 250,
+  "minimum": 83,
+  "decay": 25,
+  "solves": 35,
+  "solved_by_me": true,
+  "category": "crypto",
+  "tags": [
+    "crypto",
+    "medium",
+    "creator:KodjoDoDjango"
+  ],
+  "description": "> **Origine du nom :** Bassar est une ville du nord du Togo, célèbre pour ses forges — ici, trois forges, trois modules, mais le même message.\n\nUn message secret a été chiffré **trois fois** en RSA avec le même exposant public dérisoire : `e = 3`. Chaque destinataire a son propre module, mais tous ont reçu le même message clair.\n\nRetrouvez le flag dans `challenge.txt`.\n\nStuck? Hints are available (they cost a few points).",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 912,
+      "cost": 0,
+      "title": ""
+    },
+    {
+      "id": 913,
+      "cost": 30,
+      "title": ""
+    },
+    {
+      "id": 914,
+      "cost": 15,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/boazak--bassar",
+  "local_files": [
+    "challenge.txt"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

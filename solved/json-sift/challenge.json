@@ -2,11 +2,11 @@
   "id": 125,
   "type": "dynamic",
   "name": "json-sift",
-  "value": 53,
+  "value": 50,
   "initial": 100,
   "minimum": 50,
   "decay": 40,
-  "solves": 40,
+  "solves": 45,
   "solved_by_me": true,
   "category": "forensics",
   "tags": [

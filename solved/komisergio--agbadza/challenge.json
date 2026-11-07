@@ -2,11 +2,11 @@
   "id": 500,
   "type": "team_instance",
   "name": "komisergio--agbadza",
-  "value": 375,
+  "value": 356,
   "initial": 500,
   "minimum": 100,
   "decay": 25,
-  "solves": 15,
+  "solves": 16,
   "solved_by_me": true,
   "category": "boot2root",
   "tags": [

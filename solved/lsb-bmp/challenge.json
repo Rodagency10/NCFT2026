@@ -2,11 +2,11 @@
   "id": 196,
   "type": "dynamic",
   "name": "lsb-bmp",
-  "value": 79,
+  "value": 50,
   "initial": 100,
   "minimum": 50,
   "decay": 40,
-  "solves": 27,
+  "solves": 41,
   "solved_by_me": true,
   "category": "stego",
   "tags": [

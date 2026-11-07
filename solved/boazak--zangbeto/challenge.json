@@ -1,0 +1,42 @@
+{
+  "id": 417,
+  "type": "dynamic",
+  "name": "boazak--zangbeto",
+  "value": 100,
+  "initial": 400,
+  "minimum": 100,
+  "decay": 25,
+  "solves": 31,
+  "solved_by_me": true,
+  "category": "crypto",
+  "tags": [
+    "crypto",
+    "hard",
+    "creator:KodjoDoDjango"
+  ],
+  "description": "> **Origine du nom :** Le Zangbeto est la sentinelle de nuit des villages éwé — le gardien qui protège les deux clés.\n\nZangbeto, le gardien nocturne. Deux services ont voulu accélérer le déchiffrement en choisissant un exposant privé `d` très petit — et le même pour les deux ! Un secret est chiffré sous les deux clés (`n1, e1` et `n2, e2`). Retrouvez `d` pour le déchiffrer.\n\nStuck? Hints are available (they cost a few points).",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 967,
+      "cost": 120,
+      "title": ""
+    },
+    {
+      "id": 968,
+      "cost": 80,
+      "title": ""
+    },
+    {
+      "id": 969,
+      "cost": 40,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/boazak--zangbeto",
+  "local_files": [
+    "challenge.txt"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

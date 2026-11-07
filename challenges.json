@@ -7,7 +7,7 @@
     "initial": 150,
     "minimum": 150,
     "decay": 25,
-    "solves": 10,
+    "solves": 11,
     "solved_by_me": true,
     "category": "ai",
     "tags": [
@@ -49,7 +49,7 @@
     "initial": 100,
     "minimum": 50,
     "decay": 30,
-    "solves": 54,
+    "solves": 55,
     "solved_by_me": true,
     "category": "ai",
     "tags": [
@@ -139,7 +139,7 @@
     "initial": 150,
     "minimum": 150,
     "decay": 45,
-    "solves": 25,
+    "solves": 26,
     "solved_by_me": true,
     "category": "ai",
     "tags": [
@@ -181,7 +181,7 @@
     "initial": 300,
     "minimum": 100,
     "decay": 25,
-    "solves": 49,
+    "solves": 50,
     "solved_by_me": true,
     "category": "ai",
     "tags": [
@@ -226,7 +226,7 @@
     "initial": 300,
     "minimum": 100,
     "decay": 25,
-    "solves": 50,
+    "solves": 51,
     "solved_by_me": true,
     "category": "ai",
     "tags": [
@@ -271,7 +271,7 @@
     "initial": 100,
     "minimum": 50,
     "decay": 40,
-    "solves": 56,
+    "solves": 58,
     "solved_by_me": true,
     "category": "ai",
     "tags": [
@@ -328,7 +328,7 @@
     "initial": 150,
     "minimum": 50,
     "decay": 35,
-    "solves": 52,
+    "solves": 54,
     "solved_by_me": true,
     "category": "ai",
     "tags": [
@@ -373,7 +373,7 @@
     "initial": 450,
     "minimum": 100,
     "decay": 20,
-    "solves": 50,
+    "solves": 51,
     "solved_by_me": true,
     "category": "ai",
     "tags": [
@@ -418,7 +418,7 @@
     "initial": 150,
     "minimum": 50,
     "decay": 35,
-    "solves": 53,
+    "solves": 55,
     "solved_by_me": true,
     "category": "ai",
     "tags": [
@@ -463,7 +463,7 @@
     "initial": 300,
     "minimum": 100,
     "decay": 25,
-    "solves": 50,
+    "solves": 51,
     "solved_by_me": true,
     "category": "ai",
     "tags": [
@@ -504,11 +504,11 @@
     "id": 9,
     "type": "dynamic",
     "name": "allowance-drift",
-    "value": 118,
+    "value": 86,
     "initial": 150,
     "minimum": 50,
     "decay": 35,
-    "solves": 21,
+    "solves": 29,
     "solved_by_me": true,
     "category": "blockchain",
     "tags": [
@@ -545,11 +545,11 @@
     "id": 10,
     "type": "dynamic",
     "name": "block-oracle",
-    "value": 111,
+    "value": 77,
     "initial": 150,
     "minimum": 50,
     "decay": 35,
-    "solves": 23,
+    "solves": 31,
     "solved_by_me": true,
     "category": "blockchain",
     "tags": [
@@ -590,7 +590,7 @@
     "initial": 100,
     "minimum": 50,
     "decay": 40,
-    "solves": 51,
+    "solves": 53,
     "solved_by_me": true,
     "category": "blockchain",
     "tags": [
@@ -640,11 +640,11 @@
     "id": 500,
     "type": "team_instance",
     "name": "komisergio--agbadza",
-    "value": 375,
+    "value": 356,
     "initial": 500,
     "minimum": 100,
     "decay": 25,
-    "solves": 15,
+    "solves": 16,
     "solved_by_me": true,
     "category": "boot2root",
     "tags": [
@@ -685,11 +685,11 @@
     "id": 501,
     "type": "team_instance",
     "name": "komisergio--bassar",
-    "value": 392,
+    "value": 337,
     "initial": 500,
     "minimum": 100,
     "decay": 25,
-    "solves": 14,
+    "solves": 17,
     "solved_by_me": true,
     "category": "boot2root",
     "tags": [
@@ -736,7 +736,7 @@
     "initial": 450,
     "minimum": 100,
     "decay": 25,
-    "solves": 41,
+    "solves": 42,
     "solved_by_me": true,
     "category": "chains",
     "tags": [
@@ -777,7 +777,7 @@
     "initial": 500,
     "minimum": 100,
     "decay": 25,
-    "solves": 29,
+    "solves": 34,
     "solved_by_me": true,
     "category": "chains",
     "tags": [
@@ -808,11 +808,11 @@
     "id": 36,
     "type": "dynamic",
     "name": "imds-ssrf",
-    "value": 124,
+    "value": 91,
     "initial": 150,
     "minimum": 50,
     "decay": 35,
-    "solves": 19,
+    "solves": 28,
     "solved_by_me": true,
     "category": "cloud",
     "tags": [
@@ -854,7 +854,7 @@
     "initial": 100,
     "minimum": 50,
     "decay": 40,
-    "solves": 47,
+    "solves": 50,
     "solved_by_me": true,
     "category": "cloud",
     "tags": [
@@ -916,7 +916,7 @@
     "initial": 100,
     "minimum": 50,
     "decay": 25,
-    "solves": 40,
+    "solves": 41,
     "solved_by_me": true,
     "category": "crypto",
     "tags": [
@@ -959,7 +959,7 @@
     "initial": 100,
     "minimum": 50,
     "decay": 40,
-    "solves": 46,
+    "solves": 53,
     "solved_by_me": true,
     "category": "crypto",
     "tags": [
@@ -999,7 +999,7 @@
     "initial": 100,
     "minimum": 50,
     "decay": 25,
-    "solves": 31,
+    "solves": 52,
     "solved_by_me": true,
     "category": "crypto",
     "tags": [
@@ -1036,7 +1036,7 @@
     "initial": 500,
     "minimum": 100,
     "decay": 25,
-    "solves": 41,
+    "solves": 44,
     "solved_by_me": true,
     "category": "crypto",
     "tags": [
@@ -1074,7 +1074,7 @@
     "initial": 500,
     "minimum": 100,
     "decay": 25,
-    "solves": 24,
+    "solves": 25,
     "solved_by_me": true,
     "category": "crypto",
     "tags": [
@@ -1119,7 +1119,7 @@
     "initial": 175,
     "minimum": 58,
     "decay": 25,
-    "solves": 28,
+    "solves": 29,
     "solved_by_me": true,
     "category": "forensics",
     "tags": [
@@ -1155,7 +1155,7 @@
     "initial": 250,
     "minimum": 100,
     "decay": 25,
-    "solves": 36,
+    "solves": 39,
     "solved_by_me": true,
     "category": "forensics",
     "tags": [
@@ -1197,7 +1197,7 @@
     "initial": 150,
     "minimum": 50,
     "decay": 25,
-    "solves": 40,
+    "solves": 44,
     "solved_by_me": true,
     "category": "forensics",
     "tags": [
@@ -1223,7 +1223,7 @@
     "initial": 350,
     "minimum": 116,
     "decay": 25,
-    "solves": 35,
+    "solves": 39,
     "solved_by_me": true,
     "category": "forensics",
     "tags": [
@@ -1265,7 +1265,7 @@
     "initial": 150,
     "minimum": 50,
     "decay": 25,
-    "solves": 27,
+    "solves": 30,
     "solved_by_me": true,
     "category": "forensics",
     "tags": [
@@ -1291,7 +1291,7 @@
     "initial": 100,
     "minimum": 50,
     "decay": 25,
-    "solves": 51,
+    "solves": 54,
     "solved_by_me": true,
     "category": "forensics",
     "tags": [
@@ -1338,11 +1338,11 @@
     "id": 125,
     "type": "dynamic",
     "name": "json-sift",
-    "value": 53,
+    "value": 50,
     "initial": 100,
     "minimum": 50,
     "decay": 40,
-    "solves": 40,
+    "solves": 45,
     "solved_by_me": true,
     "category": "forensics",
     "tags": [
@@ -1382,7 +1382,7 @@
     "initial": 200,
     "minimum": 66,
     "decay": 25,
-    "solves": 44,
+    "solves": 47,
     "solved_by_me": true,
     "category": "forensics",
     "tags": [
@@ -1416,11 +1416,11 @@
     "id": 104,
     "type": "dynamic",
     "name": "png-magic-fix",
-    "value": 82,
+    "value": 60,
     "initial": 100,
     "minimum": 50,
     "decay": 40,
-    "solves": 25,
+    "solves": 37,
     "solved_by_me": true,
     "category": "forensics",
     "tags": [
@@ -1465,7 +1465,7 @@
     "initial": 100,
     "minimum": 50,
     "decay": 40,
-    "solves": 51,
+    "solves": 55,
     "solved_by_me": true,
     "category": "hardware",
     "tags": [
@@ -1517,7 +1517,7 @@
     "initial": 100,
     "minimum": 50,
     "decay": 40,
-    "solves": 41,
+    "solves": 44,
     "solved_by_me": true,
     "category": "hardware",
     "tags": [
@@ -1557,7 +1557,7 @@
     "initial": 100,
     "minimum": 50,
     "decay": 25,
-    "solves": 58,
+    "solves": 59,
     "solved_by_me": true,
     "category": "misc",
     "tags": [
@@ -1600,7 +1600,7 @@
     "initial": 150,
     "minimum": 150,
     "decay": 25,
-    "solves": 22,
+    "solves": 24,
     "solved_by_me": true,
     "category": "misc",
     "tags": [
@@ -1626,7 +1626,7 @@
     "initial": 100,
     "minimum": 50,
     "decay": 25,
-    "solves": 41,
+    "solves": 43,
     "solved_by_me": true,
     "category": "misc",
     "tags": [
@@ -1656,7 +1656,7 @@
     "initial": 200,
     "minimum": 66,
     "decay": 25,
-    "solves": 17,
+    "solves": 19,
     "solved_by_me": true,
     "category": "misc",
     "tags": [
@@ -1748,11 +1748,11 @@
     "id": 135,
     "type": "dynamic",
     "name": "embedding-nn",
-    "value": 62,
+    "value": 50,
     "initial": 150,
     "minimum": 50,
     "decay": 35,
-    "solves": 34,
+    "solves": 40,
     "solved_by_me": true,
     "category": "ml",
     "tags": [
@@ -1789,11 +1789,11 @@
     "id": 137,
     "type": "dynamic",
     "name": "member-ids",
-    "value": 121,
+    "value": 50,
     "initial": 150,
     "minimum": 50,
     "decay": 35,
-    "solves": 20,
+    "solves": 40,
     "solved_by_me": true,
     "category": "ml",
     "tags": [
@@ -1834,7 +1834,7 @@
     "initial": 150,
     "minimum": 150,
     "decay": 25,
-    "solves": 23,
+    "solves": 26,
     "solved_by_me": true,
     "category": "ml",
     "tags": [
@@ -1879,7 +1879,7 @@
     "initial": 150,
     "minimum": 150,
     "decay": 25,
-    "solves": 25,
+    "solves": 27,
     "solved_by_me": true,
     "category": "ml",
     "tags": [
@@ -1924,7 +1924,7 @@
     "initial": 100,
     "minimum": 50,
     "decay": 40,
-    "solves": 51,
+    "solves": 52,
     "solved_by_me": true,
     "category": "ml",
     "tags": [
@@ -1974,7 +1974,7 @@
     "initial": 150,
     "minimum": 50,
     "decay": 35,
-    "solves": 39,
+    "solves": 43,
     "solved_by_me": true,
     "category": "mobile",
     "tags": [
@@ -2014,7 +2014,7 @@
     "initial": 100,
     "minimum": 50,
     "decay": 40,
-    "solves": 49,
+    "solves": 52,
     "solved_by_me": true,
     "category": "mobile",
     "tags": [
@@ -2168,7 +2168,7 @@
     "initial": 150,
     "minimum": 50,
     "decay": 35,
-    "solves": 51,
+    "solves": 54,
     "solved_by_me": true,
     "category": "osint",
     "tags": [
@@ -2212,11 +2212,11 @@
     "id": 162,
     "type": "dynamic",
     "name": "doc-metadata",
-    "value": 56,
+    "value": 50,
     "initial": 150,
     "minimum": 50,
     "decay": 35,
-    "solves": 35,
+    "solves": 41,
     "solved_by_me": true,
     "category": "osint",
     "tags": [
@@ -2266,7 +2266,7 @@
     "initial": 150,
     "minimum": 50,
     "decay": 35,
-    "solves": 53,
+    "solves": 54,
     "solved_by_me": true,
     "category": "ppc",
     "tags": [
@@ -2306,7 +2306,7 @@
     "initial": 150,
     "minimum": 50,
     "decay": 35,
-    "solves": 37,
+    "solves": 43,
     "solved_by_me": true,
     "category": "ppc",
     "tags": [
@@ -2342,11 +2342,11 @@
     "id": 176,
     "type": "dynamic",
     "name": "bss-admin-flip",
-    "value": 62,
+    "value": 50,
     "initial": 150,
     "minimum": 50,
     "decay": 35,
-    "solves": 34,
+    "solves": 41,
     "solved_by_me": true,
     "category": "pwn",
     "tags": [
@@ -2386,7 +2386,7 @@
     "initial": 100,
     "minimum": 50,
     "decay": 40,
-    "solves": 49,
+    "solves": 52,
     "solved_by_me": true,
     "category": "pwn",
     "tags": [
@@ -2426,7 +2426,7 @@
     "initial": 100,
     "minimum": 50,
     "decay": 40,
-    "solves": 49,
+    "solves": 52,
     "solved_by_me": true,
     "category": "reverse",
     "tags": [
@@ -2465,7 +2465,7 @@
     "initial": 150,
     "minimum": 50,
     "decay": 35,
-    "solves": 38,
+    "solves": 44,
     "solved_by_me": true,
     "category": "reverse",
     "tags": [
@@ -2504,7 +2504,7 @@
     "initial": 175,
     "minimum": 58,
     "decay": 25,
-    "solves": 50,
+    "solves": 53,
     "solved_by_me": true,
     "category": "stego",
     "tags": [
@@ -2543,7 +2543,7 @@
     "initial": 100,
     "minimum": 50,
     "decay": 25,
-    "solves": 47,
+    "solves": 51,
     "solved_by_me": true,
     "category": "stego",
     "tags": [
@@ -2581,11 +2581,11 @@
     "id": 196,
     "type": "dynamic",
     "name": "lsb-bmp",
-    "value": 79,
+    "value": 50,
     "initial": 100,
     "minimum": 50,
     "decay": 40,
-    "solves": 27,
+    "solves": 41,
     "solved_by_me": true,
     "category": "stego",
     "tags": [
@@ -2625,7 +2625,7 @@
     "initial": 150,
     "minimum": 50,
     "decay": 35,
-    "solves": 42,
+    "solves": 46,
     "solved_by_me": true,
     "category": "supplychain",
     "tags": [
@@ -2666,11 +2666,11 @@
     "id": 209,
     "type": "dynamic",
     "name": "sbom-component-swap",
-    "value": 77,
+    "value": 50,
     "initial": 150,
     "minimum": 50,
     "decay": 35,
-    "solves": 31,
+    "solves": 38,
     "solved_by_me": true,
     "category": "supplychain",
     "tags": [
@@ -2715,7 +2715,7 @@
     "initial": 100,
     "minimum": 50,
     "decay": 40,
-    "solves": 48,
+    "solves": 52,
     "solved_by_me": true,
     "category": "sysadmin",
     "tags": [
@@ -2752,11 +2752,11 @@
     "id": 215,
     "type": "dynamic",
     "name": "rbac-reveal",
-    "value": 60,
+    "value": 50,
     "initial": 100,
     "minimum": 50,
     "decay": 40,
-    "solves": 37,
+    "solves": 44,
     "solved_by_me": true,
     "category": "sysadmin",
     "tags": [
@@ -2798,7 +2798,7 @@
     "initial": 50,
     "minimum": 25,
     "decay": 30,
-    "solves": 56,
+    "solves": 60,
     "solved_by_me": true,
     "category": "warmup",
     "tags": [
@@ -2839,7 +2839,7 @@
     "initial": 50,
     "minimum": 25,
     "decay": 30,
-    "solves": 56,
+    "solves": 60,
     "solved_by_me": true,
     "category": "warmup",
     "tags": [
@@ -2886,7 +2886,7 @@
     "initial": 50,
     "minimum": 25,
     "decay": 30,
-    "solves": 56,
+    "solves": 60,
     "solved_by_me": true,
     "category": "warmup",
     "tags": [
@@ -2927,7 +2927,7 @@
     "initial": 50,
     "minimum": 25,
     "decay": 30,
-    "solves": 57,
+    "solves": 60,
     "solved_by_me": true,
     "category": "warmup",
     "tags": [
@@ -2974,7 +2974,7 @@
     "initial": 50,
     "minimum": 25,
     "decay": 30,
-    "solves": 56,
+    "solves": 59,
     "solved_by_me": true,
     "category": "warmup",
     "tags": [
@@ -3015,7 +3015,7 @@
     "initial": 50,
     "minimum": 25,
     "decay": 30,
-    "solves": 55,
+    "solves": 59,
     "solved_by_me": true,
     "category": "warmup",
     "tags": [
@@ -3056,7 +3056,7 @@
     "initial": 50,
     "minimum": 25,
     "decay": 30,
-    "solves": 56,
+    "solves": 60,
     "solved_by_me": true,
     "category": "warmup",
     "tags": [
@@ -3097,7 +3097,7 @@
     "initial": 50,
     "minimum": 25,
     "decay": 30,
-    "solves": 57,
+    "solves": 59,
     "solved_by_me": true,
     "category": "warmup",
     "tags": [
@@ -3138,7 +3138,7 @@
     "initial": 50,
     "minimum": 25,
     "decay": 30,
-    "solves": 54,
+    "solves": 59,
     "solved_by_me": true,
     "category": "warmup",
     "tags": [
@@ -3179,7 +3179,7 @@
     "initial": 50,
     "minimum": 25,
     "decay": 30,
-    "solves": 57,
+    "solves": 59,
     "solved_by_me": true,
     "category": "warmup",
     "tags": [
@@ -3220,7 +3220,7 @@
     "initial": 50,
     "minimum": 25,
     "decay": 30,
-    "solves": 58,
+    "solves": 60,
     "solved_by_me": true,
     "category": "warmup",
     "tags": [
@@ -3261,7 +3261,7 @@
     "initial": 50,
     "minimum": 25,
     "decay": 30,
-    "solves": 55,
+    "solves": 59,
     "solved_by_me": true,
     "category": "warmup",
     "tags": [
@@ -3308,7 +3308,7 @@
     "initial": 50,
     "minimum": 25,
     "decay": 30,
-    "solves": 55,
+    "solves": 58,
     "solved_by_me": true,
     "category": "warmup",
     "tags": [
@@ -3349,7 +3349,7 @@
     "initial": 50,
     "minimum": 25,
     "decay": 30,
-    "solves": 57,
+    "solves": 60,
     "solved_by_me": true,
     "category": "warmup",
     "tags": [
@@ -3390,7 +3390,7 @@
     "initial": 50,
     "minimum": 25,
     "decay": 30,
-    "solves": 55,
+    "solves": 57,
     "solved_by_me": true,
     "category": "warmup",
     "tags": [
@@ -3431,7 +3431,7 @@
     "initial": 50,
     "minimum": 25,
     "decay": 30,
-    "solves": 51,
+    "solves": 55,
     "solved_by_me": true,
     "category": "warmup",
     "tags": [
@@ -3478,7 +3478,7 @@
     "initial": 100,
     "minimum": 50,
     "decay": 25,
-    "solves": 26,
+    "solves": 32,
     "solved_by_me": true,
     "category": "web",
     "tags": [
@@ -3516,11 +3516,11 @@
     "id": 458,
     "type": "team_instance",
     "name": "boazak--dapaong",
-    "value": 80,
+    "value": 50,
     "initial": 100,
     "minimum": 50,
     "decay": 25,
-    "solves": 17,
+    "solves": 27,
     "solved_by_me": true,
     "category": "web",
     "tags": [
@@ -3599,7 +3599,7 @@
     "initial": 200,
     "minimum": 66,
     "decay": 25,
-    "solves": 0,
+    "solves": 1,
     "solved_by_me": false,
     "category": "boot2root",
     "tags": [
@@ -3678,11 +3678,11 @@
     "id": 50,
     "type": "dynamic",
     "name": "sub-wildcard",
-    "value": 121,
+    "value": 107,
     "initial": 150,
     "minimum": 50,
     "decay": 35,
-    "solves": 20,
+    "solves": 24,
     "solved_by_me": true,
     "category": "cloud",
     "tags": [
@@ -3824,12 +3824,12 @@
     "id": 151,
     "type": "dynamic",
     "name": "bgp-bestpath",
-    "value": 134,
+    "value": 50,
     "initial": 150,
     "minimum": 50,
     "decay": 35,
-    "solves": 15,
-    "solved_by_me": false,
+    "solves": 37,
+    "solved_by_me": true,
     "category": "networking",
     "tags": [
       "networking",
@@ -3858,7 +3858,7 @@
         "title": ""
       }
     ],
-    "local_folder": "Unsolved/bgp-bestpath",
+    "local_folder": "solved/bgp-bestpath",
     "local_files": [
       "bgp_rib.json"
     ],
@@ -3873,7 +3873,7 @@
     "initial": 250,
     "minimum": 83,
     "decay": 25,
-    "solves": 16,
+    "solves": 21,
     "solved_by_me": false,
     "category": "stego",
     "tags": [
@@ -3909,12 +3909,12 @@
     "id": 120,
     "type": "dynamic",
     "name": "dfa-oracle",
-    "value": 185,
+    "value": 100,
     "initial": 300,
     "minimum": 100,
     "decay": 25,
-    "solves": 20,
-    "solved_by_me": false,
+    "solves": 34,
+    "solved_by_me": true,
     "category": "ppc",
     "tags": [
       "misc",
@@ -3938,7 +3938,7 @@
         "title": ""
       }
     ],
-    "local_folder": "Unsolved/dfa-oracle",
+    "local_folder": "solved/dfa-oracle",
     "local_files": [
       "automaton.json"
     ],
@@ -3949,11 +3949,11 @@
     "id": 481,
     "type": "team_instance",
     "name": "algorithme123--fret-savane-appui",
-    "value": 300,
+    "value": 246,
     "initial": 300,
     "minimum": 100,
     "decay": 25,
-    "solves": 0,
+    "solves": 14,
     "solved_by_me": false,
     "category": "boot2root",
     "tags": [
@@ -3977,11 +3977,11 @@
     "id": 531,
     "type": "team_instance",
     "name": "format-string-101",
-    "value": 146,
+    "value": 132,
     "initial": 150,
     "minimum": 50,
     "decay": 40,
-    "solves": 9,
+    "solves": 18,
     "solved_by_me": false,
     "category": "pwn",
     "tags": [
@@ -4021,12 +4021,12 @@
     "id": 191,
     "type": "dynamic",
     "name": "strings-lie",
-    "value": 139,
+    "value": 50,
     "initial": 150,
     "minimum": 50,
     "decay": 30,
-    "solves": 11,
-    "solved_by_me": false,
+    "solves": 38,
+    "solved_by_me": true,
     "category": "reverse",
     "tags": [
       "reverse",
@@ -4048,7 +4048,7 @@
         "title": ""
       }
     ],
-    "local_folder": "Unsolved/strings-lie",
+    "local_folder": "solved/strings-lie",
     "local_files": [
       "chall"
     ],
@@ -4059,12 +4059,12 @@
     "id": 198,
     "type": "dynamic",
     "name": "trailing-zip",
-    "value": 90,
+    "value": 55,
     "initial": 100,
     "minimum": 50,
     "decay": 40,
-    "solves": 19,
-    "solved_by_me": false,
+    "solves": 39,
+    "solved_by_me": true,
     "category": "stego",
     "tags": [
       "stego",
@@ -4088,7 +4088,7 @@
         "title": ""
       }
     ],
-    "local_folder": "Unsolved/trailing-zip",
+    "local_folder": "solved/trailing-zip",
     "local_files": [
       "banner.bmp"
     ],
@@ -4099,12 +4099,12 @@
     "id": 212,
     "type": "dynamic",
     "name": "alias-slip",
-    "value": 150,
+    "value": 56,
     "initial": 150,
     "minimum": 50,
     "decay": 35,
-    "solves": 2,
-    "solved_by_me": false,
+    "solves": 35,
+    "solved_by_me": true,
     "category": "sysadmin",
     "tags": [
       "sysadmin",
@@ -4128,7 +4128,7 @@
         "title": ""
       }
     ],
-    "local_folder": "Unsolved/alias-slip",
+    "local_folder": "solved/alias-slip",
     "local_files": [
       "nginx.conf",
       "index.html",
@@ -4142,11 +4142,11 @@
     "id": 32,
     "type": "dynamic",
     "name": "gcp-token-scope",
-    "value": 299,
+    "value": 197,
     "initial": 300,
     "minimum": 100,
     "decay": 25,
-    "solves": 3,
+    "solves": 19,
     "solved_by_me": true,
     "category": "cloud",
     "tags": [
@@ -4192,12 +4192,12 @@
     "id": 428,
     "type": "dynamic",
     "name": "the-darknova--mirage-1",
-    "value": 100,
+    "value": 65,
     "initial": 100,
     "minimum": 50,
     "decay": 25,
-    "solves": 4,
-    "solved_by_me": false,
+    "solves": 22,
+    "solved_by_me": true,
     "category": "forensics",
     "tags": [
       "forensics",
@@ -4218,7 +4218,7 @@
         "title": ""
       }
     ],
-    "local_folder": "Unsolved/the-darknova--mirage-1",
+    "local_folder": "solved/the-darknova--mirage-1",
     "local_files": [
       "mirage-1.pcapng"
     ],
@@ -4233,7 +4233,7 @@
     "initial": 100,
     "minimum": 50,
     "decay": 25,
-    "solves": 33,
+    "solves": 39,
     "solved_by_me": true,
     "category": "crypto",
     "tags": [
@@ -4259,8 +4259,8 @@
     "initial": 250,
     "minimum": 83,
     "decay": 25,
-    "solves": 26,
-    "solved_by_me": false,
+    "solves": 35,
+    "solved_by_me": true,
     "category": "crypto",
     "tags": [
       "crypto",
@@ -4286,7 +4286,7 @@
         "title": ""
       }
     ],
-    "local_folder": "Unsolved/boazak--bassar",
+    "local_folder": "solved/boazak--bassar",
     "local_files": [
       "challenge.txt"
     ],
@@ -4297,11 +4297,11 @@
     "id": 211,
     "type": "dynamic",
     "name": "typosquat-lockfile",
-    "value": 86,
+    "value": 82,
     "initial": 150,
     "minimum": 50,
     "decay": 35,
-    "solves": 29,
+    "solves": 30,
     "solved_by_me": true,
     "category": "supplychain",
     "tags": [
@@ -4379,12 +4379,12 @@
     "id": 424,
     "type": "dynamic",
     "name": "boazak--kpessi",
-    "value": 138,
+    "value": 110,
     "initial": 150,
     "minimum": 50,
     "decay": 25,
-    "solves": 10,
-    "solved_by_me": false,
+    "solves": 17,
+    "solved_by_me": true,
     "category": "forensics",
     "tags": [
       "forensics",
@@ -4410,7 +4410,7 @@
         "title": ""
       }
     ],
-    "local_folder": "Unsolved/boazak--kpessi",
+    "local_folder": "solved/boazak--kpessi",
     "local_files": [
       "traffic.pcap"
     ],
@@ -4421,12 +4421,12 @@
     "id": 400,
     "type": "dynamic",
     "name": "boazak--djobokou",
-    "value": 144,
+    "value": 83,
     "initial": 250,
     "minimum": 83,
     "decay": 25,
-    "solves": 21,
-    "solved_by_me": false,
+    "solves": 32,
+    "solved_by_me": true,
     "category": "crypto",
     "tags": [
       "crypto",
@@ -4452,7 +4452,7 @@
         "title": ""
       }
     ],
-    "local_folder": "Unsolved/boazak--djobokou",
+    "local_folder": "solved/boazak--djobokou",
     "local_files": [
       "challenge.txt"
     ],
@@ -4463,12 +4463,12 @@
     "id": 415,
     "type": "dynamic",
     "name": "boazak--venovi",
-    "value": 146,
+    "value": 100,
     "initial": 300,
     "minimum": 100,
     "decay": 25,
-    "solves": 23,
-    "solved_by_me": false,
+    "solves": 32,
+    "solved_by_me": true,
     "category": "crypto",
     "tags": [
       "crypto",
@@ -4494,7 +4494,7 @@
         "title": ""
       }
     ],
-    "local_folder": "Unsolved/boazak--venovi",
+    "local_folder": "solved/boazak--venovi",
     "local_files": [
       "challenge.txt"
     ],
@@ -4505,11 +4505,11 @@
     "id": 178,
     "type": "dynamic",
     "name": "off-by-one-auth",
-    "value": 145,
+    "value": 130,
     "initial": 150,
     "minimum": 50,
     "decay": 35,
-    "solves": 9,
+    "solves": 17,
     "solved_by_me": false,
     "category": "pwn",
     "tags": [
@@ -4545,11 +4545,11 @@
     "id": 193,
     "type": "dynamic",
     "name": "triple-wrap",
-    "value": 148,
+    "value": 118,
     "initial": 150,
     "minimum": 50,
     "decay": 35,
-    "solves": 6,
+    "solves": 21,
     "solved_by_me": true,
     "category": "reverse",
     "tags": [
@@ -4588,7 +4588,7 @@
     "initial": 150,
     "minimum": 50,
     "decay": 25,
-    "solves": 1,
+    "solves": 3,
     "solved_by_me": false,
     "category": "web",
     "tags": [
@@ -4621,11 +4621,11 @@
     "id": 452,
     "type": "team_instance",
     "name": "boazak--agoe",
-    "value": 150,
+    "value": 149,
     "initial": 150,
     "minimum": 50,
     "decay": 25,
-    "solves": 3,
+    "solves": 4,
     "solved_by_me": false,
     "category": "web",
     "tags": [
@@ -4663,11 +4663,11 @@
     "id": 405,
     "type": "dynamic",
     "name": "boazak--koklo",
-    "value": 133,
+    "value": 83,
     "initial": 250,
     "minimum": 83,
     "decay": 25,
-    "solves": 22,
+    "solves": 31,
     "solved_by_me": true,
     "category": "crypto",
     "tags": [
@@ -4705,12 +4705,12 @@
     "id": 410,
     "type": "dynamic",
     "name": "boazak--niamtougou",
-    "value": 133,
+    "value": 83,
     "initial": 250,
     "minimum": 83,
     "decay": 25,
-    "solves": 22,
-    "solved_by_me": false,
+    "solves": 32,
+    "solved_by_me": true,
     "category": "crypto",
     "tags": [
       "crypto",
@@ -4736,7 +4736,7 @@
         "title": ""
       }
     ],
-    "local_folder": "Unsolved/boazak--niamtougou",
+    "local_folder": "solved/boazak--niamtougou",
     "local_files": [
       "challenge.txt"
     ],
@@ -4747,12 +4747,12 @@
     "id": 404,
     "type": "dynamic",
     "name": "boazak--klo",
-    "value": 172,
+    "value": 100,
     "initial": 300,
     "minimum": 100,
     "decay": 25,
-    "solves": 21,
-    "solved_by_me": false,
+    "solves": 30,
+    "solved_by_me": true,
     "category": "crypto",
     "tags": [
       "crypto",
@@ -4778,7 +4778,7 @@
         "title": ""
       }
     ],
-    "local_folder": "Unsolved/boazak--klo",
+    "local_folder": "solved/boazak--klo",
     "local_files": [
       "challenge.txt"
     ],
@@ -4793,7 +4793,7 @@
     "initial": 200,
     "minimum": 66,
     "decay": 25,
-    "solves": 0,
+    "solves": 3,
     "solved_by_me": false,
     "category": "web",
     "tags": [
@@ -4831,11 +4831,11 @@
     "id": 423,
     "type": "dynamic",
     "name": "boazak--bras-arme",
-    "value": 249,
+    "value": 248,
     "initial": 250,
     "minimum": 83,
     "decay": 25,
-    "solves": 3,
+    "solves": 4,
     "solved_by_me": false,
     "category": "forensics",
     "tags": [
@@ -4919,11 +4919,11 @@
     "id": 440,
     "type": "team_instance",
     "name": "boazak--agou",
-    "value": 254,
+    "value": 246,
     "initial": 300,
     "minimum": 100,
     "decay": 25,
-    "solves": 13,
+    "solves": 14,
     "solved_by_me": false,
     "category": "boot2root",
     "tags": [
@@ -4969,12 +4969,12 @@
     "id": 406,
     "type": "dynamic",
     "name": "boazak--kpalime",
-    "value": 262,
+    "value": 100,
     "initial": 400,
     "minimum": 100,
     "decay": 25,
-    "solves": 18,
-    "solved_by_me": false,
+    "solves": 29,
+    "solved_by_me": true,
     "category": "crypto",
     "tags": [
       "crypto",
@@ -5000,7 +5000,7 @@
         "title": ""
       }
     ],
-    "local_folder": "Unsolved/boazak--kpalime",
+    "local_folder": "solved/boazak--kpalime",
     "local_files": [
       "challenge.txt"
     ],
@@ -5011,12 +5011,12 @@
     "id": 417,
     "type": "dynamic",
     "name": "boazak--zangbeto",
-    "value": 262,
+    "value": 100,
     "initial": 400,
     "minimum": 100,
     "decay": 25,
-    "solves": 18,
-    "solved_by_me": false,
+    "solves": 31,
+    "solved_by_me": true,
     "category": "crypto",
     "tags": [
       "crypto",
@@ -5042,7 +5042,7 @@
         "title": ""
       }
     ],
-    "local_folder": "Unsolved/boazak--zangbeto",
+    "local_folder": "solved/boazak--zangbeto",
     "local_files": [
       "challenge.txt"
     ],
@@ -5182,7 +5182,7 @@
     "initial": 300,
     "minimum": 100,
     "decay": 25,
-    "solves": 0,
+    "solves": 2,
     "solved_by_me": false,
     "category": "web",
     "tags": [
@@ -5219,7 +5219,7 @@
     "initial": 300,
     "minimum": 100,
     "decay": 25,
-    "solves": 0,
+    "solves": 1,
     "solved_by_me": false,
     "category": "web",
     "tags": [
@@ -5435,12 +5435,12 @@
     "id": 412,
     "type": "dynamic",
     "name": "boazak--sakpata",
-    "value": 352,
+    "value": 245,
     "initial": 400,
     "minimum": 100,
     "decay": 25,
-    "solves": 11,
-    "solved_by_me": false,
+    "solves": 19,
+    "solved_by_me": true,
     "category": "crypto",
     "tags": [
       "crypto",
@@ -5466,7 +5466,7 @@
         "title": ""
       }
     ],
-    "local_folder": "Unsolved/boazak--sakpata",
+    "local_folder": "solved/boazak--sakpata",
     "local_files": [
       "challenge.txt"
     ],
@@ -5756,8 +5756,8 @@
     "initial": 400,
     "minimum": 100,
     "decay": 25,
-    "solves": 0,
-    "solved_by_me": false,
+    "solves": 1,
+    "solved_by_me": true,
     "category": "web",
     "tags": [
       "web",
@@ -5783,7 +5783,7 @@
         "title": ""
       }
     ],
-    "local_folder": "Unsolved/boazak--nangbeto",
+    "local_folder": "solved/boazak--nangbeto",
     "local_files": [],
     "files_downloaded": true,
     "source": "https://arena.ctf.tg/api/v1/challenges"
@@ -5792,11 +5792,11 @@
     "id": 377,
     "type": "team_instance",
     "name": "boot2root-linux",
-    "value": 475,
+    "value": 451,
     "initial": 500,
     "minimum": 100,
     "decay": 20,
-    "solves": 6,
+    "solves": 8,
     "solved_by_me": false,
     "category": "boot2root",
     "tags": [
@@ -6083,6 +6083,94 @@
     "local_files": [
       "system.txt",
       "vault.txt"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 197,
+    "type": "dynamic",
+    "name": "png-text-chunk",
+    "value": 132,
+    "initial": 150,
+    "minimum": 50,
+    "decay": 35,
+    "solves": 16,
+    "solved_by_me": true,
+    "category": "stego",
+    "tags": [
+      "stego",
+      "metadata",
+      "png",
+      "easy",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "Someone shared this `sunset.png` with a suspiciously chatty set of properties.\nThe picture itself is unremarkable. Read the metadata and pull out the flag.\n\nOne of the fields is a harmless decoy. Flag format: NCTF{...}\n\nStuck? Hints are available (they cost a few points).",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 474,
+        "cost": 10,
+        "title": ""
+      },
+      {
+        "id": 475,
+        "cost": 15,
+        "title": ""
+      }
+    ],
+    "local_folder": "solved/png-text-chunk",
+    "local_files": [
+      "sunset.png"
+    ],
+    "files_downloaded": true,
+    "source": "https://arena.ctf.tg/api/v1/challenges"
+  },
+  {
+    "id": 203,
+    "type": "dynamic",
+    "name": "dependency-confusion",
+    "value": 300,
+    "initial": 300,
+    "minimum": 100,
+    "decay": 25,
+    "solves": 0,
+    "solved_by_me": false,
+    "category": "supplychain",
+    "tags": [
+      "supplychain",
+      "dependency-confusion",
+      "npm",
+      "medium",
+      "creator:hibris",
+      "creator:Clawd"
+    ],
+    "description": "Notre chaîne de build a récupéré le paquet interne `acme-telemetry` — mais\ndeux registres le publient. On vous donne les métadonnées des deux registres\n(`registry-internal.json`, `registry-public.json`) et toutes les archives\n`.tgz` correspondantes.\n\nReproduisez ce que l'installeur a réellement téléchargé, inspectez cette\narchive et récupérez le flag qui y est dissimulé.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+    "connection_info": null,
+    "hints": [
+      {
+        "id": 488,
+        "cost": 15,
+        "title": ""
+      },
+      {
+        "id": 489,
+        "cost": 30,
+        "title": ""
+      },
+      {
+        "id": 490,
+        "cost": 45,
+        "title": ""
+      }
+    ],
+    "local_folder": "Unsolved/dependency-confusion",
+    "local_files": [
+      "registry-internal.json",
+      "registry-public.json",
+      "acme-telemetry-1.2.3.tgz",
+      "acme-telemetry-9.9.9.tgz"
     ],
     "files_downloaded": true,
     "source": "https://arena.ctf.tg/api/v1/challenges"

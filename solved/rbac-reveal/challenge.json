@@ -2,11 +2,11 @@
   "id": 215,
   "type": "dynamic",
   "name": "rbac-reveal",
-  "value": 60,
+  "value": 50,
   "initial": 100,
   "minimum": 50,
   "decay": 40,
-  "solves": 37,
+  "solves": 44,
   "solved_by_me": true,
   "category": "sysadmin",
   "tags": [

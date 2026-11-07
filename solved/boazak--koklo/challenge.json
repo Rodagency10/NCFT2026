@@ -2,11 +2,11 @@
   "id": 405,
   "type": "dynamic",
   "name": "boazak--koklo",
-  "value": 133,
+  "value": 83,
   "initial": 250,
   "minimum": 83,
   "decay": 25,
-  "solves": 22,
+  "solves": 31,
   "solved_by_me": true,
   "category": "crypto",
   "tags": [

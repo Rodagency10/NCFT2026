@@ -2,11 +2,11 @@
   "id": 209,
   "type": "dynamic",
   "name": "sbom-component-swap",
-  "value": 77,
+  "value": 50,
   "initial": 150,
   "minimum": 50,
   "decay": 35,
-  "solves": 31,
+  "solves": 38,
   "solved_by_me": true,
   "category": "supplychain",
   "tags": [

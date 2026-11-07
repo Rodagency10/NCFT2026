@@ -1,0 +1,48 @@
+{
+  "id": 203,
+  "type": "dynamic",
+  "name": "dependency-confusion",
+  "value": 300,
+  "initial": 300,
+  "minimum": 100,
+  "decay": 25,
+  "solves": 0,
+  "solved_by_me": false,
+  "category": "supplychain",
+  "tags": [
+    "supplychain",
+    "dependency-confusion",
+    "npm",
+    "medium",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "Notre chaîne de build a récupéré le paquet interne `acme-telemetry` — mais\ndeux registres le publient. On vous donne les métadonnées des deux registres\n(`registry-internal.json`, `registry-public.json`) et toutes les archives\n`.tgz` correspondantes.\n\nReproduisez ce que l'installeur a réellement téléchargé, inspectez cette\narchive et récupérez le flag qui y est dissimulé.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 488,
+      "cost": 15,
+      "title": ""
+    },
+    {
+      "id": 489,
+      "cost": 30,
+      "title": ""
+    },
+    {
+      "id": 490,
+      "cost": 45,
+      "title": ""
+    }
+  ],
+  "local_folder": "Unsolved/dependency-confusion",
+  "local_files": [
+    "registry-internal.json",
+    "registry-public.json",
+    "acme-telemetry-1.2.3.tgz",
+    "acme-telemetry-9.9.9.tgz"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

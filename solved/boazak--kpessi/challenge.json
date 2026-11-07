@@ -1,0 +1,42 @@
+{
+  "id": 424,
+  "type": "dynamic",
+  "name": "boazak--kpessi",
+  "value": 110,
+  "initial": 150,
+  "minimum": 50,
+  "decay": 25,
+  "solves": 17,
+  "solved_by_me": true,
+  "category": "forensics",
+  "tags": [
+    "forensics",
+    "easy",
+    "creator:KodjoDoDjango"
+  ],
+  "description": "> **Origine du nom :** Kpessi est une localité du Togo, dans la région des plateaux — ici, quelqu'un a laissé son réseau ouvert, et des données ont fuité.\n\nUn fichier de capture réseau (`traffic.pcap`) a été récupéré sur un poste compromis. Au milieu du trafic légitime, une connexion web sortante vers un hôte inhabituel a discrètement transporté des données hors du réseau.\n\nAnalysez la capture, suivez cette communication suspecte et reconstituez les données exfiltrées.\n\nLe fichier (`traffic.pcap`) est fourni en téléchargement.\n\nBloqué ? Des indices sont disponibles (ils coûtent quelques points).\n",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 974,
+      "cost": 20,
+      "title": ""
+    },
+    {
+      "id": 975,
+      "cost": 15,
+      "title": ""
+    },
+    {
+      "id": 976,
+      "cost": 15,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/boazak--kpessi",
+  "local_files": [
+    "traffic.pcap"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

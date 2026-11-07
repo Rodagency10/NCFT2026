@@ -1,0 +1,37 @@
+{
+  "id": 428,
+  "type": "dynamic",
+  "name": "the-darknova--mirage-1",
+  "value": 65,
+  "initial": 100,
+  "minimum": 50,
+  "decay": 25,
+  "solves": 22,
+  "solved_by_me": true,
+  "category": "forensics",
+  "tags": [
+    "forensics",
+    "easy",
+    "creator:The-darknova"
+  ],
+  "description": "Lors d'une ronde de surveillance de routine, notre SOC a détecté une transmission inhabituelle transitant sur le réseau. L'analyste de garde affirme avoir vu passer un « fantôme » à travers le flux avant que la connexion ne soit coupée. À vous d'inspecter la capture réseau et de lever le voile sur ce mirage.\n\nStuck? Hints are available (they cost a few points).",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 982,
+      "cost": 10,
+      "title": ""
+    },
+    {
+      "id": 983,
+      "cost": 20,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/the-darknova--mirage-1",
+  "local_files": [
+    "mirage-1.pcapng"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}
