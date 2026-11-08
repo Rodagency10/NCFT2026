@@ -2,11 +2,11 @@
   "id": 454,
   "type": "team_instance",
   "name": "boazak--akodessewa",
-  "value": 342,
+  "value": 319,
   "initial": 400,
   "minimum": 100,
   "decay": 25,
-  "solves": 12,
+  "solves": 14,
   "solved_by_me": true,
   "category": "web",
   "tags": [

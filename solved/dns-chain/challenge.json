@@ -2,11 +2,11 @@
   "id": 152,
   "type": "dynamic",
   "name": "dns-chain",
-  "value": 246,
+  "value": 100,
   "initial": 300,
   "minimum": 100,
   "decay": 25,
-  "solves": 14,
+  "solves": 34,
   "solved_by_me": true,
   "category": "networking",
   "tags": [

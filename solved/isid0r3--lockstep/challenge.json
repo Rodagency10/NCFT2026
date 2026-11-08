@@ -2,11 +2,11 @@
   "id": 494,
   "type": "team_instance",
   "name": "isid0r3--lockstep",
-  "value": 98,
+  "value": 91,
   "initial": 100,
   "minimum": 50,
   "decay": 25,
-  "solves": 6,
+  "solves": 12,
   "solved_by_me": true,
   "category": "web",
   "tags": [

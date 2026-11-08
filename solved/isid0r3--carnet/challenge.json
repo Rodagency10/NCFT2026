@@ -2,11 +2,11 @@
   "id": 491,
   "type": "team_instance",
   "name": "isid0r3--carnet",
-  "value": 92,
+  "value": 85,
   "initial": 100,
   "minimum": 50,
   "decay": 25,
-  "solves": 11,
+  "solves": 15,
   "solved_by_me": true,
   "category": "web",
   "tags": [

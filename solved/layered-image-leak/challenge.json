@@ -2,11 +2,11 @@
   "id": 205,
   "type": "dynamic",
   "name": "layered-image-leak",
-  "value": 167,
+  "value": 100,
   "initial": 450,
   "minimum": 100,
   "decay": 20,
-  "solves": 19,
+  "solves": 37,
   "solved_by_me": true,
   "category": "supplychain",
   "tags": [

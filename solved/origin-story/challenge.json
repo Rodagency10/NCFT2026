@@ -2,11 +2,11 @@
   "id": 12,
   "type": "dynamic",
   "name": "origin-story",
-  "value": 275,
+  "value": 116,
   "initial": 300,
   "minimum": 100,
   "decay": 25,
-  "solves": 10,
+  "solves": 25,
   "solved_by_me": true,
   "category": "blockchain",
   "tags": [

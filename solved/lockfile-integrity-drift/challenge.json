@@ -2,11 +2,11 @@
   "id": 206,
   "type": "dynamic",
   "name": "lockfile-integrity-drift",
-  "value": 280,
+  "value": 146,
   "initial": 300,
   "minimum": 100,
   "decay": 25,
-  "solves": 9,
+  "solves": 23,
   "solved_by_me": true,
   "category": "supplychain",
   "tags": [

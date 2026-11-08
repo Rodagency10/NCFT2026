@@ -1,0 +1,35 @@
+{
+  "id": 45,
+  "type": "team_instance",
+  "name": "queue-prefix",
+  "value": 204,
+  "initial": 450,
+  "minimum": 100,
+  "decay": 25,
+  "solves": 22,
+  "solved_by_me": true,
+  "category": "cloud",
+  "tags": [
+    "cloud",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "Préfixe public -> credential fuité -> escalade de rôle.\n\nThis instance's flag is on the service's filesystem, served by no route.\nExploit the service to read it.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: `NCTF{...}`\n",
+  "connection_info": "http://{host}:{port}/  (per-team instance; use the 'launch' button)",
+  "hints": [
+    {
+      "id": 102,
+      "cost": 20,
+      "title": ""
+    },
+    {
+      "id": 103,
+      "cost": 40,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/queue-prefix",
+  "local_files": [],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

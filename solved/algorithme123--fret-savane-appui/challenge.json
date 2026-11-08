@@ -2,11 +2,11 @@
   "id": 481,
   "type": "team_instance",
   "name": "algorithme123--fret-savane-appui",
-  "value": 238,
+  "value": 228,
   "initial": 300,
   "minimum": 100,
   "decay": 25,
-  "solves": 15,
+  "solves": 16,
   "solved_by_me": true,
   "category": "boot2root",
   "tags": [

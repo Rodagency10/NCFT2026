@@ -2,11 +2,11 @@
   "id": 440,
   "type": "team_instance",
   "name": "boazak--agou",
-  "value": 228,
+  "value": 208,
   "initial": 300,
   "minimum": 100,
   "decay": 25,
-  "solves": 16,
+  "solves": 18,
   "solved_by_me": true,
   "category": "boot2root",
   "tags": [

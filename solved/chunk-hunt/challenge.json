@@ -1,0 +1,40 @@
+{
+  "id": 119,
+  "type": "dynamic",
+  "name": "chunk-hunt",
+  "value": 114,
+  "initial": 150,
+  "minimum": 50,
+  "decay": 35,
+  "solves": 22,
+  "solved_by_me": true,
+  "category": "forensics",
+  "tags": [
+    "misc",
+    "forensics",
+    "png",
+    "easy",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "Someone exported a company badge as a PNG (`badge.png`). The picture itself is\nunremarkable, but the file carries more than pixels. Take the container apart\nand reassemble what was stashed inside it.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 273,
+      "cost": 10,
+      "title": ""
+    },
+    {
+      "id": 274,
+      "cost": 15,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/chunk-hunt",
+  "local_files": [
+    "badge.png"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

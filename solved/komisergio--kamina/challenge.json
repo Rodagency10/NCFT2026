@@ -1,0 +1,39 @@
+{
+  "id": 506,
+  "type": "dynamic",
+  "name": "komisergio--kamina",
+  "value": 66,
+  "initial": 200,
+  "minimum": 66,
+  "decay": 25,
+  "solves": 28,
+  "solved_by_me": true,
+  "category": "crypto",
+  "tags": [
+    "crypto",
+    "medium",
+    "creator:komisergio"
+  ],
+  "description": "August 1914. The wireless station at Kamina relays Berlin's orders across West Africa. Before the masts came down, three relay posts received the same sealed message.\n\nThe operator also left a personal note where anyone could find it. He was proud of it.\n\nStuck? Hints are available (they cost a few points).",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 1109,
+      "cost": 0,
+      "title": ""
+    },
+    {
+      "id": 1110,
+      "cost": 0,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/komisergio--kamina",
+  "local_files": [
+    "orders.enc",
+    "pubkey.txt",
+    "vigenere_note.txt"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

@@ -2,11 +2,11 @@
   "id": 460,
   "type": "team_instance",
   "name": "boazak--kande",
-  "value": 158,
+  "value": 131,
   "initial": 200,
   "minimum": 66,
   "decay": 25,
-  "solves": 15,
+  "solves": 19,
   "solved_by_me": true,
   "category": "web",
   "tags": [

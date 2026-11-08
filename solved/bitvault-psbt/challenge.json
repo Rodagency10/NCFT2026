@@ -2,11 +2,11 @@
   "id": 537,
   "type": "dynamic",
   "name": "bitvault-psbt",
-  "value": 325,
+  "value": 100,
   "initial": 350,
   "minimum": 100,
   "decay": 25,
-  "solves": 9,
+  "solves": 26,
   "solved_by_me": true,
   "category": "blockchain",
   "tags": [

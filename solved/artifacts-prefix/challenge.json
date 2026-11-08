@@ -2,11 +2,11 @@
   "id": 19,
   "type": "team_instance",
   "name": "artifacts-prefix",
-  "value": 248,
+  "value": 154,
   "initial": 450,
   "minimum": 100,
   "decay": 25,
-  "solves": 20,
+  "solves": 24,
   "solved_by_me": true,
   "category": "cloud",
   "tags": [

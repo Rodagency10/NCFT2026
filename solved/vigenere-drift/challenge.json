@@ -2,11 +2,11 @@
   "id": 95,
   "type": "dynamic",
   "name": "vigenere-drift",
-  "value": 82,
+  "value": 50,
   "initial": 150,
   "minimum": 50,
   "decay": 35,
-  "solves": 30,
+  "solves": 39,
   "solved_by_me": true,
   "category": "crypto",
   "tags": [

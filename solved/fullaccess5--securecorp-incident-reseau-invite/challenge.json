@@ -2,12 +2,12 @@
   "id": 426,
   "type": "dynamic",
   "name": "fullaccess5--securecorp-incident-reseau-invite",
-  "value": 200,
+  "value": 158,
   "initial": 200,
   "minimum": 66,
   "decay": 25,
-  "solves": 1,
-  "solved_by_me": false,
+  "solves": 15,
+  "solved_by_me": true,
   "category": "forensics",
   "tags": [
     "forensics",
@@ -28,7 +28,7 @@
       "title": ""
     }
   ],
-  "local_folder": "Unsolved/fullaccess5--securecorp-incident-reseau-invite",
+  "local_folder": "solved/fullaccess5--securecorp-incident-reseau-invite",
   "local_files": [
     "traffic-04.cap"
   ],

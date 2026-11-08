@@ -6,7 +6,7 @@
   "initial": 150,
   "minimum": 150,
   "decay": 25,
-  "solves": 29,
+  "solves": 30,
   "solved_by_me": true,
   "category": "ml",
   "tags": [

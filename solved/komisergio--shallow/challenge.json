@@ -1,0 +1,38 @@
+{
+  "id": 538,
+  "type": "team_instance",
+  "name": "komisergio--shallow",
+  "value": 183,
+  "initial": 200,
+  "minimum": 66,
+  "decay": 25,
+  "solves": 10,
+  "solved_by_me": true,
+  "category": "crypto",
+  "tags": [
+    "crypto",
+    "medium",
+    "creator:komisergio"
+  ],
+  "description": "Un vieux passage de rivière près de Sokodé : cent gués peu profonds et un seul courant profond. Le passeur fait traverser un secret par un échange à la Diffie-Hellman, et deux esprits répondent à la pierre que tu leur présentes — celui du gué, celui du courant profond. Récupère `pubkey.txt` et `river.enc` (fournis en téléchargement), interroge l'oracle du passeur, et trouve par où franchir vraiment la rivière. L'eau n'a pas changé ; ce sont les questions qui changent.\n\nLance l'instance (bouton Démarrer) et connecte-toi à l'adresse affichée (`ncat --ssl {host} {port}`).\n\nStuck? Hints are available (they cost a few points).\n",
+  "connection_info": "ncat --ssl {host} {port}  (per-team instance; use the 'launch' button)",
+  "hints": [
+    {
+      "id": 1181,
+      "cost": 0,
+      "title": ""
+    },
+    {
+      "id": 1182,
+      "cost": 0,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/komisergio--shallow",
+  "local_files": [
+    "pubkey.txt",
+    "river.enc"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

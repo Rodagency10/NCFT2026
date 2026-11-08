@@ -1,0 +1,46 @@
+{
+  "id": 238,
+  "type": "dynamic",
+  "name": "flask-unsign",
+  "value": 130,
+  "initial": 150,
+  "minimum": 50,
+  "decay": 35,
+  "solves": 17,
+  "solved_by_me": true,
+  "category": "web",
+  "tags": [
+    "web",
+    "flask",
+    "session",
+    "easy",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "A small **Members Panel** ships as source, along with a session cookie\ncaptured from a normal signup. The admin panel prints a flag; public signups\nare always plain members.\n\nRoutes (from the source):\n\n    GET /signup       -> starts a guest session\n    GET /admin/flag   -> admins only; returns the flag\n\nNothing is live. Everything you need to reach the admin path is in the files.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 541,
+      "cost": 15,
+      "title": ""
+    },
+    {
+      "id": 542,
+      "cost": 30,
+      "title": ""
+    },
+    {
+      "id": 543,
+      "cost": 45,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/flask-unsign",
+  "local_files": [
+    "app.py",
+    "session_cookie.txt"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

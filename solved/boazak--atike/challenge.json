@@ -2,11 +2,11 @@
   "id": 398,
   "type": "team_instance",
   "name": "boazak--atike",
-  "value": 254,
+  "value": 228,
   "initial": 300,
   "minimum": 100,
   "decay": 25,
-  "solves": 13,
+  "solves": 16,
   "solved_by_me": true,
   "category": "crypto",
   "tags": [

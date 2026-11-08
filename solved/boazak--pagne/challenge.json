@@ -1,0 +1,40 @@
+{
+  "id": 411,
+  "type": "team_instance",
+  "name": "boazak--pagne",
+  "value": 131,
+  "initial": 200,
+  "minimum": 66,
+  "decay": 25,
+  "solves": 19,
+  "solved_by_me": true,
+  "category": "crypto",
+  "tags": [
+    "crypto",
+    "hard",
+    "creator:KodjoDoDjango"
+  ],
+  "description": "> **Origine du nom :** Le pagne est un tissu que l'on découpe et recoud — exactement ce qu'on fait des blocs AES-ECB du challenge.\n\nLe magasin « Pagne » chiffre son profil `email=...&role=user` en **AES-ECB**. Les blocs étant chiffrés indépendamment, découpez et recollez des blocs pour passer votre rôle à `admin` — même si les `&` et `=` sont filtrés dans l'email.\n\n**Points d'entrée** (pas de page d'accueil) : `GET /encrypt`, `GET /admin`\n\nStuck? Hints are available (they cost a few points).",
+  "connection_info": "http://{host}:{port}/  (per-team instance; use the 'launch' button)",
+  "hints": [
+    {
+      "id": 950,
+      "cost": 60,
+      "title": ""
+    },
+    {
+      "id": 951,
+      "cost": 40,
+      "title": ""
+    },
+    {
+      "id": 952,
+      "cost": 20,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/boazak--pagne",
+  "local_files": [],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

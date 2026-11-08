@@ -2,11 +2,11 @@
   "id": 49,
   "type": "dynamic",
   "name": "sas-forge",
-  "value": 394,
+  "value": 100,
   "initial": 450,
   "minimum": 100,
   "decay": 20,
-  "solves": 9,
+  "solves": 24,
   "solved_by_me": true,
   "category": "cloud",
   "tags": [

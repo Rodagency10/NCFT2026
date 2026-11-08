@@ -2,11 +2,11 @@
   "id": 141,
   "type": "dynamic",
   "name": "trojan-trigger",
-  "value": 226,
+  "value": 100,
   "initial": 450,
   "minimum": 100,
   "decay": 20,
-  "solves": 17,
+  "solves": 28,
   "solved_by_me": true,
   "category": "ml",
   "tags": [

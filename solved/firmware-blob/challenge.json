@@ -1,0 +1,40 @@
+{
+  "id": 110,
+  "type": "dynamic",
+  "name": "firmware-blob",
+  "value": 127,
+  "initial": 150,
+  "minimum": 50,
+  "decay": 35,
+  "solves": 18,
+  "solved_by_me": true,
+  "category": "hardware",
+  "tags": [
+    "hardware",
+    "firmware",
+    "binary-parsing",
+    "easy",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "We pulled `firmware.bin` off a device's flash chip. It starts with a small\ncustom header and a table of named sections, followed by the raw section data.\nOne section clearly is not readable text.\n\nParse the container, find the flag section, and recover its contents.\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 253,
+      "cost": 10,
+      "title": ""
+    },
+    {
+      "id": 254,
+      "cost": 20,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/firmware-blob",
+  "local_files": [
+    "firmware.bin"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

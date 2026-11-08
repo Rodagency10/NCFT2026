@@ -2,11 +2,11 @@
   "id": 156,
   "type": "dynamic",
   "name": "subnet-reach",
-  "value": 228,
+  "value": 100,
   "initial": 300,
   "minimum": 100,
   "decay": 25,
-  "solves": 16,
+  "solves": 34,
   "solved_by_me": true,
   "category": "networking",
   "tags": [

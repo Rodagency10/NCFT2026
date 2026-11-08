@@ -2,11 +2,11 @@
   "id": 480,
   "type": "team_instance",
   "name": "boazak--sokode",
-  "value": 219,
+  "value": 185,
   "initial": 300,
   "minimum": 100,
   "decay": 25,
-  "solves": 17,
+  "solves": 20,
   "solved_by_me": true,
   "category": "web",
   "tags": [

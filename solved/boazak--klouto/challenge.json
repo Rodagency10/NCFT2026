@@ -2,11 +2,11 @@
   "id": 461,
   "type": "team_instance",
   "name": "boazak--klouto",
-  "value": 98,
+  "value": 94,
   "initial": 100,
   "minimum": 50,
   "decay": 25,
-  "solves": 7,
+  "solves": 10,
   "solved_by_me": true,
   "category": "web",
   "tags": [

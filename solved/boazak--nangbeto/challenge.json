@@ -2,11 +2,11 @@
   "id": 485,
   "type": "team_instance",
   "name": "boazak--nangbeto",
-  "value": 377,
+  "value": 362,
   "initial": 400,
   "minimum": 100,
   "decay": 25,
-  "solves": 8,
+  "solves": 10,
   "solved_by_me": true,
   "category": "web",
   "tags": [

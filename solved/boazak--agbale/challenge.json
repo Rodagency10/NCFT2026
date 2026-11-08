@@ -2,11 +2,11 @@
   "id": 397,
   "type": "team_instance",
   "name": "boazak--agbale",
-  "value": 197,
+  "value": 175,
   "initial": 200,
   "minimum": 66,
   "decay": 25,
-  "solves": 5,
+  "solves": 12,
   "solved_by_me": true,
   "category": "crypto",
   "tags": [

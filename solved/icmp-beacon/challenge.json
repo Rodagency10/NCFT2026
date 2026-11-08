@@ -2,11 +2,11 @@
   "id": 102,
   "type": "dynamic",
   "name": "icmp-beacon",
-  "value": 62,
+  "value": 50,
   "initial": 150,
   "minimum": 50,
   "decay": 35,
-  "solves": 34,
+  "solves": 38,
   "solved_by_me": true,
   "category": "forensics",
   "tags": [

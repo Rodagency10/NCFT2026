@@ -2,11 +2,11 @@
   "id": 59,
   "type": "dynamic",
   "name": "modulus-siblings",
-  "value": 208,
+  "value": 100,
   "initial": 300,
   "minimum": 100,
   "decay": 25,
-  "solves": 18,
+  "solves": 40,
   "solved_by_me": true,
   "category": "crypto",
   "tags": [

@@ -2,11 +2,11 @@
   "id": 54,
   "type": "dynamic",
   "name": "ecb-echo",
-  "value": 146,
+  "value": 100,
   "initial": 300,
   "minimum": 100,
   "decay": 25,
-  "solves": 23,
+  "solves": 39,
   "solved_by_me": true,
   "category": "crypto",
   "tags": [

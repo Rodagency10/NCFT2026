@@ -7,7 +7,7 @@
   "minimum": 100,
   "decay": 25,
   "solves": 1,
-  "solved_by_me": false,
+  "solved_by_me": true,
   "category": "crypto",
   "tags": [
     "crypto",
@@ -28,7 +28,7 @@
       "title": ""
     }
   ],
-  "local_folder": "Unsolved/oxdefault--quadratic-i",
+  "local_folder": "solved/oxdefault--quadratic-i",
   "local_files": [
     "system.txt",
     "vault.txt"

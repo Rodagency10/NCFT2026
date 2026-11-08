@@ -2,11 +2,11 @@
   "id": 111,
   "type": "dynamic",
   "name": "i2c-sniff",
-  "value": 228,
+  "value": 100,
   "initial": 300,
   "minimum": 100,
   "decay": 25,
-  "solves": 16,
+  "solves": 35,
   "solved_by_me": true,
   "category": "hardware",
   "tags": [

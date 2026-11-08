@@ -2,11 +2,11 @@
   "id": 9,
   "type": "dynamic",
   "name": "allowance-drift",
-  "value": 56,
+  "value": 51,
   "initial": 150,
   "minimum": 50,
   "decay": 35,
-  "solves": 35,
+  "solves": 36,
   "solved_by_me": true,
   "category": "blockchain",
   "tags": [

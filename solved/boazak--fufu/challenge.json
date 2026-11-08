@@ -2,11 +2,11 @@
   "id": 403,
   "type": "team_instance",
   "name": "boazak--fufu",
-  "value": 80,
+  "value": 58,
   "initial": 150,
   "minimum": 50,
   "decay": 25,
-  "solves": 22,
+  "solves": 25,
   "solved_by_me": true,
   "category": "crypto",
   "tags": [

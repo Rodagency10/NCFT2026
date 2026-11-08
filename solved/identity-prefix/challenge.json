@@ -2,11 +2,11 @@
   "id": 35,
   "type": "team_instance",
   "name": "identity-prefix",
-  "value": 269,
+  "value": 128,
   "initial": 450,
   "minimum": 100,
   "decay": 25,
-  "solves": 19,
+  "solves": 25,
   "solved_by_me": true,
   "category": "cloud",
   "tags": [

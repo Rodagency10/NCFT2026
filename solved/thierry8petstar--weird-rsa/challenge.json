@@ -1,0 +1,26 @@
+{
+  "id": 420,
+  "type": "dynamic",
+  "name": "thierry8petstar--weird-rsa",
+  "value": 123,
+  "initial": 200,
+  "minimum": 66,
+  "decay": 25,
+  "solves": 20,
+  "solved_by_me": true,
+  "category": "crypto",
+  "tags": [
+    "crypto",
+    "medium",
+    "creator:thierry8petstar"
+  ],
+  "description": "Un administrateur système a décidé d'utiliser RSA pour transmettre un message sensible à plusieurs destinataires.\n\nAfin d'améliorer les performances, il a choisi un petit exposant public.\n\nChaque destinataire possède une clé RSA différente, mais le même message a été envoyé à tous.\n\nCette configuration est-elle réellement sécurisée ?",
+  "connection_info": null,
+  "hints": [],
+  "local_folder": "solved/thierry8petstar--weird-rsa",
+  "local_files": [
+    "output.txt"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

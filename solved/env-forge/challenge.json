@@ -2,11 +2,11 @@
   "id": 213,
   "type": "dynamic",
   "name": "env-forge",
-  "value": 208,
+  "value": 100,
   "initial": 300,
   "minimum": 100,
   "decay": 25,
-  "solves": 18,
+  "solves": 34,
   "solved_by_me": true,
   "category": "sysadmin",
   "tags": [

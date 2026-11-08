@@ -6,7 +6,7 @@
   "initial": 250,
   "minimum": 83,
   "decay": 25,
-  "solves": 27,
+  "solves": 30,
   "solved_by_me": true,
   "category": "forensics",
   "tags": [

@@ -2,11 +2,11 @@
   "id": 256,
   "type": "dynamic",
   "name": "php-unserialize",
-  "value": 262,
+  "value": 100,
   "initial": 300,
   "minimum": 100,
   "decay": 25,
-  "solves": 12,
+  "solves": 31,
   "solved_by_me": true,
   "category": "web",
   "tags": [

@@ -2,11 +2,11 @@
   "id": 450,
   "type": "team_instance",
   "name": "boazak--adeta",
-  "value": 119,
+  "value": 93,
   "initial": 150,
   "minimum": 50,
   "decay": 25,
-  "solves": 15,
+  "solves": 20,
   "solved_by_me": true,
   "category": "web",
   "tags": [

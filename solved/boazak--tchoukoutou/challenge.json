@@ -1,0 +1,42 @@
+{
+  "id": 414,
+  "type": "dynamic",
+  "name": "boazak--tchoukoutou",
+  "value": 66,
+  "initial": 200,
+  "minimum": 66,
+  "decay": 25,
+  "solves": 35,
+  "solved_by_me": true,
+  "category": "crypto",
+  "tags": [
+    "crypto",
+    "easy",
+    "creator:KodjoDoDjango"
+  ],
+  "description": "> **Origine du nom :** Tchoukoutou est la bière de mil du nord du Togo, fermentée pendant environ 3 jours — ici, l'exposant de chiffrement, lui, est resté trop petit.\n\nUn message a été chiffré en RSA avec un exposant public dérisoire : `e`. Quand on est pressé, on choisit des paramètres faibles... et le message n'est même pas assez long pour atteindre la taille du module.\n\nRetrouvez le flag dans `challenge.txt`.\n\nStuck? Hints are available (they cost a few points).",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 958,
+      "cost": 40,
+      "title": ""
+    },
+    {
+      "id": 959,
+      "cost": 30,
+      "title": ""
+    },
+    {
+      "id": 960,
+      "cost": 40,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/boazak--tchoukoutou",
+  "local_files": [
+    "challenge.txt"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

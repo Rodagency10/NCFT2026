@@ -2,11 +2,11 @@
   "id": 484,
   "type": "team_instance",
   "name": "boazak--mono",
-  "value": 342,
+  "value": 278,
   "initial": 400,
   "minimum": 100,
   "decay": 25,
-  "solves": 12,
+  "solves": 17,
   "solved_by_me": true,
   "category": "web",
   "tags": [

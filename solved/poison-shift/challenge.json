@@ -2,11 +2,11 @@
   "id": 138,
   "type": "dynamic",
   "name": "poison-shift",
-  "value": 197,
+  "value": 100,
   "initial": 300,
   "minimum": 100,
   "decay": 25,
-  "solves": 19,
+  "solves": 30,
   "solved_by_me": true,
   "category": "ml",
   "tags": [

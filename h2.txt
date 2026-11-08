@@ -1,0 +1,8 @@
+﻿curl.exe : curl: option --http2: the installed libcurl version does not support this
+Au caractère Ligne:1 : 1
++ curl.exe -sv --http2 --max-time 15 -o NUL "https://j75a3l6wbljzmfdm.t ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (curl: option --...ot support this:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+curl: try 'curl --help' for more information

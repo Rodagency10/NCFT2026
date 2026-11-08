@@ -1,0 +1,46 @@
+{
+  "id": 163,
+  "type": "dynamic",
+  "name": "entity-graph",
+  "value": 150,
+  "initial": 150,
+  "minimum": 50,
+  "decay": 35,
+  "solves": 3,
+  "solved_by_me": true,
+  "category": "osint",
+  "tags": [
+    "osint",
+    "graph-pivot",
+    "link-analysis",
+    "easy",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "Le CERT.tg a exporté son graphe d'enquête sur la fuite de données de la semaine dernière au format Maltego (`nodes.csv`, `edges.csv`). Le persona `z3ro_237` a revendiqué la fuite ; il faut l'attribuer à une personne réelle.\n\nRetrouvez la seule identité réellement rattachée au persona. Le flag n'est pas écrit dans le dossier : il se DÉRIVE du chemin de pivot lui-même (voir writeup).\n\nStuck? Hints are available (they cost a few points).\n\nFlag format: NCTF{...}",
+  "connection_info": null,
+  "hints": [
+    {
+      "id": 384,
+      "cost": 15,
+      "title": ""
+    },
+    {
+      "id": 385,
+      "cost": 30,
+      "title": ""
+    },
+    {
+      "id": 386,
+      "cost": 45,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/entity-graph",
+  "local_files": [
+    "nodes.csv",
+    "edges.csv"
+  ],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

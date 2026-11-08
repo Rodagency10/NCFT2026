@@ -1,0 +1,35 @@
+{
+  "id": 293,
+  "type": "team_instance",
+  "name": "bridged-deser",
+  "value": 477,
+  "initial": 500,
+  "minimum": 100,
+  "decay": 25,
+  "solves": 7,
+  "solved_by_me": true,
+  "category": "web",
+  "tags": [
+    "misc",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "Ingestd est le petit service interne qui agrège l'état des briques d'une plateforme : on lui indique l'adresse d'une page de statut publique, il va la chercher et te renvoie ce qu'il a lu. Son index JSON ne documente qu'un seul point d'entrée, un récupérateur d'URL ; le reste de la plomberie est censé rester privé. Lance l'instance (bouton Démarrer) et rends-toi à l'adresse affichée, puis explore ce que ce relais accepte vraiment d'aller chercher.\n\nBloqué ? Des indices sont disponibles (ils coûtent quelques points).\n\nFormat du flag : `NCTF{...}`\n",
+  "connection_info": "http://{host}:{port}/  (per-team instance; use the 'launch' button)",
+  "hints": [
+    {
+      "id": 657,
+      "cost": 20,
+      "title": ""
+    },
+    {
+      "id": 658,
+      "cost": 40,
+      "title": ""
+    }
+  ],
+  "local_folder": "solved/bridged-deser",
+  "local_files": [],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

@@ -2,11 +2,11 @@
   "id": 134,
   "type": "dynamic",
   "name": "adv-flip",
-  "value": 198,
+  "value": 100,
   "initial": 450,
   "minimum": 100,
   "decay": 20,
-  "solves": 18,
+  "solves": 31,
   "solved_by_me": true,
   "category": "ml",
   "tags": [

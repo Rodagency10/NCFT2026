@@ -2,11 +2,11 @@
   "id": 381,
   "type": "team_instance",
   "name": "boot2root-c2",
-  "value": 331,
+  "value": 304,
   "initial": 500,
   "minimum": 100,
   "decay": 20,
-  "solves": 14,
+  "solves": 15,
   "solved_by_me": true,
   "category": "boot2root",
   "tags": [

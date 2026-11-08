@@ -2,11 +2,11 @@
   "id": 170,
   "type": "dynamic",
   "name": "knapsack-locker",
-  "value": 246,
+  "value": 100,
   "initial": 300,
   "minimum": 100,
   "decay": 25,
-  "solves": 14,
+  "solves": 27,
   "solved_by_me": true,
   "category": "ppc",
   "tags": [

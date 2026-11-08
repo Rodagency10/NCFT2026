@@ -2,11 +2,11 @@
   "id": 455,
   "type": "team_instance",
   "name": "boazak--aneho",
-  "value": 477,
+  "value": 449,
   "initial": 500,
   "minimum": 100,
   "decay": 25,
-  "solves": 7,
+  "solves": 10,
   "solved_by_me": true,
   "category": "web",
   "tags": [

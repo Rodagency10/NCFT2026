@@ -2,11 +2,11 @@
   "id": 483,
   "type": "team_instance",
   "name": "boazak--lome",
-  "value": 82,
+  "value": 77,
   "initial": null,
   "minimum": null,
   "decay": null,
-  "solves": 16,
+  "solves": 18,
   "solved_by_me": true,
   "category": "web",
   "tags": [

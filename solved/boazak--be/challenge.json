@@ -2,11 +2,11 @@
   "id": 457,
   "type": "team_instance",
   "name": "boazak--be",
-  "value": 208,
+  "value": 197,
   "initial": 300,
   "minimum": 100,
   "decay": 25,
-  "solves": 18,
+  "solves": 19,
   "solved_by_me": true,
   "category": "web",
   "tags": [

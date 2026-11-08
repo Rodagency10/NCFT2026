@@ -2,11 +2,11 @@
   "id": 402,
   "type": "team_instance",
   "name": "boazak--enye",
-  "value": 342,
+  "value": 319,
   "initial": 400,
   "minimum": 100,
   "decay": 25,
-  "solves": 12,
+  "solves": 14,
   "solved_by_me": true,
   "category": "crypto",
   "tags": [

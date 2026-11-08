@@ -1,0 +1,36 @@
+{
+  "id": 339,
+  "type": "team_instance",
+  "name": "cms-smuggle",
+  "value": 500,
+  "initial": 500,
+  "minimum": 100,
+  "decay": 25,
+  "solves": 0,
+  "solved_by_me": false,
+  "category": "web",
+  "tags": [
+    "web",
+    "medium",
+    "creator:hibris",
+    "creator:Clawd"
+  ],
+  "description": "NovaCMS expose une console d'ingestion : tu lui soumets un corps de requete brut, un cache garde en memoire les pages deja rendues, et une zone d'administration repond fierement « 403 » aux visiteurs ordinaires. Lance l'instance (bouton Demarrer) et rends-toi a l'adresse affichee, puis regarde comment ce qui entre par l'ingestion finit par ressortir du cache.\n\nBloque ? Des indices sont disponibles (ils coutent quelques points).\n\nFormat du flag : `NCTF{...}`",
+  "connection_info": "http://{host}:{port}/  (per-team instance; use the 'launch' button)",
+  "hints": [
+    {
+      "id": 829,
+      "cost": 20,
+      "title": ""
+    },
+    {
+      "id": 830,
+      "cost": 40,
+      "title": ""
+    }
+  ],
+  "local_folder": "Unsolved/cms-smuggle",
+  "local_files": [],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

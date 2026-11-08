@@ -1,0 +1,24 @@
+{
+  "id": 478,
+  "type": "team_instance",
+  "name": "thierry8petstar--cine-noctambule",
+  "value": 91,
+  "initial": 100,
+  "minimum": 50,
+  "decay": 25,
+  "solves": 12,
+  "solved_by_me": true,
+  "category": "web",
+  "tags": [
+    "web",
+    "easy",
+    "creator:thierry8petstar"
+  ],
+  "description": "Le petit cinéma de quartier vient de refaire son site web. Rien de bien folichon à première vue — juste des affiches et des horaires de séances.\n\nQuelque chose se cache dans les coulisses de la page. À toi de fouiller, de comprendre ce que fait vraiment ce site, et de convaincre le serveur de te laisser entrer dans la salle de projection.",
+  "connection_info": "http://{host}:{port}/  (per-team instance; use the 'launch' button)",
+  "hints": [],
+  "local_folder": "solved/thierry8petstar--cine-noctambule",
+  "local_files": [],
+  "files_downloaded": true,
+  "source": "https://arena.ctf.tg/api/v1/challenges"
+}

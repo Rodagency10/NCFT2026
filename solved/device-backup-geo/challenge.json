@@ -2,11 +2,11 @@
   "id": 161,
   "type": "dynamic",
   "name": "device-backup-geo",
-  "value": 254,
+  "value": 100,
   "initial": 450,
   "minimum": 100,
   "decay": 20,
-  "solves": 16,
+  "solves": 30,
   "solved_by_me": true,
   "category": "osint",
   "tags": [

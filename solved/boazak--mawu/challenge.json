@@ -2,11 +2,11 @@
   "id": 409,
   "type": "dynamic",
   "name": "boazak--mawu",
-  "value": 170,
+  "value": 66,
   "initial": 200,
   "minimum": 66,
   "decay": 25,
-  "solves": 13,
+  "solves": 40,
   "solved_by_me": true,
   "category": "crypto",
   "tags": [

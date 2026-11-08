@@ -2,11 +2,11 @@
   "id": 208,
   "type": "dynamic",
   "name": "provenance-forgery",
-  "value": 262,
+  "value": 100,
   "initial": 300,
   "minimum": 100,
   "decay": 25,
-  "solves": 12,
+  "solves": 28,
   "solved_by_me": true,
   "category": "supplychain",
   "tags": [

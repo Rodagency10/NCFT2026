@@ -2,11 +2,11 @@
   "id": 173,
   "type": "dynamic",
   "name": "stack-machine",
-  "value": 219,
+  "value": 100,
   "initial": 300,
   "minimum": 100,
   "decay": 25,
-  "solves": 17,
+  "solves": 29,
   "solved_by_me": true,
   "category": "ppc",
   "tags": [

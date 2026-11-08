@@ -2,11 +2,11 @@
   "id": 416,
   "type": "team_instance",
   "name": "boazak--yeye",
-  "value": 212,
+  "value": 190,
   "initial": 250,
   "minimum": 83,
   "decay": 25,
-  "solves": 13,
+  "solves": 16,
   "solved_by_me": true,
   "category": "crypto",
   "tags": [

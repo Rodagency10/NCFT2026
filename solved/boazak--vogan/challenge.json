@@ -2,11 +2,11 @@
   "id": 470,
   "type": "team_instance",
   "name": "boazak--vogan",
-  "value": 319,
+  "value": 292,
   "initial": 400,
   "minimum": 100,
   "decay": 25,
-  "solves": 14,
+  "solves": 16,
   "solved_by_me": true,
   "category": "web",
   "tags": [

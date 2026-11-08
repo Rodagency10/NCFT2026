@@ -2,11 +2,11 @@
   "id": 58,
   "type": "dynamic",
   "name": "keystream-reuse",
-  "value": 172,
+  "value": 100,
   "initial": 300,
   "minimum": 100,
   "decay": 25,
-  "solves": 21,
+  "solves": 42,
   "solved_by_me": true,
   "category": "crypto",
   "tags": [

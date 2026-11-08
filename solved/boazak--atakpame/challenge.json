@@ -2,11 +2,11 @@
   "id": 456,
   "type": "team_instance",
   "name": "boazak--atakpame",
-  "value": 228,
+  "value": 219,
   "initial": 300,
   "minimum": 100,
   "decay": 25,
-  "solves": 16,
+  "solves": 17,
   "solved_by_me": true,
   "category": "web",
   "tags": [

@@ -2,11 +2,11 @@
   "id": 490,
   "type": "team_instance",
   "name": "isid0r3--bibliotech",
-  "value": 65,
+  "value": 62,
   "initial": 100,
   "minimum": 50,
   "decay": 25,
-  "solves": 22,
+  "solves": 23,
   "solved_by_me": true,
   "category": "web",
   "tags": [

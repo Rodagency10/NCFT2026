@@ -2,11 +2,11 @@
   "id": 262,
   "type": "dynamic",
   "name": "ssti-jinja",
-  "value": 268,
+  "value": 100,
   "initial": 300,
   "minimum": 100,
   "decay": 25,
-  "solves": 11,
+  "solves": 31,
   "solved_by_me": true,
   "category": "web",
   "tags": [

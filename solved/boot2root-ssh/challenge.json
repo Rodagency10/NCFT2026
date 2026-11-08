@@ -2,11 +2,11 @@
   "id": 380,
   "type": "team_instance",
   "name": "boot2root-ssh",
-  "value": 342,
+  "value": 292,
   "initial": 400,
   "minimum": 100,
   "decay": 25,
-  "solves": 12,
+  "solves": 16,
   "solved_by_me": true,
   "category": "boot2root",
   "tags": [
